@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2527"
 catalog_pid: "P2527"
 category: "算法"
-tags: ["深度学习", "计算机视觉", "Python", "手撕", "八股"]
+tags: ["深度学习", "计算机视觉", "Python", "手撕", "八股", "实习"]
 published_at: 2027-03-25
 ---
 

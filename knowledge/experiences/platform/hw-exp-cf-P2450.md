@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2450"
 catalog_pid: "P2450"
 category: "通用软件开发"
-tags: ["Java", "后端", "数据库", "分布式", "操作系统", "八股"]
+tags: ["Java", "后端", "数据库", "分布式", "操作系统", "八股", "校招"]
 published_at: 2025-09-25
 ---
 

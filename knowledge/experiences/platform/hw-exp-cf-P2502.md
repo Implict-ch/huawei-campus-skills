@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2502"
 catalog_pid: "P2502"
 category: "通用软件开发"
-tags: ["八股"]
+tags: ["八股", "校招"]
 published_at: 2026-10-15
 ---
 

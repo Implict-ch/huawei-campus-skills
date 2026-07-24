@@ -7,11 +7,11 @@ import { Icon } from "../icons/index.jsx";
 const GROUP_ORDER = ["算法/AI 岗", "传统工程岗"];
 const GROUP_LABELS = {
   "算法/AI 岗": "算法 / AI 岗",
-  "传统工程岗": "传统工程岗",
+  "传统工程岗": "力扣编程题",
 };
 const GROUP_DESC = {
-  "算法/AI 岗": "面向算法、机器学习、深度学习、大模型岗位的面试手撕题",
-  "传统工程岗": "面向通用软件开发、嵌入式、通信、测试等岗位的经典算法手撕题",
+  "算法/AI 岗": "机器学习/深度学习/大模型 相关手撕题",
+  "传统工程岗": "传统力扣算法题",
 };
 
 export default function HandTearPage() {
@@ -38,7 +38,7 @@ export default function HandTearPage() {
   }
 
   return (
-    <div className="hw-page">
+    <div className="hw-page hw-page--hand-tear">
       <section className="section">
         <div className="container">
           <FadeIn>
@@ -49,11 +49,7 @@ export default function HandTearPage() {
           </FadeIn>
 
           <FadeIn>
-            <SectionHeader
-              label="// 手撕题"
-              title="按岗位分类"
-              desc={`共收录 ${data.problems.length} 道手撕题，按目标岗位选择对应题库`}
-            />
+            <SectionHeader title="手撕合集" />
           </FadeIn>
 
           {loading && <div className="hw-loading">加载中...</div>}

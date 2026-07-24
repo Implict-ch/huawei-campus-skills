@@ -1,13 +1,29 @@
 {
   "software-development": [
     {
-      "keyword": "八股",
+      "keyword": "实习",
+      "group": "period",
       "aliases": [
-        "八股"
+        "实习",
+        "暑期实习",
+        "寒假实习",
+        "日常实习",
+        "实习生"
+      ]
+    },
+    {
+      "keyword": "校招",
+      "group": "period",
+      "aliases": [
+        "校招",
+        "秋招",
+        "春招",
+        "校园招聘"
       ]
     },
     {
       "keyword": "手撕",
+      "group": "content",
       "aliases": [
         "手撕",
         "算法题",
@@ -15,7 +31,15 @@
       ]
     },
     {
+      "keyword": "八股",
+      "group": "content",
+      "aliases": [
+        "八股"
+      ]
+    },
+    {
       "keyword": "后端",
+      "group": "stack",
       "aliases": [
         "后端",
         "后台",
@@ -24,6 +48,7 @@
     },
     {
       "keyword": "C++",
+      "group": "language",
       "aliases": [
         "c++",
         "cpp"
@@ -31,12 +56,14 @@
     },
     {
       "keyword": "Java",
+      "group": "language",
       "aliases": [
         "java"
       ]
     },
     {
       "keyword": "数据库",
+      "group": "stack",
       "aliases": [
         "数据库",
         "mysql",
@@ -45,42 +72,49 @@
     },
     {
       "keyword": "操作系统",
+      "group": "stack",
       "aliases": [
         "操作系统"
       ]
     },
     {
       "keyword": "Linux",
+      "group": "stack",
       "aliases": [
         "linux"
       ]
     },
     {
       "keyword": "分布式",
+      "group": "stack",
       "aliases": [
         "分布式"
       ]
     },
     {
       "keyword": "Python",
+      "group": "language",
       "aliases": [
         "python"
       ]
     },
     {
       "keyword": "云计算",
+      "group": "stack",
       "aliases": [
         "云计算"
       ]
     },
     {
       "keyword": "前端",
+      "group": "stack",
       "aliases": [
         "前端"
       ]
     },
     {
       "keyword": "Spring",
+      "group": "stack",
       "aliases": [
         "spring",
         "springboot",
@@ -89,12 +123,14 @@
     },
     {
       "keyword": "微服务",
+      "group": "stack",
       "aliases": [
         "微服务"
       ]
     },
     {
       "keyword": "Go",
+      "group": "language",
       "aliases": [
         "golang",
         "go语言"
@@ -103,7 +139,41 @@
   ],
   "ai": [
     {
+      "keyword": "实习",
+      "group": "period",
+      "aliases": [
+        "实习",
+        "暑期实习",
+        "寒假实习",
+        "日常实习",
+        "实习生"
+      ]
+    },
+    {
+      "keyword": "校招",
+      "group": "period",
+      "aliases": [
+        "校招",
+        "秋招",
+        "春招",
+        "校园招聘"
+      ]
+    },
+    {
+      "keyword": "Agent",
+      "group": "direction",
+      "aliases": [
+        "agent",
+        "agents",
+        "智能体",
+        "ai agent",
+        "multi-agent",
+        "多智能体"
+      ]
+    },
+    {
       "keyword": "手撕",
+      "group": "content",
       "aliases": [
         "手撕",
         "算法题",
@@ -112,38 +182,44 @@
     },
     {
       "keyword": "八股",
+      "group": "content",
       "aliases": [
         "八股"
       ]
     },
     {
       "keyword": "深度学习",
+      "group": "direction",
       "aliases": [
         "深度学习",
         "神经网络"
       ]
     },
     {
+      "keyword": "Python",
+      "group": "language_framework",
+      "aliases": [
+        "python"
+      ]
+    },
+    {
       "keyword": "大模型",
+      "group": "direction",
       "aliases": [
         "大模型",
         "llm"
       ]
     },
     {
-      "keyword": "Python",
-      "aliases": [
-        "python"
-      ]
-    },
-    {
       "keyword": "机器学习",
+      "group": "direction",
       "aliases": [
         "机器学习"
       ]
     },
     {
       "keyword": "智能驾驶",
+      "group": "direction",
       "aliases": [
         "智能驾驶",
         "自动驾驶"
@@ -151,6 +227,7 @@
     },
     {
       "keyword": "计算机视觉",
+      "group": "direction",
       "aliases": [
         "计算机视觉",
         "cv"
@@ -158,6 +235,7 @@
     },
     {
       "keyword": "NLP",
+      "group": "direction",
       "aliases": [
         "nlp",
         "自然语言处理"
@@ -165,12 +243,14 @@
     },
     {
       "keyword": "PyTorch",
+      "group": "language_framework",
       "aliases": [
         "pytorch"
       ]
     },
     {
       "keyword": "TensorFlow",
+      "group": "language_framework",
       "aliases": [
         "tensorflow"
       ]
@@ -178,7 +258,29 @@
   ],
   "embedded": [
     {
+      "keyword": "实习",
+      "group": "period",
+      "aliases": [
+        "实习",
+        "暑期实习",
+        "寒假实习",
+        "日常实习",
+        "实习生"
+      ]
+    },
+    {
+      "keyword": "校招",
+      "group": "period",
+      "aliases": [
+        "校招",
+        "秋招",
+        "春招",
+        "校园招聘"
+      ]
+    },
+    {
       "keyword": "芯片",
+      "group": "platform",
       "aliases": [
         "芯片",
         "soc"
@@ -186,12 +288,14 @@
     },
     {
       "keyword": "八股",
+      "group": "content",
       "aliases": [
         "八股"
       ]
     },
     {
       "keyword": "手撕",
+      "group": "content",
       "aliases": [
         "手撕",
         "算法题",
@@ -200,12 +304,14 @@
     },
     {
       "keyword": "FPGA",
+      "group": "platform",
       "aliases": [
         "fpga"
       ]
     },
     {
       "keyword": "总线",
+      "group": "platform",
       "aliases": [
         "uart",
         "spi",
@@ -214,12 +320,14 @@
     },
     {
       "keyword": "C语言",
+      "group": "language",
       "aliases": [
         "c语言"
       ]
     },
     {
       "keyword": "C++",
+      "group": "language",
       "aliases": [
         "c++",
         "cpp"
@@ -227,6 +335,7 @@
     },
     {
       "keyword": "单片机",
+      "group": "platform",
       "aliases": [
         "单片机",
         "mcu"
@@ -234,12 +343,14 @@
     },
     {
       "keyword": "Linux",
+      "group": "platform",
       "aliases": [
         "linux"
       ]
     },
     {
       "keyword": "RTOS",
+      "group": "platform",
       "aliases": [
         "rtos",
         "freertos",
@@ -248,6 +359,7 @@
     },
     {
       "keyword": "驱动",
+      "group": "platform",
       "aliases": [
         "驱动开发",
         "驱动"
@@ -255,6 +367,7 @@
     },
     {
       "keyword": "ARM",
+      "group": "platform",
       "aliases": [
         "arm"
       ]
@@ -262,13 +375,36 @@
   ],
   "network-communication": [
     {
+      "keyword": "实习",
+      "group": "period",
+      "aliases": [
+        "实习",
+        "暑期实习",
+        "寒假实习",
+        "日常实习",
+        "实习生"
+      ]
+    },
+    {
+      "keyword": "校招",
+      "group": "period",
+      "aliases": [
+        "校招",
+        "秋招",
+        "春招",
+        "校园招聘"
+      ]
+    },
+    {
       "keyword": "八股",
+      "group": "content",
       "aliases": [
         "八股"
       ]
     },
     {
       "keyword": "无线",
+      "group": "direction",
       "aliases": [
         "无线",
         "无线通信"
@@ -276,6 +412,7 @@
     },
     {
       "keyword": "协议",
+      "group": "foundation",
       "aliases": [
         "协议栈",
         "tcp",
@@ -284,6 +421,7 @@
     },
     {
       "keyword": "手撕",
+      "group": "content",
       "aliases": [
         "手撕",
         "算法题",
@@ -292,6 +430,7 @@
     },
     {
       "keyword": "光产品",
+      "group": "direction",
       "aliases": [
         "光产品",
         "光通信"
@@ -299,18 +438,21 @@
     },
     {
       "keyword": "ICT",
+      "group": "direction",
       "aliases": [
         "ict"
       ]
     },
     {
       "keyword": "射频",
+      "group": "direction",
       "aliases": [
         "射频"
       ]
     },
     {
       "keyword": "基带",
+      "group": "direction",
       "aliases": [
         "基带"
       ]
@@ -318,7 +460,29 @@
   ],
   "test-qa": [
     {
+      "keyword": "实习",
+      "group": "period",
+      "aliases": [
+        "实习",
+        "暑期实习",
+        "寒假实习",
+        "日常实习",
+        "实习生"
+      ]
+    },
+    {
+      "keyword": "校招",
+      "group": "period",
+      "aliases": [
+        "校招",
+        "秋招",
+        "春招",
+        "校园招聘"
+      ]
+    },
+    {
       "keyword": "手撕",
+      "group": "content",
       "aliases": [
         "手撕",
         "算法题",
@@ -327,6 +491,7 @@
     },
     {
       "keyword": "软件测试",
+      "group": "testing",
       "aliases": [
         "软件测试",
         "测试工程师"
@@ -334,18 +499,21 @@
     },
     {
       "keyword": "八股",
+      "group": "content",
       "aliases": [
         "八股"
       ]
     },
     {
       "keyword": "解决方案测试",
+      "group": "testing",
       "aliases": [
         "解决方案测试"
       ]
     },
     {
       "keyword": "Python",
+      "group": "language",
       "aliases": [
         "python"
       ]

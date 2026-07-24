@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2488"
 catalog_pid: "P2488"
 category: "算法"
-tags: ["Java", "后端", "分布式", "手撕"]
+tags: ["Java", "后端", "分布式", "手撕", "校招"]
 published_at: 2026-09-25
 ---
 

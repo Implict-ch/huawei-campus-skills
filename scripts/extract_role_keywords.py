@@ -20,7 +20,12 @@ from typing import List
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from role_label_taxonomy import ROLE_LABEL_ALIASES, ROLE_LABEL_TAXONOMY  # noqa: E402
+from role_label_taxonomy import (  # noqa: E402
+    PERIOD_LABELS,
+    ROLE_LABEL_ALIASES,
+    ROLE_LABEL_TAXONOMY,
+    label_group,
+)
 
 EXP_JSON = ROOT / "frontend" / "public" / "experiences.json"
 # LLM 打标结果（优先用这个）
@@ -32,6 +37,49 @@ OUT_JSON = ROOT / "frontend" / "public" / "experience_keywords.json"
 def load_json(path: Path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+# 侧栏始终展示的额外标签（即使当前 0 篇命中）
+ALWAYS_SHOW_LABELS = {
+    "ai": ["Agent"],
+}
+
+
+def ensure_period_keywords(out: dict) -> dict:
+    """每个岗位侧栏固定包含「实习」「校招」，并排在最前。"""
+    for role in list(out.keys()):
+        by_kw = {x["keyword"]: x for x in out[role]}
+        period = []
+        for lab in PERIOD_LABELS:
+            if lab in by_kw:
+                period.append(by_kw[lab])
+            else:
+                period.append(
+                    {
+                        "keyword": lab,
+                        "group": label_group(role, lab),
+                        "aliases": ROLE_LABEL_ALIASES.get(role, {}).get(lab, [lab.lower()]),
+                    }
+                )
+        # 固定额外标签（如 AI 方向的 Agent）插在时期之后、其它之前
+        fixed = []
+        for lab in ALWAYS_SHOW_LABELS.get(role, []):
+            if lab in PERIOD_LABELS:
+                continue
+            if lab in by_kw:
+                fixed.append(by_kw[lab])
+            else:
+                fixed.append(
+                    {
+                        "keyword": lab,
+                        "group": label_group(role, lab),
+                        "aliases": ROLE_LABEL_ALIASES.get(role, {}).get(lab, [lab.lower()]),
+                    }
+                )
+        skip = set(PERIOD_LABELS) | set(ALWAYS_SHOW_LABELS.get(role, []))
+        others = [x for x in out[role] if x["keyword"] not in skip]
+        out[role] = period + fixed + others
+    return out
 
 
 def from_semantic_tags() -> dict | None:
@@ -63,13 +111,14 @@ def from_semantic_tags() -> dict | None:
         out[role] = [
             {
                 "keyword": x["keyword"],
+                "group": label_group(role, x["keyword"]),
                 # aliases 留给「无语义标签时」的字面匹配兜底用
                 "aliases": ROLE_LABEL_ALIASES.get(role, {}).get(x["keyword"], [x["keyword"].lower()]),
             }
             for x in items
         ]
         print(f"{role}: {[x['keyword'] for x in items]} (semantic)")
-    return out
+    return ensure_period_keywords(out)
 
 
 def clean_text(text: str) -> str:
@@ -124,9 +173,16 @@ def from_frequency() -> dict:
             if score >= 2:
                 scores.append({"keyword": keyword, "aliases": aliases, "score": score})
         scores.sort(key=lambda x: -x["score"])
-        keywords_by_role[role] = [{"keyword": x["keyword"], "aliases": x["aliases"]} for x in scores]
+        keywords_by_role[role] = [
+            {
+                "keyword": x["keyword"],
+                "group": label_group(role, x["keyword"]),
+                "aliases": x["aliases"],
+            }
+            for x in scores
+        ]
         print(f"{role}: {[x['keyword'] for x in scores]} (frequency)")
-    return keywords_by_role
+    return ensure_period_keywords(keywords_by_role)
 
 
 def main():

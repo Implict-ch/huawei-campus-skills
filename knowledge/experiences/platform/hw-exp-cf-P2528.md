@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2528"
 catalog_pid: "P2528"
 category: "算法"
-tags: ["大模型", "深度学习", "八股", "手撕"]
+tags: ["大模型", "深度学习", "八股", "手撕", "实习"]
 published_at: 2027-04-25
 ---
 

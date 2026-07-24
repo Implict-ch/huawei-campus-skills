@@ -11,8 +11,7 @@ const SEMANTIC_TAGS_FILE = path.join(ROOT, "frontend", "public", "experience_sem
 
 /** 旧 frontmatter 里无区分度的展示词，卡片上不再显示 */
 const TAG_BLOCKLIST = new Set([
-  "校招",
-  "实习",
+  // 「校招」「实习」已作为时期筛选维度，允许展示
   "机考",
   "面试",
   "流程",
@@ -205,12 +204,27 @@ function scoreRole(titleText, content, rule) {
   return titleScore + contentScore;
 }
 
+/** 标题含 AI（如 AI软开）优先归入 AI 大类，避免被「软开」抢走 */
+function titleImpliesAi(title) {
+  const t = String(title || "").toLowerCase();
+  if (
+    /人工智能|大模型|机器学习|深度学习|计算机视觉|\bnlp\b|智能驾驶|自动驾驶/.test(t)
+  ) {
+    return true;
+  }
+  if (/(?:^|[^a-z0-9])ai(?:[^a-z0-9]|$)/.test(t)) return true;
+  if (/ai\s*(?:软开|软件|岗|算法|工程师|应用|方向)/.test(t)) return true;
+  return false;
+}
+
 function inferRole(data, content) {
+  const title = extractTitle(content) || String(data.title || "");
+  if (titleImpliesAi(title)) return "ai";
+
   if (data.role && ROLE_LABELS[data.role]) {
     return data.role;
   }
 
-  const title = extractTitle(content) || String(data.title || "");
   const category = String(data.category || "");
   const tags = Array.isArray(data.tags) ? data.tags.join(" ") : "";
   const titleText = `${title} ${category} ${tags}`.toLowerCase();

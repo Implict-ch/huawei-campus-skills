@@ -8,11 +8,7 @@ export default function PlatformSection() {
     <section className="section" id="platform">
       <div className="container">
         <FadeIn>
-          <SectionHeader
-            label="// PLATFORM"
-            title="平台能力"
-            desc="不只是题库，更是一站式求职训练平台"
-          />
+          <SectionHeader title="平台能力" />
         </FadeIn>
         <div className="platform-grid">
           {PLATFORM_FEATURES.map((f, i) => (

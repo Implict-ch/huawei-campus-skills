@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2424"
 catalog_pid: "P2424"
 category: "其他"
-tags: ["芯片", "总线", "手撕"]
+tags: ["芯片", "总线", "手撕", "校招"]
 published_at: 2025-10-20
 ---
 

@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2509"
 catalog_pid: "P2509"
 category: "算法"
-tags: ["大模型", "深度学习", "NLP", "机器学习", "Python", "手撕", "八股", "智能驾驶"]
+tags: ["大模型", "深度学习", "NLP", "机器学习", "Python", "手撕", "八股", "智能驾驶", "校招"]
 published_at: 2026-10-15
 ---
 

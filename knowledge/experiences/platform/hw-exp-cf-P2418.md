@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2418"
 catalog_pid: "P2418"
 category: "算法"
-tags: ["八股", "手撕"]
+tags: ["八股", "手撕", "校招"]
 published_at: 2025-10-15
 ---
 

@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2478"
 catalog_pid: "P2478"
 category: "其他"
-tags: ["Python", "手撕"]
+tags: ["Python", "手撕", "校招"]
 published_at: 2026-09-25
 ---
 

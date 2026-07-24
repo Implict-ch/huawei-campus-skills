@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2425"
 catalog_pid: "P2425"
 category: "通用软件开发"
-tags: ["操作系统", "八股", "手撕"]
+tags: ["操作系统", "八股", "手撕", "校招"]
 published_at: 2025-10-15
 ---
 

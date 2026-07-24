@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2518"
 catalog_pid: "P2518"
 category: "通用软件开发"
-tags: ["八股", "手撕", "操作系统", "C++"]
+tags: ["八股", "手撕", "操作系统", "C++", "校招"]
 published_at: 2026-10-25
 ---
 

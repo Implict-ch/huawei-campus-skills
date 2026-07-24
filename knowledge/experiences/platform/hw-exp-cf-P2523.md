@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2523"
 catalog_pid: "P2523"
 category: "算法"
-tags: ["智能驾驶", "手撕", "八股"]
+tags: ["智能驾驶", "手撕", "八股", "校招"]
 published_at: 2026-11-15
 ---
 

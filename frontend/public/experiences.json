@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:23:57.664Z",
+  "generatedAt": "2026-07-24T17:17:17.421Z",
   "total": 393,
   "roles": {
     "software-development": "通用软件开发",
@@ -11,23 +11,6 @@
   "grouped": {
     "software-development": [
       {
-        "id": "hw-exp-cf-P2526",
-        "title": "26秋招-11月底-车bu座舱AI软开-一二三面",
-        "publishedAt": "2026-11-25T00:00:00.000Z",
-        "role": "software-development",
-        "roleLabel": "通用软件开发",
-        "stage": "interview",
-        "tags": [
-          "后端",
-          "手撕",
-          "八股"
-        ],
-        "sourceGrade": "B",
-        "platform": "codefun2000",
-        "sourceUrl": "https://codefun2000.com/ide/P2526",
-        "filePath": "knowledge/experiences/platform/hw-exp-cf-P2526.md"
-      },
-      {
         "id": "hw-exp-cf-P2515",
         "title": "26秋招-10月底-通用软件开发-一二三面",
         "publishedAt": "2026-10-25T00:00:00.000Z",
@@ -36,7 +19,8 @@
         "stage": "interview",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -53,7 +37,8 @@
         "tags": [
           "数据库",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -69,7 +54,8 @@
         "stage": "interview",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -87,7 +73,8 @@
           "八股",
           "手撕",
           "操作系统",
-          "C++"
+          "C++",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -105,28 +92,13 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2519",
         "filePath": "knowledge/experiences/platform/hw-exp-cf-P2519.md"
-      },
-      {
-        "id": "hw-exp-cf-P2501",
-        "title": "26秋招-10月中-AI软开-一二三面",
-        "publishedAt": "2026-10-15T00:00:00.000Z",
-        "role": "software-development",
-        "roleLabel": "通用软件开发",
-        "stage": "interview",
-        "tags": [
-          "手撕",
-          "八股"
-        ],
-        "sourceGrade": "B",
-        "platform": "codefun2000",
-        "sourceUrl": "https://codefun2000.com/ide/P2501",
-        "filePath": "knowledge/experiences/platform/hw-exp-cf-P2501.md"
       },
       {
         "id": "hw-exp-cf-P2502",
@@ -136,7 +108,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -153,7 +126,8 @@
         "tags": [
           "操作系统",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -173,7 +147,8 @@
           "数据库",
           "分布式",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -194,7 +169,8 @@
           "操作系统",
           "手撕",
           "八股",
-          "云计算"
+          "云计算",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -210,7 +186,8 @@
         "stage": "interview",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -229,7 +206,8 @@
           "数据库",
           "Linux",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -243,29 +221,13 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "interview",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2480",
         "filePath": "knowledge/experiences/platform/hw-exp-cf-P2480.md"
-      },
-      {
-        "id": "hw-exp-cf-P2483",
-        "title": "26秋招-9月底-AI软件开发-一二三面",
-        "publishedAt": "2026-09-25T00:00:00.000Z",
-        "role": "software-development",
-        "roleLabel": "通用软件开发",
-        "stage": "interview",
-        "tags": [
-          "Python",
-          "后端",
-          "手撕",
-          "八股"
-        ],
-        "sourceGrade": "B",
-        "platform": "codefun2000",
-        "sourceUrl": "https://codefun2000.com/ide/P2483",
-        "filePath": "knowledge/experiences/platform/hw-exp-cf-P2483.md"
       },
       {
         "id": "hw-exp-cf-P2488",
@@ -278,30 +240,13 @@
           "Java",
           "后端",
           "分布式",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2488",
         "filePath": "knowledge/experiences/platform/hw-exp-cf-P2488.md"
-      },
-      {
-        "id": "hw-exp-cf-P2503",
-        "title": "26秋招-9月底-AI软件开发-一二三面",
-        "publishedAt": "2026-09-25T00:00:00.000Z",
-        "role": "software-development",
-        "roleLabel": "通用软件开发",
-        "stage": "interview",
-        "tags": [
-          "Python",
-          "后端",
-          "八股",
-          "手撕"
-        ],
-        "sourceGrade": "B",
-        "platform": "codefun2000",
-        "sourceUrl": "https://codefun2000.com/ide/P2503",
-        "filePath": "knowledge/experiences/platform/hw-exp-cf-P2503.md"
       },
       {
         "id": "hw-exp-cf-P3797",
@@ -312,7 +257,8 @@
         "stage": "interview",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -331,7 +277,8 @@
           "后端",
           "分布式",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -348,7 +295,8 @@
         "tags": [
           "C++",
           "后端",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -363,7 +311,8 @@
         "roleLabel": "通用软件开发",
         "stage": "general",
         "tags": [
-          "后端"
+          "后端",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -383,29 +332,13 @@
           "数据库",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
         "sourceUrl": "https://www.xiaohongshu.com/search_result/6a0fd887000000000702df09?xsec_token=ABV3h5J675J427EnAHthFdm4CpKSocE7QB5RCzgMkZaWY=&xsec_source=",
         "filePath": "knowledge/experiences/hw-exp-20260522-xhs-0702df09.md"
-      },
-      {
-        "id": "hw-exp-20260516-xhs-060359cc",
-        "title": "华为AI软件开发一面＆二面面经",
-        "publishedAt": "2026-05-16T00:00:00.000Z",
-        "role": "software-development",
-        "roleLabel": "通用软件开发",
-        "stage": "interview",
-        "tags": [
-          "Python",
-          "后端",
-          "八股"
-        ],
-        "sourceGrade": "C",
-        "platform": "xiaohongshu",
-        "sourceUrl": "https://www.xiaohongshu.com/search_result/6a07e02500000000060359cc?xsec_token=ABhkfjam9nrblwAis8epOWxiU4OsVioUhW9ubnAAXJV3Q=&xsec_source=",
-        "filePath": "knowledge/experiences/hw-exp-20260516-xhs-060359cc.md"
       },
       {
         "id": "hw-exp-20260513-xhs-360181e0",
@@ -418,7 +351,8 @@
           "Java",
           "后端",
           "数据库",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -434,7 +368,8 @@
         "stage": "exam",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -450,7 +385,8 @@
         "stage": "general",
         "tags": [
           "Linux",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -466,7 +402,8 @@
         "stage": "exam",
         "tags": [
           "后端",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -486,7 +423,8 @@
           "数据库",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -500,7 +438,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "application",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/843572339890458624",
@@ -514,7 +454,8 @@
         "roleLabel": "通用软件开发",
         "stage": "application",
         "tags": [
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -532,30 +473,13 @@
           "C++",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2464",
         "filePath": "knowledge/experiences/platform/hw-exp-cf-P2464.md"
-      },
-      {
-        "id": "hw-exp-20251104-xhs-03023bf7",
-        "title": "华为ai软件开发工程师面经（过了+保温）",
-        "publishedAt": "2025-11-04T00:00:00.000Z",
-        "role": "software-development",
-        "roleLabel": "通用软件开发",
-        "stage": "general",
-        "tags": [
-          "Python",
-          "C++",
-          "八股",
-          "手撕"
-        ],
-        "sourceGrade": "C",
-        "platform": "xiaohongshu",
-        "sourceUrl": "https://www.xiaohongshu.com/search_result/6909bdbe0000000003023bf7?xsec_token=ABFawN1aSboCSZ8p9GT1gYzTiFj9CVwGvk_lqrHI9oS3E=&xsec_source=",
-        "filePath": "knowledge/experiences/hw-exp-20251104-xhs-03023bf7.md"
       },
       {
         "id": "hw-exp-cf-P2427",
@@ -573,7 +497,8 @@
           "八股",
           "手撕",
           "云计算",
-          "Linux"
+          "Linux",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -590,7 +515,8 @@
         "tags": [
           "手撕",
           "八股",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -607,7 +533,8 @@
         "tags": [
           "操作系统",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -625,7 +552,8 @@
           "Java",
           "八股",
           "手撕",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -641,7 +569,8 @@
         "stage": "interview",
         "tags": [
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -657,7 +586,8 @@
         "stage": "interview",
         "tags": [
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -678,7 +608,8 @@
           "分布式",
           "微服务",
           "Linux",
-          "操作系统"
+          "操作系统",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -694,7 +625,8 @@
         "stage": "interview",
         "tags": [
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -714,7 +646,8 @@
           "数据库",
           "分布式",
           "操作系统",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -733,7 +666,8 @@
           "后端",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -751,7 +685,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -773,7 +708,8 @@
           "手撕",
           "后端",
           "操作系统",
-          "分布式"
+          "分布式",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -793,7 +729,8 @@
           "Java",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -811,7 +748,8 @@
           "手撕",
           "八股",
           "Linux",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -829,7 +767,8 @@
           "C++",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -843,7 +782,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "interview",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2437",
@@ -861,7 +802,8 @@
           "后端",
           "数据库",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -881,7 +823,8 @@
           "数据库",
           "分布式",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -897,7 +840,8 @@
         "stage": "interview",
         "tags": [
           "Java",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -912,7 +856,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -933,7 +878,8 @@
           "Linux",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -950,7 +896,8 @@
         "tags": [
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -969,7 +916,8 @@
           "数据库",
           "分布式",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -988,7 +936,8 @@
           "后端",
           "数据库",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1006,7 +955,8 @@
           "C++",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1026,7 +976,8 @@
           "后端",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1046,7 +997,8 @@
           "数据库",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1064,7 +1016,8 @@
           "Java",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1079,7 +1032,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1099,7 +1053,8 @@
           "Linux",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1118,7 +1073,8 @@
           "Java",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1136,7 +1092,8 @@
           "后端",
           "数据库",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1155,7 +1112,8 @@
           "数据库",
           "Linux",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1170,7 +1128,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1185,7 +1144,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1203,7 +1163,8 @@
           "Java",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -1219,7 +1180,8 @@
         "stage": "exam",
         "tags": [
           "C语言",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1237,7 +1199,8 @@
           "云计算",
           "后端",
           "微服务",
-          "分布式"
+          "分布式",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1253,7 +1216,8 @@
         "stage": "general",
         "tags": [
           "分布式",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1269,7 +1233,8 @@
         "stage": "general",
         "tags": [
           "分布式",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1283,7 +1248,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/766408378141765632",
@@ -1296,7 +1263,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "实习"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/764925287623684096",
@@ -1311,7 +1280,8 @@
         "stage": "exam",
         "tags": [
           "云计算",
-          "后端"
+          "后端",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1331,7 +1301,8 @@
           "后端",
           "数据库",
           "八股",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1348,7 +1319,8 @@
         "tags": [
           "Java",
           "八股",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1364,7 +1336,8 @@
         "stage": "exam",
         "tags": [
           "后端",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1378,7 +1351,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2577947",
@@ -1393,7 +1368,8 @@
         "stage": "general",
         "tags": [
           "C++",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1409,7 +1385,8 @@
         "stage": "general",
         "tags": [
           "Java",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1427,7 +1404,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1445,7 +1423,8 @@
           "后端",
           "Linux",
           "操作系统",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1460,7 +1439,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1478,7 +1458,8 @@
           "Java",
           "C++",
           "后端",
-          "Spring"
+          "Spring",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1497,7 +1478,8 @@
           "C++",
           "Linux",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1513,7 +1495,8 @@
         "stage": "general",
         "tags": [
           "C++",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1530,7 +1513,8 @@
         "tags": [
           "C++",
           "后端",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1547,7 +1531,8 @@
         "tags": [
           "Java",
           "后端",
-          "云计算"
+          "云计算",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1561,7 +1546,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2473036",
@@ -1574,7 +1561,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "application",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2466109",
@@ -1591,7 +1580,8 @@
           "C++",
           "Linux",
           "操作系统",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1607,7 +1597,8 @@
         "stage": "exam",
         "tags": [
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1622,7 +1613,8 @@
         "roleLabel": "通用软件开发",
         "stage": "exam",
         "tags": [
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1642,7 +1634,8 @@
           "Python",
           "后端",
           "操作系统",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1658,7 +1651,8 @@
         "stage": "exam",
         "tags": [
           "操作系统",
-          "分布式"
+          "分布式",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1676,7 +1670,8 @@
           "Java",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1693,7 +1688,8 @@
         "tags": [
           "Java",
           "后端",
-          "分布式"
+          "分布式",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1711,7 +1707,8 @@
           "C++",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1726,12 +1723,29 @@
         "roleLabel": "通用软件开发",
         "stage": "application",
         "tags": [
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2346870",
         "filePath": "knowledge/experiences/hw-exp-20240830-nc-2346870.md"
+      },
+      {
+        "id": "hw-exp-20240727-nc-48727296",
+        "title": "华为校招机考指南",
+        "publishedAt": "2024-07-27T00:00:00.000Z",
+        "role": "software-development",
+        "roleLabel": "通用软件开发",
+        "stage": "exam",
+        "tags": [
+          "手撕",
+          "校招"
+        ],
+        "sourceGrade": "C",
+        "platform": "nowcoder",
+        "sourceUrl": "https://www.nowcoder.com/discuss/646658871548727296",
+        "filePath": "knowledge/experiences/hw-exp-20240727-nc-48727296.md"
       },
       {
         "id": "hw-exp-20240726-nc-2295109",
@@ -1746,7 +1760,8 @@
           "Python",
           "Go",
           "后端",
-          "数据库"
+          "数据库",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1769,7 +1784,8 @@
           "前端",
           "数据库",
           "微服务",
-          "分布式"
+          "分布式",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1784,7 +1800,8 @@
         "roleLabel": "通用软件开发",
         "stage": "application",
         "tags": [
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1802,7 +1819,8 @@
           "Java",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1816,7 +1834,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2250990",
@@ -1834,7 +1854,8 @@
           "Spring",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1851,7 +1872,8 @@
         "tags": [
           "前端",
           "八股",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1868,7 +1890,8 @@
         "tags": [
           "前端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1886,7 +1909,8 @@
           "后端",
           "数据库",
           "八股",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1905,7 +1929,8 @@
           "C++",
           "Python",
           "后端",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1919,7 +1944,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/603523492960555008",
@@ -1946,7 +1973,8 @@
           "云计算",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1965,7 +1993,8 @@
           "后端",
           "数据库",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1984,7 +2013,8 @@
           "后端",
           "数据库",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -1998,7 +2028,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2107853",
@@ -2013,7 +2045,8 @@
         "stage": "general",
         "tags": [
           "C++",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2030,7 +2063,8 @@
         "tags": [
           "C++",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2047,7 +2081,8 @@
         "tags": [
           "C++",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2065,7 +2100,8 @@
           "Java",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2081,7 +2117,8 @@
         "stage": "exam",
         "tags": [
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2095,7 +2132,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2012098",
@@ -2111,7 +2150,8 @@
         "tags": [
           "前端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2125,7 +2165,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "general",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/530042535691964416",
@@ -2141,7 +2183,8 @@
         "tags": [
           "C++",
           "后端",
-          "云计算"
+          "云计算",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2156,7 +2199,8 @@
         "roleLabel": "通用软件开发",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2173,7 +2217,8 @@
         "tags": [
           "后端",
           "分布式",
-          "云计算"
+          "云计算",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2190,7 +2235,8 @@
         "tags": [
           "C++",
           "操作系统",
-          "数据库"
+          "数据库",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2213,7 +2259,8 @@
           "数据库",
           "Spring",
           "分布式",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2234,7 +2281,8 @@
           "分布式",
           "云计算",
           "操作系统",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2249,7 +2297,8 @@
         "roleLabel": "通用软件开发",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2265,7 +2314,8 @@
         "stage": "exam",
         "tags": [
           "后端",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2283,7 +2333,8 @@
           "Java",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2298,7 +2349,8 @@
         "roleLabel": "通用软件开发",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2317,7 +2369,8 @@
           "后端",
           "数据库",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2333,7 +2386,8 @@
         "stage": "exam",
         "tags": [
           "C++",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2348,7 +2402,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2364,7 +2419,8 @@
         "stage": "interview",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2384,7 +2440,8 @@
           "后端",
           "数据库",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2406,7 +2463,8 @@
           "前端",
           "数据库",
           "微服务",
-          "云计算"
+          "云计算",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2428,7 +2486,8 @@
           "前端",
           "数据库",
           "微服务",
-          "云计算"
+          "云计算",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2443,7 +2502,8 @@
         "roleLabel": "通用软件开发",
         "stage": "exam",
         "tags": [
-          "C++"
+          "C++",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2460,7 +2520,8 @@
         "tags": [
           "后端",
           "分布式",
-          "数据库"
+          "数据库",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2478,7 +2539,8 @@
           "Java",
           "Python",
           "后端",
-          "云计算"
+          "云计算",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2493,7 +2555,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "云计算"
+          "云计算",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2514,7 +2577,8 @@
           "分布式",
           "云计算",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2532,7 +2596,8 @@
           "Java",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2550,7 +2615,8 @@
           "Python",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2567,7 +2633,8 @@
         "tags": [
           "前端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2585,7 +2652,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2604,7 +2672,8 @@
           "操作系统",
           "八股",
           "手撕",
-          "Python"
+          "Python",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2621,7 +2690,8 @@
         "tags": [
           "数据库",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2639,7 +2709,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2657,7 +2728,8 @@
           "计算机视觉",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2672,7 +2744,8 @@
         "roleLabel": "通用软件开发",
         "stage": "interview",
         "tags": [
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2686,7 +2759,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/363127381538750464",
@@ -2705,7 +2780,8 @@
           "数据库",
           "Linux",
           "八股",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2719,7 +2795,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/354335580991369216",
@@ -2734,7 +2812,8 @@
         "stage": "exam",
         "tags": [
           "Java",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2751,7 +2830,8 @@
         "tags": [
           "C++",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2771,7 +2851,8 @@
           "数据库",
           "Linux",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2786,7 +2867,8 @@
         "roleLabel": "通用软件开发",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2804,7 +2886,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2819,7 +2902,8 @@
         "roleLabel": "通用软件开发",
         "stage": "assessment",
         "tags": [
-          "数据库"
+          "数据库",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2833,7 +2917,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "B",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353159290095607808",
@@ -2847,7 +2933,8 @@
         "roleLabel": "通用软件开发",
         "stage": "exam",
         "tags": [
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2865,7 +2952,8 @@
           "Java",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2882,7 +2970,8 @@
         "tags": [
           "后端",
           "云计算",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2898,7 +2987,8 @@
         "stage": "exam",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2914,7 +3004,8 @@
         "stage": "exam",
         "tags": [
           "C++",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2932,7 +3023,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2950,7 +3042,8 @@
           "八股",
           "手撕",
           "操作系统",
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2964,7 +3057,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353158521342599168",
@@ -2981,7 +3076,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -2999,7 +3095,8 @@
           "Java",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3017,7 +3114,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3034,7 +3132,8 @@
         "tags": [
           "八股",
           "手撕",
-          "后端"
+          "后端",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3053,7 +3152,8 @@
           "后端",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3071,7 +3171,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3089,7 +3190,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3108,7 +3210,8 @@
           "后端",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3127,7 +3230,8 @@
           "Spring",
           "后端",
           "八股",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3145,7 +3249,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3159,7 +3264,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "实习"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353157792368369664",
@@ -3174,7 +3281,8 @@
         "stage": "exam",
         "tags": [
           "C++",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3195,7 +3303,8 @@
           "Linux",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3211,7 +3320,8 @@
         "stage": "interview",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3228,7 +3338,8 @@
         "tags": [
           "前端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3245,7 +3356,8 @@
         "tags": [
           "C++",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3264,7 +3376,8 @@
           "后端",
           "数据库",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3278,7 +3391,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353156977297661952",
@@ -3296,7 +3411,8 @@
           "后端",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3317,7 +3433,8 @@
           "Linux",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3338,7 +3455,8 @@
           "Linux",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3355,7 +3473,8 @@
         "tags": [
           "C++",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3376,7 +3495,8 @@
           "Linux",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3390,7 +3510,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "interview",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353156713853427712",
@@ -3407,7 +3529,8 @@
           "Java",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3427,7 +3550,8 @@
           "Linux",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3448,7 +3572,8 @@
           "操作系统",
           "手撕",
           "八股",
-          "分布式"
+          "分布式",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3466,7 +3591,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3487,7 +3613,8 @@
           "Linux",
           "操作系统",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3502,7 +3629,8 @@
         "roleLabel": "通用软件开发",
         "stage": "exam",
         "tags": [
-          "后端"
+          "后端",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3519,7 +3647,8 @@
         "tags": [
           "C++",
           "八股",
-          "操作系统"
+          "操作系统",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3537,7 +3666,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3558,7 +3688,8 @@
           "后端",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3574,7 +3705,8 @@
         "stage": "exam",
         "tags": [
           "C语言",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3592,7 +3724,8 @@
           "C++",
           "后端",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3612,7 +3745,8 @@
           "后端",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3633,7 +3767,8 @@
           "Linux",
           "操作系统",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -3647,7 +3782,9 @@
         "role": "software-development",
         "roleLabel": "通用软件开发",
         "stage": "general",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
         "sourceUrl": "https://www.xiaohongshu.com/search_result/6a5dacc6000000000f01fd01?xsec_token=ABRT-HrYhstuwwWeCMgX-Kv9EfkWDo3dvl_gRazpNxMww=&xsec_source=",
@@ -3666,7 +3803,8 @@
           "大模型",
           "深度学习",
           "八股",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3685,7 +3823,8 @@
           "计算机视觉",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3704,7 +3843,8 @@
           "机器学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3724,12 +3864,31 @@
           "机器学习",
           "Python",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2524",
         "filePath": "knowledge/experiences/platform/hw-exp-cf-P2524.md"
+      },
+      {
+        "id": "hw-exp-cf-P2526",
+        "title": "26秋招-11月底-车bu座舱AI软开-一二三面",
+        "publishedAt": "2026-11-25T00:00:00.000Z",
+        "role": "ai",
+        "roleLabel": "AI大类",
+        "stage": "interview",
+        "tags": [
+          "后端",
+          "手撕",
+          "八股",
+          "校招"
+        ],
+        "sourceGrade": "B",
+        "platform": "codefun2000",
+        "sourceUrl": "https://codefun2000.com/ide/P2526",
+        "filePath": "knowledge/experiences/platform/hw-exp-cf-P2526.md"
       },
       {
         "id": "hw-exp-cf-P2521",
@@ -3741,7 +3900,8 @@
         "tags": [
           "智能驾驶",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3758,7 +3918,8 @@
         "tags": [
           "智能驾驶",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3775,7 +3936,8 @@
         "tags": [
           "深度学习",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3795,7 +3957,8 @@
           "NLP",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3813,12 +3976,30 @@
           "深度学习",
           "PyTorch",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2520",
         "filePath": "knowledge/experiences/platform/hw-exp-cf-P2520.md"
+      },
+      {
+        "id": "hw-exp-cf-P2501",
+        "title": "26秋招-10月中-AI软开-一二三面",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "role": "ai",
+        "roleLabel": "AI大类",
+        "stage": "interview",
+        "tags": [
+          "手撕",
+          "八股",
+          "校招"
+        ],
+        "sourceGrade": "B",
+        "platform": "codefun2000",
+        "sourceUrl": "https://codefun2000.com/ide/P2501",
+        "filePath": "knowledge/experiences/platform/hw-exp-cf-P2501.md"
       },
       {
         "id": "hw-exp-cf-P2504",
@@ -3830,7 +4011,8 @@
         "tags": [
           "机器学习",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3846,7 +4028,8 @@
         "stage": "interview",
         "tags": [
           "深度学习",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3864,7 +4047,8 @@
           "机器学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3881,7 +4065,8 @@
         "tags": [
           "大模型",
           "深度学习",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3897,7 +4082,8 @@
         "stage": "interview",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3919,7 +4105,8 @@
           "Python",
           "手撕",
           "八股",
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3936,7 +4123,8 @@
         "tags": [
           "深度学习",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3956,7 +4144,8 @@
           "深度学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3972,7 +4161,8 @@
         "stage": "interview",
         "tags": [
           "Python",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -3989,7 +4179,8 @@
         "tags": [
           "大模型",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4008,12 +4199,32 @@
           "深度学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2482",
         "filePath": "knowledge/experiences/platform/hw-exp-cf-P2482.md"
+      },
+      {
+        "id": "hw-exp-cf-P2483",
+        "title": "26秋招-9月底-AI软件开发-一二三面",
+        "publishedAt": "2026-09-25T00:00:00.000Z",
+        "role": "ai",
+        "roleLabel": "AI大类",
+        "stage": "interview",
+        "tags": [
+          "Python",
+          "后端",
+          "手撕",
+          "八股",
+          "校招"
+        ],
+        "sourceGrade": "B",
+        "platform": "codefun2000",
+        "sourceUrl": "https://codefun2000.com/ide/P2483",
+        "filePath": "knowledge/experiences/platform/hw-exp-cf-P2483.md"
       },
       {
         "id": "hw-exp-cf-P2484",
@@ -4027,7 +4238,8 @@
           "深度学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4046,7 +4258,8 @@
           "深度学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4064,7 +4277,8 @@
           "机器学习",
           "深度学习",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4082,12 +4296,32 @@
           "深度学习",
           "计算机视觉",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
         "sourceUrl": "https://codefun2000.com/ide/P2489",
         "filePath": "knowledge/experiences/platform/hw-exp-cf-P2489.md"
+      },
+      {
+        "id": "hw-exp-cf-P2503",
+        "title": "26秋招-9月底-AI软件开发-一二三面",
+        "publishedAt": "2026-09-25T00:00:00.000Z",
+        "role": "ai",
+        "roleLabel": "AI大类",
+        "stage": "interview",
+        "tags": [
+          "Python",
+          "后端",
+          "八股",
+          "手撕",
+          "校招"
+        ],
+        "sourceGrade": "B",
+        "platform": "codefun2000",
+        "sourceUrl": "https://codefun2000.com/ide/P2503",
+        "filePath": "knowledge/experiences/platform/hw-exp-cf-P2503.md"
       },
       {
         "id": "hw-exp-20260715-xhs-1100745e",
@@ -4097,7 +4331,8 @@
         "roleLabel": "AI大类",
         "stage": "general",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4112,7 +4347,8 @@
         "roleLabel": "AI大类",
         "stage": "interview",
         "tags": [
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4130,7 +4366,9 @@
           "深度学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "实习",
+          "Agent"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4147,7 +4385,8 @@
         "tags": [
           "大模型",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4167,7 +4406,8 @@
           "机器学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4183,7 +4423,8 @@
         "stage": "general",
         "tags": [
           "大模型",
-          "NLP"
+          "NLP",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4200,7 +4441,8 @@
         "tags": [
           "机器学习",
           "Python",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4215,7 +4457,8 @@
         "roleLabel": "AI大类",
         "stage": "general",
         "tags": [
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4235,7 +4478,9 @@
           "NLP",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招",
+          "Agent"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4254,12 +4499,31 @@
           "深度学习",
           "机器学习",
           "Python",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
         "sourceUrl": "https://www.xiaohongshu.com/search_result/6a0d9a5c00000000360313ed?xsec_token=ABZ191xWhEAmHD2mpaqN7K9WVtjHOewjO-w6rtwsaWRpo=&xsec_source=",
         "filePath": "knowledge/experiences/hw-exp-20260520-xhs-360313ed.md"
+      },
+      {
+        "id": "hw-exp-20260516-xhs-060359cc",
+        "title": "华为AI软件开发一面＆二面面经",
+        "publishedAt": "2026-05-16T00:00:00.000Z",
+        "role": "ai",
+        "roleLabel": "AI大类",
+        "stage": "interview",
+        "tags": [
+          "Python",
+          "后端",
+          "八股",
+          "实习"
+        ],
+        "sourceGrade": "C",
+        "platform": "xiaohongshu",
+        "sourceUrl": "https://www.xiaohongshu.com/search_result/6a07e02500000000060359cc?xsec_token=ABhkfjam9nrblwAis8epOWxiU4OsVioUhW9ubnAAXJV3Q=&xsec_source=",
+        "filePath": "knowledge/experiences/hw-exp-20260516-xhs-060359cc.md"
       },
       {
         "id": "hw-exp-20260429-xhs-36031dfc",
@@ -4271,7 +4535,8 @@
         "tags": [
           "手撕",
           "八股",
-          "大模型"
+          "大模型",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4288,7 +4553,8 @@
         "tags": [
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4306,7 +4572,8 @@
           "大模型",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4322,7 +4589,8 @@
         "stage": "general",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4342,7 +4610,8 @@
           "NLP",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4356,7 +4625,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "general",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
         "sourceUrl": "https://www.xiaohongshu.com/search_result/69b42b35000000001f002454?xsec_token=AB455lihpX0xiHZPiBhypj6jWhaK8v7Mav4EdfgAVK17k=&xsec_source=",
@@ -4371,7 +4642,8 @@
         "stage": "interview",
         "tags": [
           "大模型",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4388,12 +4660,32 @@
         "tags": [
           "机器学习",
           "Python",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/850791245487042560",
         "filePath": "knowledge/experiences/hw-exp-20260210-nc-87042560.md"
+      },
+      {
+        "id": "hw-exp-20251104-xhs-03023bf7",
+        "title": "华为ai软件开发工程师面经（过了+保温）",
+        "publishedAt": "2025-11-04T00:00:00.000Z",
+        "role": "ai",
+        "roleLabel": "AI大类",
+        "stage": "general",
+        "tags": [
+          "Python",
+          "C++",
+          "八股",
+          "手撕",
+          "校招"
+        ],
+        "sourceGrade": "C",
+        "platform": "xiaohongshu",
+        "sourceUrl": "https://www.xiaohongshu.com/search_result/6909bdbe0000000003023bf7?xsec_token=ABFawN1aSboCSZ8p9GT1gYzTiFj9CVwGvk_lqrHI9oS3E=&xsec_source=",
+        "filePath": "knowledge/experiences/hw-exp-20251104-xhs-03023bf7.md"
       },
       {
         "id": "hw-exp-cf-P2418",
@@ -4404,7 +4696,8 @@
         "stage": "interview",
         "tags": [
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4421,7 +4714,8 @@
         "tags": [
           "手撕",
           "八股",
-          "大模型"
+          "大模型",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4438,7 +4732,8 @@
         "tags": [
           "深度学习",
           "计算机视觉",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4456,7 +4751,8 @@
           "Python",
           "机器学习",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4472,7 +4768,8 @@
         "stage": "interview",
         "tags": [
           "智能驾驶",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4491,7 +4788,8 @@
           "深度学习",
           "机器学习",
           "Python",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4508,7 +4806,8 @@
         "tags": [
           "深度学习",
           "计算机视觉",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4529,7 +4828,9 @@
           "机器学习",
           "Python",
           "PyTorch",
-          "八股"
+          "八股",
+          "校招",
+          "Agent"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -4545,7 +4846,8 @@
         "stage": "exam",
         "tags": [
           "机器学习",
-          "Python"
+          "Python",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4564,7 +4866,8 @@
           "深度学习",
           "机器学习",
           "Python",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4581,7 +4884,8 @@
         "tags": [
           "机器学习",
           "深度学习",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4603,7 +4907,8 @@
           "Python",
           "PyTorch",
           "TensorFlow",
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4625,7 +4930,8 @@
           "Python",
           "PyTorch",
           "TensorFlow",
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4647,7 +4953,8 @@
           "Python",
           "TensorFlow",
           "PyTorch",
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4661,7 +4968,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "general",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
         "sourceUrl": "https://www.xiaohongshu.com/search_result/685bbc1c000000002203c6fb?xsec_token=ABElP9ylfrymXLroI5Re2ILoHb-aIDnKEmirFUZXPRPrY=&xsec_source=",
@@ -4675,7 +4984,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4695,7 +5005,8 @@
           "NLP",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -4710,7 +5021,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4724,7 +5036,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/693542368909217792",
@@ -4737,7 +5051,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "application",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2486454",
@@ -4752,7 +5068,8 @@
         "stage": "exam",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4767,7 +5084,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4781,7 +5099,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "application",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2458527",
@@ -4805,7 +5125,8 @@
           "TensorFlow",
           "智能驾驶",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4824,7 +5145,8 @@
           "深度学习",
           "NLP",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4840,7 +5162,8 @@
         "stage": "exam",
         "tags": [
           "大模型",
-          "深度学习"
+          "深度学习",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4855,7 +5178,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "大模型"
+          "大模型",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4870,7 +5194,8 @@
         "roleLabel": "AI大类",
         "stage": "application",
         "tags": [
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4885,7 +5210,8 @@
         "roleLabel": "AI大类",
         "stage": "application",
         "tags": [
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4900,7 +5226,8 @@
         "roleLabel": "AI大类",
         "stage": "application",
         "tags": [
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4915,7 +5242,8 @@
         "roleLabel": "AI大类",
         "stage": "application",
         "tags": [
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4930,7 +5258,8 @@
         "roleLabel": "AI大类",
         "stage": "general",
         "tags": [
-          "大模型"
+          "大模型",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4945,7 +5274,8 @@
         "roleLabel": "AI大类",
         "stage": "general",
         "tags": [
-          "大模型"
+          "大模型",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4959,7 +5289,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "application",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2373744",
@@ -4977,7 +5309,8 @@
           "深度学习",
           "Python",
           "PyTorch",
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -4993,7 +5326,8 @@
         "stage": "exam",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5007,7 +5341,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2364685",
@@ -5021,7 +5357,8 @@
         "roleLabel": "AI大类",
         "stage": "application",
         "tags": [
-          "大模型"
+          "大模型",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5036,7 +5373,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5050,7 +5388,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "application",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2324142",
@@ -5064,27 +5404,13 @@
         "roleLabel": "AI大类",
         "stage": "application",
         "tags": [
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2304209",
         "filePath": "knowledge/experiences/hw-exp-20240802-nc-2304209.md"
-      },
-      {
-        "id": "hw-exp-20240727-nc-48727296",
-        "title": "华为校招机考指南",
-        "publishedAt": "2024-07-27T00:00:00.000Z",
-        "role": "ai",
-        "roleLabel": "AI大类",
-        "stage": "exam",
-        "tags": [
-          "手撕"
-        ],
-        "sourceGrade": "C",
-        "platform": "nowcoder",
-        "sourceUrl": "https://www.nowcoder.com/discuss/646658871548727296",
-        "filePath": "knowledge/experiences/hw-exp-20240727-nc-48727296.md"
       },
       {
         "id": "hw-exp-20240708-nc-12550400",
@@ -5102,7 +5428,8 @@
           "PyTorch",
           "智能驾驶",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5119,7 +5446,8 @@
         "tags": [
           "大模型",
           "计算机视觉",
-          "机器学习"
+          "机器学习",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5134,7 +5462,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5153,7 +5482,8 @@
           "深度学习",
           "NLP",
           "机器学习",
-          "计算机视觉"
+          "计算机视觉",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5167,7 +5497,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2132152",
@@ -5181,7 +5513,8 @@
         "roleLabel": "AI大类",
         "stage": "application",
         "tags": [
-          "智能驾驶"
+          "智能驾驶",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5199,7 +5532,8 @@
           "大模型",
           "NLP",
           "机器学习",
-          "Python"
+          "Python",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5214,7 +5548,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5230,7 +5565,8 @@
         "stage": "exam",
         "tags": [
           "计算机视觉",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5245,7 +5581,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5260,7 +5597,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5277,7 +5615,8 @@
         "tags": [
           "NLP",
           "机器学习",
-          "深度学习"
+          "深度学习",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5295,7 +5634,8 @@
           "机器学习",
           "Python",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5309,7 +5649,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "interview",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/378245927155367936",
@@ -5326,7 +5668,8 @@
           "深度学习",
           "机器学习",
           "Python",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5340,7 +5683,9 @@
         "role": "ai",
         "roleLabel": "AI大类",
         "stage": "assessment",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353158957747347456",
@@ -5354,7 +5699,8 @@
         "roleLabel": "AI大类",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5371,7 +5717,8 @@
         "tags": [
           "机器学习",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5388,7 +5735,8 @@
         "tags": [
           "大模型",
           "深度学习",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -5404,7 +5752,9 @@
         "role": "embedded",
         "roleLabel": "嵌入式软件",
         "stage": "general",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
         "sourceUrl": "https://www.xiaohongshu.com/search_result/6a5b83c2000000000301ca65?xsec_token=ABgAJF8wP9K-jzhuwZBPiXdsTVWoD43g0a-0yXvQrezh0=&xsec_source=",
@@ -5418,7 +5768,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "general",
         "tags": [
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -5434,7 +5785,8 @@
         "stage": "general",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -5450,7 +5802,8 @@
         "stage": "general",
         "tags": [
           "芯片",
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -5465,7 +5818,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "interview",
         "tags": [
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -5480,7 +5834,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "interview",
         "tags": [
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -5499,7 +5854,8 @@
           "Linux",
           "总线",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5516,7 +5872,8 @@
         "tags": [
           "芯片",
           "总线",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -5532,7 +5889,8 @@
         "stage": "interview",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -5549,7 +5907,8 @@
         "tags": [
           "C++",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -5567,7 +5926,8 @@
           "C语言",
           "八股",
           "手撕",
-          "Linux"
+          "Linux",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -5584,7 +5944,8 @@
         "tags": [
           "FPGA",
           "芯片",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -5600,7 +5961,8 @@
         "stage": "interview",
         "tags": [
           "芯片",
-          "总线"
+          "总线",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5618,7 +5980,8 @@
           "FPGA",
           "八股",
           "手撕",
-          "总线"
+          "总线",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5633,7 +5996,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "general",
         "tags": [
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5657,7 +6021,8 @@
           "RTOS",
           "芯片",
           "总线",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5673,7 +6038,8 @@
         "stage": "general",
         "tags": [
           "FPGA",
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5688,7 +6054,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "application",
         "tags": [
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5703,7 +6070,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "exam",
         "tags": [
-          "单片机"
+          "单片机",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5724,7 +6092,8 @@
           "RTOS",
           "总线",
           "单片机",
-          "芯片"
+          "芯片",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5739,7 +6108,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "application",
         "tags": [
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5756,7 +6126,8 @@
         "tags": [
           "C++",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5771,7 +6142,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "exam",
         "tags": [
-          "芯片"
+          "芯片",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5786,7 +6158,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "exam",
         "tags": [
-          "FPGA"
+          "FPGA",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5800,7 +6173,9 @@
         "role": "embedded",
         "roleLabel": "嵌入式软件",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/460806937770213376",
@@ -5814,7 +6189,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "exam",
         "tags": [
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5829,7 +6205,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "exam",
         "tags": [
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5843,7 +6220,9 @@
         "role": "embedded",
         "roleLabel": "嵌入式软件",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/424352582912520192",
@@ -5856,7 +6235,9 @@
         "role": "embedded",
         "roleLabel": "嵌入式软件",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/423130253620432896",
@@ -5871,7 +6252,8 @@
         "stage": "assessment",
         "tags": [
           "芯片",
-          "FPGA"
+          "FPGA",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5890,7 +6272,8 @@
           "FPGA",
           "芯片",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5905,7 +6288,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5919,7 +6303,9 @@
         "role": "embedded",
         "roleLabel": "嵌入式软件",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/374325204355502080",
@@ -5935,7 +6321,8 @@
         "tags": [
           "FPGA",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5951,7 +6338,8 @@
         "stage": "exam",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5967,7 +6355,8 @@
         "stage": "exam",
         "tags": [
           "芯片",
-          "总线"
+          "总线",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5984,7 +6373,8 @@
         "tags": [
           "C语言",
           "C++",
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -5998,7 +6388,9 @@
         "role": "embedded",
         "roleLabel": "嵌入式软件",
         "stage": "interview",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353158466103615488",
@@ -6011,7 +6403,9 @@
         "role": "embedded",
         "roleLabel": "嵌入式软件",
         "stage": "assessment",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353157570019926016",
@@ -6026,7 +6420,8 @@
         "stage": "exam",
         "tags": [
           "芯片",
-          "FPGA"
+          "FPGA",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6044,7 +6439,8 @@
           "FPGA",
           "芯片",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6059,7 +6455,8 @@
         "roleLabel": "嵌入式软件",
         "stage": "general",
         "tags": [
-          "芯片"
+          "芯片",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -6076,7 +6473,8 @@
         "roleLabel": "通信 / 网络",
         "stage": "exam",
         "tags": [
-          "光产品"
+          "光产品",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -6091,7 +6489,8 @@
         "roleLabel": "通信 / 网络",
         "stage": "interview",
         "tags": [
-          "无线"
+          "无线",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -6108,7 +6507,8 @@
         "tags": [
           "光产品",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -6126,7 +6526,8 @@
           "ICT",
           "光产品",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -6142,7 +6543,8 @@
         "stage": "exam",
         "tags": [
           "无线",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6160,7 +6562,8 @@
           "ICT",
           "光产品",
           "八股",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -6177,7 +6580,8 @@
         "tags": [
           "ICT",
           "光产品",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "B",
         "platform": "codefun2000",
@@ -6193,7 +6597,8 @@
         "stage": "general",
         "tags": [
           "无线",
-          "ICT"
+          "ICT",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6208,7 +6613,8 @@
         "roleLabel": "通信 / 网络",
         "stage": "application",
         "tags": [
-          "无线"
+          "无线",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6223,7 +6629,8 @@
         "roleLabel": "通信 / 网络",
         "stage": "exam",
         "tags": [
-          "无线"
+          "无线",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6240,7 +6647,8 @@
         "tags": [
           "无线",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6257,7 +6665,8 @@
         "tags": [
           "无线",
           "手撕",
-          "八股"
+          "八股",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6274,7 +6683,8 @@
         "tags": [
           "无线",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6290,7 +6700,8 @@
         "stage": "general",
         "tags": [
           "协议",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6307,7 +6718,8 @@
         "tags": [
           "无线",
           "协议",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6324,7 +6736,8 @@
         "tags": [
           "协议",
           "光产品",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6341,7 +6754,8 @@
         "tags": [
           "协议",
           "光产品",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6359,7 +6773,8 @@
           "基带",
           "射频",
           "无线",
-          "协议"
+          "协议",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6374,7 +6789,8 @@
         "roleLabel": "通信 / 网络",
         "stage": "exam",
         "tags": [
-          "无线"
+          "无线",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6390,7 +6806,8 @@
         "stage": "interview",
         "tags": [
           "无线",
-          "协议"
+          "协议",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6406,7 +6823,8 @@
         "stage": "general",
         "tags": [
           "协议",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6422,7 +6840,8 @@
         "stage": "general",
         "tags": [
           "协议",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6437,7 +6856,8 @@
         "roleLabel": "通信 / 网络",
         "stage": "interview",
         "tags": [
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6453,7 +6873,9 @@
         "role": "test-qa",
         "roleLabel": "测试",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/2476984",
@@ -6468,7 +6890,8 @@
         "stage": "exam",
         "tags": [
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6483,7 +6906,8 @@
         "roleLabel": "测试",
         "stage": "exam",
         "tags": [
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6498,7 +6922,8 @@
         "roleLabel": "测试",
         "stage": "general",
         "tags": [
-          "手撕"
+          "手撕",
+          "实习"
         ],
         "sourceGrade": "C",
         "platform": "xiaohongshu",
@@ -6513,7 +6938,8 @@
         "roleLabel": "测试",
         "stage": "exam",
         "tags": [
-          "软件测试"
+          "软件测试",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6527,7 +6953,9 @@
         "role": "test-qa",
         "roleLabel": "测试",
         "stage": "assessment",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353159496182734848",
@@ -6540,7 +6968,9 @@
         "role": "test-qa",
         "roleLabel": "测试",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "实习"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353159051943026688",
@@ -6555,7 +6985,8 @@
         "stage": "exam",
         "tags": [
           "解决方案测试",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6572,7 +7003,8 @@
         "tags": [
           "解决方案测试",
           "软件测试",
-          "Python"
+          "Python",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6589,7 +7021,8 @@
         "tags": [
           "软件测试",
           "手撕",
-          "Python"
+          "Python",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6603,7 +7036,9 @@
         "role": "test-qa",
         "roleLabel": "测试",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353157476398866432",
@@ -6616,7 +7051,9 @@
         "role": "test-qa",
         "roleLabel": "测试",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353156900638367744",
@@ -6631,7 +7068,8 @@
         "stage": "exam",
         "tags": [
           "软件测试",
-          "手撕"
+          "手撕",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6645,7 +7083,9 @@
         "role": "test-qa",
         "roleLabel": "测试",
         "stage": "exam",
-        "tags": [],
+        "tags": [
+          "校招"
+        ],
         "sourceGrade": "C",
         "platform": "nowcoder",
         "sourceUrl": "https://www.nowcoder.com/discuss/353156732425805824",
@@ -6661,7 +7101,8 @@
         "tags": [
           "软件测试",
           "手撕",
-          "八股"
+          "八股",
+          "校招"
         ],
         "sourceGrade": "C",
         "platform": "nowcoder",
@@ -6682,7 +7123,8 @@
         "大模型",
         "深度学习",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6701,7 +7143,8 @@
         "计算机视觉",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6720,7 +7163,8 @@
         "机器学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6740,7 +7184,8 @@
         "机器学习",
         "Python",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6751,13 +7196,14 @@
       "id": "hw-exp-cf-P2526",
       "title": "26秋招-11月底-车bu座舱AI软开-一二三面",
       "publishedAt": "2026-11-25T00:00:00.000Z",
-      "role": "software-development",
-      "roleLabel": "通用软件开发",
+      "role": "ai",
+      "roleLabel": "AI大类",
       "stage": "interview",
       "tags": [
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6774,7 +7220,8 @@
       "tags": [
         "智能驾驶",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6791,7 +7238,8 @@
       "tags": [
         "智能驾驶",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6808,7 +7256,8 @@
       "tags": [
         "深度学习",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6828,7 +7277,8 @@
         "NLP",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6844,7 +7294,8 @@
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6861,7 +7312,8 @@
       "tags": [
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6877,7 +7329,8 @@
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6895,7 +7348,8 @@
         "八股",
         "手撕",
         "操作系统",
-        "C++"
+        "C++",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6913,7 +7367,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6931,7 +7386,8 @@
         "深度学习",
         "PyTorch",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6942,12 +7398,13 @@
       "id": "hw-exp-cf-P2501",
       "title": "26秋招-10月中-AI软开-一二三面",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "role": "software-development",
-      "roleLabel": "通用软件开发",
+      "role": "ai",
+      "roleLabel": "AI大类",
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6962,7 +7419,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6979,7 +7437,8 @@
       "tags": [
         "机器学习",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -6995,7 +7454,8 @@
       "stage": "interview",
       "tags": [
         "深度学习",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7013,7 +7473,8 @@
         "机器学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7030,7 +7491,8 @@
       "tags": [
         "大模型",
         "深度学习",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7046,7 +7508,8 @@
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7068,7 +7531,8 @@
         "Python",
         "手撕",
         "八股",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7085,7 +7549,8 @@
       "tags": [
         "操作系统",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7105,7 +7570,8 @@
         "数据库",
         "分布式",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7122,7 +7588,8 @@
       "tags": [
         "深度学习",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7142,7 +7609,8 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7163,7 +7631,8 @@
         "操作系统",
         "手撕",
         "八股",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7179,7 +7648,8 @@
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7195,7 +7665,8 @@
       "stage": "interview",
       "tags": [
         "Python",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7214,7 +7685,8 @@
         "数据库",
         "Linux",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7228,7 +7700,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "interview",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "B",
       "platform": "codefun2000",
       "sourceUrl": "https://codefun2000.com/ide/P2480",
@@ -7244,7 +7718,8 @@
       "tags": [
         "大模型",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7263,7 +7738,8 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7274,14 +7750,15 @@
       "id": "hw-exp-cf-P2483",
       "title": "26秋招-9月底-AI软件开发-一二三面",
       "publishedAt": "2026-09-25T00:00:00.000Z",
-      "role": "software-development",
-      "roleLabel": "通用软件开发",
+      "role": "ai",
+      "roleLabel": "AI大类",
       "stage": "interview",
       "tags": [
         "Python",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7300,7 +7777,8 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7319,7 +7797,8 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7337,7 +7816,8 @@
         "机器学习",
         "深度学习",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7355,7 +7835,8 @@
         "Java",
         "后端",
         "分布式",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7373,7 +7854,8 @@
         "深度学习",
         "计算机视觉",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7384,14 +7866,15 @@
       "id": "hw-exp-cf-P2503",
       "title": "26秋招-9月底-AI软件开发-一二三面",
       "publishedAt": "2026-09-25T00:00:00.000Z",
-      "role": "software-development",
-      "roleLabel": "通用软件开发",
+      "role": "ai",
+      "roleLabel": "AI大类",
       "stage": "interview",
       "tags": [
         "Python",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7407,7 +7890,8 @@
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7426,7 +7910,8 @@
         "后端",
         "分布式",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -7440,7 +7925,9 @@
       "role": "embedded",
       "roleLabel": "嵌入式软件",
       "stage": "general",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
       "sourceUrl": "https://www.xiaohongshu.com/search_result/6a5b83c2000000000301ca65?xsec_token=ABgAJF8wP9K-jzhuwZBPiXdsTVWoD43g0a-0yXvQrezh0=&xsec_source=",
@@ -7454,7 +7941,8 @@
       "roleLabel": "通信 / 网络",
       "stage": "exam",
       "tags": [
-        "光产品"
+        "光产品",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7469,7 +7957,8 @@
       "roleLabel": "AI大类",
       "stage": "general",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7484,7 +7973,8 @@
       "roleLabel": "AI大类",
       "stage": "interview",
       "tags": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7499,7 +7989,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "general",
       "tags": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7516,7 +8007,8 @@
       "tags": [
         "C++",
         "后端",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7534,7 +8026,9 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习",
+        "Agent"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -7551,7 +8045,8 @@
       "tags": [
         "大模型",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7571,7 +8066,8 @@
         "机器学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7587,7 +8083,8 @@
       "stage": "general",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7603,7 +8100,8 @@
       "stage": "general",
       "tags": [
         "大模型",
-        "NLP"
+        "NLP",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7620,7 +8118,8 @@
       "tags": [
         "机器学习",
         "Python",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7635,7 +8134,8 @@
       "roleLabel": "通用软件开发",
       "stage": "general",
       "tags": [
-        "后端"
+        "后端",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7650,7 +8150,8 @@
       "roleLabel": "AI大类",
       "stage": "general",
       "tags": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7670,7 +8171,8 @@
         "数据库",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7690,7 +8192,9 @@
         "NLP",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招",
+        "Agent"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7709,7 +8213,8 @@
         "深度学习",
         "机器学习",
         "Python",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7725,7 +8230,8 @@
       "stage": "general",
       "tags": [
         "芯片",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7736,13 +8242,14 @@
       "id": "hw-exp-20260516-xhs-060359cc",
       "title": "华为AI软件开发一面＆二面面经",
       "publishedAt": "2026-05-16T00:00:00.000Z",
-      "role": "software-development",
-      "roleLabel": "通用软件开发",
+      "role": "ai",
+      "roleLabel": "AI大类",
       "stage": "interview",
       "tags": [
         "Python",
         "后端",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7760,7 +8267,8 @@
         "Java",
         "后端",
         "数据库",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7776,7 +8284,8 @@
       "stage": "exam",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -7793,7 +8302,8 @@
       "tags": [
         "手撕",
         "八股",
-        "大模型"
+        "大模型",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7810,7 +8320,8 @@
       "tags": [
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7826,7 +8337,8 @@
       "stage": "general",
       "tags": [
         "Linux",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7844,7 +8356,8 @@
         "大模型",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7860,7 +8373,8 @@
       "stage": "exam",
       "tags": [
         "后端",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -7876,7 +8390,8 @@
       "stage": "general",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7896,7 +8411,8 @@
         "NLP",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7910,7 +8426,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "general",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
       "sourceUrl": "https://www.xiaohongshu.com/search_result/69b42b35000000001f002454?xsec_token=AB455lihpX0xiHZPiBhypj6jWhaK8v7Mav4EdfgAVK17k=&xsec_source=",
@@ -7925,7 +8443,8 @@
       "stage": "interview",
       "tags": [
         "大模型",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -7942,7 +8461,8 @@
       "tags": [
         "机器学习",
         "Python",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -7962,7 +8482,8 @@
         "数据库",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -7976,7 +8497,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "application",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/843572339890458624",
@@ -7990,7 +8513,8 @@
       "roleLabel": "通用软件开发",
       "stage": "application",
       "tags": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -8008,7 +8532,8 @@
         "C++",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8023,7 +8548,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "interview",
       "tags": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8038,7 +8564,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "interview",
       "tags": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8049,14 +8576,15 @@
       "id": "hw-exp-20251104-xhs-03023bf7",
       "title": "华为ai软件开发工程师面经（过了+保温）",
       "publishedAt": "2025-11-04T00:00:00.000Z",
-      "role": "software-development",
-      "roleLabel": "通用软件开发",
+      "role": "ai",
+      "roleLabel": "AI大类",
       "stage": "general",
       "tags": [
         "Python",
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -8075,7 +8603,8 @@
         "Linux",
         "总线",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -8092,7 +8621,8 @@
       "tags": [
         "芯片",
         "总线",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8115,7 +8645,8 @@
         "八股",
         "手撕",
         "云计算",
-        "Linux"
+        "Linux",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8131,7 +8662,8 @@
       "stage": "interview",
       "tags": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8148,7 +8680,8 @@
       "tags": [
         "手撕",
         "八股",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8164,7 +8697,8 @@
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8181,7 +8715,8 @@
       "tags": [
         "操作系统",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8199,7 +8734,8 @@
         "Java",
         "八股",
         "手撕",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8216,7 +8752,8 @@
       "tags": [
         "手撕",
         "八股",
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8232,7 +8769,8 @@
       "stage": "interview",
       "tags": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8248,7 +8786,8 @@
       "stage": "interview",
       "tags": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8269,7 +8808,8 @@
         "分布式",
         "微服务",
         "Linux",
-        "操作系统"
+        "操作系统",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8285,7 +8825,8 @@
       "stage": "interview",
       "tags": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8305,7 +8846,8 @@
         "数据库",
         "分布式",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8324,7 +8866,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8342,7 +8885,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8359,7 +8903,8 @@
       "tags": [
         "深度学习",
         "计算机视觉",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8381,7 +8926,8 @@
         "手撕",
         "后端",
         "操作系统",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8401,7 +8947,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -8419,7 +8966,8 @@
         "手撕",
         "八股",
         "Linux",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8437,7 +8985,8 @@
         "C++",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8454,7 +9003,8 @@
       "tags": [
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8468,7 +9018,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "interview",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "B",
       "platform": "codefun2000",
       "sourceUrl": "https://codefun2000.com/ide/P2437",
@@ -8486,7 +9038,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8504,7 +9057,8 @@
         "Python",
         "机器学习",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8524,7 +9078,8 @@
         "数据库",
         "分布式",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8540,7 +9095,8 @@
       "stage": "interview",
       "tags": [
         "智能驾驶",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8555,7 +9111,8 @@
       "roleLabel": "通信 / 网络",
       "stage": "interview",
       "tags": [
-        "无线"
+        "无线",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8572,7 +9129,8 @@
       "tags": [
         "光产品",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8588,7 +9146,8 @@
       "stage": "interview",
       "tags": [
         "Java",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8606,7 +9165,8 @@
         "C语言",
         "八股",
         "手撕",
-        "Linux"
+        "Linux",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8625,7 +9185,8 @@
         "深度学习",
         "机器学习",
         "Python",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -8640,7 +9201,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8661,7 +9223,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8678,7 +9241,8 @@
       "tags": [
         "深度学习",
         "计算机视觉",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8695,7 +9259,8 @@
       "tags": [
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8714,7 +9279,8 @@
         "数据库",
         "分布式",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8733,7 +9299,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8751,7 +9318,8 @@
         "C++",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8771,7 +9339,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8791,7 +9360,8 @@
         "数据库",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8808,7 +9378,8 @@
       "tags": [
         "FPGA",
         "芯片",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8826,7 +9397,8 @@
         "ICT",
         "光产品",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8844,7 +9416,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8859,7 +9432,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8880,7 +9454,9 @@
         "机器学习",
         "Python",
         "PyTorch",
-        "八股"
+        "八股",
+        "校招",
+        "Agent"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8900,7 +9476,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -8916,7 +9493,8 @@
       "stage": "exam",
       "tags": [
         "无线",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -8932,7 +9510,8 @@
       "stage": "exam",
       "tags": [
         "机器学习",
-        "Python"
+        "Python",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -8951,7 +9530,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -8970,7 +9550,8 @@
         "深度学习",
         "机器学习",
         "Python",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -8988,7 +9569,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -9007,7 +9589,8 @@
         "数据库",
         "Linux",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -9025,7 +9608,8 @@
         "ICT",
         "光产品",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -9042,7 +9626,8 @@
       "tags": [
         "ICT",
         "光产品",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -9057,7 +9642,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -9072,7 +9658,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -9090,7 +9677,8 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "B",
       "platform": "codefun2000",
@@ -9107,7 +9695,8 @@
       "tags": [
         "机器学习",
         "深度学习",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9129,7 +9718,8 @@
         "Python",
         "PyTorch",
         "TensorFlow",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9151,7 +9741,8 @@
         "Python",
         "PyTorch",
         "TensorFlow",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9167,7 +9758,8 @@
       "stage": "general",
       "tags": [
         "无线",
-        "ICT"
+        "ICT",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9183,7 +9775,8 @@
       "stage": "exam",
       "tags": [
         "C语言",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9201,7 +9794,8 @@
         "云计算",
         "后端",
         "微服务",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9217,7 +9811,8 @@
       "stage": "interview",
       "tags": [
         "芯片",
-        "总线"
+        "总线",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9239,7 +9834,8 @@
         "Python",
         "TensorFlow",
         "PyTorch",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9255,7 +9851,8 @@
       "stage": "general",
       "tags": [
         "分布式",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9271,7 +9868,8 @@
       "stage": "general",
       "tags": [
         "分布式",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9285,7 +9883,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "general",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
       "sourceUrl": "https://www.xiaohongshu.com/search_result/685bbc1c000000002203c6fb?xsec_token=ABElP9ylfrymXLroI5Re2ILoHb-aIDnKEmirFUZXPRPrY=&xsec_source=",
@@ -9298,7 +9898,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/766408378141765632",
@@ -9311,7 +9913,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "实习"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/764925287623684096",
@@ -9325,7 +9929,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9341,7 +9946,8 @@
       "stage": "exam",
       "tags": [
         "云计算",
-        "后端"
+        "后端",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9361,7 +9967,8 @@
         "NLP",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -9381,7 +9988,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9398,7 +10006,8 @@
       "tags": [
         "Java",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9414,7 +10023,8 @@
       "stage": "exam",
       "tags": [
         "后端",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9428,7 +10038,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2577947",
@@ -9443,7 +10055,8 @@
       "stage": "general",
       "tags": [
         "C++",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9459,7 +10072,8 @@
       "stage": "general",
       "tags": [
         "Java",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9474,7 +10088,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9489,7 +10104,8 @@
       "roleLabel": "通信 / 网络",
       "stage": "application",
       "tags": [
-        "无线"
+        "无线",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9507,7 +10123,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9525,7 +10142,8 @@
         "后端",
         "Linux",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9540,7 +10158,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9558,7 +10177,8 @@
         "Java",
         "C++",
         "后端",
-        "Spring"
+        "Spring",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9577,7 +10197,8 @@
         "C++",
         "Linux",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9593,7 +10214,8 @@
       "stage": "general",
       "tags": [
         "C++",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9607,7 +10229,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/693542368909217792",
@@ -9623,7 +10247,8 @@
       "tags": [
         "C++",
         "后端",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9637,7 +10262,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "application",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2486454",
@@ -9650,7 +10277,9 @@
       "role": "test-qa",
       "roleLabel": "测试",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2476984",
@@ -9666,7 +10295,8 @@
       "tags": [
         "Java",
         "后端",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9680,7 +10310,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2473036",
@@ -9695,7 +10327,8 @@
       "stage": "exam",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9709,7 +10342,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "application",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2466109",
@@ -9723,7 +10358,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9737,7 +10373,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "application",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2458527",
@@ -9754,7 +10392,8 @@
         "C++",
         "Linux",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9772,7 +10411,8 @@
         "FPGA",
         "八股",
         "手撕",
-        "总线"
+        "总线",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9797,7 +10437,8 @@
         "TensorFlow",
         "智能驾驶",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9816,7 +10457,8 @@
         "深度学习",
         "NLP",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9832,7 +10474,8 @@
       "stage": "exam",
       "tags": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9848,7 +10491,8 @@
       "stage": "exam",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9864,7 +10508,8 @@
       "stage": "exam",
       "tags": [
         "大模型",
-        "深度学习"
+        "深度学习",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9879,7 +10524,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "general",
       "tags": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9894,7 +10540,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9909,7 +10556,8 @@
       "roleLabel": "AI大类",
       "stage": "application",
       "tags": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9924,7 +10572,8 @@
       "roleLabel": "AI大类",
       "stage": "application",
       "tags": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9939,7 +10588,8 @@
       "roleLabel": "AI大类",
       "stage": "application",
       "tags": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9954,7 +10604,8 @@
       "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9974,7 +10625,8 @@
         "Python",
         "后端",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -9989,7 +10641,8 @@
       "roleLabel": "测试",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10004,7 +10657,8 @@
       "roleLabel": "AI大类",
       "stage": "application",
       "tags": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10019,7 +10673,8 @@
       "roleLabel": "AI大类",
       "stage": "general",
       "tags": [
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10034,7 +10689,8 @@
       "roleLabel": "AI大类",
       "stage": "general",
       "tags": [
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10048,7 +10704,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "application",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2373744",
@@ -10063,7 +10721,8 @@
       "stage": "exam",
       "tags": [
         "操作系统",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10082,7 +10741,8 @@
         "深度学习",
         "Python",
         "PyTorch",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10098,7 +10758,8 @@
       "stage": "exam",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10116,7 +10777,8 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10130,7 +10792,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2364685",
@@ -10144,7 +10808,8 @@
       "roleLabel": "AI大类",
       "stage": "application",
       "tags": [
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10161,7 +10826,8 @@
       "tags": [
         "Java",
         "后端",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10179,7 +10845,8 @@
         "C++",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10203,7 +10870,8 @@
         "RTOS",
         "芯片",
         "总线",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10218,7 +10886,8 @@
       "roleLabel": "通用软件开发",
       "stage": "application",
       "tags": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10234,7 +10903,8 @@
       "stage": "general",
       "tags": [
         "FPGA",
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10249,7 +10919,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10263,7 +10934,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "application",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2324142",
@@ -10277,7 +10950,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "application",
       "tags": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10292,7 +10966,8 @@
       "roleLabel": "AI大类",
       "stage": "application",
       "tags": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10303,11 +10978,12 @@
       "id": "hw-exp-20240727-nc-48727296",
       "title": "华为校招机考指南",
       "publishedAt": "2024-07-27T00:00:00.000Z",
-      "role": "ai",
-      "roleLabel": "AI大类",
+      "role": "software-development",
+      "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10327,7 +11003,8 @@
         "Python",
         "Go",
         "后端",
-        "数据库"
+        "数据库",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10350,7 +11027,8 @@
         "前端",
         "数据库",
         "微服务",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10365,7 +11043,8 @@
       "roleLabel": "通用软件开发",
       "stage": "application",
       "tags": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10388,7 +11067,8 @@
         "PyTorch",
         "智能驾驶",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10405,7 +11085,8 @@
       "tags": [
         "大模型",
         "计算机视觉",
-        "机器学习"
+        "机器学习",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10420,7 +11101,8 @@
       "roleLabel": "通信 / 网络",
       "stage": "exam",
       "tags": [
-        "无线"
+        "无线",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10438,7 +11120,8 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10452,7 +11135,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2250990",
@@ -10470,7 +11155,8 @@
         "Spring",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10485,7 +11171,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "exam",
       "tags": [
-        "单片机"
+        "单片机",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10500,7 +11187,8 @@
       "roleLabel": "测试",
       "stage": "general",
       "tags": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -10517,7 +11205,8 @@
       "tags": [
         "前端",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10534,7 +11223,8 @@
       "tags": [
         "前端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10552,7 +11242,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10573,7 +11264,8 @@
         "RTOS",
         "总线",
         "单片机",
-        "芯片"
+        "芯片",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10592,7 +11284,8 @@
         "C++",
         "Python",
         "后端",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10607,7 +11300,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10621,7 +11315,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/603523492960555008",
@@ -10639,7 +11335,8 @@
         "深度学习",
         "NLP",
         "机器学习",
-        "计算机视觉"
+        "计算机视觉",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10667,7 +11364,8 @@
         "云计算",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10686,7 +11384,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10700,7 +11399,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2132152",
@@ -10718,7 +11419,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10732,7 +11434,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2107853",
@@ -10747,7 +11451,8 @@
       "stage": "general",
       "tags": [
         "C++",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10764,7 +11469,8 @@
       "tags": [
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10781,7 +11487,8 @@
       "tags": [
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10799,7 +11506,8 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10816,7 +11524,8 @@
       "tags": [
         "无线",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10832,7 +11541,8 @@
       "stage": "exam",
       "tags": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10846,7 +11556,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/2012098",
@@ -10862,7 +11574,8 @@
       "tags": [
         "前端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10876,7 +11589,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "general",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/530042535691964416",
@@ -10892,7 +11607,8 @@
       "tags": [
         "C++",
         "后端",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10907,7 +11623,8 @@
       "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10922,7 +11639,8 @@
       "roleLabel": "AI大类",
       "stage": "application",
       "tags": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10937,7 +11655,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "application",
       "tags": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10954,7 +11673,8 @@
       "tags": [
         "后端",
         "分布式",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10972,7 +11692,8 @@
         "大模型",
         "NLP",
         "机器学习",
-        "Python"
+        "Python",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -10989,7 +11710,8 @@
       "tags": [
         "C++",
         "操作系统",
-        "数据库"
+        "数据库",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11012,7 +11734,8 @@
         "数据库",
         "Spring",
         "分布式",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11033,7 +11756,8 @@
         "分布式",
         "云计算",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11048,7 +11772,8 @@
       "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11063,7 +11788,8 @@
       "roleLabel": "测试",
       "stage": "exam",
       "tags": [
-        "软件测试"
+        "软件测试",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11080,7 +11806,8 @@
       "tags": [
         "C++",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11095,7 +11822,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "exam",
       "tags": [
-        "芯片"
+        "芯片",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11110,7 +11838,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11126,7 +11855,8 @@
       "stage": "exam",
       "tags": [
         "后端",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11144,7 +11874,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11159,7 +11890,8 @@
       "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11178,7 +11910,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11194,7 +11927,8 @@
       "stage": "exam",
       "tags": [
         "C++",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11209,7 +11943,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "exam",
       "tags": [
-        "FPGA"
+        "FPGA",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11224,7 +11959,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11240,7 +11976,8 @@
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11260,7 +11997,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11277,7 +12015,8 @@
       "tags": [
         "无线",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11293,7 +12032,8 @@
       "stage": "exam",
       "tags": [
         "计算机视觉",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11308,7 +12048,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11323,7 +12064,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11340,7 +12082,8 @@
       "tags": [
         "NLP",
         "机器学习",
-        "深度学习"
+        "深度学习",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11362,7 +12105,8 @@
         "前端",
         "数据库",
         "微服务",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11384,7 +12128,8 @@
         "前端",
         "数据库",
         "微服务",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11399,7 +12144,8 @@
       "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "C++"
+        "C++",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11416,7 +12162,8 @@
       "tags": [
         "后端",
         "分布式",
-        "数据库"
+        "数据库",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11430,7 +12177,9 @@
       "role": "embedded",
       "roleLabel": "嵌入式软件",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/460806937770213376",
@@ -11447,7 +12196,8 @@
         "Java",
         "Python",
         "后端",
-        "云计算"
+        "云计算",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11462,7 +12212,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "exam",
       "tags": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11477,7 +12228,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "exam",
       "tags": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11491,7 +12243,9 @@
       "role": "embedded",
       "roleLabel": "嵌入式软件",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/424352582912520192",
@@ -11504,7 +12258,9 @@
       "role": "embedded",
       "roleLabel": "嵌入式软件",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/423130253620432896",
@@ -11519,7 +12275,8 @@
       "stage": "assessment",
       "tags": [
         "芯片",
-        "FPGA"
+        "FPGA",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11534,7 +12291,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "云计算"
+        "云计算",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11551,7 +12309,8 @@
       "tags": [
         "无线",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11572,7 +12331,8 @@
         "分布式",
         "云计算",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11590,7 +12350,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11609,7 +12370,8 @@
         "FPGA",
         "芯片",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11627,7 +12389,8 @@
         "Python",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11644,7 +12407,8 @@
       "tags": [
         "前端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11662,7 +12426,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11681,7 +12446,8 @@
         "操作系统",
         "八股",
         "手撕",
-        "Python"
+        "Python",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11698,7 +12464,8 @@
       "tags": [
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11713,7 +12480,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11731,7 +12499,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11749,7 +12518,8 @@
         "计算机视觉",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11767,7 +12537,8 @@
         "机器学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11782,7 +12553,8 @@
       "roleLabel": "通用软件开发",
       "stage": "interview",
       "tags": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11796,7 +12568,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "interview",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/378245927155367936",
@@ -11809,7 +12583,9 @@
       "role": "embedded",
       "roleLabel": "嵌入式软件",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/374325204355502080",
@@ -11822,7 +12598,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/363127381538750464",
@@ -11838,7 +12616,8 @@
       "tags": [
         "FPGA",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11858,7 +12637,8 @@
         "数据库",
         "Linux",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11872,7 +12652,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/354335580991369216",
@@ -11887,7 +12669,8 @@
       "stage": "exam",
       "tags": [
         "Java",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11904,7 +12687,8 @@
       "tags": [
         "C++",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11920,7 +12704,8 @@
       "stage": "exam",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11938,7 +12723,8 @@
         "深度学习",
         "机器学习",
         "Python",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11958,7 +12744,8 @@
         "数据库",
         "Linux",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11973,7 +12760,8 @@
       "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -11989,7 +12777,8 @@
       "stage": "exam",
       "tags": [
         "芯片",
-        "总线"
+        "总线",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12007,7 +12796,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12021,7 +12811,9 @@
       "role": "test-qa",
       "roleLabel": "测试",
       "stage": "assessment",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353159496182734848",
@@ -12035,7 +12827,8 @@
       "roleLabel": "通用软件开发",
       "stage": "assessment",
       "tags": [
-        "数据库"
+        "数据库",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12049,7 +12842,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "B",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353159290095607808",
@@ -12064,7 +12859,8 @@
       "stage": "general",
       "tags": [
         "协议",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12081,7 +12877,8 @@
       "tags": [
         "无线",
         "协议",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12098,7 +12895,8 @@
       "tags": [
         "协议",
         "光产品",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12115,7 +12913,8 @@
       "tags": [
         "C语言",
         "C++",
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12132,7 +12931,8 @@
       "tags": [
         "协议",
         "光产品",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12150,7 +12950,8 @@
         "基带",
         "射频",
         "无线",
-        "协议"
+        "协议",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12165,7 +12966,8 @@
       "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12179,7 +12981,9 @@
       "role": "test-qa",
       "roleLabel": "测试",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "实习"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353159051943026688",
@@ -12196,7 +13000,8 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12210,7 +13015,9 @@
       "role": "ai",
       "roleLabel": "AI大类",
       "stage": "assessment",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353158957747347456",
@@ -12224,7 +13031,8 @@
       "roleLabel": "AI大类",
       "stage": "exam",
       "tags": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12241,7 +13049,8 @@
       "tags": [
         "后端",
         "云计算",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12257,7 +13066,8 @@
       "stage": "exam",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12273,7 +13083,8 @@
       "stage": "exam",
       "tags": [
         "C++",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12291,7 +13102,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12306,7 +13118,8 @@
       "roleLabel": "通信 / 网络",
       "stage": "exam",
       "tags": [
-        "无线"
+        "无线",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12324,7 +13137,8 @@
         "八股",
         "手撕",
         "操作系统",
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12338,7 +13152,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353158521342599168",
@@ -12354,7 +13170,8 @@
       "tags": [
         "机器学习",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12368,7 +13185,9 @@
       "role": "embedded",
       "roleLabel": "嵌入式软件",
       "stage": "interview",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353158466103615488",
@@ -12383,7 +13202,8 @@
       "stage": "exam",
       "tags": [
         "解决方案测试",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12400,7 +13220,8 @@
       "tags": [
         "解决方案测试",
         "软件测试",
-        "Python"
+        "Python",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12418,7 +13239,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12436,7 +13258,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12454,7 +13277,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12471,7 +13295,8 @@
       "tags": [
         "八股",
         "手撕",
-        "后端"
+        "后端",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12490,7 +13315,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12508,7 +13334,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12526,7 +13353,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12545,7 +13373,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12564,7 +13393,8 @@
         "Spring",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12582,7 +13412,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12596,7 +13427,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "实习"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353157792368369664",
@@ -12611,7 +13444,8 @@
       "stage": "exam",
       "tags": [
         "C++",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12625,7 +13459,9 @@
       "role": "embedded",
       "roleLabel": "嵌入式软件",
       "stage": "assessment",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353157570019926016",
@@ -12641,7 +13477,8 @@
       "tags": [
         "软件测试",
         "手撕",
-        "Python"
+        "Python",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12662,7 +13499,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12678,7 +13516,8 @@
       "stage": "exam",
       "tags": [
         "芯片",
-        "FPGA"
+        "FPGA",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12692,7 +13531,9 @@
       "role": "test-qa",
       "roleLabel": "测试",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353157476398866432",
@@ -12709,7 +13550,8 @@
         "FPGA",
         "芯片",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12725,7 +13567,8 @@
       "stage": "interview",
       "tags": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12742,7 +13585,8 @@
       "tags": [
         "前端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12759,7 +13603,8 @@
       "tags": [
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12778,7 +13623,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12792,7 +13638,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353156977297661952",
@@ -12805,7 +13653,9 @@
       "role": "test-qa",
       "roleLabel": "测试",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353156900638367744",
@@ -12823,7 +13673,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12844,7 +13695,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12865,7 +13717,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12881,7 +13734,8 @@
       "stage": "exam",
       "tags": [
         "软件测试",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12897,7 +13751,8 @@
       "stage": "interview",
       "tags": [
         "无线",
-        "协议"
+        "协议",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12914,7 +13769,8 @@
       "tags": [
         "C++",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12935,7 +13791,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12949,7 +13806,9 @@
       "role": "test-qa",
       "roleLabel": "测试",
       "stage": "exam",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353156732425805824",
@@ -12964,7 +13823,8 @@
       "stage": "general",
       "tags": [
         "协议",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -12978,7 +13838,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "interview",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "nowcoder",
       "sourceUrl": "https://www.nowcoder.com/discuss/353156713853427712",
@@ -12993,7 +13855,8 @@
       "stage": "general",
       "tags": [
         "协议",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13011,7 +13874,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13031,7 +13895,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13052,7 +13917,8 @@
         "操作系统",
         "手撕",
         "八股",
-        "分布式"
+        "分布式",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13070,7 +13936,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13091,7 +13958,8 @@
         "Linux",
         "操作系统",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13106,7 +13974,8 @@
       "roleLabel": "通用软件开发",
       "stage": "exam",
       "tags": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13123,7 +13992,8 @@
       "tags": [
         "C++",
         "八股",
-        "操作系统"
+        "操作系统",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13141,7 +14011,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13162,7 +14033,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13178,7 +14050,8 @@
       "stage": "exam",
       "tags": [
         "C语言",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13196,7 +14069,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13216,7 +14090,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13231,7 +14106,8 @@
       "roleLabel": "通信 / 网络",
       "stage": "interview",
       "tags": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13252,7 +14128,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13269,7 +14146,8 @@
       "tags": [
         "软件测试",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "nowcoder",
@@ -13286,7 +14164,8 @@
       "tags": [
         "大模型",
         "深度学习",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -13301,7 +14180,8 @@
       "roleLabel": "嵌入式软件",
       "stage": "general",
       "tags": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
@@ -13315,7 +14195,9 @@
       "role": "software-development",
       "roleLabel": "通用软件开发",
       "stage": "general",
-      "tags": [],
+      "tags": [
+        "校招"
+      ],
       "sourceGrade": "C",
       "platform": "xiaohongshu",
       "sourceUrl": "https://www.xiaohongshu.com/search_result/6a5dacc6000000000f01fd01?xsec_token=ABRT-HrYhstuwwWeCMgX-Kv9EfkWDo3dvl_gRazpNxMww=&xsec_source=",

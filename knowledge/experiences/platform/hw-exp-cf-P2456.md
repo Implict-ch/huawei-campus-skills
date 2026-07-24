@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2456"
 catalog_pid: "P2456"
 category: "其他"
-tags: ["ICT", "光产品", "手撕"]
+tags: ["ICT", "光产品", "手撕", "校招"]
 published_at: 2025-09-05
 ---
 

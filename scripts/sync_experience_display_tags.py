@@ -24,9 +24,8 @@ EXP_JSON = ROOT / "frontend" / "public" / "experiences.json"
 EXP_DIR = ROOT / "knowledge" / "experiences"
 
 # 这些是旧的无区分度展示词，一律不允许再出现在卡片上
+# 注意：「校招」「实习」已升为「时期」筛选维度，不再屏蔽
 BLOCKLIST = {
-    "校招",
-    "实习",
     "机考",
     "面试",
     "流程",

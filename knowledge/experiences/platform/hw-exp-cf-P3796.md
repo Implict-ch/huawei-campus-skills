@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P3796"
 catalog_pid: "P3796"
 category: "通用软件开发"
-tags: ["Java", "后端", "分布式", "手撕", "八股"]
+tags: ["Java", "后端", "分布式", "手撕", "八股", "校招"]
 published_at: 2026-09-23
 ---
 

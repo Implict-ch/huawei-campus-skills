@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2480"
 catalog_pid: "P2480"
 category: "通用软件开发"
-tags: []
+tags: ["校招"]
 published_at: 2026-09-25
 ---
 

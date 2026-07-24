@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2524"
 catalog_pid: "P2524"
 category: "算法"
-tags: ["大模型", "深度学习", "机器学习", "Python", "八股", "手撕"]
+tags: ["大模型", "深度学习", "机器学习", "Python", "八股", "手撕", "校招"]
 published_at: 2026-11-25
 ---
 

@@ -38,7 +38,7 @@ export const ROLE_CARDS = [
   {
     role: "test-qa",
     title: "测试",
-    icon: "check",
+    icon: "clipboard-check",
     iconColor: "#EF9F27",
     desc: "测试开发、测试工程师、自动化测试相关岗位面经",
   },

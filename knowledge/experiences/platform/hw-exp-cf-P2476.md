@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2476"
 catalog_pid: "P2476"
 category: "其他"
-tags: ["Java", "后端", "数据库", "操作系统", "手撕", "八股", "云计算"]
+tags: ["Java", "后端", "数据库", "操作系统", "手撕", "八股", "云计算", "校招"]
 published_at: 2026-09-25
 ---
 

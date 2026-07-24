@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2441"
 catalog_pid: "P2441"
 category: "其他"
-tags: ["智能驾驶", "手撕"]
+tags: ["智能驾驶", "手撕", "校招"]
 published_at: 2025-09-20
 ---
 

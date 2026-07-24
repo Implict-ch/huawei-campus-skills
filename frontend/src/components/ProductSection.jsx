@@ -20,12 +20,7 @@ export default function ProductSection({
     <section className="section" id={id}>
       <div className="container">
         <FadeIn>
-          <SectionHeader
-            id={id}
-            label={sectionLabel}
-            title={sectionTitle}
-            desc={sectionDesc}
-          />
+          <SectionHeader id={id} title={sectionTitle} />
         </FadeIn>
         <div className={gridClass}>
           {items.map((item, i) => (

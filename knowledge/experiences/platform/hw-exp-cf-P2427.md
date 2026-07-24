@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2427"
 catalog_pid: "P2427"
 category: "通用软件开发"
-tags: ["微服务", "分布式", "数据库", "Java", "Spring", "八股", "手撕", "云计算", "Linux"]
+tags: ["微服务", "分布式", "数据库", "Java", "Spring", "八股", "手撕", "云计算", "Linux", "校招"]
 published_at: 2025-10-20
 ---
 

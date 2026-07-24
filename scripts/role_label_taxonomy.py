@@ -4,12 +4,136 @@
 这个文件不调用大模型，只是一本「词典」：
   - ROLE_LABEL_TAXONOMY：标签名 + 含义说明（说明会写进提示词里给 LLM 看）
   - ROLE_LABEL_ALIASES：每个标签对应的同义词（LLM 失败时，用正文撞词兜底）
+  - ROLE_LABEL_GROUPS：标签所属分组（侧栏 / 卡片按组展示）
+  - GROUP_LABELS：分组 id -> 中文展示名
 
 改标签体系时，主要改这里，然后重新跑：
   python scripts/llm_tag_experiences.py --force
+  或 python scripts/extract_role_keywords.py
 """
 
 from __future__ import annotations
+
+# =============================================================================
+# 〇、关键词分组（侧栏筛选 / 卡片展示）
+# =============================================================================
+GROUP_LABELS = {
+    "period": "时期",
+    "content": "包含内容",
+    "language": "语言",
+    "stack": "技术栈",
+    "direction": "方向",
+    "language_framework": "语言与框架",
+    "platform": "平台与硬件",
+    "foundation": "协议与基础",
+    "testing": "测试类型",
+    "other": "其他",
+}
+
+# 所有岗位共享的「时期」标签（实习 / 校招互斥，一篇面经只能属于其一）
+PERIOD_LABELS = ("实习", "校招")
+
+# 岗位 -> { 标签名: group_id }；未列出的标签归入 other
+ROLE_LABEL_GROUPS = {
+    "software-development": {
+        "实习": "period",
+        "校招": "period",
+        "八股": "content",
+        "手撕": "content",
+        "C++": "language",
+        "Python": "language",
+        "Java": "language",
+        "Go": "language",
+        "后端": "stack",
+        "前端": "stack",
+        "操作系统": "stack",
+        "数据库": "stack",
+        "分布式": "stack",
+        "云计算": "stack",
+        "Spring": "stack",
+        "Linux": "stack",
+        "微服务": "stack",
+    },
+    "ai": {
+        "实习": "period",
+        "校招": "period",
+        "八股": "content",
+        "手撕": "content",
+        "大模型": "direction",
+        "深度学习": "direction",
+        "计算机视觉": "direction",
+        "NLP": "direction",
+        "机器学习": "direction",
+        "智能驾驶": "direction",
+        "Agent": "direction",
+        "Python": "language_framework",
+        "PyTorch": "language_framework",
+        "TensorFlow": "language_framework",
+    },
+    "embedded": {
+        "实习": "period",
+        "校招": "period",
+        "八股": "content",
+        "手撕": "content",
+        "C语言": "language",
+        "C++": "language",
+        "Linux": "platform",
+        "单片机": "platform",
+        "ARM": "platform",
+        "FPGA": "platform",
+        "RTOS": "platform",
+        "芯片": "platform",
+        "总线": "platform",
+        "驱动": "platform",
+    },
+    "network-communication": {
+        "实习": "period",
+        "校招": "period",
+        "八股": "content",
+        "手撕": "content",
+        "5G": "direction",
+        "无线": "direction",
+        "核心网": "direction",
+        "数通": "direction",
+        "光产品": "direction",
+        "基带": "direction",
+        "射频": "direction",
+        "ICT": "direction",
+        "协议": "foundation",
+    },
+    "test-qa": {
+        "实习": "period",
+        "校招": "period",
+        "八股": "content",
+        "手撕": "content",
+        "软件测试": "testing",
+        "解决方案测试": "testing",
+        "测开": "testing",
+        "自动化": "testing",
+        "接口测试": "testing",
+        "性能测试": "testing",
+        "Python": "language",
+    },
+}
+
+# 各组在侧栏 / 卡片上的展示顺序
+GROUP_ORDER = [
+    "period",
+    "content",
+    "language",
+    "language_framework",
+    "stack",
+    "direction",
+    "platform",
+    "foundation",
+    "testing",
+    "other",
+]
+
+
+def label_group(role: str, label: str) -> str:
+    return ROLE_LABEL_GROUPS.get(role, {}).get(label, "other")
+
 
 # =============================================================================
 # 一、语义标签词表（给大模型看）
@@ -19,6 +143,8 @@ from __future__ import annotations
 ROLE_LABEL_TAXONOMY = {
     # ----- 通用软件开发 -----
     "software-development": {
+        "实习": "暑期实习/日常实习/寒假实习等实习招聘流程（与「校招」互斥，只能二选一）",
+        "校招": "秋招/春招/应届校招等校园招聘流程（与「实习」互斥，只能二选一）",
         "Java": "Java 语言、JVM、Spring/Java 后端相关",
         "C++": "C++ 语言、STL、C++ 后端/基础相关",
         "Python": "Python 语言及相关开发",
@@ -37,6 +163,8 @@ ROLE_LABEL_TAXONOMY = {
     },
     # ----- AI 大类 -----
     "ai": {
+        "实习": "暑期实习/日常实习/寒假实习等实习招聘流程（与「校招」互斥，只能二选一）",
+        "校招": "秋招/春招/应届校招等校园招聘流程（与「实习」互斥，只能二选一）",
         "大模型": "大语言模型 LLM、Transformer、Prompt、微调等",
         "深度学习": "深度学习、神经网络、CNN/RNN/Transformer 训练推理",
         "计算机视觉": "CV、图像检测/分割/识别、视觉算法",
@@ -46,11 +174,14 @@ ROLE_LABEL_TAXONOMY = {
         "PyTorch": "PyTorch 框架",
         "TensorFlow": "TensorFlow/Keras 框架",
         "智能驾驶": "自动驾驶、智能驾驶、感知规划控制",
+        "Agent": "正文明确提到 Agent / AI Agent / 智能体（多智能体、工具调用 Agent 等）；仅泛谈大模型不算",
         "手撕": "现场手写代码/算法题/编程题",
         "八股": "机器学习/深度学习基础问答",
     },
     # ----- 嵌入式软件 -----
     "embedded": {
+        "实习": "暑期实习/日常实习/寒假实习等实习招聘流程（与「校招」互斥，只能二选一）",
+        "校招": "秋招/春招/应届校招等校园招聘流程（与「实习」互斥，只能二选一）",
         "C语言": "C 语言嵌入式开发",
         "C++": "C++ 在嵌入式/驱动中的使用",
         "单片机": "单片机/MCU 开发",
@@ -66,6 +197,8 @@ ROLE_LABEL_TAXONOMY = {
     },
     # ----- 通信 / 网络 -----
     "network-communication": {
+        "实习": "暑期实习/日常实习/寒假实习等实习招聘流程（与「校招」互斥，只能二选一）",
+        "校招": "秋招/春招/应届校招等校园招聘流程（与「实习」互斥，只能二选一）",
         "5G": "5G 通信技术",
         "无线": "无线通信、无线协议、基站相关",
         "核心网": "核心网",
@@ -80,6 +213,8 @@ ROLE_LABEL_TAXONOMY = {
     },
     # ----- 测试 -----
     "test-qa": {
+        "实习": "暑期实习/日常实习/寒假实习等实习招聘流程（与「校招」互斥，只能二选一）",
+        "校招": "秋招/春招/应届校招等校园招聘流程（与「实习」互斥，只能二选一）",
         "软件测试": "软件测试工程师方向与测试方法",
         "解决方案测试": "解决方案测试",
         "测开": "测试开发、测试工具/平台开发",
@@ -99,6 +234,8 @@ ROLE_LABEL_TAXONOMY = {
 # =============================================================================
 ROLE_LABEL_ALIASES = {
     "software-development": {
+        "实习": ["实习", "暑期实习", "寒假实习", "日常实习", "实习生"],
+        "校招": ["校招", "秋招", "春招", "校园招聘"],
         "Java": ["java"],
         "C++": ["c++", "cpp"],
         "Python": ["python"],
@@ -116,6 +253,8 @@ ROLE_LABEL_ALIASES = {
         "八股": ["八股"],
     },
     "ai": {
+        "实习": ["实习", "暑期实习", "寒假实习", "日常实习", "实习生"],
+        "校招": ["校招", "秋招", "春招", "校园招聘"],
         "大模型": ["大模型", "llm"],
         "深度学习": ["深度学习", "神经网络"],
         "计算机视觉": ["计算机视觉", "cv"],
@@ -125,10 +264,13 @@ ROLE_LABEL_ALIASES = {
         "PyTorch": ["pytorch"],
         "TensorFlow": ["tensorflow"],
         "智能驾驶": ["智能驾驶", "自动驾驶"],
+        "Agent": ["agent", "agents", "智能体", "ai agent", "multi-agent", "多智能体"],
         "手撕": ["手撕", "算法题", "编程题"],
         "八股": ["八股"],
     },
     "embedded": {
+        "实习": ["实习", "暑期实习", "寒假实习", "日常实习", "实习生"],
+        "校招": ["校招", "秋招", "春招", "校园招聘"],
         "C语言": ["c语言"],
         "C++": ["c++", "cpp"],
         "单片机": ["单片机", "mcu"],
@@ -143,6 +285,8 @@ ROLE_LABEL_ALIASES = {
         "八股": ["八股"],
     },
     "network-communication": {
+        "实习": ["实习", "暑期实习", "寒假实习", "日常实习", "实习生"],
+        "校招": ["校招", "秋招", "春招", "校园招聘"],
         "5G": ["5g"],
         "无线": ["无线", "无线通信"],
         "核心网": ["核心网"],
@@ -156,6 +300,8 @@ ROLE_LABEL_ALIASES = {
         "八股": ["八股"],
     },
     "test-qa": {
+        "实习": ["实习", "暑期实习", "寒假实习", "日常实习", "实习生"],
+        "校招": ["校招", "秋招", "春招", "校园招聘"],
         "软件测试": ["软件测试", "测试工程师"],
         "解决方案测试": ["解决方案测试"],
         "测开": ["测开", "测试开发"],
@@ -167,3 +313,12 @@ ROLE_LABEL_ALIASES = {
         "八股": ["八股"],
     },
 }
+
+
+def enforce_period_mutex(labels: list[str]) -> list[str]:
+    """保证「实习」「校招」至多保留一个（同时出现时优先保留「校招」）。"""
+    has_intern = "实习" in labels
+    has_campus = "校招" in labels
+    if not (has_intern and has_campus):
+        return labels
+    return [x for x in labels if x != "实习"]

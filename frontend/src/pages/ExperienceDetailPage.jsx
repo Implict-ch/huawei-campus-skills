@@ -3,7 +3,7 @@ import { Link, useParams, useLocation, useSearchParams } from "react-router-dom"
 import ReactMarkdown from "react-markdown";
 import FadeIn from "../components/FadeIn.jsx";
 import { Icon } from "../icons/index.jsx";
-import { Tag } from "../components/Tag.jsx";
+import GroupedTags from "../components/GroupedTags.jsx";
 import { ROLE_CARDS } from "../data/hw-app.js";
 
 function formatDate(dateStr) {
@@ -71,28 +71,31 @@ export default function ExperienceDetailPage() {
           {doc && (
             <FadeIn>
               <article className="experience-detail">
-                <div className="experience-detail__meta">
-                  <span className="experience-detail__date">{formatDate(doc.publishedAt)}</span>
-                  <span className="experience-detail__grade">证据等级：{doc.sourceGrade || "未知"}</span>
-                  <span className="experience-detail__platform">来源：{doc.platform || "未知"}</span>
-                </div>
-                <h1 className="experience-detail__title">{doc.title}</h1>
-                <div className="experience-detail__tags">
-                  {(doc.tags || []).slice(0, 8).map((t) => (
-                    <Tag key={t} label={t} />
-                  ))}
+                <div className="experience-detail__head">
+                  <h1 className="experience-detail__title">{doc.title}</h1>
+                  {doc.sourceUrl ? (
+                    <a
+                      href={doc.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="experience-detail__source-link"
+                    >
+                      查看原始来源 <Icon name="external-link" size={14} color="var(--accent)" />
+                    </a>
+                  ) : null}
                 </div>
 
-                {doc.sourceUrl && (
-                  <a
-                    href={doc.sourceUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="experience-detail__source-link"
-                  >
-                    查看原始来源 <Icon name="external-link" size={14} color="var(--accent)" />
-                  </a>
-                )}
+                <GroupedTags
+                  tags={doc.tags || []}
+                  role={role}
+                  maxTags={12}
+                  className="experience-detail__tags"
+                />
+
+                <div className="experience-detail__meta">
+                  <span className="experience-detail__date">{formatDate(doc.publishedAt)}</span>
+                  <span className="experience-detail__platform">来源：{doc.platform || "未知"}</span>
+                </div>
 
                 <div className="experience-detail__body">
                   <ReactMarkdown>{cleanContent(doc.content)}</ReactMarkdown>

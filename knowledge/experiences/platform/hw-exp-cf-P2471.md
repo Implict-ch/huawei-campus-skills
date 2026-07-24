@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2471"
 catalog_pid: "P2471"
 category: "通用软件开发"
-tags: ["Java", "Spring", "数据库", "八股", "手撕", "后端", "操作系统", "分布式"]
+tags: ["Java", "Spring", "数据库", "八股", "手撕", "后端", "操作系统", "分布式", "校招"]
 published_at: 2025-09-25
 ---
 

@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2511"
 catalog_pid: "P2511"
 category: "其他"
-tags: ["Java", "后端", "数据库", "分布式", "手撕", "八股"]
+tags: ["Java", "后端", "数据库", "分布式", "手撕", "八股", "校招"]
 published_at: 2026-10-15
 ---
 

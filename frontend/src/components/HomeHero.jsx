@@ -5,13 +5,12 @@ export default function HomeHero() {
   return (
     <section className="hero hw-hero">
       <div className="hero__grid-bg" />
-      <div className="hero__glow" />
 
       <div className="hero__inner">
         <div className="hero__scale">
           <FadeIn>
             <div className="hero__badge">
-              <div className="hero__badge-dot" />
+              <span className="hero__badge-bar" aria-hidden="true" />
               <span className="hero__badge-text">华为校招 · 一站式求职助手</span>
             </div>
           </FadeIn>

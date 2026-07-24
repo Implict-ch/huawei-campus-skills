@@ -36,7 +36,12 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 # 从词表文件导入：允许贴哪些标签、标签含义、关键词兜底别名
-from role_label_taxonomy import ROLE_LABEL_ALIASES, ROLE_LABEL_TAXONOMY  # noqa: E402
+from role_label_taxonomy import (  # noqa: E402
+    ROLE_LABEL_ALIASES,
+    ROLE_LABEL_TAXONOMY,
+    enforce_period_mutex,
+    label_group,
+)
 
 # ---------- 输入 / 输出文件路径 ----------
 # 面经列表（按岗位分好组）
@@ -140,6 +145,7 @@ def build_prompt(role: str, text: str) -> str:
 3. labels 必须是候选列表中的原样字符串；无关则返回空数组
 4. 按语义判断，即使原文没出现标签字面词，只要内容实质相关也应标注
 5. 不要为了凑数乱标；不确定就不要标
+6. 「实习」与「校招」互斥：一篇面经最多标注其中一个。出现秋招/春招/校招/应届等必须标「校招」；只有明确暑期实习/日常实习/寒假实习等才标「实习」。两者冲突时标「校招」
 
 候选标签：
 {label_lines}
@@ -178,7 +184,7 @@ def parse_labels(raw: str, allowed: set[str]) -> list[str]:
         # 只保留词表里有的，且去重
         if s in allowed and s not in out:
             out.append(s)
-    return out
+    return enforce_period_mutex(out)
 
 
 def tag_one(
@@ -268,8 +274,34 @@ def build_keywords_from_tags(tags_by_id: dict) -> dict:
         # 出现次数多的排前面
         order = {k: i for i, k in enumerate(taxonomy.keys())}
         items.sort(key=lambda x: (-x["count"], order.get(x["keyword"], 999)))
-        out[role] = [{"keyword": x["keyword"], "aliases": x["aliases"]} for x in items]
+        out[role] = [
+            {
+                "keyword": x["keyword"],
+                "group": label_group(role, x["keyword"]),
+                "aliases": x["aliases"],
+            }
+            for x in items
+        ]
         print(f"{role}: {[x['keyword'] for x in items]} (n={len(items)})")
+    # 时期标签固定出现在侧栏
+    from role_label_taxonomy import PERIOD_LABELS, ROLE_LABEL_ALIASES
+
+    for role in list(out.keys()):
+        by_kw = {x["keyword"]: x for x in out[role]}
+        period = []
+        for lab in PERIOD_LABELS:
+            if lab in by_kw:
+                period.append(by_kw[lab])
+            else:
+                period.append(
+                    {
+                        "keyword": lab,
+                        "group": label_group(role, lab),
+                        "aliases": ROLE_LABEL_ALIASES.get(role, {}).get(lab, [lab.lower()]),
+                    }
+                )
+        others = [x for x in out[role] if x["keyword"] not in PERIOD_LABELS]
+        out[role] = period + others
     return out
 
 

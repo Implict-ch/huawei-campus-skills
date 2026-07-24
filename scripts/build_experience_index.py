@@ -33,8 +33,35 @@ def extract_summary(body: str, max_len: int = 240) -> str:
     return ""
 
 
+def title_implies_ai(title: str) -> bool:
+    """标题含 AI（如 AI软开）优先归入 AI 大类。"""
+    t = (title or "").lower()
+    if any(
+        k in t
+        for k in (
+            "人工智能",
+            "大模型",
+            "机器学习",
+            "深度学习",
+            "计算机视觉",
+            "nlp",
+            "智能驾驶",
+            "自动驾驶",
+        )
+    ):
+        return True
+    if re.search(r"(?:^|[^a-z0-9])ai(?:[^a-z0-9]|$)", t):
+        return True
+    if any(k in t for k in ("ai软开", "ai软件", "ai岗", "ai算法", "ai工程师", "ai应用", "ai方向")):
+        return True
+    return False
+
+
 def infer_role(fm: dict, title: str, body: str) -> str:
     """Infer role from frontmatter / tags / title / body."""
+    if title_implies_ai(title):
+        return "ai"
+
     role = fm.get("role")
     if role:
         return role

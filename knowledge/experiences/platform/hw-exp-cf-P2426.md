@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2426"
 catalog_pid: "P2426"
 category: "其他"
-tags: ["Java", "八股", "手撕", "后端"]
+tags: ["Java", "八股", "手撕", "后端", "校招"]
 published_at: 2025-10-15
 ---
 

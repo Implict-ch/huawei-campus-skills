@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2500"
 catalog_pid: "P2500"
 category: "其他"
-tags: ["计算机视觉", "NLP", "深度学习", "Python", "手撕", "八股"]
+tags: ["计算机视觉", "NLP", "深度学习", "Python", "手撕", "八股", "校招"]
 published_at: 2026-10-05
 ---
 

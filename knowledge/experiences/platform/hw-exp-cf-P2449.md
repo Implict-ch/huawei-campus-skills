@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2449"
 catalog_pid: "P2449"
 category: "通用软件开发"
-tags: ["Java", "后端", "数据库", "八股", "手撕"]
+tags: ["Java", "后端", "数据库", "八股", "手撕", "校招"]
 published_at: 2025-09-15
 ---
 

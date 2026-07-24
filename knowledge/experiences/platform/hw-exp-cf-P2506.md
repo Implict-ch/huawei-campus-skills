@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2506"
 catalog_pid: "P2506"
 category: "算法"
-tags: ["机器学习", "Python", "手撕", "八股"]
+tags: ["机器学习", "Python", "手撕", "八股", "校招"]
 published_at: 2026-10-15
 ---
 

@@ -40,6 +40,602 @@
   margin-top: 8px;
 }
 
+/* ── 首页密度变量（笔记本 / 1080p / 大屏阶梯，类似 GitHub 设计 token）── */
+.hw-home--modules-only {
+  /* 笔记本 / Mac 基准为 1，其它屏幕同比例放大 */
+  --home-scale: 1;
+  --home-title: calc(20px * var(--home-scale));
+  --home-title-sm: calc(16px * var(--home-scale));
+  --home-desc: calc(13px * var(--home-scale));
+  --home-meta: calc(12px * var(--home-scale));
+  --home-eyebrow: calc(11px * var(--home-scale));
+  --home-chip: calc(11px * var(--home-scale));
+  --home-pad-y: calc(22px * var(--home-scale));
+  --home-pad-x: calc(20px * var(--home-scale));
+  --home-gap: calc(12px * var(--home-scale));
+  --home-cta-font: calc(13px * var(--home-scale));
+  --home-cta-pad-y: calc(8px * var(--home-scale));
+  --home-cta-pad-x: calc(16px * var(--home-scale));
+  --home-cta-radius: calc(8px * var(--home-scale));
+  --home-chat-max: calc(190px * var(--home-scale));
+  --home-chat-width: 92%;
+
+  min-height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 1080p / 常规桌面：相对笔记本 ×1.11 */
+@media (min-width: 1440px) {
+  .hw-home--modules-only {
+    --home-scale: 1.11;
+  }
+}
+
+/* 大桌面 / 2K：相对笔记本 ×1.20 */
+@media (min-width: 1920px) {
+  .hw-home--modules-only {
+    --home-scale: 1.2;
+  }
+}
+
+/* 4K / 超宽：相对笔记本 ×1.31 */
+@media (min-width: 2560px) {
+  .hw-home--modules-only {
+    --home-scale: 1.31;
+  }
+}
+
+.hw-home--modules-only .home-modules {
+  width: 100%;
+  /* 顶部再拉开一些 */
+  padding-top: clamp(88px, 12vh, 140px);
+  padding-bottom: 48px;
+}
+
+.hw-home--modules-only .home-modules > .container {
+  max-width: min(1040px, 86vw);
+  margin-inline: auto;
+}
+
+/* ── 首页模块卡片 ── */
+.home-modules__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  gap: calc(18px * var(--home-scale));
+  align-items: stretch;
+}
+
+.home-modules__side {
+  display: flex;
+  flex-direction: column;
+  gap: calc(18px * var(--home-scale));
+  min-height: 0;
+  height: 100%;
+}
+
+.home-modules__side .home-mod {
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+.home-mod {
+  --mod-radius: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden; /* 顶条贴合圆角 */
+  padding: var(--home-pad-y) var(--home-pad-x);
+  border-radius: var(--mod-radius);
+  background: #161b22;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.04) inset,
+    0 14px 32px rgba(0, 0, 0, 0.4),
+    0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-mod--coach {
+  --mod-accent: #c084fc;
+}
+
+.home-mod--exp { --mod-accent: #58a6ff; }
+.home-mod--tear { --mod-accent: #3fb950; }
+
+.home-mod__accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--mod-accent);
+  border-radius: var(--mod-radius) var(--mod-radius) 0 0;
+}
+
+.home-mod__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--home-gap);
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.home-mod__heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  min-width: 0;
+}
+
+.home-mod__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: var(--home-eyebrow);
+  font-weight: 600;
+  line-height: 1.2;
+  background: rgba(192, 132, 252, 0.14);
+  color: #c084fc;
+  transform: translateY(0);
+}
+
+.home-mod__title {
+  margin: 0;
+  font-size: var(--home-title);
+  color: var(--text-primary);
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+}
+
+.home-mod__title--sm {
+  font-size: var(--home-title-sm);
+}
+
+.home-mod__desc {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  font-size: var(--home-desc);
+}
+
+.home-mod__meta {
+  margin-left: auto;
+  font-size: var(--home-meta);
+  color: var(--text-muted);
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.home-mod__footer {
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.home-mod .home-mod__cta.cta-primary,
+.home-mod .home-mod__cta.cta-secondary {
+  align-self: flex-start;
+  flex-shrink: 0;
+  font-size: var(--home-cta-font);
+  padding: var(--home-cta-pad-y) var(--home-cta-pad-x);
+  border-radius: var(--home-cta-radius);
+  gap: 6px;
+  box-shadow: none;
+}
+
+.home-mod .home-mod__cta.cta-primary {
+  box-shadow: 0 2px 12px var(--cta-shadow);
+}
+
+.home-mod .home-mod__cta.cta-primary:hover,
+.home-mod .home-mod__cta.cta-secondary:hover {
+  transform: none;
+}
+
+.home-mod__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.home-mod__chip {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: var(--home-chip);
+  text-decoration: none;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* 示例对话：应用窗口样式（相对教练卡保持克制占比） */
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  width: var(--home-chat-width, 92%);
+  max-width: 100%;
+  margin-inline: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #0d1117;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  min-height: 0;
+  max-height: var(--home-chat-max);
+  flex: 0 1 auto;
+}
+
+.chat-window__titlebar {
+  display: grid;
+  grid-template-columns: 52px 1fr 52px;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  background: linear-gradient(180deg, #222833 0%, #1a1f28 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.chat-window__traffic {
+  display: flex;
+  gap: 6px;
+}
+
+.chat-window__traffic span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #484f58;
+}
+
+.chat-window__traffic span:nth-child(1) { background: #ff5f57; }
+.chat-window__traffic span:nth-child(2) { background: #febc2e; }
+.chat-window__traffic span:nth-child(3) { background: #28c840; }
+
+.chat-window__title {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-window__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 12px;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  background:
+    radial-gradient(ellipse at top, rgba(192, 132, 252, 0.06), transparent 55%),
+    #0d1117;
+}
+
+.chat-msg {
+  display: flex;
+  width: 100%;
+}
+
+.chat-msg--user {
+  justify-content: flex-end;
+}
+
+.chat-msg--assistant {
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.chat-msg__avatar {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: #c084fc;
+  background: rgba(192, 132, 252, 0.16);
+  border: 1px solid rgba(192, 132, 252, 0.28);
+  margin-top: 2px;
+}
+
+.chat-msg__col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: min(92%, 420px);
+}
+
+.chat-msg__bubble {
+  padding: 8px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+.chat-msg__bubble p {
+  margin: 0 0 6px;
+}
+
+.chat-msg__bubble p:last-child {
+  margin-bottom: 0;
+}
+
+.chat-msg__note {
+  color: var(--text-muted) !important;
+  font-size: 12px !important;
+}
+
+.chat-msg--user .chat-msg__bubble {
+  max-width: min(88%, 360px);
+  background: rgba(192, 132, 252, 0.22);
+  border: 1px solid rgba(192, 132, 252, 0.28);
+  border-bottom-right-radius: 4px;
+  color: #f3e8ff;
+}
+
+.chat-msg--assistant .chat-msg__bubble {
+  background: #161b22;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom-left-radius: 4px;
+}
+
+.chat-msg__sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chat-msg__source {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.chat-window__composer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #12161c;
+}
+
+.chat-window__composer-placeholder {
+  flex: 1;
+  font-size: 12px;
+  color: var(--text-muted);
+  opacity: 0.85;
+}
+
+.chat-window__composer-send {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--on-accent);
+  background: var(--accent);
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+html[data-theme-mode="light"] .home-mod {
+  background: #ffffff;
+  border-color: #e6e0d8;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 16px 36px rgba(40, 24, 8, 0.12),
+    0 4px 10px rgba(40, 24, 8, 0.06);
+}
+
+html[data-theme-mode="light"] .home-mod__chip {
+  background: #f0ebe5;
+  color: var(--text-secondary);
+}
+
+html[data-theme-mode="light"] .chat-window {
+  background: #f7f4ef;
+  border-color: #e0d8cc;
+  box-shadow: 0 8px 20px rgba(40, 24, 8, 0.08);
+}
+
+html[data-theme-mode="light"] .chat-window__titlebar {
+  background: linear-gradient(180deg, #ffffff 0%, #f3efe8 100%);
+  border-bottom-color: #e6e0d8;
+}
+
+html[data-theme-mode="light"] .chat-window__body {
+  background:
+    radial-gradient(ellipse at top, rgba(200, 122, 11, 0.06), transparent 55%),
+    #f7f4ef;
+}
+
+html[data-theme-mode="light"] .chat-msg--user .chat-msg__bubble {
+  background: rgba(200, 122, 11, 0.12);
+  border-color: rgba(200, 122, 11, 0.22);
+  color: #3d2a12;
+}
+
+html[data-theme-mode="light"] .chat-msg--assistant .chat-msg__bubble {
+  background: #ffffff;
+  border-color: #e6e0d8;
+  color: var(--text-primary);
+}
+
+html[data-theme-mode="light"] .chat-msg__avatar {
+  color: #c87a0b;
+  background: rgba(200, 122, 11, 0.12);
+  border-color: rgba(200, 122, 11, 0.25);
+}
+
+html[data-theme-mode="light"] .chat-msg__source {
+  background: #ffffff;
+  border-color: #e6e0d8;
+}
+
+html[data-theme-mode="light"] .chat-window__composer {
+  background: #ffffff;
+  border-top-color: #e6e0d8;
+}
+
+@media (min-width: 1280px) {
+  .hw-home--modules-only .home-modules > .container {
+    max-width: min(980px, 72vw);
+  }
+}
+
+/* 中屏笔记本：更紧凑 + 隐藏第二轮示例对话 */
+@media (max-width: 1279px) {
+  .hw-home--modules-only {
+    --home-scale: 0.96;
+  }
+
+  .hw-home--modules-only .home-modules > .container {
+    max-width: min(920px, 90vw);
+  }
+
+  .chat-msg--secondary {
+    display: none;
+  }
+}
+
+/* 小屏：单列 */
+@media (max-width: 900px) {
+  .hw-home--modules-only {
+    --home-scale: 1;
+    min-height: auto;
+    justify-content: flex-start;
+  }
+
+  .hw-home--modules-only .home-modules {
+    padding-top: clamp(72px, 10vh, 96px);
+    padding-bottom: 32px;
+  }
+
+  .hw-home--modules-only .home-modules > .container {
+    max-width: 100%;
+  }
+
+  .home-modules__grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .home-modules__side {
+    height: auto;
+  }
+
+  .home-modules__side .home-mod {
+    flex: none;
+    height: auto;
+  }
+
+  .home-mod__meta {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .hw-home--modules-only {
+    --home-scale: 0.95;
+  }
+}
+
+/* ── 面经页密度（与首页同阶梯：笔记本 / 1080 / 2K / 4K）── */
+.hw-page--experiences {
+  --exp-scale: 1;
+  --exp-title: calc(28px * var(--exp-scale));
+  --exp-meta: calc(13px * var(--exp-scale));
+  --exp-card-pad: calc(24px * var(--exp-scale));
+  --exp-card-gap: calc(16px * var(--exp-scale));
+  --exp-grid-gap: calc(24px * var(--exp-scale));
+  --exp-section-mb: calc(36px * var(--exp-scale));
+  --exp-icon: calc(44px * var(--exp-scale));
+}
+
+@media (min-width: 1440px) {
+  .hw-page--experiences {
+    --exp-scale: 1.11;
+  }
+}
+
+@media (min-width: 1920px) {
+  .hw-page--experiences {
+    --exp-scale: 1.2;
+  }
+}
+
+@media (min-width: 2560px) {
+  .hw-page--experiences {
+    --exp-scale: 1.31;
+  }
+}
+
+.hw-page--experiences .section-header {
+  margin-bottom: var(--exp-section-mb);
+}
+
+/* 入口页标题与岗位卡片同宽对齐 */
+.hw-page--experiences .section-header:has(+ .role-grid) {
+  max-width: min(960px, 92vw);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hw-page--experiences .section-title {
+  font-size: var(--exp-title);
+}
+
+.hw-page--experiences .section-header__meta {
+  font-size: var(--exp-meta);
+}
+
+.hw-page--experiences .role-grid--page {
+  max-width: min(960px, 92vw);
+  gap: var(--exp-grid-gap);
+}
+
+.hw-page--experiences .role-card {
+  gap: var(--exp-card-gap);
+  padding: var(--exp-card-pad);
+}
+
+.hw-page--experiences .role-card .icon-box {
+  width: var(--exp-icon) !important;
+  height: var(--exp-icon) !important;
+}
+
+.hw-page--experiences .experience-list-layout {
+  gap: calc(28px * var(--exp-scale));
+}
+
+.hw-page--experiences .experience-card {
+  padding: calc(20px * var(--exp-scale)) calc(22px * var(--exp-scale));
+  gap: calc(12px * var(--exp-scale));
+}
+
+.hw-page--experiences .experience-card__title {
+  font-size: calc(17px * var(--exp-scale));
+}
+
+.hw-page--experiences .keyword-filter {
+  font-size: calc(13px * var(--exp-scale));
+}
+
 /* ── 角色卡片网格 ── */
 .role-grid {
   display: grid;
@@ -52,7 +648,7 @@
   margin: 0 auto;
 }
 
-/* ── 角色卡片 ── */
+/* ── 角色 / 手撕分类卡片 ── */
 .role-card {
   position: relative;
   display: flex;
@@ -63,29 +659,15 @@
   border: 1px solid var(--border);
   border-radius: 12px;
   color: var(--text-primary);
-  transition: all 0.25s ease;
+  transition: border-color 0.15s ease;
   overflow: hidden;
 }
 
-.role-card:hover,
-.role-card--hover {
+.role-card:hover {
   border-color: var(--accent);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px var(--accent-dim);
-}
-
-.role-card__shine {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  background: linear-gradient(135deg, transparent 40%, var(--accent-dim) 100%);
-  transition: opacity 0.25s ease;
-  pointer-events: none;
-}
-
-.role-card:hover .role-card__shine,
-.role-card--hover .role-card__shine {
-  opacity: 1;
+  transform: none;
+  box-shadow: none;
+  background: var(--bg-card);
 }
 
 .role-card__head {
@@ -110,6 +692,26 @@
 .role-card__count {
   font-size: var(--text-size-sm);
   color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* 手撕分类卡：标题与 SVG 同行左对齐，题数右上角 */
+.role-card--category .role-card__head {
+  align-items: center;
+}
+
+.role-card--category .role-card__title {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.35;
+}
+
+.role-card--category .role-card__count {
+  flex-shrink: 0;
+  margin-left: auto;
+  align-self: flex-start;
+  padding-top: 0.2em;
+  line-height: 1.35;
 }
 
 .role-card__desc {
@@ -118,6 +720,14 @@
   line-height: 1.6;
   margin: 0;
   flex: 1;
+}
+
+.role-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
 }
 
 .role-card__link {
@@ -171,13 +781,33 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
+  transition: margin-bottom 0.28s ease;
+}
+
+.keyword-filter--open .keyword-filter__header {
   margin-bottom: 16px;
+}
+
+.keyword-filter__heading {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+  flex-wrap: wrap;
 }
 
 .keyword-filter__title {
   font-size: var(--text-size-md);
   font-weight: 600;
   color: var(--text-primary);
+}
+
+.keyword-filter__count {
+  font-size: var(--text-size-sm);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  white-space: nowrap;
 }
 
 .keyword-filter__toggle {
@@ -187,37 +817,117 @@
   border: none;
   cursor: pointer;
   padding: 4px;
+  flex-shrink: 0;
 }
 
 .keyword-filter__toggle:hover {
   color: var(--accent);
 }
 
+/* 收起 / 展开：grid-rows 动画 */
+.keyword-filter__collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition:
+    grid-template-rows 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.28s ease;
+  opacity: 0;
+}
+
+.keyword-filter--open .keyword-filter__collapse {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.keyword-filter__collapse-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.keyword-filter__groups {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 16px;
+}
+
+.keyword-filter__group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.keyword-filter__group-label {
+  font-size: var(--text-size-xs);
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
+
+.keyword-filter__divider {
+  height: 1px;
+  background: var(--border-light);
+  margin: 12px 0;
+}
+
 .keyword-filter__tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 16px;
 }
 
+/* 默认暗色：灰底弱圆角标签；hover 只加深底色，不变字色 */
 .keyword-filter__tag {
-  padding: 6px 10px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--bg-panel);
-  color: var(--text-secondary);
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.55);
   font-size: var(--text-size-xs);
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: background 0.15s ease, border-color 0.15s ease, filter 0.15s ease;
   white-space: nowrap;
 }
 
 .keyword-filter__tag:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 .keyword-filter__tag--active {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+}
+
+/* 选中态 hover：不改背景，仅轻微上浮/透明度提示 */
+.keyword-filter__tag--active:hover {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+  filter: none;
+  transform: translateY(-1px);
+}
+
+/* 浅色：灰色圆角标签 */
+html[data-theme-mode="light"] .keyword-filter__tag {
+  background: #e8eaed;
+  color: #5f6368;
+  border-color: transparent;
+}
+
+html[data-theme-mode="light"] .keyword-filter__tag:hover {
+  background: #dde1e6;
+  color: #5f6368;
+}
+
+html[data-theme-mode="light"] .keyword-filter__tag--active {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+}
+
+html[data-theme-mode="light"] .keyword-filter__tag--active:hover {
   background: var(--accent);
   color: var(--on-accent);
   border-color: var(--accent);
@@ -281,33 +991,19 @@
   border: 1px solid var(--border);
   border-radius: 10px;
   color: var(--text-primary);
-  transition: all 0.2s ease;
+  transition: border-color 0.15s ease;
   overflow: hidden;
 }
 
-.experience-card:hover,
-.experience-card--hover {
+.experience-card:hover {
   border-color: var(--accent);
-  background: var(--bg-panel);
-}
-
-.experience-card__shine {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  background: linear-gradient(135deg, transparent 50%, var(--accent-dim) 100%);
-  transition: opacity 0.2s ease;
-  pointer-events: none;
-}
-
-.experience-card:hover .experience-card__shine,
-.experience-card--hover .experience-card__shine {
-  opacity: 1;
+  background: var(--bg-card);
+  transform: none;
 }
 
 .experience-card__head {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
 }
@@ -316,14 +1012,10 @@
   font-size: var(--text-size-sm);
   color: var(--text-muted);
   font-family: var(--font-mono);
-}
-
-.experience-card__grade {
-  font-size: var(--text-size-xs);
-  color: var(--accent);
-  border: 1px solid var(--accent-border);
-  padding: 2px 8px;
-  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1.5;
+  padding-top: 0.15em;
 }
 
 .experience-card__title {
@@ -332,17 +1024,76 @@
   color: var(--text-primary);
   margin: 0;
   line-height: 1.5;
+  min-width: 0;
+  flex: 1;
+}
+
+.experience-card__footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
 }
 
 .experience-card__tags {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 8px;
+  min-width: 0;
+  flex: 1;
 }
 
 .experience-card__source {
   font-size: var(--text-size-xs);
   color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.experience-card--empty {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.92;
+  border-style: dashed;
+}
+
+.experience-card__empty-hint {
+  margin: 0;
+  font-size: var(--text-size-sm);
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ── 分组标签（卡片 / 详情） ── */
+.grouped-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.grouped-tags__group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.grouped-tags__divider {
+  width: 1px;
+  align-self: stretch;
+  min-height: 1.1em;
+  background: var(--border);
+  margin: 0 2px;
+}
+
+.grouped-tags__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 /* ── 面经详情 ── */
@@ -353,44 +1104,56 @@
   padding: 32px;
 }
 
-.experience-detail__meta {
+.experience-detail__head {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px 24px;
-  font-size: var(--text-size-sm);
-  color: var(--text-muted);
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
   margin-bottom: 16px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--border-light);
 }
 
 .experience-detail__title {
   font-size: var(--text-size-3xl);
   font-weight: 600;
   color: var(--text-primary);
-  margin: 0 0 16px;
+  margin: 0;
   line-height: 1.4;
-}
-
-.experience-detail__tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 20px;
+  min-width: 0;
+  flex: 1;
 }
 
 .experience-detail__source-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  flex-shrink: 0;
   font-size: var(--text-size-sm);
   color: var(--accent);
-  margin-bottom: 24px;
+  white-space: nowrap;
+  padding-top: 0.35em;
   transition: opacity 0.2s ease;
 }
 
 .experience-detail__source-link:hover {
   opacity: 0.85;
+}
+
+.experience-detail__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.experience-detail__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  font-size: var(--text-size-sm);
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-light);
 }
 
 .experience-detail__body {
@@ -1425,11 +2188,117 @@ body.agent-page-open footer {
   margin: 0;
 }
 
+/* ── 手撕页密度（笔记本 / 1080 / 2K / 4K，对齐首页阶梯）── */
+.hw-page--hand-tear {
+  --ht-scale: 1;
+  --ht-title: calc(28px * var(--ht-scale));
+  --ht-group-title: calc(22px * var(--ht-scale));
+  --ht-group-desc: calc(13px * var(--ht-scale));
+  --ht-card-pad: calc(14px * var(--ht-scale));
+  --ht-card-gap: calc(10px * var(--ht-scale));
+  --ht-grid-gap: calc(12px * var(--ht-scale));
+  --ht-icon: calc(36px * var(--ht-scale));
+  --ht-card-title: calc(15px * var(--ht-scale));
+  --ht-card-count: calc(12px * var(--ht-scale));
+  --ht-groups-max: min(1080px, 92vw);
+}
+
+@media (min-width: 1440px) {
+  .hw-page--hand-tear {
+    --ht-scale: 1.11;
+  }
+}
+
+@media (min-width: 1920px) {
+  .hw-page--hand-tear {
+    --ht-scale: 1.2;
+  }
+}
+
+@media (min-width: 2560px) {
+  .hw-page--hand-tear {
+    --ht-scale: 1.31;
+  }
+}
+
+.hw-page--hand-tear .section-header {
+  margin-bottom: calc(32px * var(--ht-scale));
+  max-width: var(--ht-groups-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hw-page--hand-tear .section-title {
+  font-size: var(--ht-title);
+}
+
+.hw-page--hand-tear .hand-tear-groups {
+  max-width: var(--ht-groups-max);
+  margin-inline: auto;
+  gap: calc(40px * var(--ht-scale));
+}
+
+.hw-page--hand-tear .role-grid--page {
+  max-width: 100%;
+  gap: var(--ht-grid-gap);
+  /* 一行四个（小屏降级） */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.hw-page--hand-tear .role-card--category {
+  gap: var(--ht-card-gap);
+  padding: var(--ht-card-pad);
+}
+
+.hw-page--hand-tear .role-card--category .role-card__head {
+  gap: calc(10px * var(--ht-scale));
+}
+
+.hw-page--hand-tear .role-card--category .role-card__title {
+  font-size: var(--ht-card-title);
+}
+
+.hw-page--hand-tear .role-card--category .role-card__count {
+  font-size: var(--ht-card-count);
+}
+
+.hw-page--hand-tear .role-card--category .role-card__link {
+  font-size: calc(12px * var(--ht-scale));
+}
+
+.hw-page--hand-tear .role-card--category .icon-box {
+  width: var(--ht-icon) !important;
+  height: var(--ht-icon) !important;
+  border-radius: 10px !important;
+}
+
+@media (max-width: 1024px) {
+  .hw-page--hand-tear .role-grid--page {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .hw-page--hand-tear .role-grid--page {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hw-page--hand-tear .hand-tear-group__title {
+  font-size: var(--ht-group-title);
+}
+
+.hw-page--hand-tear .hand-tear-group__desc {
+  font-size: var(--ht-group-desc);
+}
+
 /* ── 手撕题库按岗位分组 ── */
 .hand-tear-groups {
   display: flex;
   flex-direction: column;
   gap: 48px;
+  max-width: min(1080px, 92vw);
+  margin-inline: auto;
 }
 
 .hand-tear-group__header {
@@ -1506,10 +2375,6 @@ html[data-theme-mode="light"] {
 html[data-theme-mode="light"] .hero__grid-bg {
   opacity: 0.03;
   animation: none;
-}
-
-html[data-theme-mode="light"] .hero__glow {
-  opacity: 0.5;
 }
 
 html[data-theme-mode="light"] .theme-switcher__menu {

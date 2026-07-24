@@ -47,8 +47,7 @@ const PORT = process.env.PORT || 3001;
 // 面经语义标签（须在知识库索引之前加载，详情页 tags 会用它覆盖旧 frontmatter）
 // ───────────────────────────────────────────────────────────────────────────
 const TAG_BLOCKLIST = new Set([
-  "校招",
-  "实习",
+  // 「校招」「实习」已作为时期筛选维度，允许展示
   "机考",
   "面试",
   "流程",
@@ -371,10 +370,17 @@ app.get("/api/experiences", (req, res) => {
 // 面经「关键词 / 语义标签」筛选接口（标签数据已在文件顶部加载）
 // =============================================================================
 
-// 接口：返回某个岗位侧边栏该显示哪些标签
+// 接口：返回某个岗位侧边栏该显示哪些标签（每次读文件，便于更新 group 后即时生效）
 app.get("/api/experiences/role/:role/keywords", (req, res) => {
   try {
-    const list = experienceKeywords[req.params.role] || [];
+    let list = experienceKeywords[req.params.role] || [];
+    try {
+      const fresh = JSON.parse(fs.readFileSync(KEYWORDS_FILE, "utf-8"));
+      Object.assign(experienceKeywords, fresh);
+      list = fresh[req.params.role] || [];
+    } catch {
+      /* 沿用启动时缓存 */
+    }
     res.json({
       keywords: list,
       // 告诉前端当前是语义模式还是旧的字面匹配模式
@@ -385,6 +391,30 @@ app.get("/api/experiences/role/:role/keywords", (req, res) => {
   }
 });
 
+// 时期标签互斥：与其它关键词的「或」筛选分开处理
+const PERIOD_KEYWORDS = new Set(["实习", "校招"]);
+const CAMPUS_TITLE_RE = /秋招|春招|校招|应届生|应届|校园招聘|(?:2[0-9])届|(?:20(?:2[0-9]|1[0-9]))届/i;
+const INTERN_TITLE_RE = /暑期实习|寒假实习|日常实习|实习生|实习岗|实习面|实习offer/i;
+
+function getExperienceLabels(item) {
+  const tagged = experienceSemanticTags[item.id];
+  if (tagged && Array.isArray(tagged.labels) && tagged.labels.length > 0) {
+    return tagged.labels.map((l) => String(l));
+  }
+  return Array.isArray(item.tags) ? item.tags.map((l) => String(l)) : [];
+}
+
+function resolvePeriodLabel(item, labels) {
+  const title = item.title || "";
+  // 标题特判：校招信号与实习信号互斥，校招优先
+  if (CAMPUS_TITLE_RE.test(title) && !INTERN_TITLE_RE.test(title)) return "校招";
+  if (INTERN_TITLE_RE.test(title) && !CAMPUS_TITLE_RE.test(title)) return "实习";
+  if (CAMPUS_TITLE_RE.test(title) && INTERN_TITLE_RE.test(title)) return "校招";
+  if (labels.includes("校招")) return "校招";
+  if (labels.includes("实习")) return "实习";
+  return "校招";
+}
+
 // 接口：返回某个岗位的面经列表；带 ?keywords=大模型,手撕 时做筛选
 app.get("/api/experiences/role/:role", (req, res) => {
   try {
@@ -394,36 +424,59 @@ app.get("/api/experiences/role/:role", (req, res) => {
 
     const keywordsParam = req.query.keywords;
     if (keywordsParam) {
-      // 用户选中的标签，如 ["大模型", "手撕"]
       const selected = keywordsParam.split(",").map((k) => k.trim()).filter(Boolean);
-      const selectedLower = selected.map((k) => k.toLowerCase());
+      const selectedPeriod = selected.filter((k) => PERIOD_KEYWORDS.has(k));
+      const selectedOther = selected.filter((k) => !PERIOD_KEYWORDS.has(k));
+      const selectedOtherLower = selectedOther.map((k) => k.toLowerCase());
 
-      // 别名表：仅在「没有语义标签」时用于正文撞词兜底
       const roleKeywords = experienceKeywords[role] || [];
+      const allOtherKeywords = roleKeywords
+        .map((e) => e.keyword)
+        .filter((k) => !PERIOD_KEYWORDS.has(k));
+      // 其它词几乎全选时，视为不限制其它维度（只收紧时期）
+      const otherUnconstrained =
+        selectedOther.length === 0 ||
+        (allOtherKeywords.length > 0 &&
+          allOtherKeywords.every((k) => selected.includes(k)));
+
       const aliasMap = new Map();
       for (const entry of roleKeywords) {
-        aliasMap.set(entry.keyword.toLowerCase(), entry.aliases.map((a) => a.toLowerCase()));
+        if (PERIOD_KEYWORDS.has(entry.keyword)) continue;
+        aliasMap.set(entry.keyword.toLowerCase(), (entry.aliases || []).map((a) => a.toLowerCase()));
       }
-      const allAliases = selectedLower.flatMap((k) => aliasMap.get(k) || [k]);
+      const otherAliases = selectedOtherLower.flatMap((k) => aliasMap.get(k) || [k]);
       const useSemantic = Object.keys(experienceSemanticTags).length > 0;
 
       items = items.filter((item) => {
-        if (useSemantic) {
-          const tagged = experienceSemanticTags[item.id];
-          const labels = Array.isArray(tagged?.labels) ? tagged.labels : [];
-          if (labels.length > 0) {
-            // 这篇已被 LLM 打过标：看用户选的标签是否落在 labels 里
-            const labelSet = new Set(labels.map((l) => String(l).toLowerCase()));
-            if (selectedLower.some((k) => labelSet.has(k))) return true;
-            // 有标签但没命中 → 筛掉（保证语义精度）
-            return false;
+        const labels = getExperienceLabels(item);
+        const period = resolvePeriodLabel(item, labels);
+        const title = item.title || "";
+
+        // 1) 时期硬约束（与其它词 AND）：只选实习/只选校招时互斥强制
+        if (selectedPeriod.length === 1) {
+          const want = selectedPeriod[0];
+          if (want === "实习") {
+            if (CAMPUS_TITLE_RE.test(title)) return false;
+            if (period !== "实习") return false;
+          } else {
+            if (INTERN_TITLE_RE.test(title) && !CAMPUS_TITLE_RE.test(title)) return false;
+            if (period !== "校招") return false;
           }
+        } else if (selectedPeriod.length === 0 && selectedOther.length === 0) {
+          return false;
         }
-        // 这篇没有语义标签：退回旧逻辑，看正文/标题是否包含别名
+
+        // 2) 其它关键词：未收紧则放行；否则「或」匹配
+        if (otherUnconstrained) return true;
+
+        if (useSemantic && labels.length > 0) {
+          const labelSet = new Set(labels.map((l) => l.toLowerCase()));
+          return selectedOtherLower.some((k) => labelSet.has(k));
+        }
         const doc = knowledgeDocs.find((d) => d.id === item.id);
-        const text = doc ? `${doc.title || ""} ${doc.searchText || ""}` : `${item.title || ""}`;
+        const text = doc ? `${doc.title || ""} ${doc.searchText || ""}` : `${title}`;
         const textLower = text.toLowerCase();
-        return allAliases.some((alias) => textLower.includes(alias));
+        return otherAliases.some((alias) => textLower.includes(alias));
       });
     }
 

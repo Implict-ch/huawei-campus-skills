@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2467"
 catalog_pid: "P2467"
 category: "通用软件开发"
-tags: ["C++", "后端", "Linux", "操作系统", "手撕", "八股"]
+tags: ["C++", "后端", "Linux", "操作系统", "手撕", "八股", "校招"]
 published_at: 2025-09-15
 ---
 

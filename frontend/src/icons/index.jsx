@@ -80,6 +80,26 @@ const paths = {
       <circle cx="16" cy="16" r="1" fill="currentColor" stroke="none" />
     </>
   ),
+  /** 深度学习 / 神经网络示意 */
+  network: () => (
+    <>
+      <circle cx="5" cy="6" r="2" />
+      <circle cx="5" cy="12" r="2" />
+      <circle cx="5" cy="18" r="2" />
+      <circle cx="12" cy="8" r="2" />
+      <circle cx="12" cy="16" r="2" />
+      <circle cx="19" cy="12" r="2" />
+      <path d="M7 6.5 10 8M7 12l3-3M7 12l3 3M7 17.5 10 16M14 9l3 2.2M14 15l3-2.2" />
+    </>
+  ),
+  /** 未匹配分类的兜底图标 */
+  more: () => (
+    <>
+      <circle cx="6" cy="12" r="1.6" fill="currentColor" stroke="none" />
+      <circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none" />
+      <circle cx="18" cy="12" r="1.6" fill="currentColor" stroke="none" />
+    </>
+  ),
   globe: () => (
     <>
       <circle cx="12" cy="12" r="10" />
@@ -143,6 +163,23 @@ const paths = {
     </>
   ),
   check: () => <polyline points="20 6 9 17 4 12" />,
+  /** 测试 / QA：剪贴板 + 勾选 */
+  "clipboard-check": () => (
+    <>
+      <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
+      <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+      <path d="m9 14 2 2 4-4" />
+    </>
+  ),
+  /** 备用测试图标：烧瓶 */
+  flask: () => (
+    <>
+      <path d="M10 2v7.5L4.2 19a2 2 0 0 0 1.7 3h12.2a2 2 0 0 0 1.7-3L14 9.5V2" />
+      <path d="M8.5 2h7" />
+      <path d="M7 14h10" />
+    </>
+  ),
+
   clock: () => (
     <>
       <circle cx="12" cy="12" r="10" />

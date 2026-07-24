@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2503"
 catalog_pid: "P2503"
 category: "通用软件开发"
-tags: ["Python", "后端", "八股", "手撕"]
+tags: ["Python", "后端", "八股", "手撕", "校招"]
 published_at: 2026-09-25
 ---
 

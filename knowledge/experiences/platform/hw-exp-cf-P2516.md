@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2516"
 catalog_pid: "P2516"
 category: "其他"
-tags: ["数据库", "手撕", "八股"]
+tags: ["数据库", "手撕", "八股", "校招"]
 published_at: 2026-10-25
 ---
 

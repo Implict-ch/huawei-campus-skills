@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2519"
 catalog_pid: "P2519"
 category: "通用软件开发"
-tags: ["C++", "后端", "手撕", "八股"]
+tags: ["C++", "后端", "手撕", "八股", "校招"]
 published_at: 2026-10-25
 ---
 

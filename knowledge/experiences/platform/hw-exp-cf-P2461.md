@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2461"
 catalog_pid: "P2461"
 category: "嵌入式"
-tags: ["FPGA", "芯片", "手撕"]
+tags: ["FPGA", "芯片", "手撕", "校招"]
 published_at: 2025-09-15
 ---
 

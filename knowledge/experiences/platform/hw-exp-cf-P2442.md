@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2442"
 catalog_pid: "P2442"
 category: "通信"
-tags: ["无线"]
+tags: ["无线", "校招"]
 published_at: 2025-09-20
 ---
 

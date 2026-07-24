@@ -23,15 +23,11 @@ export default function ExperiencesPage() {
   }, []);
 
   return (
-    <div className="hw-page">
+    <div className="hw-page hw-page--experiences">
       <section className="section">
         <div className="container">
           <FadeIn>
-            <SectionHeader
-              label="// 面经"
-              title="按岗位选择"
-              desc="点击进入后按时间倒序查看该岗位下的真实面经"
-            />
+            <SectionHeader title="面经入口" />
           </FadeIn>
           <div className="role-grid role-grid--page">
             {ROLE_CARDS.map((role, i) => (

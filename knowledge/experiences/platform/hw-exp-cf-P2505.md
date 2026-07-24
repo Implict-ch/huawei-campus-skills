@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2505"
 catalog_pid: "P2505"
 category: "算法"
-tags: ["深度学习", "手撕"]
+tags: ["深度学习", "手撕", "校招"]
 published_at: 2026-10-15
 ---
 

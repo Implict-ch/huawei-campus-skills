@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2419"
 catalog_pid: "P2419"
 category: "算法"
-tags: ["八股"]
+tags: ["八股", "校招"]
 published_at: 2025-11-05
 ---
 

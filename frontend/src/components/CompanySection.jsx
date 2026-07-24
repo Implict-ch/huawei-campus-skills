@@ -8,11 +8,7 @@ export default function CompanySection() {
     <section className="section" id="exam">
       <div className="container">
         <FadeIn>
-          <SectionHeader
-            label="// EXAM"
-            title="公司笔试真题"
-            desc="覆盖数十家大厂，5000+ 道历年笔试真题持续更新"
-          />
+          <SectionHeader title="公司笔试真题" />
         </FadeIn>
         <FadeIn delay={FADE_STAGGER}>
           <div className="company-grid">

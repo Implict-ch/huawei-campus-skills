@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2421"
 catalog_pid: "P2421"
 category: "通用软件开发"
-tags: ["手撕", "八股", "后端"]
+tags: ["手撕", "八股", "后端", "校招"]
 published_at: 2025-10-15
 ---
 

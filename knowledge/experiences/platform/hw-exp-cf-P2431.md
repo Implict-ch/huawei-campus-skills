@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2431"
 catalog_pid: "P2431"
 category: "通用软件开发"
-tags: ["后端", "手撕", "八股", "分布式", "微服务", "Linux", "操作系统"]
+tags: ["后端", "手撕", "八股", "分布式", "微服务", "Linux", "操作系统", "校招"]
 published_at: 2025-10-15
 ---
 

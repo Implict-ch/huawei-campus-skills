@@ -11,11 +11,7 @@ export default function RoadmapSection() {
     <section className="section" id="roadmap">
       <div className="container">
         <FadeIn>
-          <SectionHeader
-            label="// ROADMAP"
-            title="校招路线图"
-            desc="从投递到入职，每一步都帮你规划清楚"
-          />
+          <SectionHeader title="校招路线图" />
         </FadeIn>
         <FadeIn delay={FADE_STAGGER}>
           <div className="roadmap-panel">

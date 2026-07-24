@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2437"
 catalog_pid: "P2437"
 category: "通用软件开发"
-tags: []
+tags: ["校招"]
 published_at: 2025-09-20
 ---
 

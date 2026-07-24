@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2457"
 catalog_pid: "P2457"
 category: "其他"
-tags: ["手撕"]
+tags: ["手撕", "校招"]
 published_at: 2025-09-05
 ---
 

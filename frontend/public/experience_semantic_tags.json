@@ -2,7 +2,7 @@
   "version": 1,
   "method": "llm_multilabel",
   "model": "deepseek-chat",
-  "generatedAt": "2026-07-24T15:29:55",
+  "generatedAt": "2026-07-25T01:17:17",
   "total": 418,
   "docs": {
     "hw-exp-20200304-nc-57634048": {
@@ -10,7 +10,8 @@
       "labels": [
         "软件测试",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -23,14 +24,16 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20200307-nc-41658112": {
       "role": "network-communication",
       "labels": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -38,7 +41,8 @@
       "role": "embedded",
       "labels": [
         "C语言",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -50,7 +54,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -63,7 +68,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -73,7 +79,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -83,7 +90,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -92,14 +100,16 @@
       "labels": [
         "C++",
         "八股",
-        "操作系统"
+        "操作系统",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20200522-nc-07516672": {
       "role": "software-development",
       "labels": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "fallback_keyword"
     },
@@ -112,7 +122,8 @@
         "Linux",
         "操作系统",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -122,7 +133,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -135,7 +147,8 @@
         "操作系统",
         "手撕",
         "八股",
-        "分布式"
+        "分布式",
+        "实习"
       ],
       "source": "llm"
     },
@@ -145,7 +158,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -157,20 +171,24 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20200807-nc-53427712": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20200729-nc-12942336": {
       "role": "network-communication",
       "labels": [
         "协议",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -178,13 +196,16 @@
       "role": "network-communication",
       "labels": [
         "协议",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20200811-nc-25805824": {
       "role": "test-qa",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20200815-nc-19273728": {
@@ -196,7 +217,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -204,7 +226,8 @@
       "role": "network-communication",
       "labels": [
         "无线",
-        "协议"
+        "协议",
+        "校招"
       ],
       "source": "llm"
     },
@@ -213,7 +236,8 @@
       "labels": [
         "C++",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -221,7 +245,8 @@
       "role": "test-qa",
       "labels": [
         "软件测试",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -234,7 +259,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -245,7 +271,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -258,18 +285,23 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20200905-nc-38367744": {
       "role": "test-qa",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20200915-nc-97661952": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20200915-nc-67424000": {
@@ -279,7 +311,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -288,7 +321,8 @@
       "labels": [
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -296,7 +330,8 @@
       "role": "software-development",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -305,7 +340,8 @@
       "labels": [
         "前端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -315,7 +351,8 @@
         "FPGA",
         "芯片",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -323,13 +360,16 @@
       "role": "embedded",
       "labels": [
         "芯片",
-        "FPGA"
+        "FPGA",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20210113-nc-98866432": {
       "role": "test-qa",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20210121-nc-35641088": {
@@ -341,7 +381,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -349,13 +390,16 @@
       "role": "software-development",
       "labels": [
         "C++",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20210301-nc-19926016": {
       "role": "embedded",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20210125-nc-03492096": {
@@ -363,7 +407,8 @@
       "labels": [
         "软件测试",
         "手撕",
-        "Python"
+        "Python",
+        "校招"
       ],
       "source": "llm"
     },
@@ -373,13 +418,16 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20210410-nc-68369664": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "实习"
+      ],
       "source": "llm"
     },
     "hw-exp-20210413-nc-39186944": {
@@ -389,7 +437,8 @@
         "Spring",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -399,7 +448,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -410,7 +460,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -419,7 +470,8 @@
       "labels": [
         "八股",
         "手撕",
-        "后端"
+        "后端",
+        "实习"
       ],
       "source": "llm"
     },
@@ -430,7 +482,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -440,7 +493,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -450,7 +504,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -460,7 +515,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -470,7 +526,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -479,26 +536,32 @@
       "labels": [
         "解决方案测试",
         "软件测试",
-        "Python"
+        "Python",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20210909-nc-03615488": {
       "role": "embedded",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20210828-nc-61271296": {
       "role": "test-qa",
       "labels": [
         "解决方案测试",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20210915-nc-42599168": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20210922-nc-63069696": {
@@ -507,14 +570,16 @@
         "八股",
         "手撕",
         "操作系统",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20210923-nc-97639936": {
       "role": "network-communication",
       "labels": [
-        "无线"
+        "无线",
+        "校招"
       ],
       "source": "llm"
     },
@@ -523,7 +588,8 @@
       "labels": [
         "机器学习",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -533,7 +599,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -541,7 +608,8 @@
       "role": "software-development",
       "labels": [
         "C++",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -549,7 +617,8 @@
       "role": "software-development",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -558,7 +627,8 @@
       "labels": [
         "后端",
         "云计算",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -568,31 +638,38 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20211117-nc-88020736": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20211217-nc-43026688": {
       "role": "test-qa",
-      "labels": [],
+      "labels": [
+        "实习"
+      ],
       "source": "llm"
     },
     "hw-exp-20211120-nc-47347456": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20211224-nc-81830656": {
       "role": "software-development",
       "labels": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -601,7 +678,8 @@
       "labels": [
         "协议",
         "光产品",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -609,7 +687,8 @@
       "role": "network-communication",
       "labels": [
         "协议",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -618,7 +697,8 @@
       "labels": [
         "C语言",
         "C++",
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "llm"
     },
@@ -628,7 +708,8 @@
         "基带",
         "射频",
         "无线",
-        "协议"
+        "协议",
+        "校招"
       ],
       "source": "llm"
     },
@@ -637,7 +718,8 @@
       "labels": [
         "无线",
         "协议",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -646,14 +728,16 @@
       "labels": [
         "协议",
         "光产品",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20220318-nc-94406400": {
       "role": "software-development",
       "labels": [
-        "数据库"
+        "数据库",
+        "校招"
       ],
       "source": "llm"
     },
@@ -663,19 +747,23 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20220308-nc-95607808": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20220416-nc-19124480": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -683,7 +771,8 @@
       "role": "embedded",
       "labels": [
         "芯片",
-        "总线"
+        "总线",
+        "实习"
       ],
       "source": "llm"
     },
@@ -695,20 +784,24 @@
         "数据库",
         "Linux",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20220407-nc-82734848": {
       "role": "test-qa",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20220501-nc-47226368": {
       "role": "embedded",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -718,7 +811,8 @@
         "深度学习",
         "机器学习",
         "Python",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -727,7 +821,8 @@
       "labels": [
         "C++",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -735,7 +830,8 @@
       "role": "software-development",
       "labels": [
         "Java",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -747,7 +843,8 @@
         "数据库",
         "Linux",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -756,28 +853,37 @@
       "labels": [
         "FPGA",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20220605-nc-38750464": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20220512-nc-91369216": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20220706-nc-55502080": {
       "role": "embedded",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20220717-nc-55367936": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20220726-nc-75959808": {
@@ -786,14 +892,16 @@
         "机器学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20220719-nc-47936000": {
       "role": "software-development",
       "labels": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -803,7 +911,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -813,14 +922,16 @@
         "计算机视觉",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20220818-nc-10861312": {
       "role": "embedded",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "fallback_keyword"
     },
@@ -829,7 +940,8 @@
       "labels": [
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -838,7 +950,8 @@
       "labels": [
         "前端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -848,7 +961,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -858,7 +972,8 @@
         "Python",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -869,7 +984,8 @@
         "操作系统",
         "八股",
         "手撕",
-        "Python"
+        "Python",
+        "校招"
       ],
       "source": "llm"
     },
@@ -879,7 +995,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -890,7 +1007,8 @@
         "FPGA",
         "芯片",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -903,7 +1021,8 @@
         "分布式",
         "云计算",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -912,14 +1031,16 @@
       "labels": [
         "无线",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20221021-nc-65284096": {
       "role": "software-development",
       "labels": [
-        "云计算"
+        "云计算",
+        "实习"
       ],
       "source": "llm"
     },
@@ -927,24 +1048,30 @@
       "role": "embedded",
       "labels": [
         "芯片",
-        "FPGA"
+        "FPGA",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20221118-nc-20432896": {
       "role": "embedded",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20221121-nc-12520192": {
       "role": "embedded",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20221202-nc-54985472": {
       "role": "embedded",
       "labels": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "llm"
     },
@@ -954,14 +1081,16 @@
         "Java",
         "Python",
         "后端",
-        "云计算"
+        "云计算",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20221205-nc-90985472": {
       "role": "embedded",
       "labels": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "fallback_keyword"
     },
@@ -970,19 +1099,23 @@
       "labels": [
         "后端",
         "分布式",
-        "数据库"
+        "数据库",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20230302-nc-70213376": {
       "role": "embedded",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20230305-nc-63825920": {
       "role": "software-development",
       "labels": [
-        "C++"
+        "C++",
+        "校招"
       ],
       "source": "llm"
     },
@@ -996,7 +1129,8 @@
         "前端",
         "数据库",
         "微服务",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1010,7 +1144,8 @@
         "前端",
         "数据库",
         "微服务",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1019,14 +1154,16 @@
       "labels": [
         "NLP",
         "机器学习",
-        "深度学习"
+        "深度学习",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20230419-nc-1670944": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1034,7 +1171,8 @@
       "role": "ai",
       "labels": [
         "计算机视觉",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1043,7 +1181,8 @@
       "labels": [
         "无线",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1055,14 +1194,16 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20230420-nc-1671789": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1070,21 +1211,24 @@
       "role": "software-development",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20230516-nc-1750613": {
       "role": "embedded",
       "labels": [
-        "FPGA"
+        "FPGA",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20230516-nc-73066496": {
       "role": "software-development",
       "labels": [
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1092,14 +1236,16 @@
       "role": "embedded",
       "labels": [
         "C++",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20230525-nc-58764544": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1110,7 +1256,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1120,7 +1267,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1128,21 +1276,24 @@
       "role": "software-development",
       "labels": [
         "后端",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20230605-nc-1768188": {
       "role": "embedded",
       "labels": [
-        "芯片"
+        "芯片",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20230602-nc-1766125": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "fallback_keyword"
     },
@@ -1151,21 +1302,24 @@
       "labels": [
         "C++",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20230629-nc-1784925": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20230609-nc-15431680": {
       "role": "test-qa",
       "labels": [
-        "软件测试"
+        "软件测试",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1178,7 +1332,8 @@
         "分布式",
         "云计算",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1187,7 +1342,8 @@
       "labels": [
         "C++",
         "操作系统",
-        "数据库"
+        "数据库",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1202,7 +1358,8 @@
         "数据库",
         "Spring",
         "分布式",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1212,7 +1369,8 @@
         "大模型",
         "NLP",
         "机器学习",
-        "Python"
+        "Python",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1221,21 +1379,24 @@
       "labels": [
         "后端",
         "分布式",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20230811-nc-1829093": {
       "role": "ai",
       "labels": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20230809-nc-36516608": {
       "role": "embedded",
       "labels": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "fallback_keyword"
     },
@@ -1244,20 +1405,24 @@
       "labels": [
         "C++",
         "后端",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20230830-nc-70262784": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20230909-nc-91964416": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20231018-nc-87898368": {
@@ -1265,13 +1430,16 @@
       "labels": [
         "前端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20231026-nc-2012098": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20231031-nc-2024607": {
@@ -1279,7 +1447,8 @@
       "labels": [
         "无线",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1287,7 +1456,8 @@
       "role": "software-development",
       "labels": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1296,7 +1466,8 @@
       "labels": [
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1306,7 +1477,8 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1315,7 +1487,8 @@
       "labels": [
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1323,18 +1496,23 @@
       "role": "software-development",
       "labels": [
         "C++",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240110-nc-2107853": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20240228-nc-2132152": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20240214-nc-82451200": {
@@ -1344,7 +1522,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1355,13 +1534,16 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240330-nc-60555008": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20240322-nc-22770944": {
@@ -1371,7 +1553,8 @@
         "深度学习",
         "NLP",
         "机器学习",
-        "计算机视觉"
+        "计算机视觉",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1391,14 +1574,16 @@
         "云计算",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240411-nc-40271104": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1409,7 +1594,8 @@
         "C++",
         "Python",
         "后端",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1422,7 +1608,8 @@
         "RTOS",
         "总线",
         "单片机",
-        "芯片"
+        "芯片",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1431,7 +1618,8 @@
       "labels": [
         "前端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1441,7 +1629,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1450,14 +1639,16 @@
       "labels": [
         "前端",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20240522-nc-2237905": {
       "role": "embedded",
       "labels": [
-        "单片机"
+        "单片机",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1468,19 +1659,23 @@
         "Spring",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20240607-nc-2250990": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20240521-xhs-1601370e": {
       "role": "test-qa",
       "labels": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1489,7 +1684,8 @@
       "labels": [
         "大模型",
         "计算机视觉",
-        "机器学习"
+        "机器学习",
+        "校招"
       ],
       "source": "fallback_keyword"
     },
@@ -1499,14 +1695,16 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240703-nc-2270678": {
       "role": "network-communication",
       "labels": [
-        "无线"
+        "无线",
+        "实习"
       ],
       "source": "llm"
     },
@@ -1521,7 +1719,8 @@
         "PyTorch",
         "智能驾驶",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1536,14 +1735,16 @@
         "前端",
         "数据库",
         "微服务",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240711-nc-2277748": {
       "role": "software-development",
       "labels": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1555,40 +1756,47 @@
         "Python",
         "Go",
         "后端",
-        "数据库"
+        "数据库",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240727-nc-48727296": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240802-nc-2304209": {
       "role": "ai",
       "labels": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240816-nc-2322718": {
       "role": "embedded",
       "labels": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240817-nc-2324142": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20240827-nc-16137728": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1596,14 +1804,16 @@
       "role": "embedded",
       "labels": [
         "FPGA",
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240830-nc-2346870": {
       "role": "software-development",
       "labels": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1613,7 +1823,8 @@
         "C++",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1629,7 +1840,8 @@
         "RTOS",
         "芯片",
         "总线",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1638,27 +1850,32 @@
       "labels": [
         "Java",
         "后端",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240908-nc-2363665": {
       "role": "ai",
       "labels": [
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240909-nc-2364685": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20240910-nc-57639424": {
       "role": "ai",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1668,20 +1885,24 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240913-nc-2373744": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20240912-nc-2371881": {
       "role": "software-development",
       "labels": [
         "操作系统",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1692,35 +1913,40 @@
         "深度学习",
         "Python",
         "PyTorch",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240916-nc-2378088": {
       "role": "ai",
       "labels": [
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240916-nc-2378737": {
       "role": "ai",
       "labels": [
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240918-nc-2379678": {
       "role": "ai",
       "labels": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240920-nc-2384441": {
       "role": "test-qa",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1732,49 +1958,56 @@
         "Python",
         "后端",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240929-nc-2402019": {
       "role": "ai",
       "labels": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20240925-nc-13013504": {
       "role": "software-development",
       "labels": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20241008-nc-2409451": {
       "role": "ai",
       "labels": [
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20241008-nc-2410069": {
       "role": "ai",
       "labels": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20241012-nc-44364288": {
       "role": "embedded",
       "labels": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20241008-nc-2410070": {
       "role": "ai",
       "labels": [
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1782,7 +2015,8 @@
       "role": "ai",
       "labels": [
         "大模型",
-        "深度学习"
+        "深度学习",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1790,7 +2024,8 @@
       "role": "software-development",
       "labels": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1801,7 +2036,8 @@
         "深度学习",
         "NLP",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1809,7 +2045,8 @@
       "role": "test-qa",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1819,7 +2056,8 @@
         "FPGA",
         "八股",
         "手撕",
-        "总线"
+        "总线",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1836,7 +2074,8 @@
         "TensorFlow",
         "智能驾驶",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1846,43 +2085,54 @@
         "C++",
         "Linux",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20241107-nc-2458527": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20241112-nc-2466109": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20241111-nc-50452736": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20241118-nc-2473036": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20241114-nc-46936576": {
       "role": "ai",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20241121-nc-2476984": {
       "role": "test-qa",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20241121-nc-2477575": {
@@ -1890,7 +2140,8 @@
       "labels": [
         "Java",
         "后端",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1899,25 +2150,31 @@
       "labels": [
         "C++",
         "后端",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20241128-nc-2486454": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20241203-nc-09217792": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20241217-nc-02619392": {
       "role": "software-development",
       "labels": [
         "C++",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1927,7 +2184,8 @@
         "Java",
         "C++",
         "后端",
-        "Spring"
+        "Spring",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1938,14 +2196,16 @@
         "C++",
         "Linux",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20250108-nc-2515232": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1955,14 +2215,16 @@
         "后端",
         "Linux",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20250313-nc-37937152": {
       "role": "network-communication",
       "labels": [
-        "无线"
+        "无线",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1972,7 +2234,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1980,14 +2243,16 @@
       "role": "software-development",
       "labels": [
         "Java",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20250318-nc-2558075": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -1995,20 +2260,24 @@
       "role": "software-development",
       "labels": [
         "C++",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20250408-nc-2577947": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20250429-nc-2596071": {
       "role": "software-development",
       "labels": [
         "后端",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2017,7 +2286,8 @@
       "labels": [
         "Java",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2029,7 +2299,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2041,7 +2312,8 @@
         "NLP",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2049,37 +2321,46 @@
       "role": "software-development",
       "labels": [
         "云计算",
-        "后端"
+        "后端",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20250613-nc-2618413": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20250618-nc-23684096": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "实习"
+      ],
       "source": "llm"
     },
     "hw-exp-20250622-nc-41765632": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20250625-xhs-2203c6fb": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20250708-nc-2629075": {
       "role": "software-development",
       "labels": [
         "分布式",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2087,7 +2368,8 @@
       "role": "software-development",
       "labels": [
         "分布式",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2101,7 +2383,8 @@
         "Python",
         "TensorFlow",
         "PyTorch",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2109,7 +2392,8 @@
       "role": "embedded",
       "labels": [
         "芯片",
-        "总线"
+        "总线",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2117,7 +2401,8 @@
       "role": "embedded",
       "labels": [
         "C语言",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2127,7 +2412,8 @@
         "云计算",
         "后端",
         "微服务",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2135,7 +2421,8 @@
       "role": "network-communication",
       "labels": [
         "无线",
-        "ICT"
+        "ICT",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2149,7 +2436,8 @@
         "Python",
         "PyTorch",
         "TensorFlow",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2163,7 +2451,8 @@
         "Python",
         "PyTorch",
         "TensorFlow",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2172,7 +2461,8 @@
       "labels": [
         "机器学习",
         "深度学习",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2180,7 +2470,8 @@
       "role": "network-communication",
       "labels": [
         "无线",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2191,7 +2482,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2202,7 +2494,8 @@
         "深度学习",
         "机器学习",
         "Python",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2210,7 +2503,8 @@
       "role": "ai",
       "labels": [
         "机器学习",
-        "Python"
+        "Python",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2221,7 +2515,8 @@
         "Linux",
         "总线",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2232,7 +2527,8 @@
         "深度学习",
         "机器学习",
         "Python",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2244,29 +2540,34 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20251104-xhs-03023bf7": {
-      "role": "software-development",
+      "role": "ai",
       "labels": [
         "Python",
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20260121-nc-90458624": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20251201-nc-2758812": {
       "role": "software-development",
       "labels": [
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2278,7 +2579,8 @@
         "数据库",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2287,7 +2589,8 @@
       "labels": [
         "机器学习",
         "Python",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2295,13 +2598,16 @@
       "role": "ai",
       "labels": [
         "大模型",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20260313-xhs-1f002454": {
       "role": "ai",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20260422-xhs-2103960d": {
@@ -2312,7 +2618,8 @@
         "NLP",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2320,7 +2627,8 @@
       "role": "software-development",
       "labels": [
         "后端",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2328,7 +2636,8 @@
       "role": "ai",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2338,7 +2647,8 @@
         "大模型",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2347,7 +2657,8 @@
       "labels": [
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2355,7 +2666,8 @@
       "role": "software-development",
       "labels": [
         "Linux",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2364,16 +2676,18 @@
       "labels": [
         "手撕",
         "八股",
-        "大模型"
+        "大模型",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20260516-xhs-060359cc": {
-      "role": "software-development",
+      "role": "ai",
       "labels": [
         "Python",
         "后端",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2381,7 +2695,8 @@
       "role": "embedded",
       "labels": [
         "芯片",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2389,7 +2704,8 @@
       "role": "software-development",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2399,7 +2715,8 @@
         "Java",
         "后端",
         "数据库",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2410,7 +2727,8 @@
         "深度学习",
         "机器学习",
         "Python",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2422,14 +2740,16 @@
         "数据库",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20260525-xhs-3601aa74": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2441,14 +2761,17 @@
         "NLP",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招",
+        "Agent"
       ],
       "source": "llm"
     },
     "hw-exp-20260529-xhs-0702c300": {
       "role": "software-development",
       "labels": [
-        "后端"
+        "后端",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2457,7 +2780,8 @@
       "labels": [
         "机器学习",
         "Python",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2465,7 +2789,8 @@
       "role": "embedded",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2473,7 +2798,8 @@
       "role": "ai",
       "labels": [
         "大模型",
-        "NLP"
+        "NLP",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2482,7 +2808,8 @@
       "labels": [
         "大模型",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2494,7 +2821,8 @@
         "机器学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -2504,14 +2832,17 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习",
+        "Agent"
       ],
       "source": "llm"
     },
     "hw-exp-20260630-xhs-11011a85": {
       "role": "embedded",
       "labels": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2520,33 +2851,39 @@
       "labels": [
         "C++",
         "后端",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20260714-xhs-2200ae9b": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
     "hw-exp-20260715-xhs-1003e08b": {
       "role": "network-communication",
       "labels": [
-        "光产品"
+        "光产品",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20260718-xhs-0301ca65": {
       "role": "embedded",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-20260715-xhs-1100745e": {
       "role": "ai",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2555,41 +2892,48 @@
       "labels": [
         "大模型",
         "深度学习",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20260720-xhs-0f016520": {
       "role": "embedded",
       "labels": [
-        "芯片"
+        "芯片",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-20260720-xhs-0f01fd01": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-cf-P2418": {
       "role": "ai",
       "labels": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2420": {
       "role": "embedded",
       "labels": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2419": {
       "role": "embedded",
       "labels": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2598,14 +2942,16 @@
       "labels": [
         "手撕",
         "八股",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2422": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2613,7 +2959,8 @@
       "role": "embedded",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2622,7 +2969,8 @@
       "labels": [
         "芯片",
         "总线",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2631,7 +2979,8 @@
       "labels": [
         "操作系统",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2641,7 +2990,8 @@
         "Java",
         "八股",
         "手撕",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2650,7 +3000,8 @@
       "labels": [
         "手撕",
         "八股",
-        "大模型"
+        "大模型",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2665,7 +3016,8 @@
         "八股",
         "手撕",
         "云计算",
-        "Linux"
+        "Linux",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2673,7 +3025,8 @@
       "role": "software-development",
       "labels": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2686,7 +3039,8 @@
         "分布式",
         "微服务",
         "Linux",
-        "操作系统"
+        "操作系统",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2694,7 +3048,8 @@
       "role": "software-development",
       "labels": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2702,7 +3057,8 @@
       "role": "software-development",
       "labels": [
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2712,7 +3068,8 @@
         "手撕",
         "八股",
         "Linux",
-        "后端"
+        "后端",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2721,7 +3078,8 @@
       "labels": [
         "C++",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2731,7 +3089,8 @@
         "C++",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2744,13 +3103,16 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2437": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-cf-P2438": {
@@ -2760,7 +3122,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2770,7 +3133,8 @@
         "Python",
         "机器学习",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2782,7 +3146,8 @@
         "数据库",
         "分布式",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2790,14 +3155,16 @@
       "role": "ai",
       "labels": [
         "智能驾驶",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2442": {
       "role": "network-communication",
       "labels": [
-        "无线"
+        "无线",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2806,7 +3173,8 @@
       "labels": [
         "光产品",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2815,7 +3183,8 @@
       "labels": [
         "深度学习",
         "计算机视觉",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2824,7 +3193,8 @@
       "labels": [
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2832,7 +3202,8 @@
       "role": "software-development",
       "labels": [
         "Java",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2842,7 +3213,8 @@
         "C语言",
         "八股",
         "手撕",
-        "Linux"
+        "Linux",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2853,7 +3225,8 @@
         "数据库",
         "分布式",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2864,7 +3237,8 @@
         "后端",
         "数据库",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2876,7 +3250,8 @@
         "数据库",
         "分布式",
         "操作系统",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2886,7 +3261,8 @@
         "C++",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2896,7 +3272,8 @@
         "后端",
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2907,7 +3284,8 @@
         "数据库",
         "Linux",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2919,7 +3297,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2929,7 +3308,8 @@
         "ICT",
         "光产品",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2938,21 +3318,24 @@
       "labels": [
         "ICT",
         "光产品",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2457": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2458": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2962,7 +3345,8 @@
         "Java",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2974,7 +3358,8 @@
         "数据库",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2983,7 +3368,8 @@
       "labels": [
         "FPGA",
         "芯片",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -2993,7 +3379,8 @@
         "ICT",
         "光产品",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3003,7 +3390,8 @@
         "Java",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3013,14 +3401,16 @@
         "C++",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2465": {
       "role": "software-development",
       "labels": [
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3032,7 +3422,8 @@
         "Linux",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3045,7 +3436,9 @@
         "机器学习",
         "Python",
         "PyTorch",
-        "八股"
+        "八股",
+        "校招",
+        "Agent"
       ],
       "source": "llm"
     },
@@ -3056,7 +3449,8 @@
         "后端",
         "操作系统",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3066,7 +3460,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3075,7 +3470,8 @@
       "labels": [
         "深度学习",
         "计算机视觉",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3083,7 +3479,8 @@
       "role": "software-development",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3097,7 +3494,8 @@
         "手撕",
         "后端",
         "操作系统",
-        "分布式"
+        "分布式",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3110,7 +3508,8 @@
         "操作系统",
         "手撕",
         "八股",
-        "云计算"
+        "云计算",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3118,7 +3517,8 @@
       "role": "ai",
       "labels": [
         "Python",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3129,13 +3529,16 @@
         "数据库",
         "Linux",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2480": {
       "role": "software-development",
-      "labels": [],
+      "labels": [
+        "校招"
+      ],
       "source": "llm"
     },
     "hw-exp-cf-P2481": {
@@ -3143,7 +3546,8 @@
       "labels": [
         "大模型",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3154,17 +3558,19 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2483": {
-      "role": "software-development",
+      "role": "ai",
       "labels": [
         "Python",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3175,7 +3581,8 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3186,7 +3593,8 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3196,7 +3604,8 @@
         "机器学习",
         "深度学习",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3206,7 +3615,8 @@
         "Java",
         "后端",
         "分布式",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3216,7 +3626,8 @@
         "深度学习",
         "计算机视觉",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3228,22 +3639,25 @@
         "深度学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2501": {
-      "role": "software-development",
+      "role": "ai",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2502": {
       "role": "software-development",
       "labels": [
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3252,17 +3666,19 @@
       "labels": [
         "机器学习",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2503": {
-      "role": "software-development",
+      "role": "ai",
       "labels": [
         "Python",
         "后端",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3270,7 +3686,8 @@
       "role": "ai",
       "labels": [
         "深度学习",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3280,7 +3697,8 @@
         "机器学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3289,7 +3707,8 @@
       "labels": [
         "大模型",
         "深度学习",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3298,7 +3717,8 @@
       "labels": [
         "操作系统",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3312,7 +3732,8 @@
         "Python",
         "手撕",
         "八股",
-        "智能驾驶"
+        "智能驾驶",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3320,7 +3741,8 @@
       "role": "ai",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3332,7 +3754,8 @@
         "数据库",
         "分布式",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3341,7 +3764,8 @@
       "labels": [
         "深度学习",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3350,7 +3774,8 @@
       "labels": [
         "深度学习",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3362,7 +3787,8 @@
         "NLP",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3370,7 +3796,8 @@
       "role": "software-development",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3379,7 +3806,8 @@
       "labels": [
         "数据库",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3387,7 +3815,8 @@
       "role": "software-development",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3397,7 +3826,8 @@
         "八股",
         "手撕",
         "操作系统",
-        "C++"
+        "C++",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3407,7 +3837,8 @@
         "C++",
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3416,7 +3847,8 @@
       "labels": [
         "智能驾驶",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3426,7 +3858,8 @@
         "深度学习",
         "PyTorch",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3437,7 +3870,8 @@
         "机器学习",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3446,16 +3880,18 @@
       "labels": [
         "智能驾驶",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
     "hw-exp-cf-P2526": {
-      "role": "software-development",
+      "role": "ai",
       "labels": [
         "后端",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3467,7 +3903,8 @@
         "机器学习",
         "Python",
         "八股",
-        "手撕"
+        "手撕",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3478,7 +3915,8 @@
         "计算机视觉",
         "Python",
         "手撕",
-        "八股"
+        "八股",
+        "实习"
       ],
       "source": "llm"
     },
@@ -3488,7 +3926,8 @@
         "大模型",
         "深度学习",
         "八股",
-        "手撕"
+        "手撕",
+        "实习"
       ],
       "source": "llm"
     },
@@ -3496,7 +3935,8 @@
       "role": "software-development",
       "labels": [
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     },
@@ -3507,9 +3947,11 @@
         "后端",
         "分布式",
         "手撕",
-        "八股"
+        "八股",
+        "校招"
       ],
       "source": "llm"
     }
-  }
+  },
+  "note": "Agent labels synced by sync_agent_labels.py (keyword mention only)"
 }

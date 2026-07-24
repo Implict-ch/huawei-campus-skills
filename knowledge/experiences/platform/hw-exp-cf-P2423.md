@@ -10,7 +10,7 @@ sources:
     url: "https://codefun2000.com/ide/P2423"
 catalog_pid: "P2423"
 category: "其他"
-tags: ["手撕", "八股"]
+tags: ["手撕", "八股", "校招"]
 published_at: 2025-10-15
 ---
 
