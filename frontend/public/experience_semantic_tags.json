@@ -1,0 +1,3515 @@
+{
+  "version": 1,
+  "method": "llm_multilabel",
+  "model": "deepseek-chat",
+  "generatedAt": "2026-07-24T15:29:55",
+  "total": 418,
+  "docs": {
+    "hw-exp-20200304-nc-57634048": {
+      "role": "test-qa",
+      "labels": [
+        "软件测试",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200306-nc-61907200": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "Linux",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200307-nc-41658112": {
+      "role": "network-communication",
+      "labels": [
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200317-nc-28221696": {
+      "role": "embedded",
+      "labels": [
+        "C语言",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200311-nc-14036224": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "Python",
+        "后端",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200328-nc-81312000": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "Python",
+        "C++",
+        "后端",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200312-nc-28004864": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200430-nc-82168832": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200512-nc-76963328": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "八股",
+        "操作系统"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200522-nc-07516672": {
+      "role": "software-development",
+      "labels": [
+        "后端"
+      ],
+      "source": "fallback_keyword"
+    },
+    "hw-exp-20200526-nc-33229824": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "Linux",
+        "操作系统",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200603-nc-43161856": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200607-nc-04828672": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "操作系统",
+        "手撕",
+        "八股",
+        "分布式"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200702-nc-61760768": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200611-nc-99855104": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "Linux",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200807-nc-53427712": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20200729-nc-12942336": {
+      "role": "network-communication",
+      "labels": [
+        "协议",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200808-nc-92113408": {
+      "role": "network-communication",
+      "labels": [
+        "协议",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200811-nc-25805824": {
+      "role": "test-qa",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20200815-nc-19273728": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "Linux",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200818-nc-65842432": {
+      "role": "network-communication",
+      "labels": [
+        "无线",
+        "协议"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200818-nc-96918784": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200819-nc-68359936": {
+      "role": "test-qa",
+      "labels": [
+        "软件测试",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200903-nc-59201280": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "Linux",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200904-nc-14683904": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200904-nc-74711040": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "Linux",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200905-nc-38367744": {
+      "role": "test-qa",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20200915-nc-97661952": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20200915-nc-67424000": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200916-nc-98404096": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200918-nc-23572224": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20200917-nc-06657024": {
+      "role": "software-development",
+      "labels": [
+        "前端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20201118-nc-45184768": {
+      "role": "embedded",
+      "labels": [
+        "FPGA",
+        "芯片",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210120-nc-67634688": {
+      "role": "embedded",
+      "labels": [
+        "芯片",
+        "FPGA"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210113-nc-98866432": {
+      "role": "test-qa",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20210121-nc-35641088": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "Linux",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210319-nc-96586496": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210301-nc-19926016": {
+      "role": "embedded",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20210125-nc-03492096": {
+      "role": "test-qa",
+      "labels": [
+        "软件测试",
+        "手撕",
+        "Python"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210410-nc-43418368": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210410-nc-68369664": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20210413-nc-39186944": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "Spring",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210415-nc-88934144": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210414-nc-05652224": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210423-nc-29535488": {
+      "role": "software-development",
+      "labels": [
+        "八股",
+        "手撕",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210423-nc-40167936": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210430-nc-12215552": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210515-nc-94994176": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210423-nc-45883648": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210524-nc-66827264": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210813-nc-47525376": {
+      "role": "test-qa",
+      "labels": [
+        "解决方案测试",
+        "软件测试",
+        "Python"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210909-nc-03615488": {
+      "role": "embedded",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20210828-nc-61271296": {
+      "role": "test-qa",
+      "labels": [
+        "解决方案测试",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210915-nc-42599168": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20210922-nc-63069696": {
+      "role": "software-development",
+      "labels": [
+        "八股",
+        "手撕",
+        "操作系统",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210923-nc-97639936": {
+      "role": "network-communication",
+      "labels": [
+        "无线"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210914-nc-15305472": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20210928-nc-61202688": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20211011-nc-67842560": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20211027-nc-87501312": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20211103-nc-71138048": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "云计算",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20211202-nc-41675776": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20211117-nc-88020736": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20211217-nc-43026688": {
+      "role": "test-qa",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20211120-nc-47347456": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20211224-nc-81830656": {
+      "role": "software-development",
+      "labels": [
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220218-nc-26263296": {
+      "role": "network-communication",
+      "labels": [
+        "协议",
+        "光产品",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220223-nc-03363328": {
+      "role": "network-communication",
+      "labels": [
+        "协议",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220219-nc-49029888": {
+      "role": "embedded",
+      "labels": [
+        "C语言",
+        "C++",
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220218-nc-99341824": {
+      "role": "network-communication",
+      "labels": [
+        "基带",
+        "射频",
+        "无线",
+        "协议"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220223-nc-38907648": {
+      "role": "network-communication",
+      "labels": [
+        "无线",
+        "协议",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220223-nc-72910848": {
+      "role": "network-communication",
+      "labels": [
+        "协议",
+        "光产品",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220318-nc-94406400": {
+      "role": "software-development",
+      "labels": [
+        "数据库"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220407-nc-73682944": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220308-nc-95607808": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20220416-nc-19124480": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220412-nc-91673088": {
+      "role": "embedded",
+      "labels": [
+        "芯片",
+        "总线"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220424-nc-60038912": {
+      "role": "software-development",
+      "labels": [
+        "Python",
+        "后端",
+        "数据库",
+        "Linux",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220407-nc-82734848": {
+      "role": "test-qa",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20220501-nc-47226368": {
+      "role": "embedded",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220501-nc-91822592": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "机器学习",
+        "Python",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220506-nc-86673920": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220510-nc-23615488": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220512-nc-53718528": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "Linux",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220513-nc-47034368": {
+      "role": "embedded",
+      "labels": [
+        "FPGA",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220605-nc-38750464": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20220512-nc-91369216": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20220706-nc-55502080": {
+      "role": "embedded",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20220717-nc-55367936": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20220726-nc-75959808": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220719-nc-47936000": {
+      "role": "software-development",
+      "labels": [
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220804-nc-12987392": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220730-nc-81854464": {
+      "role": "ai",
+      "labels": [
+        "计算机视觉",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220818-nc-10861312": {
+      "role": "embedded",
+      "labels": [
+        "手撕"
+      ],
+      "source": "fallback_keyword"
+    },
+    "hw-exp-20220825-nc-76165888": {
+      "role": "software-development",
+      "labels": [
+        "数据库",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220927-nc-63359232": {
+      "role": "software-development",
+      "labels": [
+        "前端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220926-nc-84852480": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220929-nc-41834752": {
+      "role": "software-development",
+      "labels": [
+        "Python",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20220916-nc-77830656": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "操作系统",
+        "八股",
+        "手撕",
+        "Python"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20221015-nc-24557568": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20221003-nc-15087104": {
+      "role": "embedded",
+      "labels": [
+        "单片机",
+        "FPGA",
+        "芯片",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20221017-nc-44106240": {
+      "role": "software-development",
+      "labels": [
+        "Go",
+        "后端",
+        "数据库",
+        "分布式",
+        "云计算",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20221020-nc-58520064": {
+      "role": "network-communication",
+      "labels": [
+        "无线",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20221021-nc-65284096": {
+      "role": "software-development",
+      "labels": [
+        "云计算"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20221115-nc-46985984": {
+      "role": "embedded",
+      "labels": [
+        "芯片",
+        "FPGA"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20221118-nc-20432896": {
+      "role": "embedded",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20221121-nc-12520192": {
+      "role": "embedded",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20221202-nc-54985472": {
+      "role": "embedded",
+      "labels": [
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230210-nc-1595797": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "Python",
+        "后端",
+        "云计算"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20221205-nc-90985472": {
+      "role": "embedded",
+      "labels": [
+        "芯片"
+      ],
+      "source": "fallback_keyword"
+    },
+    "hw-exp-20230302-nc-00219904": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "分布式",
+        "数据库"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230302-nc-70213376": {
+      "role": "embedded",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20230305-nc-63825920": {
+      "role": "software-development",
+      "labels": [
+        "C++"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230322-nc-67565568": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "C++",
+        "Python",
+        "后端",
+        "前端",
+        "数据库",
+        "微服务",
+        "云计算"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230322-nc-03220480": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "C++",
+        "Python",
+        "后端",
+        "前端",
+        "数据库",
+        "微服务",
+        "云计算"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230323-nc-55444480": {
+      "role": "ai",
+      "labels": [
+        "NLP",
+        "机器学习",
+        "深度学习"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230419-nc-1670944": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230428-nc-75087872": {
+      "role": "ai",
+      "labels": [
+        "计算机视觉",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230510-nc-27648256": {
+      "role": "network-communication",
+      "labels": [
+        "无线",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230511-nc-17319936": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "Python",
+        "后端",
+        "数据库",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230420-nc-1671789": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230515-nc-58601984": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230516-nc-1750613": {
+      "role": "embedded",
+      "labels": [
+        "FPGA"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230516-nc-73066496": {
+      "role": "software-development",
+      "labels": [
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230518-nc-1753110": {
+      "role": "embedded",
+      "labels": [
+        "C++",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230525-nc-58764544": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230519-nc-83237888": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230527-nc-11376640": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230529-nc-1762189": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230605-nc-1768188": {
+      "role": "embedded",
+      "labels": [
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230602-nc-1766125": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "fallback_keyword"
+    },
+    "hw-exp-20230608-nc-02658048": {
+      "role": "embedded",
+      "labels": [
+        "C++",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230629-nc-1784925": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230609-nc-15431680": {
+      "role": "test-qa",
+      "labels": [
+        "软件测试"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230707-nc-04202496": {
+      "role": "software-development",
+      "labels": [
+        "Go",
+        "后端",
+        "Linux",
+        "分布式",
+        "云计算",
+        "操作系统",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230713-nc-99388416": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "操作系统",
+        "数据库"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230710-nc-1792708": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "Python",
+        "C++",
+        "Go",
+        "后端",
+        "数据库",
+        "Spring",
+        "分布式",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230720-nc-1802096": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "NLP",
+        "机器学习",
+        "Python"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230731-nc-1813838": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "分布式",
+        "云计算"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230811-nc-1829093": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230809-nc-36516608": {
+      "role": "embedded",
+      "labels": [
+        "芯片"
+      ],
+      "source": "fallback_keyword"
+    },
+    "hw-exp-20230903-nc-1873535": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "云计算"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230830-nc-70262784": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20230909-nc-91964416": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20231018-nc-87898368": {
+      "role": "software-development",
+      "labels": [
+        "前端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20231026-nc-2012098": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20231031-nc-2024607": {
+      "role": "network-communication",
+      "labels": [
+        "无线",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20231027-nc-2014547": {
+      "role": "software-development",
+      "labels": [
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20231107-nc-2038508": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20231107-nc-2038818": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20231109-nc-2041511": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20231204-nc-2078203": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240110-nc-2107853": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20240228-nc-2132152": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20240214-nc-82451200": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240304-nc-65966336": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240330-nc-60555008": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20240322-nc-22770944": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "NLP",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240320-nc-09062912": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "C++",
+        "Python",
+        "Go",
+        "后端",
+        "数据库",
+        "Linux",
+        "Spring",
+        "微服务",
+        "分布式",
+        "云计算",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240411-nc-40271104": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240418-nc-68534016": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "C++",
+        "Python",
+        "后端",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240419-nc-56247808": {
+      "role": "embedded",
+      "labels": [
+        "C语言",
+        "C++",
+        "Linux",
+        "RTOS",
+        "总线",
+        "单片机",
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240428-nc-2216248": {
+      "role": "software-development",
+      "labels": [
+        "前端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240426-nc-2212938": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "数据库",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240519-nc-2234921": {
+      "role": "software-development",
+      "labels": [
+        "前端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240522-nc-2237905": {
+      "role": "embedded",
+      "labels": [
+        "单片机"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240603-nc-60714240": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "Spring",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240607-nc-2250990": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20240521-xhs-1601370e": {
+      "role": "test-qa",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240705-nc-30855168": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "计算机视觉",
+        "机器学习"
+      ],
+      "source": "fallback_keyword"
+    },
+    "hw-exp-20240618-nc-2258731": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240703-nc-2270678": {
+      "role": "network-communication",
+      "labels": [
+        "无线"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240708-nc-12550400": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "计算机视觉",
+        "机器学习",
+        "Python",
+        "PyTorch",
+        "智能驾驶",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240722-nc-89659136": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "C++",
+        "Python",
+        "Go",
+        "后端",
+        "前端",
+        "数据库",
+        "微服务",
+        "分布式"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240711-nc-2277748": {
+      "role": "software-development",
+      "labels": [
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240726-nc-2295109": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "C++",
+        "Python",
+        "Go",
+        "后端",
+        "数据库"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240727-nc-48727296": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240802-nc-2304209": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240816-nc-2322718": {
+      "role": "embedded",
+      "labels": [
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240817-nc-2324142": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20240827-nc-16137728": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240829-nc-85415168": {
+      "role": "embedded",
+      "labels": [
+        "FPGA",
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240830-nc-2346870": {
+      "role": "software-development",
+      "labels": [
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240901-nc-01193472": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240901-nc-2349623": {
+      "role": "embedded",
+      "labels": [
+        "C语言",
+        "C++",
+        "单片机",
+        "Linux",
+        "驱动",
+        "ARM",
+        "RTOS",
+        "芯片",
+        "总线",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240904-nc-2356031": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "分布式"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240908-nc-2363665": {
+      "role": "ai",
+      "labels": [
+        "大模型"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240909-nc-2364685": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20240910-nc-57639424": {
+      "role": "ai",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240910-nc-69999616": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240913-nc-2373744": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20240912-nc-2371881": {
+      "role": "software-development",
+      "labels": [
+        "操作系统",
+        "分布式"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240912-nc-2372014": {
+      "role": "ai",
+      "labels": [
+        "计算机视觉",
+        "深度学习",
+        "Python",
+        "PyTorch",
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240916-nc-2378088": {
+      "role": "ai",
+      "labels": [
+        "大模型"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240916-nc-2378737": {
+      "role": "ai",
+      "labels": [
+        "大模型"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240918-nc-2379678": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240920-nc-2384441": {
+      "role": "test-qa",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240922-nc-2387737": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "C++",
+        "Python",
+        "后端",
+        "操作系统",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240929-nc-2402019": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20240925-nc-13013504": {
+      "role": "software-development",
+      "labels": [
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241008-nc-2409451": {
+      "role": "ai",
+      "labels": [
+        "大模型"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241008-nc-2410069": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241012-nc-44364288": {
+      "role": "embedded",
+      "labels": [
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241008-nc-2410070": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241016-nc-2424386": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241024-nc-2436980": {
+      "role": "software-development",
+      "labels": [
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241027-nc-2441639": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "NLP",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241024-nc-2437084": {
+      "role": "test-qa",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241031-nc-46438400": {
+      "role": "embedded",
+      "labels": [
+        "FPGA",
+        "八股",
+        "手撕",
+        "总线"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241029-nc-2445687": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "计算机视觉",
+        "NLP",
+        "机器学习",
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "智能驾驶",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241101-nc-2451125": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "Linux",
+        "操作系统",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241107-nc-2458527": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20241112-nc-2466109": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20241111-nc-50452736": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241118-nc-2473036": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20241114-nc-46936576": {
+      "role": "ai",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241121-nc-2476984": {
+      "role": "test-qa",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20241121-nc-2477575": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "云计算"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241130-nc-2488375": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241128-nc-2486454": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20241203-nc-09217792": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20241217-nc-02619392": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250102-nc-2512595": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "C++",
+        "后端",
+        "Spring"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20241230-nc-77111040": {
+      "role": "software-development",
+      "labels": [
+        "Python",
+        "C++",
+        "Linux",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250108-nc-2515232": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250201-nc-2522363": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "Linux",
+        "操作系统",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250313-nc-37937152": {
+      "role": "network-communication",
+      "labels": [
+        "无线"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250227-nc-2537749": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250318-nc-2557593": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250318-nc-2558075": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250324-nc-2564105": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250408-nc-2577947": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20250429-nc-2596071": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250508-nc-2599861": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250530-nc-2612224": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "Java",
+        "后端",
+        "数据库",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250606-xhs-0f03106d": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "NLP",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250612-nc-2617992": {
+      "role": "software-development",
+      "labels": [
+        "云计算",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250613-nc-2618413": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250618-nc-23684096": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20250622-nc-41765632": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20250625-xhs-2203c6fb": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20250708-nc-2629075": {
+      "role": "software-development",
+      "labels": [
+        "分布式",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250708-nc-2629457": {
+      "role": "software-development",
+      "labels": [
+        "分布式",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250728-nc-2642074": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "计算机视觉",
+        "机器学习",
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250729-nc-34395392": {
+      "role": "embedded",
+      "labels": [
+        "芯片",
+        "总线"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250801-nc-2645964": {
+      "role": "embedded",
+      "labels": [
+        "C语言",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250731-nc-2644806": {
+      "role": "software-development",
+      "labels": [
+        "云计算",
+        "后端",
+        "微服务",
+        "分布式"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250806-nc-2650355": {
+      "role": "network-communication",
+      "labels": [
+        "无线",
+        "ICT"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250903-nc-2679378": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "计算机视觉",
+        "机器学习",
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250903-nc-85810688": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "计算机视觉",
+        "机器学习",
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250904-nc-88930560": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "深度学习",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250910-nc-75345152": {
+      "role": "network-communication",
+      "labels": [
+        "无线",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250909-nc-2685990": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "Java",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250909-nc-93117440": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "机器学习",
+        "Python",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250910-nc-96538112": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "Python"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20251027-nc-2727495": {
+      "role": "embedded",
+      "labels": [
+        "RTOS",
+        "Linux",
+        "总线",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250919-nc-80156672": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "机器学习",
+        "Python",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20250924-nc-17724416": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "Python",
+        "Java",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20251104-xhs-03023bf7": {
+      "role": "software-development",
+      "labels": [
+        "Python",
+        "C++",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260121-nc-90458624": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20251201-nc-2758812": {
+      "role": "software-development",
+      "labels": [
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260209-xhs-0e03e6e0": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260210-nc-87042560": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "Python",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260303-nc-2798758": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260313-xhs-1f002454": {
+      "role": "ai",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20260422-xhs-2103960d": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "NLP",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260424-nc-02253056": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260424-xhs-22026d4d": {
+      "role": "ai",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260425-xhs-22024aac": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260427-xhs-3501fce1": {
+      "role": "ai",
+      "labels": [
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260427-xhs-35030019": {
+      "role": "software-development",
+      "labels": [
+        "Linux",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260429-xhs-36031dfc": {
+      "role": "ai",
+      "labels": [
+        "手撕",
+        "八股",
+        "大模型"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260516-xhs-060359cc": {
+      "role": "software-development",
+      "labels": [
+        "Python",
+        "后端",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260519-xhs-3701e319": {
+      "role": "embedded",
+      "labels": [
+        "芯片",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260508-nc-2849072": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260513-xhs-360181e0": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260520-xhs-360313ed": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "机器学习",
+        "Python",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260522-xhs-0702df09": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260525-xhs-3601aa74": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260520-xhs-35021804": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "NLP",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260529-xhs-0702c300": {
+      "role": "software-development",
+      "labels": [
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260531-xhs-0702d8e3": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "Python",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260601-xhs-06033c79": {
+      "role": "embedded",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260601-xhs-0800287c": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "NLP"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260605-xhs-0702941b": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260605-xhs-1c027ffb": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "NLP",
+        "机器学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260625-nc-92239360": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260630-xhs-11011a85": {
+      "role": "embedded",
+      "labels": [
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260630-xhs-2100bf44": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260714-xhs-2200ae9b": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260715-xhs-1003e08b": {
+      "role": "network-communication",
+      "labels": [
+        "光产品"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260718-xhs-0301ca65": {
+      "role": "embedded",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-20260715-xhs-1100745e": {
+      "role": "ai",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260720-xhs-0100e194": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260720-xhs-0f016520": {
+      "role": "embedded",
+      "labels": [
+        "芯片"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-20260720-xhs-0f01fd01": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2418": {
+      "role": "ai",
+      "labels": [
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2420": {
+      "role": "embedded",
+      "labels": [
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2419": {
+      "role": "embedded",
+      "labels": [
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2421": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2422": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2423": {
+      "role": "embedded",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2424": {
+      "role": "embedded",
+      "labels": [
+        "芯片",
+        "总线",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2425": {
+      "role": "software-development",
+      "labels": [
+        "操作系统",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2426": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "八股",
+        "手撕",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2428": {
+      "role": "ai",
+      "labels": [
+        "手撕",
+        "八股",
+        "大模型"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2427": {
+      "role": "software-development",
+      "labels": [
+        "微服务",
+        "分布式",
+        "数据库",
+        "Java",
+        "Spring",
+        "八股",
+        "手撕",
+        "云计算",
+        "Linux"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2429": {
+      "role": "software-development",
+      "labels": [
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2431": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "手撕",
+        "八股",
+        "分布式",
+        "微服务",
+        "Linux",
+        "操作系统"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2432": {
+      "role": "software-development",
+      "labels": [
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2430": {
+      "role": "software-development",
+      "labels": [
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2433": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股",
+        "Linux",
+        "后端"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2435": {
+      "role": "embedded",
+      "labels": [
+        "C++",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2434": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2436": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "Linux",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2437": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2438": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2439": {
+      "role": "ai",
+      "labels": [
+        "Python",
+        "机器学习",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2440": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "数据库",
+        "分布式",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2441": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2442": {
+      "role": "network-communication",
+      "labels": [
+        "无线"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2443": {
+      "role": "network-communication",
+      "labels": [
+        "光产品",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2444": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "计算机视觉",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2445": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2446": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2447": {
+      "role": "embedded",
+      "labels": [
+        "C语言",
+        "八股",
+        "手撕",
+        "Linux"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2448": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "数据库",
+        "分布式",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2449": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2450": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "分布式",
+        "操作系统",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2451": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2452": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "数据库",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2453": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "数据库",
+        "Linux",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2454": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "Java",
+        "后端",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2455": {
+      "role": "network-communication",
+      "labels": [
+        "ICT",
+        "光产品",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2456": {
+      "role": "network-communication",
+      "labels": [
+        "ICT",
+        "光产品",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2457": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2458": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2459": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2460": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2461": {
+      "role": "embedded",
+      "labels": [
+        "FPGA",
+        "芯片",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2462": {
+      "role": "network-communication",
+      "labels": [
+        "ICT",
+        "光产品",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2463": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2464": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2465": {
+      "role": "software-development",
+      "labels": [
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2467": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "Linux",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2466": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "NLP",
+        "机器学习",
+        "Python",
+        "PyTorch",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2468": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "操作系统",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2469": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2470": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "计算机视觉",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2477": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2471": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "Spring",
+        "数据库",
+        "八股",
+        "手撕",
+        "后端",
+        "操作系统",
+        "分布式"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2476": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "操作系统",
+        "手撕",
+        "八股",
+        "云计算"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2478": {
+      "role": "ai",
+      "labels": [
+        "Python",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2479": {
+      "role": "software-development",
+      "labels": [
+        "云计算",
+        "数据库",
+        "Linux",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2480": {
+      "role": "software-development",
+      "labels": [],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2481": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2482": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2483": {
+      "role": "software-development",
+      "labels": [
+        "Python",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2485": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "深度学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2484": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2486": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "深度学习",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2488": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "分布式",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2489": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "计算机视觉",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2500": {
+      "role": "ai",
+      "labels": [
+        "计算机视觉",
+        "NLP",
+        "深度学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2501": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2502": {
+      "role": "software-development",
+      "labels": [
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2504": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2503": {
+      "role": "software-development",
+      "labels": [
+        "Python",
+        "后端",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2505": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2506": {
+      "role": "ai",
+      "labels": [
+        "机器学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2507": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2510": {
+      "role": "software-development",
+      "labels": [
+        "操作系统",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2509": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "NLP",
+        "机器学习",
+        "Python",
+        "手撕",
+        "八股",
+        "智能驾驶"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2508": {
+      "role": "ai",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2511": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "数据库",
+        "分布式",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2512": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2513": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2514": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "NLP",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2515": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2516": {
+      "role": "software-development",
+      "labels": [
+        "数据库",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2517": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2518": {
+      "role": "software-development",
+      "labels": [
+        "八股",
+        "手撕",
+        "操作系统",
+        "C++"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2519": {
+      "role": "software-development",
+      "labels": [
+        "C++",
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2521": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2520": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "PyTorch",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2522": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "机器学习",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2523": {
+      "role": "ai",
+      "labels": [
+        "智能驾驶",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2526": {
+      "role": "software-development",
+      "labels": [
+        "后端",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2524": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "机器学习",
+        "Python",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2527": {
+      "role": "ai",
+      "labels": [
+        "深度学习",
+        "计算机视觉",
+        "Python",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P2528": {
+      "role": "ai",
+      "labels": [
+        "大模型",
+        "深度学习",
+        "八股",
+        "手撕"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P3797": {
+      "role": "software-development",
+      "labels": [
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    },
+    "hw-exp-cf-P3796": {
+      "role": "software-development",
+      "labels": [
+        "Java",
+        "后端",
+        "分布式",
+        "手撕",
+        "八股"
+      ],
+      "source": "llm"
+    }
+  }
+}

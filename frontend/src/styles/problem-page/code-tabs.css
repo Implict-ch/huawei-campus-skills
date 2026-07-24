@@ -1,0 +1,100 @@
+/* ── Code Tabs（多语言 Tab 容器） ── */
+
+.code-tabs {
+  background: var(--code-panel-bg);
+  border: 1px solid var(--code-panel-border, var(--border));
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 28px 0;
+}
+
+.code-tabs__bar {
+  display: flex;
+  border-bottom: 1px solid var(--code-panel-border, var(--border));
+  background: var(--code-tab-bar-bg);
+  overflow-x: auto;
+}
+
+.code-tabs__tab {
+  font-family: var(--code-font-family);
+  font-size: var(--text-size-ui);
+  padding: 10px 20px;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  white-space: nowrap;
+}
+
+.code-tabs__tab:hover {
+  color: var(--text-primary);
+}
+
+.code-tabs__tab--active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  background: var(--code-tab-active-bg);
+}
+
+.code-tabs__sub-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 12px 0;
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in srgb, var(--bg-panel) 60%, transparent);
+}
+
+.code-tabs__sub-tab {
+  font-family: var(--font-mono);
+  font-size: var(--text-size-caption);
+  font-weight: 600;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.code-tabs__sub-tab:hover {
+  color: var(--text-secondary);
+  border-color: var(--border-light);
+}
+
+.code-tabs__sub-tab--active {
+  color: var(--accent);
+  border-color: var(--accent-border);
+  background: var(--accent-dim);
+}
+
+.code-tabs__panel {
+  background: var(--code-panel-bg);
+}
+
+.code-tabs__panel.code-block--bare .code-block__pre {
+  padding: 12px 0 16px;
+}
+
+.code-tabs__panel.code-block--bare .code-block__pre--numbered {
+  padding: 0;
+}
+
+.code-tabs__panel.code-block--bare.code-block--line-numbers .code-block__table tr:first-child .code-block__ln,
+.code-tabs__panel.code-block--bare.code-block--line-numbers .code-block__table tr:first-child .code-block__line {
+  padding-top: 12px;
+}
+
+/* 浅色模式：Tab 激活态用语法蓝而非主题 accent，避免暖色主题下发橙 */
+html[data-theme-mode="light"] .code-tabs__tab--active {
+  color: var(--code-hl-number);
+  border-bottom-color: var(--code-hl-number);
+}
+
+html[data-theme-mode="light"] .code-block__copy:hover {
+  border-color: color-mix(in srgb, var(--code-hl-number) 40%, transparent);
+  background: color-mix(in srgb, var(--code-hl-number) 10%, transparent);
+}

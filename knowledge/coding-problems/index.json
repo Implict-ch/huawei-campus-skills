@@ -1,0 +1,1911 @@
+{
+  "version": 2,
+  "problemset": {
+    "title": "华为校招&实习面经手撕题库",
+    "url": "https://codefun2000.com/problemset/hwmj"
+  },
+  "description": "CodeFun2000 hwmj 题库索引；source_url 供 Agent 输出可点击链接",
+  "problems": [
+    {
+      "id": "P2418",
+      "pid": "2418",
+      "title": "25秋招-10月中-AI算法工程师-一二三面面经",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2418",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2419",
+      "pid": "2419",
+      "title": "25秋招-11月初-无线部门-通信算法工程师-一二三面面经",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "嵌入式软件"
+      ],
+      "roles": [
+        "embedded"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2419",
+      "published_at": "2025-11-05"
+    },
+    {
+      "id": "P2420",
+      "pid": "2420",
+      "title": "25秋招-11月初-ICT产品与解决方案-光产品线-通信算法工程师-一二三面面经",
+      "category": "通信",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通信",
+        "嵌入式软件"
+      ],
+      "roles": [
+        "embedded"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2420",
+      "published_at": "2025-11-05"
+    },
+    {
+      "id": "P2421",
+      "pid": "2421",
+      "title": "25-秋招-10月中-终端-一二面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2421",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2422",
+      "pid": "2422",
+      "title": "25秋招-华为手撕真题两道",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "手撕"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2422",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2423",
+      "pid": "2423",
+      "title": "25秋招-10月中--硬件开发一二三面面经",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "嵌入式软件"
+      ],
+      "roles": [
+        "embedded"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2423",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2424",
+      "pid": "2424",
+      "title": "25秋招-10月下--硬件开发一二三面面经",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "嵌入式软件"
+      ],
+      "roles": [
+        "embedded"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2424",
+      "published_at": "2025-10-20"
+    },
+    {
+      "id": "P2425",
+      "pid": "2425",
+      "title": "25秋招-10月中-海思-通用软件开发一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2425",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2426",
+      "pid": "2426",
+      "title": "25秋招-10月中--一二三面面经",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2426",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2427",
+      "pid": "2427",
+      "title": "25秋招-10月下-微服务相关-一二面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2427",
+      "published_at": "2025-10-20"
+    },
+    {
+      "id": "P2428",
+      "pid": "2428",
+      "title": "25秋招-10月中-华为GTS-服务与软件研发管理部-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2428",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2429",
+      "pid": "2429",
+      "title": "25秋招-10月中-通用软开-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2429",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2430",
+      "pid": "2430",
+      "title": "25秋招-10月中-通用软开-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2430",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2431",
+      "pid": "2431",
+      "title": "25秋招-10月中-通用软开-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2431",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2432",
+      "pid": "2432",
+      "title": "25秋招-10月中-终端-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2432",
+      "published_at": "2025-10-15"
+    },
+    {
+      "id": "P2433",
+      "pid": "2433",
+      "title": "25秋招-9月下-通用软件开发-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2433",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2434",
+      "pid": "2434",
+      "title": "25秋招-9月下-终端-通用软件开发-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2434",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2435",
+      "pid": "2435",
+      "title": "25秋招-9月下-嵌入式-通用软件开发-一二三面面经",
+      "category": "嵌入式",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "嵌入式",
+        "嵌入式软件"
+      ],
+      "roles": [
+        "embedded"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2435",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2436",
+      "pid": "2436",
+      "title": "25秋招-9月-计算产品线-通用软件开发-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2436",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2437",
+      "pid": "2437",
+      "title": "25秋招-9月下-终端bg-结构与材料工程师-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2437",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2438",
+      "pid": "2438",
+      "title": "25秋招-9月下-通用软开-一二面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2438",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2439",
+      "pid": "2439",
+      "title": "25秋招-9月下--通用软开-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2439",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2440",
+      "pid": "2440",
+      "title": "25秋招-9月下-终端bg--二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2440",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2441",
+      "pid": "2441",
+      "title": "25秋招-9月下-智能驾驶--一面面经",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2441",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2442",
+      "pid": "2442",
+      "title": "25秋招-9月下-短距离通信--主管面面经",
+      "category": "通信",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通信",
+        "通信 / 网络"
+      ],
+      "roles": [
+        "network-communication"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2442",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2443",
+      "pid": "2443",
+      "title": "25秋招-9月下-光产品线-通用软件开发-一面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "通信 / 网络"
+      ],
+      "roles": [
+        "network-communication"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2443",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2444",
+      "pid": "2444",
+      "title": "25秋招-9月中-终端-二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2444",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2445",
+      "pid": "2445",
+      "title": "25秋招-9月中-终端bg-通用软开-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2445",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2446",
+      "pid": "2446",
+      "title": "25秋招-9月下-终端-二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2446",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2447",
+      "pid": "2447",
+      "title": "25秋招-9月下-终端-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "嵌入式软件"
+      ],
+      "roles": [
+        "embedded"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2447",
+      "published_at": "2025-09-20"
+    },
+    {
+      "id": "P2448",
+      "pid": "2448",
+      "title": "25秋招-9月中-华为云-通关面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2448",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2449",
+      "pid": "2449",
+      "title": "25秋招-9月中-通用软件开发-通关面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2449",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2450",
+      "pid": "2450",
+      "title": "25秋招-9月底-通用软件开发-二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2450",
+      "published_at": "2025-09-25"
+    },
+    {
+      "id": "P2451",
+      "pid": "2451",
+      "title": "25秋招-9月-车BU座舱-通用软件开发-一二面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2451",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2452",
+      "pid": "2452",
+      "title": "25秋招-9月初-后端-通用软件开发师-一面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2452",
+      "published_at": "2025-09-05"
+    },
+    {
+      "id": "P2453",
+      "pid": "2453",
+      "title": "25秋招-9月初-后端-流程it-一面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2453",
+      "published_at": "2025-09-05"
+    },
+    {
+      "id": "P2454",
+      "pid": "2454",
+      "title": "25秋招-9月-ICT-通用软件开发-一二&主管面（通关）",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2454",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2455",
+      "pid": "2455",
+      "title": "25秋招-9月初-ICT光产品线-通用软件开发-一面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "通信 / 网络"
+      ],
+      "roles": [
+        "network-communication"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2455",
+      "published_at": "2025-09-05"
+    },
+    {
+      "id": "P2456",
+      "pid": "2456",
+      "title": "25秋招-9月初-ICT-光产品线-手撕两道",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "手撕",
+        "通信 / 网络"
+      ],
+      "roles": [
+        "network-communication"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2456",
+      "published_at": "2025-09-05"
+    },
+    {
+      "id": "P2457",
+      "pid": "2457",
+      "title": "25秋招-9月初-ICT-计算产品线-通用软件开发-手撕5道",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "手撕",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2457",
+      "published_at": "2025-09-05"
+    },
+    {
+      "id": "P2458",
+      "pid": "2458",
+      "title": "25秋招-9月初-终端-手撕2道",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "手撕"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2458",
+      "published_at": "2025-09-05"
+    },
+    {
+      "id": "P2459",
+      "pid": "2459",
+      "title": "25秋招-9月初-终端-通用软件开发-一面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2459",
+      "published_at": "2025-09-05"
+    },
+    {
+      "id": "P2460",
+      "pid": "2460",
+      "title": "25秋招-9月-终端BG-一二面&主管面（通关）",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2460",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2461",
+      "pid": "2461",
+      "title": "25秋招-9月中-无线-硬件逻辑岗(FPGA)-一面面经",
+      "category": "嵌入式",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "嵌入式",
+        "嵌入式软件"
+      ],
+      "roles": [
+        "embedded"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2461",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2462",
+      "pid": "2462",
+      "title": "25秋招-9月中-ict光产品线-通用软件开发-二面&主管面（通关）",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "通信 / 网络"
+      ],
+      "roles": [
+        "network-communication"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2462",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2463",
+      "pid": "2463",
+      "title": "25秋招-9月-通用软件开发-一面&多道手撕",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "手撕"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2463",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2464",
+      "pid": "2464",
+      "title": "（精）24秋招-23.11月底-海思半导体与器件业务部-通用软件开发工程师-三轮面试（通关）",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2464",
+      "published_at": "2024-23-11"
+    },
+    {
+      "id": "P2465",
+      "pid": "2465",
+      "title": "25秋招-9月-通用软件开发-主管面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2465",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2466",
+      "pid": "2466",
+      "title": "25秋招-9月-华为AI工程师（大模型方向）- 专业面&主管面",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2466",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2467",
+      "pid": "2467",
+      "title": "25秋招-9月-通用软件开发-一面&二面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2467",
+      "published_at": "2025-09-15"
+    },
+    {
+      "id": "P2468",
+      "pid": "2468",
+      "title": "25秋招-9月底-通用软件开发-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2468",
+      "published_at": "2025-09-25"
+    },
+    {
+      "id": "P2469",
+      "pid": "2469",
+      "title": "25秋招-9月底-终端软件部-通用软件开发-一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2469",
+      "published_at": "2025-09-25"
+    },
+    {
+      "id": "P2470",
+      "pid": "2470",
+      "title": "25秋招-9月底--算法工程师一二三面面经",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2470",
+      "published_at": "2025-09-25"
+    },
+    {
+      "id": "P2471",
+      "pid": "2471",
+      "title": "25秋招-9月底-服务与软件研发管理-通用软件开发一二三面面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2471",
+      "published_at": "2025-09-25"
+    },
+    {
+      "id": "P2476",
+      "pid": "2476",
+      "title": "26秋招-9月底-云计算-一面",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2476",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2477",
+      "pid": "2477",
+      "title": "26秋招-9月底-终端BG-三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2477",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2478",
+      "pid": "2478",
+      "title": "26秋招-9月底-AI应用开发-一二三面",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2478",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2479",
+      "pid": "2479",
+      "title": "26秋招-9月底-云计算-一二三面",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2479",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2480",
+      "pid": "2480",
+      "title": "26秋招-9月底-终端BG天线工程师-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2480",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2481",
+      "pid": "2481",
+      "title": "26秋招-9月底-AI软件开发-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2481",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2482",
+      "pid": "2482",
+      "title": "26秋招-9月底-AI应用方向-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2482",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2483",
+      "pid": "2483",
+      "title": "26秋招-9月底-AI软件开发-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2483",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2484",
+      "pid": "2484",
+      "title": "26秋招-9月底-AI应用方向-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2484",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2485",
+      "pid": "2485",
+      "title": "26秋招-9月底-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2485",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2486",
+      "pid": "2486",
+      "title": "26秋招-9月底-云计算AI软开-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2486",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2488",
+      "pid": "2488",
+      "title": "26秋招-9月底-终端软件研发-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2488",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2489",
+      "pid": "2489",
+      "title": "26秋招-9月底-AI应用方向-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2489",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2500",
+      "pid": "2500",
+      "title": "26秋招-10月初-计算机视觉-一二三面",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2500",
+      "published_at": "2026-10-05"
+    },
+    {
+      "id": "P2501",
+      "pid": "2501",
+      "title": "26秋招-10月中-AI软开-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2501",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2502",
+      "pid": "2502",
+      "title": "26秋招-10月中-终端天线-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2502",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2503",
+      "pid": "2503",
+      "title": "26秋招-9月底-AI软件开发-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2503",
+      "published_at": "2026-09-25"
+    },
+    {
+      "id": "P2504",
+      "pid": "2504",
+      "title": "26秋招-10月中-AI软件开发-二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2504",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2505",
+      "pid": "2505",
+      "title": "26秋招-10月中-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2505",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2506",
+      "pid": "2506",
+      "title": "26秋招-10月中-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2506",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2507",
+      "pid": "2507",
+      "title": "26秋招-10月中-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2507",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2508",
+      "pid": "2508",
+      "title": "26秋招-10月中-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2508",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2509",
+      "pid": "2509",
+      "title": "26秋招-10月中-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2509",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2510",
+      "pid": "2510",
+      "title": "26秋招-10月中-通用软件开发-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2510",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2511",
+      "pid": "2511",
+      "title": "26秋招-10月中-终端云-一二三面",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2511",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2512",
+      "pid": "2512",
+      "title": "26秋招-10月中-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2512",
+      "published_at": "2026-10-15"
+    },
+    {
+      "id": "P2513",
+      "pid": "2513",
+      "title": "26秋招-10月底-AI岗-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2513",
+      "published_at": "2026-10-25"
+    },
+    {
+      "id": "P2514",
+      "pid": "2514",
+      "title": "26秋招-10月底-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2514",
+      "published_at": "2026-10-25"
+    },
+    {
+      "id": "P2515",
+      "pid": "2515",
+      "title": "26秋招-10月底-通用软件开发-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2515",
+      "published_at": "2026-10-25"
+    },
+    {
+      "id": "P2516",
+      "pid": "2516",
+      "title": "26秋招-10月底-数据库开发-一二面",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2516",
+      "published_at": "2026-10-25"
+    },
+    {
+      "id": "P2517",
+      "pid": "2517",
+      "title": "226秋招-10月底-软件开发-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2517",
+      "published_at": "2026-10-25"
+    },
+    {
+      "id": "P2518",
+      "pid": "2518",
+      "title": "26秋招-10月底-通用软件开发-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2518",
+      "published_at": "2026-10-25"
+    },
+    {
+      "id": "P2519",
+      "pid": "2519",
+      "title": "26秋招-10月底-车控-通用软件开发-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2519",
+      "published_at": "2026-10-25"
+    },
+    {
+      "id": "P2520",
+      "pid": "2520",
+      "title": "26秋招-10月底-AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2520",
+      "published_at": "2026-10-25"
+    },
+    {
+      "id": "P2521",
+      "pid": "2521",
+      "title": "26秋招-11月中-华为云自驾-一二三面",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2521",
+      "published_at": "2026-11-15"
+    },
+    {
+      "id": "P2522",
+      "pid": "2522",
+      "title": "26秋招-11月底- AI方向-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2522",
+      "published_at": "2026-11-25"
+    },
+    {
+      "id": "P2523",
+      "pid": "2523",
+      "title": "26秋招-11月中-云的自驾-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2523",
+      "published_at": "2026-11-15"
+    },
+    {
+      "id": "P2524",
+      "pid": "2524",
+      "title": "26秋招-11月底- AI算法-一二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2524",
+      "published_at": "2026-11-25"
+    },
+    {
+      "id": "P2526",
+      "pid": "2526",
+      "title": "26秋招-11月底-车bu座舱AI软开-一二三面",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2526",
+      "published_at": "2026-11-25"
+    },
+    {
+      "id": "P2527",
+      "pid": "2527",
+      "title": "27暑期实习-3月底-AI工程师-二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "实习",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2527",
+      "published_at": "2027-03-25"
+    },
+    {
+      "id": "P2528",
+      "pid": "2528",
+      "title": "27暑期实习-4月底-AI大模型工程师-二三面",
+      "category": "算法",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "算法",
+        "实习",
+        "AI大类"
+      ],
+      "roles": [
+        "ai"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P2528",
+      "published_at": "2027-04-25"
+    },
+    {
+      "id": "P3796",
+      "pid": "3796",
+      "title": "26-秋招-9.23-终端云-面经",
+      "category": "通用软件开发",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P3796",
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "P3797",
+      "pid": "3797",
+      "title": "26-秋招-9.24-计算产品线-通用软件开发工程师-面经",
+      "category": "其他",
+      "tags": [
+        "校招",
+        "CodeFun2000",
+        "其他",
+        "通用软件开发"
+      ],
+      "roles": [
+        "software-development"
+      ],
+      "stages": [
+        "interview"
+      ],
+      "source_url": "https://codefun2000.com/ide/P3797",
+      "published_at": "2026-09-24"
+    }
+  ]
+}

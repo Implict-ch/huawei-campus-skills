@@ -1,0 +1,104 @@
+/* ── Two Sum Demo ── */
+
+.two-sum-demo {
+  width: 100%;
+}
+
+.two-sum-demo__row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.two-sum-demo__label {
+  font-family: var(--font-mono);
+  font-size: var(--text-size-sm);
+  color: var(--text-muted);
+  width: 72px;
+  flex-shrink: 0;
+}
+
+.two-sum-demo__array {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.two-sum-demo__cell {
+  position: relative;
+  min-width: 48px;
+  padding: 12px 16px 20px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-family: var(--font-mono);
+  font-size: var(--text-size-lg);
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.two-sum-demo__cell--active {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.two-sum-demo__cell--found {
+  border-color: var(--success);
+  background: color-mix(in srgb, var(--success) 12%, transparent);
+}
+
+.two-sum-demo__idx {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--text-size-xs);
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.two-sum-demo__target {
+  font-family: var(--font-mono);
+  font-size: var(--text-size-lg);
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.two-sum-demo__hash {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.two-sum-demo__pair {
+  font-family: var(--font-mono);
+  font-size: var(--text-size-md);
+  padding: 8px 14px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--info);
+}
+
+.two-sum-demo__empty {
+  font-family: var(--font-mono);
+  font-size: var(--text-size-md);
+  color: var(--text-muted);
+}
+
+.two-sum-demo__caption {
+  margin: 8px 0 0;
+  padding: 14px 16px;
+  background: var(--bg-panel);
+  border-radius: 10px;
+  font-size: var(--text-size-md);
+  line-height: 1.7;
+  color: var(--text-secondary);
+  border-left: 3px solid var(--accent);
+}

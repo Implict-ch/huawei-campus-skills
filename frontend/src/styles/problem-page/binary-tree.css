@@ -1,0 +1,1056 @@
+/* ── 完全二叉树可视化（BinaryTreeSvg / 对比 / 步进演示）── */
+
+.binary-tree-svg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  color: var(--text-primary);
+}
+
+.binary-tree-svg__edge {
+  stroke: color-mix(in srgb, var(--text-muted) 55%, var(--border));
+  stroke-width: 1.75;
+}
+
+.binary-tree-svg__edge-label {
+  font-size: 9px;
+  font-family: var(--font-mono);
+  fill: var(--accent);
+  font-weight: 700;
+}
+
+.binary-tree-svg__node {
+  fill: var(--bg-card);
+  stroke: var(--border);
+  stroke-width: 1.75;
+}
+
+.binary-tree-svg__node-text {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  fill: var(--text-primary);
+}
+
+.binary-tree-svg__node-sub {
+  font-size: 8px;
+  font-family: var(--font-mono);
+  fill: var(--text-muted);
+}
+
+.binary-tree-svg__node-group--active .binary-tree-svg__node {
+  fill: color-mix(in srgb, var(--accent) 18%, var(--bg-card));
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.binary-tree-svg__node-group--done .binary-tree-svg__node {
+  fill: color-mix(in srgb, var(--teal) 10%, var(--bg-card));
+  stroke: color-mix(in srgb, var(--teal) 55%, var(--border));
+}
+
+.binary-tree-svg__node-group--leaf .binary-tree-svg__node {
+  fill: color-mix(in srgb, var(--success) 14%, var(--bg-card));
+  stroke: var(--success);
+}
+
+.binary-tree-svg__node-group--dim .binary-tree-svg__node {
+  fill: var(--bg-panel);
+  stroke: color-mix(in srgb, var(--border) 80%, transparent);
+  opacity: 0.45;
+}
+
+/* ── 完全 vs 非完全 并排对比 ── */
+
+.tree-compare-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0 24px;
+}
+
+.tree-compare-pair__panel {
+  margin: 0;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+.tree-compare-pair__panel--ok {
+  border-color: color-mix(in srgb, var(--success) 35%, var(--border));
+  background: color-mix(in srgb, var(--success) 5%, var(--bg-card));
+}
+
+.tree-compare-pair__panel--bad {
+  border-color: color-mix(in srgb, var(--danger) 35%, var(--border));
+  background: color-mix(in srgb, var(--danger) 5%, var(--bg-card));
+}
+
+.tree-compare-pair__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: var(--text-size-xs);
+  font-weight: 700;
+}
+
+.tree-compare-pair__badge--ok {
+  color: var(--success);
+  background: color-mix(in srgb, var(--success) 12%, transparent);
+}
+
+.tree-compare-pair__badge--bad {
+  color: var(--danger);
+  background: color-mix(in srgb, var(--danger) 12%, transparent);
+}
+
+.tree-compare-pair__note {
+  margin: 10px 0 0;
+  font-size: var(--text-size-sm);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* ── 索引公式树 ── */
+
+.index-formula-tree {
+  margin: 20px auto 24px;
+  padding: 14px 16px 16px;
+  max-width: 440px;
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--border));
+  background: color-mix(in srgb, var(--accent) 4%, var(--bg-panel));
+}
+
+.index-formula-tree .binary-tree-svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.index-formula-tree .binary-tree-svg__edge-label {
+  font-size: 9px;
+}
+
+.index-formula-tree__caption {
+  margin: 12px 0 0;
+  font-size: var(--text-size-sm);
+  color: var(--text-muted);
+  line-height: 1.55;
+  text-align: center;
+}
+
+/* ── 树 + 数组映射对照 ── */
+
+.tree-array-compare {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0 24px;
+}
+
+.tree-array-compare__col {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+.tree-array-compare__col--ok {
+  border-color: color-mix(in srgb, var(--success) 30%, var(--border));
+}
+
+.tree-array-compare__col--bad {
+  border-color: color-mix(in srgb, var(--danger) 30%, var(--border));
+}
+
+.tree-array-compare__heading {
+  margin: 0 0 12px;
+  font-size: var(--text-size-sm);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.tree-array-compare__tree {
+  margin: 0 auto;
+}
+
+.tree-array-compare__array-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border);
+}
+
+.tree-array-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 2.6rem;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  font-family: var(--font-mono);
+}
+
+.tree-array-slot__idx {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.tree-array-slot__val {
+  font-size: var(--text-size-sm);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.tree-array-slot--ok {
+  border-color: color-mix(in srgb, var(--success) 35%, var(--border));
+}
+
+.tree-array-slot--bad {
+  border-color: color-mix(in srgb, var(--danger) 35%, var(--border));
+}
+
+.tree-array-slot--hole,
+.tree-array-slot--null {
+  border-style: dashed;
+  opacity: 0.75;
+}
+
+.tree-array-slot--null .tree-array-slot__val {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.tree-array-compare__hint {
+  margin: 12px 0 0;
+  font-size: var(--text-size-xs);
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* ── 系列预告卡片 ── */
+
+.tree-series-preview {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 12px;
+  align-items: stretch;
+  margin: 20px 0 8px;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+.tree-series-preview__col {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+}
+
+.tree-series-preview__col--current {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  background: color-mix(in srgb, var(--accent) 6%, var(--bg-panel));
+}
+
+.tree-series-preview__col--next {
+  border-color: color-mix(in srgb, var(--teal) 35%, var(--border));
+  background: color-mix(in srgb, var(--teal) 6%, var(--bg-panel));
+}
+
+.tree-series-preview__tag {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.tree-series-preview__tag--next {
+  color: var(--teal);
+  background: color-mix(in srgb, var(--teal) 12%, transparent);
+}
+
+.tree-series-preview__title {
+  margin: 0 0 8px;
+  font-size: var(--text-size-md);
+  font-weight: 700;
+}
+
+.tree-series-preview__desc {
+  margin: 0;
+  font-size: var(--text-size-sm);
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.tree-series-preview__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+}
+
+/* ── 递归建树步进演示 ── */
+
+.complete-tree-build-walk {
+  --ctb-title-h: 28px;
+  --ctb-input-h: 52px;
+  --ctb-stage-h: 276px;
+  --ctb-body-h: calc(var(--ctb-input-h) + var(--ctb-stage-h));
+  --ctb-controls-h: 53px;
+  margin: 20px 0 28px;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+  min-height: calc(
+    40px + var(--ctb-title-h) + var(--ctb-body-h) + var(--ctb-controls-h)
+  );
+}
+
+.complete-tree-build-walk__layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.95fr) minmax(300px, 1.25fr);
+  grid-template-rows: var(--ctb-title-h) var(--ctb-body-h);
+  column-gap: 20px;
+  row-gap: 8px;
+  height: calc(var(--ctb-title-h) + var(--ctb-body-h));
+}
+
+.complete-tree-build-walk__panel-title {
+  margin: 0;
+  font-size: var(--text-size-sm);
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: var(--ctb-title-h);
+}
+
+.complete-tree-build-walk__panel-title--code {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.complete-tree-build-walk__panel-title--visual {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.complete-tree-build-walk__code-pane {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: var(--ctb-input-h);
+  width: fit-content;
+  max-width: 100%;
+  height: fit-content;
+  max-height: var(--ctb-stage-h);
+  align-self: start;
+  justify-self: start;
+  display: block;
+  overflow: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  box-sizing: border-box;
+}
+
+.complete-tree-build-walk__code-pane .code-block {
+  width: auto;
+  margin: 0;
+}
+
+.complete-tree-build-walk__code-pane .code-block--compact {
+  border: none;
+  border-radius: inherit;
+  background: var(--code-panel-bg);
+}
+
+.complete-tree-build-walk__code-pane .code-block__pre--numbered {
+  margin: 0;
+}
+
+.complete-tree-build-walk__visual-pane {
+  grid-column: 2;
+  grid-row: 2;
+  height: var(--ctb-body-h);
+  overflow: hidden;
+}
+
+.complete-tree-build-walk__caption {
+  margin: 12px 0 0;
+  padding: 0 4px;
+  font-size: var(--text-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.complete-tree-build-walk__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px 16px;
+  flex-shrink: 0;
+  height: var(--ctb-controls-h);
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+.complete-tree-build-walk__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  color: var(--text-primary);
+  font-size: var(--text-size-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.complete-tree-build-walk__btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--bg-card));
+}
+
+.complete-tree-build-walk__btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.complete-tree-build-walk__btn--primary {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-card));
+  color: var(--accent);
+}
+
+.complete-tree-build-walk__progress {
+  font-size: var(--text-size-sm);
+  font-weight: 600;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── 递归建树画布（对齐 tail-insert-canvas）── */
+
+.complete-tree-build-canvas {
+  display: flex;
+  flex-direction: column;
+  height: var(--ctb-body-h);
+}
+
+.complete-tree-build-canvas__input-row {
+  display: flex;
+  flex: 0 0 var(--ctb-input-h);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 8px 8px 10px;
+  border-bottom: 1px dashed var(--border);
+}
+
+.complete-tree-build-canvas__pill {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 2.75rem;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  padding: 4px 6px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  transition: border-color 0.2s, background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.complete-tree-build-canvas__pill--active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-card));
+  transform: scale(1.06);
+}
+
+.complete-tree-build-canvas__pill--done {
+  border-color: color-mix(in srgb, var(--border) 80%, var(--teal));
+}
+
+.complete-tree-build-canvas__pill--done .complete-tree-build-canvas__pill-val {
+  color: var(--text-primary);
+}
+
+.complete-tree-build-canvas__pill-idx {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.complete-tree-build-canvas__pill-val {
+  font-size: var(--text-size-sm);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.complete-tree-build-canvas__stage {
+  position: relative;
+  flex: 0 0 var(--ctb-stage-h);
+  min-height: 0;
+  height: var(--ctb-stage-h);
+  display: flex;
+  flex-direction: column;
+  padding: 16px 12px 12px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border));
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
+.complete-tree-build-canvas__call {
+  flex: 0 0 auto;
+  margin-bottom: 6px;
+  font-size: var(--text-size-sm);
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.complete-tree-build-canvas__call code {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.complete-tree-build-canvas__stage .binary-tree-svg {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.complete-tree-build-canvas__legend {
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 14px;
+  margin-top: 8px;
+  font-size: var(--text-size-xs);
+  color: var(--text-secondary);
+}
+
+.complete-tree-build-canvas__legend-item::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid var(--border);
+  background: var(--bg-card);
+}
+
+.complete-tree-build-canvas__legend-item--active::before {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 20%, var(--bg-card));
+}
+
+.complete-tree-build-canvas__legend-item--done::before {
+  border-color: var(--teal);
+}
+
+.complete-tree-build-canvas__legend-item--leaf::before {
+  border-color: var(--success);
+  background: color-mix(in srgb, var(--success) 18%, var(--bg-card));
+}
+
+/* 浅色主题：对比卡片背景保持中性，仅边框/徽章带语义色 */
+html[data-theme-mode="light"] .tree-compare-pair__panel--ok,
+html[data-theme-mode="light"] .tree-compare-pair__panel--bad {
+  background: var(--bg-card);
+}
+
+html[data-theme-mode="light"] .tree-compare-pair__panel--ok {
+  border-color: color-mix(in srgb, var(--success) 28%, var(--border));
+}
+
+html[data-theme-mode="light"] .tree-compare-pair__panel--bad {
+  border-color: color-mix(in srgb, var(--danger) 28%, var(--border));
+}
+
+@media (max-width: 768px) {
+  .tree-compare-pair,
+  .tree-array-compare {
+    grid-template-columns: 1fr;
+  }
+
+  .tree-series-preview {
+    grid-template-columns: 1fr;
+  }
+
+  .tree-series-preview__arrow {
+    transform: rotate(90deg);
+  }
+
+  .complete-tree-build-walk__layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--ctb-title-h) var(--ctb-body-h) var(
+        --ctb-title-h
+      ) var(--ctb-body-h);
+    height: auto;
+  }
+
+  .complete-tree-build-walk__panel-title--code {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .complete-tree-build-walk__code-pane {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0;
+    max-height: none;
+  }
+
+  .complete-tree-build-walk__panel-title--visual {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .complete-tree-build-walk__visual-pane {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .complete-tree-build-walk {
+    min-height: calc(
+      40px + (var(--ctb-title-h) + var(--ctb-body-h)) * 2 +
+        var(--ctb-controls-h)
+    );
+  }
+
+  .bfs-tree-build-walk__layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--btb-title-h) var(--btb-body-h) var(
+        --btb-title-h
+      ) var(--btb-body-h);
+    height: auto;
+  }
+
+  .bfs-tree-build-walk__panel-title--code {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .bfs-tree-build-walk__code-pane {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0;
+    max-height: none;
+  }
+
+  .bfs-tree-build-walk__panel-title--visual {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .bfs-tree-build-walk__visual-pane {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .bfs-tree-build-walk {
+    min-height: calc(
+      40px + (var(--btb-title-h) + var(--btb-body-h)) * 2 +
+        var(--btb-controls-h)
+    );
+  }
+}
+
+/* ── 层序数组 → 树 静态示例 ── */
+
+.level-order-tree-example {
+  margin: 20px 0 28px;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+.level-order-tree-example__array-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.level-order-tree-example__cell {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 2.75rem;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  padding: 4px 6px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  font-family: var(--font-mono);
+}
+
+.level-order-tree-example__cell--null {
+  color: var(--text-muted);
+  border-style: dashed;
+  opacity: 0.75;
+}
+
+.level-order-tree-example__cell-idx {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.level-order-tree-example__cell-val {
+  font-size: var(--text-size-sm);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.level-order-tree-example__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 14px 0;
+  font-size: 1.25rem;
+  color: var(--text-muted);
+}
+
+.level-order-tree-example__tree {
+  display: block;
+  margin: 0 auto;
+}
+
+.level-order-tree-example__caption {
+  margin: 14px 0 0;
+  font-size: var(--text-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.55;
+  text-align: center;
+}
+
+/* ── BFS 层序构建步进演示 ── */
+
+.bfs-tree-build-walk {
+  --btb-title-h: 28px;
+  --btb-input-h: 52px;
+  --btb-meta-h: 44px;
+  --btb-stage-h: 204px;
+  --btb-body-h: calc(var(--btb-input-h) + var(--btb-meta-h) + var(--btb-stage-h));
+  --btb-controls-h: 53px;
+  margin: 20px 0 28px;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+  min-height: calc(
+    40px + var(--btb-title-h) + var(--btb-body-h) + var(--btb-controls-h)
+  );
+}
+
+.bfs-tree-build-walk__layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.95fr) minmax(300px, 1.25fr);
+  grid-template-rows: var(--btb-title-h) var(--btb-body-h);
+  column-gap: 20px;
+  row-gap: 8px;
+  height: calc(var(--btb-title-h) + var(--btb-body-h));
+}
+
+.bfs-tree-build-walk__panel-title {
+  margin: 0;
+  font-size: var(--text-size-sm);
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: var(--btb-title-h);
+}
+
+.bfs-tree-build-walk__panel-title--code {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.bfs-tree-build-walk__panel-title--visual {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.bfs-tree-build-walk__code-pane {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: calc(var(--btb-input-h) + var(--btb-meta-h));
+  width: fit-content;
+  max-width: 100%;
+  height: fit-content;
+  max-height: var(--btb-stage-h);
+  align-self: start;
+  justify-self: start;
+  display: block;
+  overflow: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  box-sizing: border-box;
+}
+
+.bfs-tree-build-walk__code-pane .code-block {
+  width: auto;
+  margin: 0;
+}
+
+.bfs-tree-build-walk__code-pane .code-block--compact {
+  border: none;
+  border-radius: inherit;
+  background: var(--code-panel-bg);
+}
+
+.bfs-tree-build-walk__code-pane .code-block__pre--numbered {
+  margin: 0;
+}
+
+.bfs-tree-build-walk__visual-pane {
+  grid-column: 2;
+  grid-row: 2;
+  height: var(--btb-body-h);
+  overflow: hidden;
+}
+
+.bfs-tree-build-walk__caption {
+  margin: 12px 0 0;
+  padding: 0 4px;
+  font-size: var(--text-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.bfs-tree-build-walk__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px 16px;
+  flex-shrink: 0;
+  height: var(--btb-controls-h);
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+.bfs-tree-build-walk__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  color: var(--text-primary);
+  font-size: var(--text-size-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.bfs-tree-build-walk__btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--bg-card));
+}
+
+.bfs-tree-build-walk__btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.bfs-tree-build-walk__btn--primary {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-card));
+  color: var(--accent);
+}
+
+.bfs-tree-build-walk__progress {
+  font-size: var(--text-size-sm);
+  font-weight: 600;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── BFS 构建画布 ── */
+
+.bfs-tree-build-canvas {
+  display: flex;
+  flex-direction: column;
+  height: var(--btb-body-h);
+}
+
+.bfs-tree-build-canvas__input-row {
+  display: flex;
+  flex: 0 0 var(--btb-input-h);
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 6px 4px 8px;
+  border-bottom: 1px dashed var(--border);
+  overflow-x: auto;
+}
+
+.bfs-tree-build-canvas__cell {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 2rem;
+  height: 2rem;
+  min-width: 2rem;
+  flex-shrink: 0;
+  padding: 2px 4px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  transition: border-color 0.2s, background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.bfs-tree-build-canvas__cell--active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-card));
+  transform: scale(1.04);
+}
+
+.bfs-tree-build-canvas__cell--done {
+  border-color: color-mix(in srgb, var(--border) 80%, var(--teal));
+}
+
+.bfs-tree-build-canvas__cell--done .bfs-tree-build-canvas__cell-val {
+  color: var(--text-primary);
+}
+
+.bfs-tree-build-canvas__cell--null {
+  border-style: dashed;
+  opacity: 0.72;
+}
+
+.bfs-tree-build-canvas__cell--highlight {
+  border-color: var(--success);
+  background: color-mix(in srgb, var(--success) 10%, var(--bg-card));
+}
+
+.bfs-tree-build-canvas__cell-idx {
+  font-size: 9px;
+  color: var(--text-muted);
+  line-height: 1;
+}
+
+.bfs-tree-build-canvas__cell-val {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.bfs-tree-build-canvas__meta {
+  display: flex;
+  flex: 0 0 var(--btb-meta-h);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px 20px;
+  padding: 8px 10px;
+  font-size: var(--text-size-sm);
+  color: var(--text-secondary);
+  border-bottom: 1px dashed var(--border);
+  box-sizing: border-box;
+}
+
+.bfs-tree-build-canvas__queue-item {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.bfs-tree-build-canvas__queue-empty {
+  color: var(--text-muted);
+}
+
+.bfs-tree-build-canvas__attach {
+  margin-left: 8px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.bfs-tree-build-canvas__stage {
+  position: relative;
+  flex: 0 0 var(--btb-stage-h);
+  min-height: 0;
+  height: var(--btb-stage-h);
+  display: flex;
+  flex-direction: column;
+  padding: 16px 12px 12px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border));
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
+.bfs-tree-build-canvas__stage .binary-tree-svg {
+  flex: 1 1 auto;
+  min-height: 0;
+}

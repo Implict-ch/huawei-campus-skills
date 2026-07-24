@@ -1,0 +1,53 @@
+/* ── Prose ── */
+
+.problem-prose {
+  color: var(--text-secondary);
+}
+
+.problem-heading {
+  font-family: var(--font-display);
+  color: var(--text-primary);
+  scroll-margin-top: 100px;
+}
+
+.problem-heading--h2 {
+  font-size: var(--text-h2);
+  font-weight: 700;
+  margin: 28px 0 20px;
+}
+
+.problem-heading--h3 {
+  font-size: var(--text-h3);
+  font-weight: 600;
+  margin: 36px 0 14px;
+}
+
+.problem-prose p,
+.problem-prose .problem-text {
+  font-size: var(--text-prose);
+  line-height: 1.85;
+}
+
+/* MDX <Text> 内由 remark 生成的段落 */
+.problem-prose .problem-text > p {
+  margin: 0 0 16px;
+}
+
+.problem-prose .problem-text > p:last-child {
+  margin-bottom: 0;
+}
+
+.problem-prose strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.problem-prose p code,
+.problem-prose li code {
+  font-family: var(--font-mono);
+  font-size: var(--text-prose-sm);
+  background: var(--bg-panel);
+  padding: 2px 8px;
+  border-radius: 6px;
+  color: var(--accent);
+}

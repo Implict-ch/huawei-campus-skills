@@ -1,0 +1,36 @@
+/* ── KaTeX 公式（勿改 .vlist / .msupsub 布局，否则长上标会错位）── */
+
+.problem-prose .katex {
+  font-size: calc(1em * var(--text-relative-katex));
+  color: var(--text-primary);
+}
+
+.problem-math--inline {
+  display: inline-block;
+  vertical-align: -0.15em;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+.problem-math--inline > .katex {
+  display: inline-block;
+  text-indent: 0;
+  white-space: nowrap;
+}
+
+.problem-math--block {
+  margin: 16px 0;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.problem-math--block > .katex {
+  display: block;
+  text-align: center;
+}
+
+.problem-data-range-diff__value .katex,
+.problem-data-range__value .katex {
+  font-size: calc(1em * var(--text-relative-katex));
+}

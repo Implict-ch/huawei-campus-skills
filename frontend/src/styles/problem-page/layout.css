@@ -1,0 +1,25 @@
+.problem-page-layout {
+  --problem-page-nav-offset: 80px;
+  display: grid;
+  grid-template-columns: 1fr min(var(--problem-article-width, 760px), 100%) 1fr;
+  column-gap: 48px;
+  padding: var(--problem-page-nav-offset) var(--problem-page-side-padding, 158px) 64px;
+}
+
+.problem-page-main {
+  grid-column: 2;
+  width: 100%;
+  max-width: var(--problem-article-width, 760px);
+  min-width: 0;
+  justify-self: center;
+  align-self: start;
+}
+
+.problem-page-loading {
+  max-width: var(--problem-article-width, 760px);
+  margin: 120px auto 64px;
+  padding: 0 48px;
+  font-size: var(--text-size-md);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}

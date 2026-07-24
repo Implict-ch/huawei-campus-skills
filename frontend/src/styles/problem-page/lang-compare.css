@@ -1,0 +1,62 @@
+/* ── 语言类型对照 ── */
+
+.problem-lang-compare {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.problem-lang-compare__col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  position: relative;
+}
+
+.problem-lang-compare__col--highlight {
+  border-color: color-mix(in srgb, var(--success) 45%, var(--border));
+  background: color-mix(in srgb, var(--success) 6%, var(--bg-card));
+}
+
+.problem-lang-compare__lang {
+  font-family: var(--font-display);
+  font-size: var(--text-size-md);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.problem-lang-compare__type {
+  font-family: var(--font-mono);
+  font-size: var(--text-size-prose);
+  font-weight: 600;
+  color: var(--accent);
+  background: transparent;
+  padding: 0;
+}
+
+.problem-lang-compare__note {
+  margin: 0;
+  font-size: var(--text-prose-sm);
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.problem-prose .problem-lang-compare__note {
+  margin: 0;
+}
+
+.problem-lang-compare__mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  font-size: var(--text-size-caption);
+  font-weight: 600;
+  color: var(--success);
+  font-family: var(--font-mono);
+}

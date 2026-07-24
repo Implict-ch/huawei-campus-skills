@@ -1,0 +1,354 @@
+{
+  "software-development": [
+    {
+      "keyword": "八股",
+      "aliases": [
+        "八股"
+      ]
+    },
+    {
+      "keyword": "手撕",
+      "aliases": [
+        "手撕",
+        "算法题",
+        "编程题"
+      ]
+    },
+    {
+      "keyword": "后端",
+      "aliases": [
+        "后端",
+        "后台",
+        "服务端"
+      ]
+    },
+    {
+      "keyword": "C++",
+      "aliases": [
+        "c++",
+        "cpp"
+      ]
+    },
+    {
+      "keyword": "Java",
+      "aliases": [
+        "java"
+      ]
+    },
+    {
+      "keyword": "数据库",
+      "aliases": [
+        "数据库",
+        "mysql",
+        "redis"
+      ]
+    },
+    {
+      "keyword": "操作系统",
+      "aliases": [
+        "操作系统"
+      ]
+    },
+    {
+      "keyword": "Linux",
+      "aliases": [
+        "linux"
+      ]
+    },
+    {
+      "keyword": "分布式",
+      "aliases": [
+        "分布式"
+      ]
+    },
+    {
+      "keyword": "Python",
+      "aliases": [
+        "python"
+      ]
+    },
+    {
+      "keyword": "云计算",
+      "aliases": [
+        "云计算"
+      ]
+    },
+    {
+      "keyword": "前端",
+      "aliases": [
+        "前端"
+      ]
+    },
+    {
+      "keyword": "Spring",
+      "aliases": [
+        "spring",
+        "springboot",
+        "spring boot"
+      ]
+    },
+    {
+      "keyword": "微服务",
+      "aliases": [
+        "微服务"
+      ]
+    },
+    {
+      "keyword": "Go",
+      "aliases": [
+        "golang",
+        "go语言"
+      ]
+    }
+  ],
+  "ai": [
+    {
+      "keyword": "手撕",
+      "aliases": [
+        "手撕",
+        "算法题",
+        "编程题"
+      ]
+    },
+    {
+      "keyword": "八股",
+      "aliases": [
+        "八股"
+      ]
+    },
+    {
+      "keyword": "深度学习",
+      "aliases": [
+        "深度学习",
+        "神经网络"
+      ]
+    },
+    {
+      "keyword": "大模型",
+      "aliases": [
+        "大模型",
+        "llm"
+      ]
+    },
+    {
+      "keyword": "Python",
+      "aliases": [
+        "python"
+      ]
+    },
+    {
+      "keyword": "机器学习",
+      "aliases": [
+        "机器学习"
+      ]
+    },
+    {
+      "keyword": "智能驾驶",
+      "aliases": [
+        "智能驾驶",
+        "自动驾驶"
+      ]
+    },
+    {
+      "keyword": "计算机视觉",
+      "aliases": [
+        "计算机视觉",
+        "cv"
+      ]
+    },
+    {
+      "keyword": "NLP",
+      "aliases": [
+        "nlp",
+        "自然语言处理"
+      ]
+    },
+    {
+      "keyword": "PyTorch",
+      "aliases": [
+        "pytorch"
+      ]
+    },
+    {
+      "keyword": "TensorFlow",
+      "aliases": [
+        "tensorflow"
+      ]
+    }
+  ],
+  "embedded": [
+    {
+      "keyword": "芯片",
+      "aliases": [
+        "芯片",
+        "soc"
+      ]
+    },
+    {
+      "keyword": "八股",
+      "aliases": [
+        "八股"
+      ]
+    },
+    {
+      "keyword": "手撕",
+      "aliases": [
+        "手撕",
+        "算法题",
+        "编程题"
+      ]
+    },
+    {
+      "keyword": "FPGA",
+      "aliases": [
+        "fpga"
+      ]
+    },
+    {
+      "keyword": "总线",
+      "aliases": [
+        "uart",
+        "spi",
+        "i2c"
+      ]
+    },
+    {
+      "keyword": "C语言",
+      "aliases": [
+        "c语言"
+      ]
+    },
+    {
+      "keyword": "C++",
+      "aliases": [
+        "c++",
+        "cpp"
+      ]
+    },
+    {
+      "keyword": "单片机",
+      "aliases": [
+        "单片机",
+        "mcu"
+      ]
+    },
+    {
+      "keyword": "Linux",
+      "aliases": [
+        "linux"
+      ]
+    },
+    {
+      "keyword": "RTOS",
+      "aliases": [
+        "rtos",
+        "freertos",
+        "实时操作系统"
+      ]
+    },
+    {
+      "keyword": "驱动",
+      "aliases": [
+        "驱动开发",
+        "驱动"
+      ]
+    },
+    {
+      "keyword": "ARM",
+      "aliases": [
+        "arm"
+      ]
+    }
+  ],
+  "network-communication": [
+    {
+      "keyword": "八股",
+      "aliases": [
+        "八股"
+      ]
+    },
+    {
+      "keyword": "无线",
+      "aliases": [
+        "无线",
+        "无线通信"
+      ]
+    },
+    {
+      "keyword": "协议",
+      "aliases": [
+        "协议栈",
+        "tcp",
+        "udp"
+      ]
+    },
+    {
+      "keyword": "手撕",
+      "aliases": [
+        "手撕",
+        "算法题",
+        "编程题"
+      ]
+    },
+    {
+      "keyword": "光产品",
+      "aliases": [
+        "光产品",
+        "光通信"
+      ]
+    },
+    {
+      "keyword": "ICT",
+      "aliases": [
+        "ict"
+      ]
+    },
+    {
+      "keyword": "射频",
+      "aliases": [
+        "射频"
+      ]
+    },
+    {
+      "keyword": "基带",
+      "aliases": [
+        "基带"
+      ]
+    }
+  ],
+  "test-qa": [
+    {
+      "keyword": "手撕",
+      "aliases": [
+        "手撕",
+        "算法题",
+        "编程题"
+      ]
+    },
+    {
+      "keyword": "软件测试",
+      "aliases": [
+        "软件测试",
+        "测试工程师"
+      ]
+    },
+    {
+      "keyword": "八股",
+      "aliases": [
+        "八股"
+      ]
+    },
+    {
+      "keyword": "解决方案测试",
+      "aliases": [
+        "解决方案测试"
+      ]
+    },
+    {
+      "keyword": "Python",
+      "aliases": [
+        "python"
+      ]
+    }
+  ]
+}

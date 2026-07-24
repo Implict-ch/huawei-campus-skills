@@ -1,0 +1,1394 @@
+{
+  "version": 1,
+  "title": "面试手撕 Hot100",
+  "description": "华为校招技术面手撕练习索引；/hw-match 推荐手撕题仅从此清单选取链接",
+  "problem_count": 126,
+  "problems": [
+    {
+      "id": "P4023",
+      "pid": "4023",
+      "chapter": "二分查找",
+      "title": "LeetCode 35. 搜索插入位置",
+      "tags": [
+        "二分查找"
+      ],
+      "source_url": "https://codefun2000.com/p/P4023",
+      "statement_path": "knowledge/coding-problems/hot100/二分查找/P4023/题面.md"
+    },
+    {
+      "id": "P4024",
+      "pid": "4024",
+      "chapter": "二分查找",
+      "title": "Leetcode 74.搜索二维矩阵-原题链接",
+      "tags": [
+        "二分查找"
+      ],
+      "source_url": "https://codefun2000.com/p/P4024",
+      "statement_path": "knowledge/coding-problems/hot100/二分查找/P4024/题面.md"
+    },
+    {
+      "id": "P4076",
+      "pid": "4076",
+      "chapter": "二分查找",
+      "title": "Leetcode 34.在排序数组中查找元素的第一个和最后一个位置-原题链接",
+      "tags": [
+        "二分查找"
+      ],
+      "source_url": "https://codefun2000.com/p/P4076",
+      "statement_path": "knowledge/coding-problems/hot100/二分查找/P4076/题面.md"
+    },
+    {
+      "id": "P4077",
+      "pid": "4077",
+      "chapter": "二分查找",
+      "title": "Leetcode 33.搜索旋转排序数组-原题链接",
+      "tags": [
+        "二分查找"
+      ],
+      "source_url": "https://codefun2000.com/p/P4077",
+      "statement_path": "knowledge/coding-problems/hot100/二分查找/P4077/题面.md"
+    },
+    {
+      "id": "P4078",
+      "pid": "4078",
+      "chapter": "二分查找",
+      "title": "Leetcode 153.寻找旋转排序数组中的最小值-原题链接",
+      "tags": [
+        "二分查找"
+      ],
+      "source_url": "https://codefun2000.com/p/P4078",
+      "statement_path": "knowledge/coding-problems/hot100/二分查找/P4078/题面.md"
+    },
+    {
+      "id": "P4079",
+      "pid": "4079",
+      "chapter": "二分查找",
+      "title": "Leetcode 4.寻找两个正序数组的中位数",
+      "tags": [
+        "二分查找"
+      ],
+      "source_url": "https://codefun2000.com/p/P4079",
+      "statement_path": "knowledge/coding-problems/hot100/二分查找/P4079/题面.md"
+    },
+    {
+      "id": "P4946",
+      "pid": "4946",
+      "chapter": "二分查找",
+      "title": "# 题目描述",
+      "tags": [
+        "二分查找"
+      ],
+      "source_url": "https://codefun2000.com/p/P4946",
+      "statement_path": "knowledge/coding-problems/hot100/二分查找/P4946/题面.md"
+    },
+    {
+      "id": "P4017",
+      "pid": "4017",
+      "chapter": "二叉树",
+      "title": "Leetcode 94.二叉树的中序遍历-原题链接",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4017",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4017/题面.md"
+    },
+    {
+      "id": "P4018",
+      "pid": "4018",
+      "chapter": "二叉树",
+      "title": "Leetcode 104.二叉树的最大深度",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4018",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4018/题面.md"
+    },
+    {
+      "id": "P4054",
+      "pid": "4054",
+      "chapter": "二叉树",
+      "title": "Leetcode 226.翻转二叉树",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4054",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4054/题面.md"
+    },
+    {
+      "id": "P4055",
+      "pid": "4055",
+      "chapter": "二叉树",
+      "title": "Leetcode 101.对称二叉树",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4055",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4055/题面.md"
+    },
+    {
+      "id": "P4056",
+      "pid": "4056",
+      "chapter": "二叉树",
+      "title": "Leetcode 543.二叉树的直径",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4056",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4056/题面.md"
+    },
+    {
+      "id": "P4057",
+      "pid": "4057",
+      "chapter": "二叉树",
+      "title": "LeetCode 102. 二叉树的层序遍历",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4057",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4057/题面.md"
+    },
+    {
+      "id": "P4058",
+      "pid": "4058",
+      "chapter": "二叉树",
+      "title": "Leetcode 108.将有序数组转换为二叉搜索树-原题链接",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4058",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4058/题面.md"
+    },
+    {
+      "id": "P4060",
+      "pid": "4060",
+      "chapter": "二叉树",
+      "title": "Leetcode 98.验证二叉搜索树-原题链接",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4060",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4060/题面.md"
+    },
+    {
+      "id": "P4061",
+      "pid": "4061",
+      "chapter": "二叉树",
+      "title": "Leetcode 230.二叉搜索树中第K小的元素-原题链接",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4061",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4061/题面.md"
+    },
+    {
+      "id": "P4062",
+      "pid": "4062",
+      "chapter": "二叉树",
+      "title": "LeetCode 199. 二叉树的右视图",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4062",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4062/题面.md"
+    },
+    {
+      "id": "P4063",
+      "pid": "4063",
+      "chapter": "二叉树",
+      "title": "LeetCode 104. 二叉树展开为链表",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4063",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4063/题面.md"
+    },
+    {
+      "id": "P4064",
+      "pid": "4064",
+      "chapter": "二叉树",
+      "title": "Leetcode 105.从前序与中序遍历序列构造二叉树",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4064",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4064/题面.md"
+    },
+    {
+      "id": "P4065",
+      "pid": "4065",
+      "chapter": "二叉树",
+      "title": "LeetCode 437. 路径总和Ⅲ",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4065",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4065/题面.md"
+    },
+    {
+      "id": "P4066",
+      "pid": "4066",
+      "chapter": "二叉树",
+      "title": "LeetCode 236. 二叉树的最近公共祖先",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4066",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4066/题面.md"
+    },
+    {
+      "id": "P4067",
+      "pid": "4067",
+      "chapter": "二叉树",
+      "title": "LeetCode 124. 二叉树中的最大路径和",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4067",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4067/题面.md"
+    },
+    {
+      "id": "P4898",
+      "pid": "4898",
+      "chapter": "二叉树",
+      "title": "## 题目描述",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4898",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4898/题面.md"
+    },
+    {
+      "id": "P4936",
+      "pid": "4936",
+      "chapter": "二叉树",
+      "title": "## 题目描述",
+      "tags": [
+        "二叉树"
+      ],
+      "source_url": "https://codefun2000.com/p/P4936",
+      "statement_path": "knowledge/coding-problems/hot100/二叉树/P4936/题面.md"
+    },
+    {
+      "id": "P3990",
+      "pid": "3990",
+      "chapter": "入门教程必刷",
+      "title": "# 题目内容",
+      "tags": [
+        "入门教程必刷"
+      ],
+      "source_url": "https://codefun2000.com/p/P3990",
+      "statement_path": "knowledge/coding-problems/hot100/入门教程必刷/P3990/题面.md"
+    },
+    {
+      "id": "P3991",
+      "pid": "3991",
+      "chapter": "入门教程必刷",
+      "title": "## 题目内容",
+      "tags": [
+        "入门教程必刷"
+      ],
+      "source_url": "https://codefun2000.com/p/P3991",
+      "statement_path": "knowledge/coding-problems/hot100/入门教程必刷/P3991/题面.md"
+    },
+    {
+      "id": "P3992",
+      "pid": "3992",
+      "chapter": "入门教程必刷",
+      "title": "## 题目内容",
+      "tags": [
+        "入门教程必刷"
+      ],
+      "source_url": "https://codefun2000.com/p/P3992",
+      "statement_path": "knowledge/coding-problems/hot100/入门教程必刷/P3992/题面.md"
+    },
+    {
+      "id": "P3993",
+      "pid": "3993",
+      "chapter": "入门教程必刷",
+      "title": "## 题目描述：",
+      "tags": [
+        "入门教程必刷"
+      ],
+      "source_url": "https://codefun2000.com/p/P3993",
+      "statement_path": "knowledge/coding-problems/hot100/入门教程必刷/P3993/题面.md"
+    },
+    {
+      "id": "P3994",
+      "pid": "3994",
+      "chapter": "入门教程必刷",
+      "title": "### 题目描述：",
+      "tags": [
+        "入门教程必刷"
+      ],
+      "source_url": "https://codefun2000.com/p/P3994",
+      "statement_path": "knowledge/coding-problems/hot100/入门教程必刷/P3994/题面.md"
+    },
+    {
+      "id": "P4031",
+      "pid": "4031",
+      "chapter": "动态规划",
+      "title": "LeetCode 70. 爬楼梯",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4031",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4031/题面.md"
+    },
+    {
+      "id": "P4032",
+      "pid": "4032",
+      "chapter": "动态规划",
+      "title": "Leetcode 118.杨辉三角-原题链接",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4032",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4032/题面.md"
+    },
+    {
+      "id": "P4090",
+      "pid": "4090",
+      "chapter": "动态规划",
+      "title": "Leetcode 198.打家劫舍-原题链接",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4090",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4090/题面.md"
+    },
+    {
+      "id": "P4091",
+      "pid": "4091",
+      "chapter": "动态规划",
+      "title": "Leetcode 279.完全平方数-原题链接",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4091",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4091/题面.md"
+    },
+    {
+      "id": "P4092",
+      "pid": "4092",
+      "chapter": "动态规划",
+      "title": "Leetcode 322.零钱兑换-原题链接",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4092",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4092/题面.md"
+    },
+    {
+      "id": "P4093",
+      "pid": "4093",
+      "chapter": "动态规划",
+      "title": "Leetcode 139.单词拆分-原题链接",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4093",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4093/题面.md"
+    },
+    {
+      "id": "P4094",
+      "pid": "4094",
+      "chapter": "动态规划",
+      "title": "Leetcode 300.最长递增子序列-原题链接",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4094",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4094/题面.md"
+    },
+    {
+      "id": "P4095",
+      "pid": "4095",
+      "chapter": "动态规划",
+      "title": "Leetcode 152.乘积最大子数组-原题链接",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4095",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4095/题面.md"
+    },
+    {
+      "id": "P4096",
+      "pid": "4096",
+      "chapter": "动态规划",
+      "title": "LeetCode 416. 分割等和子集",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4096",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4096/题面.md"
+    },
+    {
+      "id": "P4097",
+      "pid": "4097",
+      "chapter": "动态规划",
+      "title": "Leetcode 32.最长有效括号-原题链接",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4097",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4097/题面.md"
+    },
+    {
+      "id": "P4901",
+      "pid": "4901",
+      "chapter": "动态规划",
+      "title": "## 题目描述",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4901",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4901/题面.md"
+    },
+    {
+      "id": "P4903",
+      "pid": "4903",
+      "chapter": "动态规划",
+      "title": "Leetcode 583.两个字符串的删除操作",
+      "tags": [
+        "动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4903",
+      "statement_path": "knowledge/coding-problems/hot100/动态规划/P4903/题面.md"
+    },
+    {
+      "id": "P4003",
+      "pid": "4003",
+      "chapter": "双指针",
+      "title": "Leetcode 283.移动零",
+      "tags": [
+        "双指针"
+      ],
+      "source_url": "https://codefun2000.com/p/P4003",
+      "statement_path": "knowledge/coding-problems/hot100/双指针/P4003/题面.md"
+    },
+    {
+      "id": "P4004",
+      "pid": "4004",
+      "chapter": "双指针",
+      "title": "Leetcode 11.盛最多水的容器",
+      "tags": [
+        "双指针"
+      ],
+      "source_url": "https://codefun2000.com/p/P4004",
+      "statement_path": "knowledge/coding-problems/hot100/双指针/P4004/题面.md"
+    },
+    {
+      "id": "P4005",
+      "pid": "4005",
+      "chapter": "双指针",
+      "title": "Leetcode 15.三数之和-原题链接",
+      "tags": [
+        "双指针"
+      ],
+      "source_url": "https://codefun2000.com/p/P4005",
+      "statement_path": "knowledge/coding-problems/hot100/双指针/P4005/题面.md"
+    },
+    {
+      "id": "P4006",
+      "pid": "4006",
+      "chapter": "双指针",
+      "title": "Leetcode 42.接雨水-原题链接",
+      "tags": [
+        "双指针"
+      ],
+      "source_url": "https://codefun2000.com/p/P4006",
+      "statement_path": "knowledge/coding-problems/hot100/双指针/P4006/题面.md"
+    },
+    {
+      "id": "P4816",
+      "pid": "4816",
+      "chapter": "双指针",
+      "title": "## 题目描述",
+      "tags": [
+        "双指针"
+      ],
+      "source_url": "https://codefun2000.com/p/P4816",
+      "statement_path": "knowledge/coding-problems/hot100/双指针/P4816/题面.md"
+    },
+    {
+      "id": "P4000",
+      "pid": "4000",
+      "chapter": "哈希",
+      "title": "LeetCode 1. 两数之和-原题链接",
+      "tags": [
+        "哈希"
+      ],
+      "source_url": "https://codefun2000.com/p/P4000",
+      "statement_path": "knowledge/coding-problems/hot100/哈希/P4000/题面.md"
+    },
+    {
+      "id": "P4001",
+      "pid": "4001",
+      "chapter": "哈希",
+      "title": "Leetcode 49.字母异位词分组-原题链接",
+      "tags": [
+        "哈希"
+      ],
+      "source_url": "https://codefun2000.com/p/P4001",
+      "statement_path": "knowledge/coding-problems/hot100/哈希/P4001/题面.md"
+    },
+    {
+      "id": "P4002",
+      "pid": "4002",
+      "chapter": "哈希",
+      "title": "Leetcode 128.最长连续序列-原题链接",
+      "tags": [
+        "哈希"
+      ],
+      "source_url": "https://codefun2000.com/p/P4002",
+      "statement_path": "knowledge/coding-problems/hot100/哈希/P4002/题面.md"
+    },
+    {
+      "id": "P4819",
+      "pid": "4819",
+      "chapter": "哈希",
+      "title": "# 题目描述",
+      "tags": [
+        "哈希"
+      ],
+      "source_url": "https://codefun2000.com/p/P4819",
+      "statement_path": "knowledge/coding-problems/hot100/哈希/P4819/题面.md"
+    },
+    {
+      "id": "P4899",
+      "pid": "4899",
+      "chapter": "哈希",
+      "title": "## 题目描述",
+      "tags": [
+        "哈希"
+      ],
+      "source_url": "https://codefun2000.com/p/P4899",
+      "statement_path": "knowledge/coding-problems/hot100/哈希/P4899/题面.md"
+    },
+    {
+      "id": "P4021",
+      "pid": "4021",
+      "chapter": "回溯",
+      "title": "LeetCode 46. 全排列",
+      "tags": [
+        "回溯"
+      ],
+      "source_url": "https://codefun2000.com/p/P4021",
+      "statement_path": "knowledge/coding-problems/hot100/回溯/P4021/题面.md"
+    },
+    {
+      "id": "P4022",
+      "pid": "4022",
+      "chapter": "回溯",
+      "title": "Leetcode 78.子集",
+      "tags": [
+        "回溯"
+      ],
+      "source_url": "https://codefun2000.com/p/P4022",
+      "statement_path": "knowledge/coding-problems/hot100/回溯/P4022/题面.md"
+    },
+    {
+      "id": "P4070",
+      "pid": "4070",
+      "chapter": "回溯",
+      "title": "Leetcode 17.电话号码的字母组合-原题链接",
+      "tags": [
+        "回溯"
+      ],
+      "source_url": "https://codefun2000.com/p/P4070",
+      "statement_path": "knowledge/coding-problems/hot100/回溯/P4070/题面.md"
+    },
+    {
+      "id": "P4071",
+      "pid": "4071",
+      "chapter": "回溯",
+      "title": "Leetcode 39.组合总和-原题链接",
+      "tags": [
+        "回溯"
+      ],
+      "source_url": "https://codefun2000.com/p/P4071",
+      "statement_path": "knowledge/coding-problems/hot100/回溯/P4071/题面.md"
+    },
+    {
+      "id": "P4072",
+      "pid": "4072",
+      "chapter": "回溯",
+      "title": "Leetcode 22.括号生成-原题链接",
+      "tags": [
+        "回溯"
+      ],
+      "source_url": "https://codefun2000.com/p/P4072",
+      "statement_path": "knowledge/coding-problems/hot100/回溯/P4072/题面.md"
+    },
+    {
+      "id": "P4073",
+      "pid": "4073",
+      "chapter": "回溯",
+      "title": "Leetcode 79.单词搜索-原题链接",
+      "tags": [
+        "回溯"
+      ],
+      "source_url": "https://codefun2000.com/p/P4073",
+      "statement_path": "knowledge/coding-problems/hot100/回溯/P4073/题面.md"
+    },
+    {
+      "id": "P4074",
+      "pid": "4074",
+      "chapter": "回溯",
+      "title": "Leetcode 131.分割回文串-原题链接",
+      "tags": [
+        "回溯"
+      ],
+      "source_url": "https://codefun2000.com/p/P4074",
+      "statement_path": "knowledge/coding-problems/hot100/回溯/P4074/题面.md"
+    },
+    {
+      "id": "P4075",
+      "pid": "4075",
+      "chapter": "回溯",
+      "title": "Leetcode 51.N皇后-原题链接",
+      "tags": [
+        "回溯"
+      ],
+      "source_url": "https://codefun2000.com/p/P4075",
+      "statement_path": "knowledge/coding-problems/hot100/回溯/P4075/题面.md"
+    },
+    {
+      "id": "P4019",
+      "pid": "4019",
+      "chapter": "图论",
+      "title": "Leetcode 200.岛屿数量",
+      "tags": [
+        "图论"
+      ],
+      "source_url": "https://codefun2000.com/p/P4019",
+      "statement_path": "knowledge/coding-problems/hot100/图论/P4019/题面.md"
+    },
+    {
+      "id": "P4020",
+      "pid": "4020",
+      "chapter": "图论",
+      "title": "Leetcode 994.腐烂的橘子-原题链接",
+      "tags": [
+        "图论"
+      ],
+      "source_url": "https://codefun2000.com/p/P4020",
+      "statement_path": "knowledge/coding-problems/hot100/图论/P4020/题面.md"
+    },
+    {
+      "id": "P4068",
+      "pid": "4068",
+      "chapter": "图论",
+      "title": "Leetcode 207.课程表",
+      "tags": [
+        "图论"
+      ],
+      "source_url": "https://codefun2000.com/p/P4068",
+      "statement_path": "knowledge/coding-problems/hot100/图论/P4068/题面.md"
+    },
+    {
+      "id": "P4069",
+      "pid": "4069",
+      "chapter": "图论",
+      "title": "Leetcode 208.实现Trie(前缀树)-原题链接",
+      "tags": [
+        "图论"
+      ],
+      "source_url": "https://codefun2000.com/p/P4069",
+      "statement_path": "knowledge/coding-problems/hot100/图论/P4069/题面.md"
+    },
+    {
+      "id": "P4027",
+      "pid": "4027",
+      "chapter": "堆",
+      "title": "## 题目描述",
+      "tags": [
+        "堆"
+      ],
+      "source_url": "https://codefun2000.com/p/P4027",
+      "statement_path": "knowledge/coding-problems/hot100/堆/P4027/题面.md"
+    },
+    {
+      "id": "P4028",
+      "pid": "4028",
+      "chapter": "堆",
+      "title": "Leetcode 347.前K个高频元素-原题链接",
+      "tags": [
+        "堆"
+      ],
+      "source_url": "https://codefun2000.com/p/P4028",
+      "statement_path": "knowledge/coding-problems/hot100/堆/P4028/题面.md"
+    },
+    {
+      "id": "P4083",
+      "pid": "4083",
+      "chapter": "堆",
+      "title": "Leetcode 295.数据流的中位数-原题链接",
+      "tags": [
+        "堆"
+      ],
+      "source_url": "https://codefun2000.com/p/P4083",
+      "statement_path": "knowledge/coding-problems/hot100/堆/P4083/题面.md"
+    },
+    {
+      "id": "P4851",
+      "pid": "4851",
+      "chapter": "堆",
+      "title": "## 题面描述",
+      "tags": [
+        "堆"
+      ],
+      "source_url": "https://codefun2000.com/p/P4851",
+      "statement_path": "knowledge/coding-problems/hot100/堆/P4851/题面.md"
+    },
+    {
+      "id": "P4033",
+      "pid": "4033",
+      "chapter": "多堆动态规划",
+      "title": "LeetCode 62. 不同路径",
+      "tags": [
+        "多堆动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4033",
+      "statement_path": "knowledge/coding-problems/hot100/多堆动态规划/P4033/题面.md"
+    },
+    {
+      "id": "P4034",
+      "pid": "4034",
+      "chapter": "多堆动态规划",
+      "title": "Leetcode 64.最小路径和-原题链接",
+      "tags": [
+        "多堆动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4034",
+      "statement_path": "knowledge/coding-problems/hot100/多堆动态规划/P4034/题面.md"
+    },
+    {
+      "id": "P4098",
+      "pid": "4098",
+      "chapter": "多堆动态规划",
+      "title": "Leetcode 5.最长回文子串-原题链接",
+      "tags": [
+        "多堆动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4098",
+      "statement_path": "knowledge/coding-problems/hot100/多堆动态规划/P4098/题面.md"
+    },
+    {
+      "id": "P4099",
+      "pid": "4099",
+      "chapter": "多堆动态规划",
+      "title": "Leetcode 1143.最长公共子序列-原题链接",
+      "tags": [
+        "多堆动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4099",
+      "statement_path": "knowledge/coding-problems/hot100/多堆动态规划/P4099/题面.md"
+    },
+    {
+      "id": "P4100",
+      "pid": "4100",
+      "chapter": "多堆动态规划",
+      "title": "Leetcode 72.编辑距离-原题链接",
+      "tags": [
+        "多堆动态规划"
+      ],
+      "source_url": "https://codefun2000.com/p/P4100",
+      "statement_path": "knowledge/coding-problems/hot100/多堆动态规划/P4100/题面.md"
+    },
+    {
+      "id": "P4009",
+      "pid": "4009",
+      "chapter": "子串",
+      "title": "Leetcode 560.和为K的子数组-原题链接",
+      "tags": [
+        "子串"
+      ],
+      "source_url": "https://codefun2000.com/p/P4009",
+      "statement_path": "knowledge/coding-problems/hot100/子串/P4009/题面.md"
+    },
+    {
+      "id": "P4010",
+      "pid": "4010",
+      "chapter": "子串",
+      "title": "Leetcode 239.滑动窗口的最大值-原题链接",
+      "tags": [
+        "子串"
+      ],
+      "source_url": "https://codefun2000.com/p/P4010",
+      "statement_path": "knowledge/coding-problems/hot100/子串/P4010/题面.md"
+    },
+    {
+      "id": "P4053",
+      "pid": "4053",
+      "chapter": "子串",
+      "title": "Leetcode 76.最小覆盖子串-原题链接",
+      "tags": [
+        "子串"
+      ],
+      "source_url": "https://codefun2000.com/p/P4053",
+      "statement_path": "knowledge/coding-problems/hot100/子串/P4053/题面.md"
+    },
+    {
+      "id": "P4900",
+      "pid": "4900",
+      "chapter": "子串",
+      "title": "## 题目描述",
+      "tags": [
+        "子串"
+      ],
+      "source_url": "https://codefun2000.com/p/P4900",
+      "statement_path": "knowledge/coding-problems/hot100/子串/P4900/题面.md"
+    },
+    {
+      "id": "P4035",
+      "pid": "4035",
+      "chapter": "技巧",
+      "title": "LeetCode 136. 只出现一次的数字",
+      "tags": [
+        "技巧"
+      ],
+      "source_url": "https://codefun2000.com/p/P4035",
+      "statement_path": "knowledge/coding-problems/hot100/技巧/P4035/题面.md"
+    },
+    {
+      "id": "P4036",
+      "pid": "4036",
+      "chapter": "技巧",
+      "title": "原题链接",
+      "tags": [
+        "技巧"
+      ],
+      "source_url": "https://codefun2000.com/p/P4036",
+      "statement_path": "knowledge/coding-problems/hot100/技巧/P4036/题面.md"
+    },
+    {
+      "id": "P4101",
+      "pid": "4101",
+      "chapter": "技巧",
+      "title": "颜色分类",
+      "tags": [
+        "技巧"
+      ],
+      "source_url": "https://codefun2000.com/p/P4101",
+      "statement_path": "knowledge/coding-problems/hot100/技巧/P4101/题面.md"
+    },
+    {
+      "id": "P4102",
+      "pid": "4102",
+      "chapter": "技巧",
+      "title": "Leetcpde 31.下一个排序",
+      "tags": [
+        "技巧"
+      ],
+      "source_url": "https://codefun2000.com/p/P4102",
+      "statement_path": "knowledge/coding-problems/hot100/技巧/P4102/题面.md"
+    },
+    {
+      "id": "P4103",
+      "pid": "4103",
+      "chapter": "技巧",
+      "title": "Leetcode 287.寻找重复数",
+      "tags": [
+        "技巧"
+      ],
+      "source_url": "https://codefun2000.com/p/P4103",
+      "statement_path": "knowledge/coding-problems/hot100/技巧/P4103/题面.md"
+    },
+    {
+      "id": "P4935",
+      "pid": "4935",
+      "chapter": "技巧",
+      "title": "Leetcode 415.字符串相加-原题链接",
+      "tags": [
+        "技巧"
+      ],
+      "source_url": "https://codefun2000.com/p/P4935",
+      "statement_path": "knowledge/coding-problems/hot100/技巧/P4935/题面.md"
+    },
+    {
+      "id": "P4683",
+      "pid": "4683",
+      "chapter": "排序",
+      "title": "# 题目内容",
+      "tags": [
+        "排序"
+      ],
+      "source_url": "https://codefun2000.com/p/P4683",
+      "statement_path": "knowledge/coding-problems/hot100/排序/P4683/题面.md"
+    },
+    {
+      "id": "P4863",
+      "pid": "4863",
+      "chapter": "排序",
+      "title": "## 题目描述",
+      "tags": [
+        "排序"
+      ],
+      "source_url": "https://codefun2000.com/p/P4863",
+      "statement_path": "knowledge/coding-problems/hot100/排序/P4863/题面.md"
+    },
+    {
+      "id": "P4896",
+      "pid": "4896",
+      "chapter": "排序",
+      "title": "# 题目内容",
+      "tags": [
+        "排序"
+      ],
+      "source_url": "https://codefun2000.com/p/P4896",
+      "statement_path": "knowledge/coding-problems/hot100/排序/P4896/题面.md"
+    },
+    {
+      "id": "P4934",
+      "pid": "4934",
+      "chapter": "排序",
+      "title": "# 题目内容",
+      "tags": [
+        "排序"
+      ],
+      "source_url": "https://codefun2000.com/p/P4934",
+      "statement_path": "knowledge/coding-problems/hot100/排序/P4934/题面.md"
+    },
+    {
+      "id": "P4777",
+      "pid": "4777",
+      "chapter": "数学",
+      "title": "在线刷题",
+      "tags": [
+        "数学"
+      ],
+      "source_url": "https://codefun2000.com/p/P4777",
+      "statement_path": "knowledge/coding-problems/hot100/数学/P4777/题面.md"
+    },
+    {
+      "id": "P4011",
+      "pid": "4011",
+      "chapter": "普通数组",
+      "title": "LeetCode 53. 最大子数组和",
+      "tags": [
+        "普通数组"
+      ],
+      "source_url": "https://codefun2000.com/p/P4011",
+      "statement_path": "knowledge/coding-problems/hot100/普通数组/P4011/题面.md"
+    },
+    {
+      "id": "P4012",
+      "pid": "4012",
+      "chapter": "普通数组",
+      "title": "Leetcode 56.合并区间-原题链接",
+      "tags": [
+        "普通数组"
+      ],
+      "source_url": "https://codefun2000.com/p/P4012",
+      "statement_path": "knowledge/coding-problems/hot100/普通数组/P4012/题面.md"
+    },
+    {
+      "id": "P4037",
+      "pid": "4037",
+      "chapter": "普通数组",
+      "title": "LeetCode 189. 轮转数组",
+      "tags": [
+        "普通数组"
+      ],
+      "source_url": "https://codefun2000.com/p/P4037",
+      "statement_path": "knowledge/coding-problems/hot100/普通数组/P4037/题面.md"
+    },
+    {
+      "id": "P4038",
+      "pid": "4038",
+      "chapter": "普通数组",
+      "title": "Leetcode 238.除自身以外数组的乘积-原题链接",
+      "tags": [
+        "普通数组"
+      ],
+      "source_url": "https://codefun2000.com/p/P4038",
+      "statement_path": "knowledge/coding-problems/hot100/普通数组/P4038/题面.md"
+    },
+    {
+      "id": "P4039",
+      "pid": "4039",
+      "chapter": "普通数组",
+      "title": "Leetcode 41.缺失的第一个正数-原题链接",
+      "tags": [
+        "普通数组"
+      ],
+      "source_url": "https://codefun2000.com/p/P4039",
+      "statement_path": "knowledge/coding-problems/hot100/普通数组/P4039/题面.md"
+    },
+    {
+      "id": "P4025",
+      "pid": "4025",
+      "chapter": "栈",
+      "title": "LeetCode 20. 有效的括号",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4025",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4025/题面.md"
+    },
+    {
+      "id": "P4026",
+      "pid": "4026",
+      "chapter": "栈",
+      "title": "Leetcode 155.最小栈-原题链接",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4026",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4026/题面.md"
+    },
+    {
+      "id": "P4080",
+      "pid": "4080",
+      "chapter": "栈",
+      "title": "Leetcode 394.字符串解码-原题链接",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4080",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4080/题面.md"
+    },
+    {
+      "id": "P4081",
+      "pid": "4081",
+      "chapter": "栈",
+      "title": "LeetCode 739. 每日温度",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4081",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4081/题面.md"
+    },
+    {
+      "id": "P4082",
+      "pid": "4082",
+      "chapter": "栈",
+      "title": "Leetcode 84.柱状图中最大的矩形-原题链接",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4082",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4082/题面.md"
+    },
+    {
+      "id": "P4817",
+      "pid": "4817",
+      "chapter": "栈",
+      "title": "## 题目描述",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4817",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4817/题面.md"
+    },
+    {
+      "id": "P4818",
+      "pid": "4818",
+      "chapter": "栈",
+      "title": "Leetcode 71.简化路径-原题链接",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4818",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4818/题面.md"
+    },
+    {
+      "id": "P4897",
+      "pid": "4897",
+      "chapter": "栈",
+      "title": "# 题目内容",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4897",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4897/题面.md"
+    },
+    {
+      "id": "P4902",
+      "pid": "4902",
+      "chapter": "栈",
+      "title": "## 题目描述",
+      "tags": [
+        "栈"
+      ],
+      "source_url": "https://codefun2000.com/p/P4902",
+      "statement_path": "knowledge/coding-problems/hot100/栈/P4902/题面.md"
+    },
+    {
+      "id": "P4007",
+      "pid": "4007",
+      "chapter": "滑动窗口",
+      "title": "Leetcode 3.无重复字符的最长子串",
+      "tags": [
+        "滑动窗口"
+      ],
+      "source_url": "https://codefun2000.com/p/P4007",
+      "statement_path": "knowledge/coding-problems/hot100/滑动窗口/P4007/题面.md"
+    },
+    {
+      "id": "P4008",
+      "pid": "4008",
+      "chapter": "滑动窗口",
+      "title": "Leetcode 438.找到字符串中所有字母异位词-原题链接",
+      "tags": [
+        "滑动窗口"
+      ],
+      "source_url": "https://codefun2000.com/p/P4008",
+      "statement_path": "knowledge/coding-problems/hot100/滑动窗口/P4008/题面.md"
+    },
+    {
+      "id": "P4815",
+      "pid": "4815",
+      "chapter": "滑动窗口",
+      "title": "# 题目描述",
+      "tags": [
+        "滑动窗口"
+      ],
+      "source_url": "https://codefun2000.com/p/P4815",
+      "statement_path": "knowledge/coding-problems/hot100/滑动窗口/P4815/题面.md"
+    },
+    {
+      "id": "P4013",
+      "pid": "4013",
+      "chapter": "矩阵",
+      "title": "LeetCode 73.矩阵置零",
+      "tags": [
+        "矩阵"
+      ],
+      "source_url": "https://codefun2000.com/p/P4013",
+      "statement_path": "knowledge/coding-problems/hot100/矩阵/P4013/题面.md"
+    },
+    {
+      "id": "P4014",
+      "pid": "4014",
+      "chapter": "矩阵",
+      "title": "Leetcode 54.螺旋矩阵-原题链接",
+      "tags": [
+        "矩阵"
+      ],
+      "source_url": "https://codefun2000.com/p/P4014",
+      "statement_path": "knowledge/coding-problems/hot100/矩阵/P4014/题面.md"
+    },
+    {
+      "id": "P4040",
+      "pid": "4040",
+      "chapter": "矩阵",
+      "title": "Leetcode 48.旋转图像-原题链接",
+      "tags": [
+        "矩阵"
+      ],
+      "source_url": "https://codefun2000.com/p/P4040",
+      "statement_path": "knowledge/coding-problems/hot100/矩阵/P4040/题面.md"
+    },
+    {
+      "id": "P4041",
+      "pid": "4041",
+      "chapter": "矩阵",
+      "title": "Leetcode 240.搜索二维矩阵Ⅱ-原题链接",
+      "tags": [
+        "矩阵"
+      ],
+      "source_url": "https://codefun2000.com/p/P4041",
+      "statement_path": "knowledge/coding-problems/hot100/矩阵/P4041/题面.md"
+    },
+    {
+      "id": "P4029",
+      "pid": "4029",
+      "chapter": "贪心算法",
+      "title": "LeetCode 121. 买卖股票的最佳时机",
+      "tags": [
+        "贪心算法"
+      ],
+      "source_url": "https://codefun2000.com/p/P4029",
+      "statement_path": "knowledge/coding-problems/hot100/贪心算法/P4029/题面.md"
+    },
+    {
+      "id": "P4030",
+      "pid": "4030",
+      "chapter": "贪心算法",
+      "title": "Leetcode 55.跳跃游戏-原题链接",
+      "tags": [
+        "贪心算法"
+      ],
+      "source_url": "https://codefun2000.com/p/P4030",
+      "statement_path": "knowledge/coding-problems/hot100/贪心算法/P4030/题面.md"
+    },
+    {
+      "id": "P4084",
+      "pid": "4084",
+      "chapter": "贪心算法",
+      "title": "Leetcode 45.跳跃游戏Ⅱ-原题链接",
+      "tags": [
+        "贪心算法"
+      ],
+      "source_url": "https://codefun2000.com/p/P4084",
+      "statement_path": "knowledge/coding-problems/hot100/贪心算法/P4084/题面.md"
+    },
+    {
+      "id": "P4088",
+      "pid": "4088",
+      "chapter": "贪心算法",
+      "title": "Leetcode 763.划分字母区间-原题链接",
+      "tags": [
+        "贪心算法"
+      ],
+      "source_url": "https://codefun2000.com/p/P4088",
+      "statement_path": "knowledge/coding-problems/hot100/贪心算法/P4088/题面.md"
+    },
+    {
+      "id": "P4015",
+      "pid": "4015",
+      "chapter": "链表",
+      "title": "Leetcode 160.相交链表-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4015",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4015/题面.md"
+    },
+    {
+      "id": "P4016",
+      "pid": "4016",
+      "chapter": "链表",
+      "title": "Leetcode 206.反转链表-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4016",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4016/题面.md"
+    },
+    {
+      "id": "P4042",
+      "pid": "4042",
+      "chapter": "链表",
+      "title": "Leetcode 234.回文链表-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4042",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4042/题面.md"
+    },
+    {
+      "id": "P4043",
+      "pid": "4043",
+      "chapter": "链表",
+      "title": "Leetcode 141.环形链表-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4043",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4043/题面.md"
+    },
+    {
+      "id": "P4044",
+      "pid": "4044",
+      "chapter": "链表",
+      "title": "LeetCode 21. 合并两个有序链表",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4044",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4044/题面.md"
+    },
+    {
+      "id": "P4045",
+      "pid": "4045",
+      "chapter": "链表",
+      "title": "下面是改成**单组测试数据、没有 T** 的题面版本：",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4045",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4045/题面.md"
+    },
+    {
+      "id": "P4046",
+      "pid": "4046",
+      "chapter": "链表",
+      "title": "Leetcode 19.删除链表的倒数第N个结点-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4046",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4046/题面.md"
+    },
+    {
+      "id": "P4047",
+      "pid": "4047",
+      "chapter": "链表",
+      "title": "Leetcode 24.两两交换链表中的节点-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4047",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4047/题面.md"
+    },
+    {
+      "id": "P4048",
+      "pid": "4048",
+      "chapter": "链表",
+      "title": "Leetcode 25.K个一组翻转链表-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4048",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4048/题面.md"
+    },
+    {
+      "id": "P4049",
+      "pid": "4049",
+      "chapter": "链表",
+      "title": "Leetcode 138.随即链表的复制-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4049",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4049/题面.md"
+    },
+    {
+      "id": "P4050",
+      "pid": "4050",
+      "chapter": "链表",
+      "title": "Leetcode 148.排序链表-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4050",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4050/题面.md"
+    },
+    {
+      "id": "P4051",
+      "pid": "4051",
+      "chapter": "链表",
+      "title": "Leetcode 23.合并K个升序链表-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4051",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4051/题面.md"
+    },
+    {
+      "id": "P4052",
+      "pid": "4052",
+      "chapter": "链表",
+      "title": "Leetcode 146.LRU缓存-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4052",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4052/题面.md"
+    },
+    {
+      "id": "P4104",
+      "pid": "4104",
+      "chapter": "链表",
+      "title": "Leetcode 142.环形链表Ⅱ-原题链接",
+      "tags": [
+        "链表"
+      ],
+      "source_url": "https://codefun2000.com/p/P4104",
+      "statement_path": "knowledge/coding-problems/hot100/链表/P4104/题面.md"
+    }
+  ]
+}

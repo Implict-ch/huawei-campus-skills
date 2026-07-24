@@ -1,0 +1,67 @@
+/* ── Syntax highlight (hljs → --code-hl-* tokens) ── */
+
+.code-block__code.hljs {
+  background: transparent;
+  color: var(--code-fg);
+}
+
+.code-block__code .hljs,
+.code-block__code span {
+  background: transparent !important;
+}
+
+.code-block__code .hljs-keyword,
+.code-block__code .hljs-selector-tag,
+.code-block__code .hljs-meta .hljs-keyword {
+  color: var(--code-hl-keyword);
+}
+
+.code-block__code .hljs-string,
+.code-block__code .hljs-char,
+.code-block__code .hljs-regexp,
+.code-block__code .hljs-template-variable,
+.code-block__code .hljs-addition {
+  color: var(--code-hl-string);
+}
+
+.code-block__code .hljs-comment,
+.code-block__code .hljs-quote {
+  color: var(--code-hl-comment);
+  font-style: italic;
+}
+
+.code-block__code .hljs-number,
+.code-block__code .hljs-literal {
+  color: var(--code-hl-number);
+}
+
+.code-block__code .hljs-function,
+.code-block__code .hljs-title.function_,
+.code-block__code .hljs-section {
+  color: var(--code-hl-function);
+}
+
+.code-block__code .hljs-built_in,
+.code-block__code .hljs-type,
+.code-block__code .hljs-title.class_,
+.code-block__code .hljs-class .hljs-title {
+  color: var(--code-hl-type);
+}
+
+.code-block__code .hljs-variable,
+.code-block__code .hljs-params,
+.code-block__code .hljs-attr,
+.code-block__code .hljs-property,
+.code-block__code .hljs-name {
+  color: var(--code-hl-variable);
+}
+
+.code-block__code .hljs-operator,
+.code-block__code .hljs-punctuation {
+  color: var(--code-hl-operator);
+}
+
+.code-block__code .hljs-meta,
+.code-block__code .hljs-title {
+  color: var(--code-hl-meta);
+}

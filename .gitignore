@@ -1,0 +1,44 @@
+# 环境变量 / 密钥
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+
+# 依赖
+node_modules/
+frontend/node_modules/
+
+# 构建产物
+frontend/dist/
+dist/
+build/
+*.umd.cjs
+
+# 本地临时 / 缓存
+frontend/tmp/
+frontend/local_cache/
+tmp/
+*.log
+.DS_Store
+Thumbs.db
+
+# 备份与抓取临时文件
+knowledge_experiences_backup.zip
+tmp_nowcoder.html
+*.zip
+
+# IDE / 编辑器
+.cursor/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 本地调试截图（体积大，按需再加）
+agent-*.png
+screenshot-*.png

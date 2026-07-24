@@ -1,0 +1,95 @@
+# AI / 算法
+
+共 91 篇。
+
+- [华为公开ICTAI&联想DIBG机器学习面经](../knowledge/experiences/hw-exp-20210914-nc-15305472.md) — 2021-09-14
+- [华为 本科应届 秋招](../knowledge/experiences/hw-exp-20211117-nc-88020736.md) — 2021-11-17
+- [华为留学生校招面经](../knowledge/experiences/hw-exp-20211120-nc-47347456.md) — 2021-11-20
+- [华为暑期实习AI](../knowledge/experiences/hw-exp-20220501-nc-91822592.md) — 2022-05-01
+- [华为产品数据工程师面经，已入池](../knowledge/experiences/hw-exp-20220825-nc-76165888.md) — 2022-08-25
+- [华为战略投资岗实习面经｜已offer](../knowledge/experiences/hw-exp-20221021-nc-65284096.md) — 2022-10-21
+- [秋招回顾13：华为算法岗面经（下）](../knowledge/experiences/hw-exp-20230323-nc-55444480.md) — 2023-03-23
+- [华为机考](../knowledge/experiences/hw-exp-20230419-nc-1670944.md) — 2023-04-19
+- [华为留学生暑期实习机试](../knowledge/experiences/hw-exp-20230420-nc-1671789.md) — 2023-04-20
+- [暑期实习 oppo or 华为](../knowledge/experiences/hw-exp-20230602-nc-1766125.md) — 2023-06-02
+- [华为校招流程，已offer](../knowledge/experiences/hw-exp-20230609-nc-15431680.md) — 2023-06-09
+- [华为2024届校招](../knowledge/experiences/hw-exp-20230811-nc-1829093.md) — 2023-08-11
+- [华为24届【留学生】校招【本硕博】开始啦！](../knowledge/experiences/hw-exp-20230909-nc-91964416.md) — 2023-09-09
+- [华为实习机试分享](../knowledge/experiences/hw-exp-20240411-nc-40271104.md) — 2024-04-11
+- [暑期实习记录 去向西安华为无线 通信算法](../knowledge/experiences/hw-exp-20240703-nc-2270678.md) — 2024-07-03
+- [#校招#华为智能驾驶产品部](../knowledge/experiences/hw-exp-20240802-nc-2304209.md) — 2024-08-02
+- [华为-乾崑智能驾驶2025届校招](../knowledge/experiences/hw-exp-20240824-nc-2335437.md) — 2024-08-24
+- [华为-乾崑智能驾驶2025届校招](../knowledge/experiences/hw-exp-20240824-nc-99759360.md) — 2024-08-24
+- [华为2025届校招](../knowledge/experiences/hw-exp-20240908-nc-2363665.md) — 2024-09-08
+- [华为校招投递](../knowledge/experiences/hw-exp-20240909-nc-2364685.md) — 2024-09-09
+- [2025最全华为校招上岸总结-part1](../knowledge/experiences/hw-exp-20240910-nc-57639424.md) — 2024-09-10
+- [华为车bu校招算法工程师](../knowledge/experiences/hw-exp-20240912-nc-2372014.md) — 2024-09-12
+- [华为2025校招—国外留学生、国内应届生](../knowledge/experiences/hw-exp-20240916-nc-2378088.md) — 2024-09-16
+- [华为2025校招—国外留学生、国内应届生](../knowledge/experiences/hw-exp-20240916-nc-2378737.md) — 2024-09-16
+- [华为面经 已入池](../knowledge/experiences/hw-exp-20241027-nc-2441639.md) — 2024-10-27
+- [华为一天三面速通 许愿华为携程oc](../knowledge/experiences/hw-exp-20241029-nc-2445687.md) — 2024-10-29
+- [华为的秋招机考打败我了](../knowledge/experiences/hw-exp-20241111-nc-50452736.md) — 2024-11-11
+- [华为面经，挑战华为最晚入池](../knowledge/experiences/hw-exp-20241114-nc-46936576.md) — 2024-11-14
+- [阿里云 华为 offer选择](../knowledge/experiences/hw-exp-20241128-nc-2486454.md) — 2024-11-28
+- [在准备华为校招的过程中，我深刻体会到，千万别太老实！](../knowledge/experiences/hw-exp-20241203-nc-09217792.md) — 2024-12-03
+- [华为校招机考分享](../knowledge/experiences/hw-exp-20250318-nc-2558075.md) — 2025-03-18
+- [华为暑期实习AI工程师面经](../knowledge/experiences/hw-exp-20250606-xhs-0f03106d.md) — 2025-06-06
+- [华为暑期实习开奖](../knowledge/experiences/hw-exp-20250613-nc-2618413.md) — 2025-06-13
+- [华为‖终面真题拆解分析](../knowledge/experiences/hw-exp-20250625-xhs-2203c6fb.md) — 2025-06-25
+- [华为校招正编-AI、算法、软开](../knowledge/experiences/hw-exp-20250903-nc-2679378.md) — 2025-09-03
+- [华为校招正编-AI、算法、软开](../knowledge/experiences/hw-exp-20250903-nc-85810688.md) — 2025-09-03
+- [华为秋招笔试冲刺！9.3免费模拟机试开启](../knowledge/experiences/hw-exp-20250904-nc-88930560.md) — 2025-09-04
+- [华为Ai岗机考20250903完整真题](../knowledge/experiences/hw-exp-20250909-nc-93117440.md) — 2025-09-09
+- [华为留学生笔试 华为笔试 0828](../knowledge/experiences/hw-exp-20250910-nc-75345152.md) — 2025-09-10
+- [华为笔试 华为AI算法笔试 0827](../knowledge/experiences/hw-exp-20250910-nc-96538112.md) — 2025-09-10
+- [华为笔试 华为AI算法 0903](../knowledge/experiences/hw-exp-20250919-nc-80156672.md) — 2025-09-19
+- [华为26届应届本科生校招面经](../knowledge/experiences/hw-exp-20260210-nc-87042560.md) — 2026-02-10
+- [华为AI应用开发校招一面](../knowledge/experiences/hw-exp-20260303-nc-2798758.md) — 2026-03-03
+- [面过五次华为的经验贴（面经）](../knowledge/experiences/hw-exp-20260313-xhs-1f002454.md) — 2026-03-13
+- [华为ai应用暑期实习一面面经](../knowledge/experiences/hw-exp-20260422-xhs-2103960d.md) — 2026-04-22
+- [华为暑期实习面经](../knowledge/experiences/hw-exp-20260424-xhs-22026d4d.md) — 2026-04-24
+- [华为暑期实习AI岗面经分享](../knowledge/experiences/hw-exp-20260425-xhs-22024aac.md) — 2026-04-25
+- [华为暑期实习全流程经验分享](../knowledge/experiences/hw-exp-20260427-xhs-3501fce1.md) — 2026-04-27
+- [华为AI暑期实习面经](../knowledge/experiences/hw-exp-20260429-xhs-36031dfc.md) — 2026-04-29
+- [华为2012中软-大模型应用-面经](../knowledge/experiences/hw-exp-20260520-xhs-35021804.md) — 2026-05-20
+- [5.19 华为，AI技术应用面经](../knowledge/experiences/hw-exp-20260520-xhs-360313ed.md) — 2026-05-20
+- [🚬华为暑期实习面经｜被华子遛惨的一回](../knowledge/experiences/hw-exp-20260531-xhs-0702d8e3.md) — 2026-05-31
+- [华为技术面复盘，问得我汗流浃背了](../knowledge/experiences/hw-exp-20260601-xhs-06033c79.md) — 2026-06-01
+- [华为暑期实习面经](../knowledge/experiences/hw-exp-20260601-xhs-0800287c.md) — 2026-06-01
+- [华子26暑期实习校招体验](../knowledge/experiences/hw-exp-20260605-xhs-0702941b.md) — 2026-06-05
+- [暑期实习｜6.4 华为AI岗面经](../knowledge/experiences/hw-exp-20260605-xhs-1c027ffb.md) — 2026-06-05
+- [华为海思-图灵业务部 ai-infra](../knowledge/experiences/hw-exp-20260625-nc-92239360.md) — 2026-06-25
+- [华为面试 技术面60min](../knowledge/experiences/hw-exp-20260714-xhs-2200ae9b.md) — 2026-07-14
+- [7.15 华为校招非ai岗，简单拿下，分享思路](../knowledge/experiences/hw-exp-20260715-xhs-1100745e.md) — 2026-07-15
+- [华为AI岗机考真题2026-7-15第一题](../knowledge/experiences/hw-exp-20260720-xhs-0100e194.md) — 2026-07-20
+- [25秋招-10月中-AI算法工程师-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2418.md) — 2025-10-15
+- [25秋招-10月中-华为GTS-服务与软件研发管理部-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2428.md) — 2025-10-15
+- [25秋招-9月下--通用软开-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2439.md) — 2025-09-20
+- [25秋招-9月下-智能驾驶--一面面经](../knowledge/experiences/platform/hw-exp-cf-P2441.md) — 2025-09-20
+- [25秋招-9月中-终端-二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2444.md) — 2025-09-15
+- [25秋招-9月-华为AI工程师（大模型方向）- 专业面&主管面](../knowledge/experiences/platform/hw-exp-cf-P2466.md) — 2025-09-15
+- [25秋招-9月底--算法工程师一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2470.md) — 2025-09-25
+- [26秋招-9月底-AI应用开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2478.md) — 2026-09-25
+- [26秋招-9月底-AI软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2481.md) — 2026-09-25
+- [26秋招-9月底-AI应用方向-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2482.md) — 2026-09-25
+- [26秋招-9月底-AI应用方向-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2484.md) — 2026-09-25
+- [26秋招-9月底-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2485.md) — 2026-09-25
+- [26秋招-9月底-云计算AI软开-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2486.md) — 2026-09-25
+- [26秋招-9月底-AI应用方向-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2489.md) — 2026-09-25
+- [26秋招-10月初-计算机视觉-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2500.md) — 2026-10-05
+- [26秋招-10月中-AI软件开发-二三面](../knowledge/experiences/platform/hw-exp-cf-P2504.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2505.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2506.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2507.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2508.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2509.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2512.md) — 2026-10-15
+- [26秋招-10月底-AI岗-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2513.md) — 2026-10-25
+- [26秋招-10月底-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2514.md) — 2026-10-25
+- [26秋招-10月底-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2520.md) — 2026-10-25
+- [26秋招-11月中-华为云自驾-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2521.md) — 2026-11-15
+- [26秋招-11月底- AI方向-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2522.md) — 2026-11-25
+- [26秋招-11月中-云的自驾-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2523.md) — 2026-11-15
+- [26秋招-11月底- AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2524.md) — 2026-11-25
+- [27暑期实习-3月底-AI工程师-二三面](../knowledge/experiences/platform/hw-exp-cf-P2527.md) — 2027-03-25
+- [27暑期实习-4月底-AI大模型工程师-二三面](../knowledge/experiences/platform/hw-exp-cf-P2528.md) — 2027-04-25

@@ -1,0 +1,56 @@
+# 通用 / 综合
+
+共 52 篇。
+
+- [中国通信/中兴南京/华为上海/中国铁通校招通信协议工程师面经](../knowledge/experiences/hw-exp-20200729-nc-12942336.md) — 2020-07-29
+- [中兴通讯/天绘科技/华为 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20200808-nc-92113408.md) — 2020-08-08
+- [爱立信/华为/中国移动 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20220218-nc-26263296.md) — 2022-02-18
+- [爱立信/佛山移动/华为/长讯通信 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20220223-nc-03363328.md) — 2022-02-23
+- [华为云信息体验工程师校招](../knowledge/experiences/hw-exp-20230720-nc-1802096.md) — 2023-07-20
+- [华为研发部门怎么样啊](../knowledge/experiences/hw-exp-20230903-nc-1873535.md) — 2023-09-03
+- [华为24届【留学生】校招【本硕博】开始啦！](../knowledge/experiences/hw-exp-20230909-nc-91964416.md) — 2023-09-09
+- [24年C++开发岗华为校招还有HC](../knowledge/experiences/hw-exp-20231204-nc-2078203.md) — 2023-12-04
+- [2023华为暑假实习（技术面+主管面）](../knowledge/experiences/hw-exp-20240521-xhs-1601370e.md) — 2024-05-21
+- [华为-乾崑智能驾驶2025届校招](../knowledge/experiences/hw-exp-20240824-nc-2335437.md) — 2024-08-24
+- [华为-乾崑智能驾驶2025届校招](../knowledge/experiences/hw-exp-20240824-nc-99759360.md) — 2024-08-24
+- [华为海思数字IC设计校招面经](../knowledge/experiences/hw-exp-20240829-nc-85415168.md) — 2024-08-29
+- [华为校招终端BG，HC多](../knowledge/experiences/hw-exp-20240901-nc-2349623.md) — 2024-09-01
+- [华为车bu校招算法工程师](../knowledge/experiences/hw-exp-20240912-nc-2372014.md) — 2024-09-12
+- [华为2025校招—国外留学生、国内应届生](../knowledge/experiences/hw-exp-20240916-nc-2378088.md) — 2024-09-16
+- [华为2025校招—国外留学生、国内应届生](../knowledge/experiences/hw-exp-20240916-nc-2378737.md) — 2024-09-16
+- [24校招华为校招薪资爆料](../knowledge/experiences/hw-exp-20241012-nc-44364288.md) — 2024-10-12
+- [校招Offer选择：华为、工商银行数据中心](../knowledge/experiences/hw-exp-20241217-nc-02619392.md) — 2024-12-17
+- [华为校招求捞](../knowledge/experiences/hw-exp-20250201-nc-2522363.md) — 2025-02-01
+- [关于华为实习/春秋招的一个若只问题](../knowledge/experiences/hw-exp-20250318-nc-2557593.md) — 2025-03-18
+- [中电11所vs华为 GTS 13级](../knowledge/experiences/hw-exp-20250324-nc-2564105.md) — 2025-03-24
+- [华为暑期实习AI工程师面经](../knowledge/experiences/hw-exp-20250606-xhs-0f03106d.md) — 2025-06-06
+- [华为‖终面真题拆解分析](../knowledge/experiences/hw-exp-20250625-xhs-2203c6fb.md) — 2025-06-25
+- [【华为数据存储】2026校招火热开启！](../knowledge/experiences/hw-exp-20250708-nc-2629075.md) — 2025-07-08
+- [【华为数据存储】2026校招火热开启！](../knowledge/experiences/hw-exp-20250708-nc-2629457.md) — 2025-07-08
+- [华为无线26届校招](../knowledge/experiences/hw-exp-20250806-nc-2650355.md) — 2025-08-06
+- [华为ai软件开发工程师面经（过了+保温）](../knowledge/experiences/hw-exp-20251104-xhs-03023bf7.md) — 2025-11-04
+- [华为通软校招面经](../knowledge/experiences/hw-exp-20260209-xhs-0e03e6e0.md) — 2026-02-09
+- [面过五次华为的经验贴（面经）](../knowledge/experiences/hw-exp-20260313-xhs-1f002454.md) — 2026-03-13
+- [华为暑期实习面经](../knowledge/experiences/hw-exp-20260424-xhs-22026d4d.md) — 2026-04-24
+- [华为暑期实习AI岗面经分享](../knowledge/experiences/hw-exp-20260425-xhs-22024aac.md) — 2026-04-25
+- [华为暑期实习全流程经验分享](../knowledge/experiences/hw-exp-20260427-xhs-3501fce1.md) — 2026-04-27
+- [华为暑期实习通软面经（主管面挂版）](../knowledge/experiences/hw-exp-20260427-xhs-35030019.md) — 2026-04-27
+- [华为AI暑期实习面经](../knowledge/experiences/hw-exp-20260429-xhs-36031dfc.md) — 2026-04-29
+- [华为ICTBG暑期实习软件开发Java面经](../knowledge/experiences/hw-exp-20260513-xhs-360181e0.md) — 2026-05-13
+- [华为暑期实习硬件面经（攒人品）](../knowledge/experiences/hw-exp-20260519-xhs-3701e319.md) — 2026-05-19
+- [华为2012中软-大模型应用-面经](../knowledge/experiences/hw-exp-20260520-xhs-35021804.md) — 2026-05-20
+- [5.19 华为，AI技术应用面经](../knowledge/experiences/hw-exp-20260520-xhs-360313ed.md) — 2026-05-20
+- [华为通用软件面经](../knowledge/experiences/hw-exp-20260522-xhs-0702df09.md) — 2026-05-22
+- [华为27暑期实习面经](../knowledge/experiences/hw-exp-20260525-xhs-3601aa74.md) — 2026-05-25
+- [27暑期实习记录| 华为泡池子中(已offer)](../knowledge/experiences/hw-exp-20260529-xhs-0702c300.md) — 2026-05-29
+- [🚬华为暑期实习面经｜被华子遛惨的一回](../knowledge/experiences/hw-exp-20260531-xhs-0702d8e3.md) — 2026-05-31
+- [华为技术面复盘，问得我汗流浃背了](../knowledge/experiences/hw-exp-20260601-xhs-06033c79.md) — 2026-06-01
+- [华为暑期实习面经](../knowledge/experiences/hw-exp-20260601-xhs-0800287c.md) — 2026-06-01
+- [华子26暑期实习校招体验](../knowledge/experiences/hw-exp-20260605-xhs-0702941b.md) — 2026-06-05
+- [暑期实习｜6.4 华为AI岗面经](../knowledge/experiences/hw-exp-20260605-xhs-1c027ffb.md) — 2026-06-05
+- [26届硕士秋招-华为经验贴](../knowledge/experiences/hw-exp-20260630-xhs-11011a85.md) — 2026-06-30
+- [复盘24号华为软开岗已进面](../knowledge/experiences/hw-exp-20260630-xhs-2100bf44.md) — 2026-06-30
+- [7.15 华为校招非ai岗，简单拿下，分享思路](../knowledge/experiences/hw-exp-20260715-xhs-1100745e.md) — 2026-07-15
+- [上海华为单板硬件秋招！！！](../knowledge/experiences/hw-exp-20260718-xhs-0301ca65.md) — 2026-07-18
+- [华为27届秋招开始啦](../knowledge/experiences/hw-exp-20260720-xhs-0f016520.md) — 2026-07-20
+- [27届华为秋招~](../knowledge/experiences/hw-exp-20260720-xhs-0f01fd01.md) — 2026-07-20

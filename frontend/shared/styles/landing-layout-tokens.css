@@ -1,0 +1,5 @@
+:root {
+  --content-max: 1200px;
+  --content-max-narrow: 840px;
+  --page-gutter: 24px;
+}
