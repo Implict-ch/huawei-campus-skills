@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2463"
 category: "通用软件开发"
 tags: ["Java", "后端", "手撕", "八股", "校招"]
-published_at: 2025-09-15
+published_at: 2024-09-15
 ---
 
 # 25秋招-9月-通用软件开发-一面&多道手撕

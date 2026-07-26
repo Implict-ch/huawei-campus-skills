@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2510"
 category: "通用软件开发"
 tags: ["操作系统", "八股", "手撕", "校招"]
-published_at: 2026-10-15
+published_at: 2025-10-15
 ---
 
 # 26秋招-10月中-通用软件开发-一二三面

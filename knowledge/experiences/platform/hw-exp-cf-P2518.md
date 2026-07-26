@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2518"
 category: "通用软件开发"
 tags: ["八股", "手撕", "操作系统", "C++", "校招"]
-published_at: 2026-10-25
+published_at: 2025-10-25
 ---
 
 # 26秋招-10月底-通用软件开发-一二三面

@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2466"
 category: "其他"
 tags: ["大模型", "深度学习", "NLP", "机器学习", "Python", "PyTorch", "八股", "校招"]
-published_at: 2025-09-15
+published_at: 2024-09-15
 ---
 
 # 25秋招-9月-华为AI工程师（大模型方向）- 专业面&主管面

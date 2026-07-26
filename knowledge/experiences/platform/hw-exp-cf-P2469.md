@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2469"
 category: "通用软件开发"
 tags: ["C++", "后端", "手撕", "八股", "校招"]
-published_at: 2025-09-25
+published_at: 2024-09-25
 ---
 
 # 25秋招-9月底-终端软件部-通用软件开发-一二三面面经

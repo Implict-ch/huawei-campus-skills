@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2485"
 category: "算法"
 tags: ["机器学习", "深度学习", "Python", "手撕", "八股", "校招"]
-published_at: 2026-09-25
+published_at: 2025-09-25
 ---
 
 # 26秋招-9月底-AI算法-一二三面

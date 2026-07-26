@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2521"
 category: "其他"
 tags: ["智能驾驶", "手撕", "八股", "校招"]
-published_at: 2026-11-15
+published_at: 2025-11-15
 ---
 
 # 26秋招-11月中-华为云自驾-一二三面

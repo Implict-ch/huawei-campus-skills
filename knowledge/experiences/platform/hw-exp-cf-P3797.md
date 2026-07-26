@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P3797"
 category: "其他"
 tags: ["手撕", "八股", "校招"]
-published_at: 2026-09-24
+published_at: 2025-09-24
 ---
 
 # 26-秋招-9.24-计算产品线-通用软件开发工程师-面经

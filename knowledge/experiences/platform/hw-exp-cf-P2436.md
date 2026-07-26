@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2436"
 category: "通用软件开发"
 tags: ["C++", "后端", "数据库", "Linux", "操作系统", "手撕", "八股", "校招"]
-published_at: 2025-09-15
+published_at: 2024-09-15
 ---
 
 # 25秋招-9月-计算产品线-通用软件开发-一二三面面经

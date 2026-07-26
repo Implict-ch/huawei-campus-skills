@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2452"
 category: "通用软件开发"
 tags: ["后端", "数据库", "手撕", "八股", "校招"]
-published_at: 2025-09-05
+published_at: 2024-09-05
 ---
 
 # 25秋招-9月初-后端-通用软件开发师-一面面经

@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2455"
 category: "通用软件开发"
 tags: ["ICT", "光产品", "八股", "手撕", "校招"]
-published_at: 2025-09-05
+published_at: 2024-09-05
 ---
 
 # 25秋招-9月初-ICT光产品线-通用软件开发-一面面经

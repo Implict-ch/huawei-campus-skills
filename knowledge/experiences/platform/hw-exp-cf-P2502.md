@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2502"
 category: "通用软件开发"
 tags: ["八股", "校招"]
-published_at: 2026-10-15
+published_at: 2025-10-15
 ---
 
 # 26秋招-10月中-终端天线-一二三面

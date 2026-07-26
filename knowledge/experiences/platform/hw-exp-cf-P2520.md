@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2520"
 category: "算法"
 tags: ["深度学习", "PyTorch", "手撕", "八股", "校招"]
-published_at: 2026-10-25
+published_at: 2025-10-25
 ---
 
 # 26秋招-10月底-AI算法-一二三面

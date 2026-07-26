@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2486"
 category: "通用软件开发"
 tags: ["机器学习", "深度学习", "八股", "手撕", "校招"]
-published_at: 2026-09-25
+published_at: 2025-09-25
 ---
 
 # 26秋招-9月底-云计算AI软开-一二三面

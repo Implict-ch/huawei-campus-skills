@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2471"
 category: "通用软件开发"
 tags: ["Java", "Spring", "数据库", "八股", "手撕", "后端", "操作系统", "分布式", "校招"]
-published_at: 2025-09-25
+published_at: 2024-09-25
 ---
 
 # 25秋招-9月底-服务与软件研发管理-通用软件开发一二三面面经

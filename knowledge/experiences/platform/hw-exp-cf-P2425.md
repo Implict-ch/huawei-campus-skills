@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2425"
 category: "通用软件开发"
 tags: ["操作系统", "八股", "手撕", "校招"]
-published_at: 2025-10-15
+published_at: 2024-10-15
 ---
 
 # 25秋招-10月中-海思-通用软件开发一二三面面经

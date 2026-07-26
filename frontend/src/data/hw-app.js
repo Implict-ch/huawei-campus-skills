@@ -2,8 +2,10 @@
 
 export const HW_APP_NAV = [
   { label: "首页", href: "/" },
+  { label: "求职教练", href: "/agent" },
+  { label: "机考真题", href: "https://codefun2000.com/problemset/hw", external: true },
   { label: "面经", href: "/experiences" },
-  { label: "智能问答", href: "/agent" },
+  { label: "手撕题库", href: "/hand-tear" },
 ];
 
 export const ROLE_CARDS = [
@@ -46,14 +48,15 @@ export const ROLE_CARDS = [
 
 export const AGENT_PAGE_CONTENT = {
   hero: {
-    title: "华为校招智能问答",
+    title: "求职教练",
     subtitle: "",
   },
   models: [
     { value: "builtin-deepseek", label: "内置模型", baseUrl: "https://api.deepseek.com/v1" },
     { value: "gpt-4o-mini", label: "OpenAI gpt-4o-mini", baseUrl: "" },
     { value: "gpt-4o", label: "OpenAI gpt-4o", baseUrl: "" },
-    { value: "deepseek-chat", label: "DeepSeek Chat（自定义 Key）", baseUrl: "https://api.deepseek.com/v1" },
+    { value: "deepseek-v4-flash", label: "DeepSeek V4 Flash（自定义 Key）", baseUrl: "https://api.deepseek.com/v1" },
+    { value: "deepseek-v4-pro", label: "DeepSeek V4 Pro（自定义 Key）", baseUrl: "https://api.deepseek.com/v1" },
     { value: "custom", label: "自定义（填写 baseUrl + model）", baseUrl: "" },
   ],
 };

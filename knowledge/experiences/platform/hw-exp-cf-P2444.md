@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2444"
 category: "通用软件开发"
 tags: ["深度学习", "计算机视觉", "手撕", "校招"]
-published_at: 2025-09-15
+published_at: 2024-09-15
 ---
 
 # 25秋招-9月中-终端-二三面面经

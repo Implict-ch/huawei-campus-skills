@@ -64,36 +64,73 @@ def clean_title(title: str) -> str:
     return t
 
 
+def batch_year_to_calendar(yy: int, season: Optional[str]) -> int:
+    """届数年份 -> 实际发生的公历年。
+
+    - N秋招：面向 N 届毕业生，发生在前一年秋季 → 20(N-1)
+    - N春招 / N实习 / N暑期实习：通常发生在 N 年 → 20N
+    """
+    y = 2000 + int(yy)
+    if season == "秋招":
+        return y - 1
+    return y
+
+
+def _ymd(y: int, month: int, day: int) -> Optional[str]:
+    if month < 1 or month > 12 or day < 1 or day > 31:
+        return None
+    return f"{y:04d}-{month:02d}-{day:02d}"
+
+
 def parse_date_from_title(title: str) -> Optional[str]:
     """从标题解析近似发布日期，返回 YYYY-MM-DD。"""
     t = clean_title(title)
 
-    # 26-秋招-9.24 / 26秋招-9.24
+    # 24秋招-23.11月底：显式写出实际年份.月份
     m = re.search(
-        r"(?P<yy>\d{2})\s*[-_]?\s*(?:秋招|春招|暑期实习|实习)?\s*[-_]?\s*(?P<m>\d{1,2})\.(?P<d>\d{1,2})",
+        r"(?P<batch>\d{2})\s*[-_]?\s*(?P<season>秋招|春招|暑期实习|实习)\s*[-_]?\s*"
+        r"(?P<yy>\d{2})\.(?P<m>\d{1,2})\s*月?\s*(?P<part>初|中|下|底)?",
         t,
     )
-    if m:
-        y = 2000 + int(m.group("yy"))
-        return f"{y:04d}-{int(m.group('m')):02d}-{int(m.group('d')):02d}"
-
-    # 27暑期实习-4月底 / 25秋招-10月中 / 25-秋招-10月中
-    m = re.search(
-        r"(?P<yy>\d{2})\s*[-_]?\s*(?P<season>秋招|春招|暑期实习|实习)?\s*[-_]?\s*(?P<m>\d{1,2})\s*月\s*(?P<part>初|中|下|底)?",
-        t,
-    )
-    if m:
+    if m and 1 <= int(m.group("m")) <= 12:
         y = 2000 + int(m.group("yy"))
         month = int(m.group("m"))
         part = m.group("part") or ""
         day = {"初": 5, "中": 15, "下": 20, "底": 25}.get(part, 15)
-        return f"{y:04d}-{month:02d}-{day:02d}"
+        out = _ymd(y, month, day)
+        if out:
+            return out
+
+    # 26-秋招-9.24 / 26秋招-9.24（月.日，年份由届数推断）
+    m = re.search(
+        r"(?P<yy>\d{2})\s*[-_]?\s*(?P<season>秋招|春招|暑期实习|实习)\s*[-_]?\s*(?P<m>\d{1,2})\.(?P<d>\d{1,2})",
+        t,
+    )
+    if m:
+        y = batch_year_to_calendar(int(m.group("yy")), m.group("season"))
+        out = _ymd(y, int(m.group("m")), int(m.group("d")))
+        if out:
+            return out
+
+    # 27暑期实习-4月底 / 25秋招-10月中 / 25-秋招-10月中
+    m = re.search(
+        r"(?P<yy>\d{2})\s*[-_]?\s*(?P<season>秋招|春招|暑期实习|实习)\s*[-_]?\s*(?P<m>\d{1,2})\s*月\s*(?P<part>初|中|下|底)?",
+        t,
+    )
+    if m:
+        y = batch_year_to_calendar(int(m.group("yy")), m.group("season"))
+        month = int(m.group("m"))
+        part = m.group("part") or ""
+        day = {"初": 5, "中": 15, "下": 20, "底": 25}.get(part, 15)
+        out = _ymd(y, month, day)
+        if out:
+            return out
 
     # 仅有批次：25秋招 / 27暑期实习
     m = re.search(r"(?P<yy>\d{2})\s*[-_]?\s*(?P<season>秋招|春招|暑期实习|实习)", t)
     if m:
-        y = 2000 + int(m.group("yy"))
         season = m.group("season")
+        y = batch_year_to_calendar(int(m.group("yy")), season)
         if season == "秋招":
             return f"{y:04d}-09-15"
         if season == "春招":
@@ -279,7 +316,7 @@ def write_indexes(items: List[dict]) -> None:
         "version": 2,
         "problemset": {
             "title": "华为校招&实习面经手撕题库",
-            "url": "https://codefun2000.com/problemset/hwmj",
+            "url": "https://codefun2000.com/problemset/hw",
         },
         "description": "CodeFun2000 hwmj 题库索引；source_url 供 Agent 输出可点击链接",
         "problems": problems,
@@ -308,7 +345,7 @@ def write_indexes(items: List[dict]) -> None:
         "introduction": "22至26年期间华为校招&实习面经题库",
         "total_problems": len(items),
         "have_access": True,
-        "problemset_url": "https://codefun2000.com/problemset/hwmj",
+        "problemset_url": "https://codefun2000.com/problemset/hw",
         "categories": by_cat,
     }
     OUT_CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

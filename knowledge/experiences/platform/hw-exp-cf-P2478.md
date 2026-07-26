@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2478"
 category: "其他"
 tags: ["Python", "手撕", "校招"]
-published_at: 2026-09-25
+published_at: 2025-09-25
 ---
 
 # 26秋招-9月底-AI应用开发-一二三面

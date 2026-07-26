@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2507"
 category: "算法"
 tags: ["大模型", "深度学习", "手撕", "校招"]
-published_at: 2026-10-15
+published_at: 2025-10-15
 ---
 
 # 26秋招-10月中-AI算法-一二三面

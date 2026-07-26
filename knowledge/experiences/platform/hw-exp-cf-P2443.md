@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2443"
 category: "通用软件开发"
 tags: ["光产品", "手撕", "八股", "校招"]
-published_at: 2025-09-20
+published_at: 2024-09-20
 ---
 
 # 25秋招-9月下-光产品线-通用软件开发-一面面经

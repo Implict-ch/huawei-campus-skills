@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2423"
 category: "其他"
 tags: ["手撕", "八股", "校招"]
-published_at: 2025-10-15
+published_at: 2024-10-15
 ---
 
 # 25秋招-10月中--硬件开发一二三面面经

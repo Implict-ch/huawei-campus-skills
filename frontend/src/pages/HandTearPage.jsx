@@ -11,7 +11,7 @@ const GROUP_LABELS = {
 };
 const GROUP_DESC = {
   "算法/AI 岗": "机器学习/深度学习/大模型 相关手撕题",
-  "传统工程岗": "传统力扣算法题",
+  "传统工程岗": "面经出现的力扣题与原创/变种手撕",
 };
 
 export default function HandTearPage() {

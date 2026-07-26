@@ -3,7 +3,7 @@
   "title": "华为校招技术岗求职公开课",
   "seed_url": "https://www.bilibili.com/video/BV1aHTX6WEZs",
   "up_mid": "1167140350",
-  "updated_at": "2026-07-20",
+  "updated_at": "2026-07-26",
   "episodes": [
     {
       "order": 1,
@@ -46,6 +46,14 @@
       "title": "华为校招机考|提分技巧|样例输出法|暴力拿分法",
       "segments": 6,
       "url": "https://www.bilibili.com/video/BV1RDKJ6aEEF"
+    },
+    {
+      "order": 7,
+      "bvid": "BV1CsK46aE3r",
+      "title": "华为校招机考答疑：要不要考、几次机会、能推迟吗",
+      "segments": 8,
+      "url": "https://www.bilibili.com/video/BV1CsK46aE3r",
+      "note": "机考第五节"
     }
   ]
 }

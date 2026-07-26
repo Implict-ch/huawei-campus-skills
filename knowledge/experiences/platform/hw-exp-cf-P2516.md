@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2516"
 category: "其他"
 tags: ["数据库", "手撕", "八股", "校招"]
-published_at: 2026-10-25
+published_at: 2025-10-25
 ---
 
 # 26秋招-10月底-数据库开发-一二面

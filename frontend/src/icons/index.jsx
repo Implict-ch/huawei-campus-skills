@@ -73,11 +73,16 @@ const paths = {
   ),
   robot: () => (
     <>
-      <rect x="3" y="11" width="18" height="10" rx="2" />
-      <circle cx="12" cy="5" r="2" />
-      <path d="M12 7v4" />
-      <circle cx="8" cy="16" r="1" fill="currentColor" stroke="none" />
-      <circle cx="16" cy="16" r="1" fill="currentColor" stroke="none" />
+      {/* 天线 */}
+      <path d="M12 2v3" />
+      <circle cx="12" cy="2" r="1" />
+      {/* 头 / 脸 */}
+      <rect x="4" y="6" width="16" height="14" rx="3" />
+      {/* 眼睛（描边圆，避免只剩两个实心点） */}
+      <circle cx="9" cy="12" r="1.5" />
+      <circle cx="15" cy="12" r="1.5" />
+      {/* 嘴 */}
+      <path d="M9 16.5h6" />
     </>
   ),
   /** 深度学习 / 神经网络示意 */
@@ -240,6 +245,33 @@ const paths = {
       <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
     </>
   ),
+  stop: () => <rect x="6" y="6" width="12" height="12" rx="1" fill="currentColor" stroke="none" />,
+  menu: () => (
+    <>
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="4" y1="12" x2="20" y2="12" />
+      <line x1="4" y1="18" x2="20" y2="18" />
+    </>
+  ),
+  sidebar: () => (
+    <>
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <path d="M9 3v18" />
+    </>
+  ),
+  /** 收起态：竖条在右侧，示意点击可展开 */
+  "sidebar-expand": () => (
+    <>
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <path d="M15 3v18" />
+    </>
+  ),
+  "arrow-down": () => (
+    <>
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <polyline points="19 12 12 19 5 12" />
+    </>
+  ),
   "external-link": () => (
     <>
       <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
@@ -331,6 +363,11 @@ const paths = {
       <path d="M4 17h8" />
     </>
   ),
+  message: () => (
+    <>
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+    </>
+  ),
   "file-text": () => (
     <>
       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
@@ -338,6 +375,39 @@ const paths = {
       <line x1="16" y1="13" x2="8" y2="13" />
       <line x1="16" y1="17" x2="8" y2="17" />
       <line x1="10" y1="9" x2="8" y2="9" />
+    </>
+  ),
+  "file-pdf": () => (
+    <>
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14 2 14 8 20 8" />
+      <path d="M9 13h1.5a1.5 1.5 0 0 1 0 3H9v2" />
+      <path d="M14 18v-5h1.2a1.5 1.5 0 0 1 0 3H14" />
+    </>
+  ),
+  "file-word": () => (
+    <>
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14 2 14 8 20 8" />
+      <path d="M8 13l1.5 5L12 13l2.5 5L16 13" />
+    </>
+  ),
+  x: () => (
+    <>
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </>
+  ),
+  loader: () => (
+    <>
+      <path d="M12 2v4" />
+      <path d="M12 18v4" />
+      <path d="M4.93 4.93l2.83 2.83" />
+      <path d="M16.24 16.24l2.83 2.83" />
+      <path d="M2 12h4" />
+      <path d="M18 12h4" />
+      <path d="M4.93 19.07l2.83-2.83" />
+      <path d="M16.24 7.76l2.83-2.83" />
     </>
   ),
   "course-cpp": () => (
@@ -364,13 +434,20 @@ const paths = {
       <path d="M14 5.5c1.2.8 2 1.8 2 3" />
     </>
   ),
+  download: () => (
+    <>
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+      <polyline points="7 10 12 15 17 10" />
+      <line x1="12" y1="15" x2="12" y2="3" />
+    </>
+  ),
 };
 
 export function Icon({ name, size = 24, color = "currentColor", className }) {
   const render = paths[name];
   if (!render) return null;
   return (
-    <Svg size={size} color={color} className={className}>
+    <Svg size={size} color={color} className={className || undefined}>
       {render()}
     </Svg>
   );

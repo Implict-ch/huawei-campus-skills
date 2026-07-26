@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2442"
 category: "通信"
 tags: ["无线", "校招"]
-published_at: 2025-09-20
+published_at: 2024-09-20
 ---
 
 # 25秋招-9月下-短距离通信--主管面面经

@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2451"
 category: "通用软件开发"
 tags: ["C++", "后端", "八股", "手撕", "校招"]
-published_at: 2025-09-15
+published_at: 2024-09-15
 ---
 
 # 25秋招-9月-车BU座舱-通用软件开发-一二面面经

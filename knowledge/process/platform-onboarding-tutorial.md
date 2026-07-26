@@ -9,13 +9,13 @@ keywords: [入门教程, 笔试, 机考, 通过线, 及格线, 200分, 测评, �
 sources:
   - platform: codefun2000
     title: "华为校招&实习面经手撕题库 — 入门教程（题目目录内）"
-    url: "https://codefun2000.com/problemset/hwmj"
+    url: "https://codefun2000.com/problemset/hw"
 updated_at: 2026-07-20
 ---
 
 ## 结论
 
-[hwmj 题库](https://codefun2000.com/problemset/hwmj) 题目目录中的**入门教程**系列，按站方说明覆盖三块：
+[hwmj 题库](https://codefun2000.com/problemset/hw) 题目目录中的**入门教程**系列，按站方说明覆盖三块：
 
 1. **笔试/机考**：注意事项与细节  
 2. **性格测评**：考察内容与注意点  
@@ -33,4 +33,4 @@ B：站方对目录功能的说明；非华为官方招聘文件。
 
 ## Agent 引用规则
 
-须附带链接：[https://codefun2000.com/problemset/hwmj](https://codefun2000.com/problemset/hwmj)
+须附带链接：[https://codefun2000.com/problemset/hw](https://codefun2000.com/problemset/hw)

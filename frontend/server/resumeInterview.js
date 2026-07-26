@@ -2,12 +2,20 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import OpenAI from "openai";
+import {
+  assertLooksLikeResume,
+  decodeBase64File,
+  getResumeUpload,
+  processResumeUpload,
+  RESUME_MAX_BYTES,
+} from "./resumeUpload.js";
+import { normalizeChatModel } from "./config.js";
 
 const ROOT = process.cwd().endsWith("frontend") ? path.resolve(process.cwd(), "..") : process.cwd();
 const EXPERIENCES_PUBLIC = path.join(ROOT, "frontend", "public", "experiences.json");
 const HAND_TEAR_DATA = path.join(ROOT, "frontend", "tmp", "hand_tear_data.json");
 
-/** 备选方案会话缓存：换一组时直接复用，不重新调模型 */
+/** 备选方案会话缓存（兼容旧 reshuffle；前端现改为 chip 本地切换） */
 const planSessions = new Map();
 const SESSION_TTL_MS = 30 * 60 * 1000;
 const PLAN_COUNT = 6;
@@ -16,7 +24,7 @@ function getBuiltinConfig() {
   return {
     apiKey: process.env.BUILTIN_API_KEY || "",
     baseUrl: process.env.BUILTIN_BASE_URL || "https://api.deepseek.com/v1",
-    model: process.env.BUILTIN_MODEL || "deepseek-chat",
+    model: normalizeChatModel(process.env.BUILTIN_MODEL || "deepseek-v4-flash"),
   };
 }
 
@@ -91,6 +99,8 @@ function resolveClient(model, apiKey, baseUrl) {
     err.status = 400;
     throw err;
   }
+
+  finalModel = normalizeChatModel(finalModel);
 
   return {
     client: new OpenAI({
@@ -172,6 +182,25 @@ function selectExperiences(role, keywords, count = 4) {
   return scored.slice(0, count).map((s) => s.item);
 }
 
+function extractJsonObject(raw) {
+  const text = String(raw || "").replace(/```json\s*|\s*```/gi, "").trim();
+  try {
+    return JSON.parse(text);
+  } catch {
+    // ignore
+  }
+  const start = text.indexOf("{");
+  const end = text.lastIndexOf("}");
+  if (start >= 0 && end > start) {
+    try {
+      return JSON.parse(text.slice(start, end + 1));
+    } catch {
+      // ignore
+    }
+  }
+  return null;
+}
+
 async function parseResumeWithLLM(client, model, resumeText) {
   const prompt = `请从以下简历中提取结构化信息，严格按照 JSON 格式返回，不要包含任何其他文字。
 
@@ -201,12 +230,18 @@ ${resumeText.slice(0, 8000)}`;
   });
 
   const raw = chat.choices?.[0]?.message?.content || "";
-  const cleaned = raw.replace(/```json\s*|\s*```/g, "").trim();
-  try {
-    return JSON.parse(cleaned);
-  } catch {
-    return { targetRole: "", summary: "", skills: [], projects: [], education: "" };
+  const parsed = extractJsonObject(raw);
+  if (parsed && typeof parsed === "object") {
+    return {
+      targetRole: parsed.targetRole || "",
+      summary: parsed.summary || "",
+      skills: Array.isArray(parsed.skills) ? parsed.skills : [],
+      projects: Array.isArray(parsed.projects) ? parsed.projects : [],
+      education: parsed.education || "",
+    };
   }
+  console.warn("[resume-interview] parseResume JSON failed, raw head:", raw.slice(0, 200));
+  return { targetRole: "", summary: "", skills: [], projects: [], education: "" };
 }
 
 async function generatePlanWithLLM(client, model, profile, role, handTear, experiences, variant) {
@@ -269,23 +304,22 @@ ${handTearSamples || "无"}
   });
 
   const raw = chat.choices?.[0]?.message?.content || "";
-  const cleaned = raw.replace(/```json\s*|\s*```/g, "").trim();
-  try {
-    return JSON.parse(cleaned);
-  } catch {
-    return {
-      projectQuestions: ["请介绍一下你最有挑战的一个项目"],
-      eightPartQuestions: ["请简述你最熟悉的一项核心技术"],
-      handTearQuestion: handTear[0]
-        ? {
-            title: handTear[0].title,
-            url: handTear[0].codefun_url || handTear[0].leetcode_url,
-            hint: "",
-            reason: "结合你的岗位方向，作为基础编程能力考察。",
-          }
-        : null,
-    };
+  const parsed = extractJsonObject(raw);
+  if (parsed && typeof parsed === "object") {
+    return parsed;
   }
+  return {
+    projectQuestions: ["请介绍一下你最有挑战的一个项目"],
+    eightPartQuestions: ["请简述你最熟悉的一项核心技术"],
+    handTearQuestion: handTear[0]
+      ? {
+          title: handTear[0].title,
+          url: handTear[0].codefun_url || handTear[0].leetcode_url,
+          hint: "",
+          reason: "结合你的岗位方向，作为基础编程能力考察。",
+        }
+      : null,
+  };
 }
 
 function tokenize(text) {
@@ -406,11 +440,13 @@ async function llmJudgeRerank(client, model, plans) {
 }
 
 function formatPlanAsMarkdown(roleLabel, plan, experiences, meta = {}) {
+  const groupNo = (meta.groupIndex ?? meta.selectedIndex ?? 0) + 1;
+  const total = meta.totalPlans || 0;
   const lines = [
-    `## 简历模拟面试（${roleLabel}）`,
+    `## 简历模拟面试（${roleLabel}）· 第 ${groupNo} 组`,
     "",
     `**方案角度**：${plan.angle || "综合考察"}`,
-    meta.totalPlans ? `\n> 本次共生成 ${meta.totalPlans} 套备选，已随机抽取第 ${(meta.selectedIndex ?? 0) + 1} 套。可点「换一组」切换。` : "",
+    total > 1 ? `\n> 本次共生成 ${total} 组，可在对话框上方切换「第 x 组」。` : "",
     "",
     "### 项目提问",
     ...(plan.projectQuestions || []).map((q, i) => `${i + 1}. ${q}`),
@@ -439,7 +475,6 @@ function formatPlanAsMarkdown(roleLabel, plan, experiences, meta = {}) {
   } else {
     lines.push("未匹配到相关面经");
   }
-  lines.push("", "> 提示：点击下方「换一组」可从已生成备选中再抽一套；也可重新粘贴简历生成全新方案。");
   return lines.join("\n");
 }
 
@@ -447,27 +482,28 @@ function sendSSE(res, data) {
   res.write(`data: ${JSON.stringify(data)}\n\n`);
 }
 
-async function streamAnswer(res, answer, meta) {
-  if (meta) sendSSE(res, { meta });
-  const chunkSize = 12;
-  const delay = 12;
-  for (let i = 0; i < answer.length; i += chunkSize) {
-    sendSSE(res, { chunk: answer.slice(i, i + chunkSize) });
-    await new Promise((resolve) => setTimeout(resolve, delay));
-  }
-  sendSSE(res, { "[DONE]": true });
-  res.end();
+function startHeartbeat(res, intervalMs = 8000) {
+  const timer = setInterval(() => {
+    if (res.writableEnded) {
+      clearInterval(timer);
+      return;
+    }
+    // 注释帧：保持代理/连接存活，前端可忽略
+    try {
+      res.write(`: ping ${Date.now()}\n\n`);
+    } catch {
+      clearInterval(timer);
+    }
+  }, intervalMs);
+  return () => clearInterval(timer);
 }
 
-async function extractPdfText(buffer) {
-  try {
-    const { PDFParse } = await import("pdf-parse");
-    const parser = new PDFParse({ data: buffer });
-    const result = await parser.getText();
-    return (result.text || "").trim();
-  } catch (err) {
-    throw new Error(`PDF 解析失败：${err.message || "请改为粘贴文本"}`);
-  }
+async function streamAnswer(res, answer, meta) {
+  if (meta) sendSSE(res, { meta });
+  // 一次替换写出完整答案，避免慢速伪流式中途被断开导致「缺内容」
+  sendSSE(res, { answer, replace: true, done: false });
+  sendSSE(res, { done: true });
+  res.end();
 }
 
 async function handleReshuffle(req, res) {
@@ -517,31 +553,87 @@ export default async function handleResumeInterview(req, res) {
   }
 
   let resumeText = String(body.resumeText || "").trim();
+  /** token / 文件上传路径已在 processResumeUpload 内做过简历判别 */
+  let resumeAlreadyChecked = false;
 
-  // 支持 PDF base64：{ pdfBase64: "..." }
-  if (!resumeText && body.pdfBase64) {
+  // 优先使用上传接口返回的 token（已完成魔数/大小/抽字/简历判别）
+  if (!resumeText && body.resumeUploadToken) {
+    const cached = getResumeUpload(String(body.resumeUploadToken));
+    if (!cached) {
+      return res.status(400).json({ error: "上传已过期，请重新上传简历文件" });
+    }
+    resumeText = cached.text;
+    resumeAlreadyChecked = true;
+  }
+
+  // 兼容旧链路：直接传 fileBase64 / pdfBase64（仍走同一套安全校验）
+  if (!resumeText && (body.fileBase64 || body.pdfBase64)) {
     try {
-      const buffer = Buffer.from(String(body.pdfBase64).replace(/^data:application\/pdf;base64,/, ""), "base64");
-      resumeText = await extractPdfText(buffer);
+      const buffer = decodeBase64File(body.fileBase64 || body.pdfBase64);
+      if (buffer.length > RESUME_MAX_BYTES) {
+        return res.status(413).json({ error: `文件过大，最大允许 ${RESUME_MAX_BYTES / (1024 * 1024)}MB` });
+      }
+      const processed = await processResumeUpload({
+        buffer,
+        fileName: body.fileName || "resume.pdf",
+        mime: body.mime || "",
+        ip: req.socket?.remoteAddress || "unknown",
+      });
+      const cached = getResumeUpload(processed.token);
+      resumeText = cached?.text || "";
+      resumeAlreadyChecked = true;
     } catch (err) {
-      return res.status(400).json({ error: err.message || "PDF 解析失败" });
+      return res.status(err.status || 400).json({ error: err.message || "文件解析失败" });
     }
   }
 
   if (!resumeText) {
-    return res.status(400).json({ error: "缺少简历内容" });
+    return res.status(400).json({ error: "缺少简历内容：请上传 PDF/MD/DOCX，或粘贴文本" });
+  }
+  if (resumeText.length < 40) {
+    return res.status(400).json({
+      error: "未能从简历中提取足够文本（可能是扫描件/空文档）。请换文件或直接粘贴文本。",
+    });
   }
 
+  let stopHeartbeat = () => {};
   try {
     const { client, finalModel } = resolveClient(model, apiKey, baseUrl);
 
-    res.setHeader("Content-Type", "text/event-stream");
+    // 粘贴文本路径：安全长度检查后，再由大模型判别是否为简历
+    if (!resumeAlreadyChecked) {
+      try {
+        await assertLooksLikeResume(resumeText, { client, model: finalModel });
+      } catch (err) {
+        return res.status(err.status || 400).json({ error: err.message || "文件不是简历，请上传正常的简历" });
+      }
+    }
+
+    res.setHeader("Content-Type", "text/event-stream; charset=utf-8");
     res.setHeader("Cache-Control", "no-cache");
     res.setHeader("Connection", "keep-alive");
     res.setHeader("X-Accel-Buffering", "no");
     res.status(200);
 
+    // 先推进度，避免长时间无输出被代理掐断；最终用 replace 覆盖为完整答案
+    sendSSE(res, {
+      chunk: "正在解析简历并生成多套面试题，通常需要 20–40 秒，请稍候…\n",
+    });
+    stopHeartbeat = startHeartbeat(res);
+
     const profile = await parseResumeWithLLM(client, finalModel, resumeText);
+    const hasSignal =
+      (profile.projects && profile.projects.length > 0) ||
+      (profile.skills && profile.skills.length > 0) ||
+      !!profile.targetRole ||
+      !!profile.summary;
+    if (!hasSignal) {
+      console.warn("[resume-interview] empty profile after LLM parse; using raw text fallback summary");
+      profile.summary = resumeText.slice(0, 80).replace(/\s+/g, " ");
+      profile.skills = [];
+      profile.projects = [];
+    }
+
     const role = inferRole(profile);
     const roleLabel = ROLE_LABELS[role];
 
@@ -552,6 +644,10 @@ export default async function handleResumeInterview(req, res) {
     ];
     const experiences = selectExperiences(role, keywords, 4);
     const handTearPool = selectHandTearProblems(role, PLAN_COUNT);
+
+    sendSSE(res, {
+      chunk: `\n已识别岗位方向：${roleLabel}。正在并行生成 ${PLAN_COUNT} 套备选方案…\n`,
+    });
 
     // 并行 Fan-out：一次生成多套
     const rawPlans = await Promise.all(
@@ -572,7 +668,8 @@ export default async function handleResumeInterview(req, res) {
     plans = await llmJudgeRerank(client, finalModel, plans);
     if (!plans.length) plans = rawPlans;
 
-    const selectedIndex = Math.floor(Math.random() * plans.length);
+    // 固定默认第 1 组；前端用 chip 切换其余组，不再随机/换一组
+    const selectedIndex = 0;
     const sessionId = crypto.randomBytes(8).toString("hex");
     cleanupSessions();
     planSessions.set(sessionId, {
@@ -583,25 +680,34 @@ export default async function handleResumeInterview(req, res) {
       usedIndexes: new Set([selectedIndex]),
     });
 
-    const selectedPlan = plans[selectedIndex];
-    const answer = formatPlanAsMarkdown(roleLabel, selectedPlan, experiences, {
-      totalPlans: plans.length,
-      selectedIndex,
-    });
+    const planPayloads = plans.map((p, i) => ({
+      index: i,
+      label: `第${i + 1}组`,
+      angle: p.angle || "",
+      markdown: formatPlanAsMarkdown(roleLabel, p, experiences, {
+        totalPlans: plans.length,
+        groupIndex: i,
+      }),
+    }));
+    const answer = planPayloads[selectedIndex]?.markdown || "";
 
+    stopHeartbeat();
     await streamAnswer(res, answer, {
       sessionId,
       selectedIndex,
       totalPlans: plans.length,
+      plans: planPayloads,
       role,
       roleLabel,
+      resumeChars: resumeText.length,
     });
   } catch (err) {
+    stopHeartbeat();
     console.error("[resume-interview] error", err);
     if (!res.headersSent) {
       return res.status(err.status || 500).json({ error: err.message || "生成面试题失败" });
     }
-    sendSSE(res, { error: err.message || "生成面试题失败" });
+    sendSSE(res, { error: err.message || "生成面试题失败", done: true });
     res.end();
   }
 }

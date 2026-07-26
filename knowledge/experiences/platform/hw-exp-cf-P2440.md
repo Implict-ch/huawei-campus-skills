@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2440"
 category: "通用软件开发"
 tags: ["C++", "后端", "数据库", "分布式", "手撕", "八股", "校招"]
-published_at: 2025-09-20
+published_at: 2024-09-20
 ---
 
 # 25秋招-9月下-终端bg--二三面面经

@@ -31,6 +31,8 @@ const CATEGORY_ICONS = {
   技巧: "lightbulb",
   入门教程必刷: "book-open",
   其他: "more",
+  分治: "split-cells",
+  "原创 / 变种": "lightbulb",
   机器学习: "brain",
   深度学习: "network",
   大模型岗: "robot",
@@ -66,6 +68,8 @@ const CATEGORY_COLORS = {
   技巧: "#EF9F27",
   入门教程必刷: "#3FB950",
   其他: "#8B949E",
+  分治: "#EF9F27",
+  "原创 / 变种": "#EF9F27",
   机器学习: "#C084FC",
   深度学习: "#58A6FF",
   大模型岗: "#F78166",
@@ -79,7 +83,7 @@ export default function CategoryCard({ name, count, slug, index }) {
     <FadeIn delay={index * FADE_STAGGER}>
       <a href={`/hand-tear/${slug}`} className="role-card role-card--category">
         <div className="role-card__head">
-          <IconBox icon={icon} color={color} size={44} />
+          <IconBox icon={icon} color={color} size={32} />
           <h3 className="role-card__title">{name}</h3>
           <span className="role-card__count">{count} 道题</span>
         </div>

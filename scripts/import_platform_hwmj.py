@@ -97,7 +97,7 @@ def write_indexes(entries: list[dict]) -> None:
         "version": 2,
         "problemset": {
             "title": "华为校招&实习面经手撕题库",
-            "url": "https://codefun2000.com/problemset/hwmj",
+            "url": "https://codefun2000.com/problemset/hw",
         },
         "description": "CodeFun2000 hwmj 题库索引；source_url 供 Agent 输出可点击链接",
         "problems": problems,
@@ -119,7 +119,7 @@ def write_indexes(entries: list[dict]) -> None:
         "introduction": "22至26年期间华为校招&实习面经题库",
         "total_problems": len(entries),
         "have_access": True,
-        "problemset_url": "https://codefun2000.com/problemset/hwmj",
+        "problemset_url": "https://codefun2000.com/problemset/hw",
         "algorithm_tags": [
             "模拟", "暴力枚举", "递归", "思维", "动态规划", "贪心算法", "构造",
             "链表", "栈", "堆", "队列", "哈希表", "树", "二叉树", "字典树", "并查集",

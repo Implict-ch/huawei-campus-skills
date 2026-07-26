@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2438"
 category: "通用软件开发"
 tags: ["C++", "后端", "数据库", "手撕", "八股", "校招"]
-published_at: 2025-09-20
+published_at: 2024-09-20
 ---
 
 # 25秋招-9月下-通用软开-一二面面经

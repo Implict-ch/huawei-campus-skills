@@ -24,6 +24,13 @@ CATEGORY_TO_GROUP = {
     "大模型岗": "算法/AI 岗",
 }
 
+# 分类展示名 -> URL slug（避免中文路由）
+CATEGORY_SLUGS = {
+    "大模型岗": "llm",
+    "机器学习": "ml",
+    "深度学习": "dl",
+}
+
 # 传统工程岗的现有分类（保留）
 TRADITIONAL_GROUP = "传统工程岗"
 
@@ -225,7 +232,7 @@ def merge() -> dict:
                 {
                     "name": p["category"],
                     "count": 0,
-                    "slug": p["category"],
+                    "slug": CATEGORY_SLUGS.get(p["category"], p["category"]),
                     "group": p["group"],
                 }
             )
@@ -240,6 +247,23 @@ def merge() -> dict:
         c["count"] = cat_counts.get(c["name"], 0)
 
     data["problems"] = all_problems
+
+    # 「原创 / 变种」是聚合视图：计数=所有 original/variant，不限 category 字段
+    orig_count = sum(1 for p in all_problems if p.get("kind") in ("original", "variant"))
+    for c in data["categories"]:
+        if c.get("name") == "原创 / 变种":
+            c["count"] = orig_count
+            break
+    else:
+        if orig_count:
+            data["categories"].append(
+                {
+                    "name": "原创 / 变种",
+                    "count": orig_count,
+                    "slug": "original",
+                    "group": TRADITIONAL_GROUP,
+                }
+            )
 
     print(f"[merge-ai] parsed {len(ai_problems)} AI hand-tear problems")
     print(f"[merge-ai] total categories: {len(data['categories'])}")

@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2526"
 category: "通用软件开发"
 tags: ["后端", "手撕", "八股", "校招"]
-published_at: 2026-11-25
+published_at: 2025-11-25
 ---
 
 # 26秋招-11月底-车bu座舱AI软开-一二三面

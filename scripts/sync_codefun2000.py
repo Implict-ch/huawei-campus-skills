@@ -19,7 +19,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-URL = "https://codefun2000.com/problemset/hwmj"
+URL = "https://codefun2000.com/problemset/hw"
 OUT_CATALOG = ROOT / "knowledge" / "coding-problems" / "catalog.json"
 OUT_EXP = ROOT / "knowledge" / "experiences" / "platform"
 

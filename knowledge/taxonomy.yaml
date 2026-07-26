@@ -58,6 +58,6 @@ paths:
   platform_coding_index: knowledge/coding-problems/index.json
   interview_hot100_index: knowledge/coding-problems/hot100/index.json
   interview_hot100_root: knowledge/coding-problems/hot100/
-  platform_problemset_url: https://codefun2000.com/problemset/hwmj
+  platform_problemset_url: https://codefun2000.com/problemset/hw
   nowcoder_experiences: knowledge/experiences/hw-exp-*-nc-*.md
   xiaohongshu_experiences: knowledge/experiences/hw-exp-*-xhs-*.md

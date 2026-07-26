@@ -29,7 +29,12 @@ export default function Nav({
       </AppLink>
       <div className="nav__links">
         {links.map((n) => (
-          <AppLink key={n.label} href={n.href} className="nav__link">
+          <AppLink
+            key={n.label}
+            href={n.href}
+            className="nav__link"
+            {...(n.external ? { target: "_blank", rel: "noreferrer" } : {})}
+          >
             {n.label}
           </AppLink>
         ))}

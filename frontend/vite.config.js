@@ -33,6 +33,13 @@ export default defineConfig({
       "/api": {
         target: "http://localhost:3001",
         changeOrigin: true,
+        // 简历模拟面试会并行多轮 LLM，可能 30s+ 无正文；避免代理空闲断开导致「回复缺内容」
+        timeout: 180000,
+        proxyTimeout: 180000,
+      },
+      "/knowledge-assets": {
+        target: "http://localhost:3001",
+        changeOrigin: true,
       },
     },
   },

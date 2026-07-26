@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2509"
 category: "算法"
 tags: ["大模型", "深度学习", "NLP", "机器学习", "Python", "手撕", "八股", "智能驾驶", "校招"]
-published_at: 2026-10-15
+published_at: 2025-10-15
 ---
 
 # 26秋招-10月中-AI算法-一二三面

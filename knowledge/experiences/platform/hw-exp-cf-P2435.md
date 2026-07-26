@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2435"
 category: "嵌入式"
 tags: ["C++", "八股", "手撕", "校招"]
-published_at: 2025-09-20
+published_at: 2024-09-20
 ---
 
 # 25秋招-9月下-嵌入式-通用软件开发-一二三面面经

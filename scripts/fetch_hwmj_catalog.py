@@ -4,7 +4,7 @@ import json
 import re
 import urllib.request
 
-URL = "https://codefun2000.com/problemset/hwmj"
+URL = "https://codefun2000.com/problemset/hw"
 
 
 def main():

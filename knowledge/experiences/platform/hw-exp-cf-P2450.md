@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2450"
 category: "通用软件开发"
 tags: ["Java", "后端", "数据库", "分布式", "操作系统", "八股", "校招"]
-published_at: 2025-09-25
+published_at: 2024-09-25
 ---
 
 # 25秋招-9月底-通用软件开发-二三面面经

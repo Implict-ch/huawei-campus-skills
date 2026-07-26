@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2424"
 category: "其他"
 tags: ["芯片", "总线", "手撕", "校招"]
-published_at: 2025-10-20
+published_at: 2024-10-20
 ---
 
 # 25秋招-10月下--硬件开发一二三面面经

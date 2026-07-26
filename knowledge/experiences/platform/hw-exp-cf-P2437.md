@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2437"
 category: "通用软件开发"
 tags: ["校招"]
-published_at: 2025-09-20
+published_at: 2024-09-20
 ---
 
 # 25秋招-9月下-终端bg-结构与材料工程师-一二三面面经

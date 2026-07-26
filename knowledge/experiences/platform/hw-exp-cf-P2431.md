@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2431"
 category: "通用软件开发"
 tags: ["后端", "手撕", "八股", "分布式", "微服务", "Linux", "操作系统", "校招"]
-published_at: 2025-10-15
+published_at: 2024-10-15
 ---
 
 # 25秋招-10月中-通用软开-一二三面面经

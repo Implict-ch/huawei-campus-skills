@@ -5,7 +5,7 @@
   "introduction": "22至26年期间华为校招&实习面经题库",
   "total_problems": 97,
   "have_access": true,
-  "problemset_url": "https://codefun2000.com/problemset/hwmj",
+  "problemset_url": "https://codefun2000.com/problemset/hw",
   "categories": {
     "其他": [
       {
@@ -662,10 +662,10 @@
       },
       {
         "pid": "P2517",
-        "title": "226秋招-10月底-软件开发-一二三面",
+        "title": "26秋招-10月底-软件开发-一二三面",
         "url": "https://codefun2000.com/ide/P2517",
         "role": "software-development",
-        "published_at": "2026-10-25"
+        "published_at": "2025-10-25"
       },
       {
         "pid": "P2518",

@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2419"
 category: "算法"
 tags: ["八股", "校招"]
-published_at: 2025-11-05
+published_at: 2024-11-05
 ---
 
 # 25秋招-11月初-无线部门-通信算法工程师-一二三面面经

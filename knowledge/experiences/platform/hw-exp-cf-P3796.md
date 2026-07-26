@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P3796"
 category: "通用软件开发"
 tags: ["Java", "后端", "分布式", "手撕", "八股", "校招"]
-published_at: 2026-09-23
+published_at: 2025-09-23
 ---
 
 # 26-秋招-9.23-终端云-面经

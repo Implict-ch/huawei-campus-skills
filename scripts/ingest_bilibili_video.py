@@ -42,10 +42,11 @@ CAMPUS_SERIES_202607 = {
     "episodes": [
         {"order": 1, "bvid": "BV1aHTX6WEZs"},
         {"order": 2, "bvid": "BV1KAMJ6HEzz"},
-        {"order": 3, "bvid": "BV1zJNG61EW8"},
-        {"order": 4, "bvid": "BV19JNb6SELo"},
-        {"order": 5, "bvid": "BV1iMNi63ExP"},
-        {"order": 6, "bvid": "BV1RDKJ6aEEF"},
+        {"order": 3, "bvid": "BV1zJNG61EW8"},  # 机考① 扫盲
+        {"order": 4, "bvid": "BV19JNb6SELo"},  # 机考② AI
+        {"order": 5, "bvid": "BV1iMNi63ExP"},  # 机考③ 非AI
+        {"order": 6, "bvid": "BV1RDKJ6aEEF"},  # 机考④ 提分技巧
+        {"order": 7, "bvid": "BV1CsK46aE3r"},  # 机考⑤
     ],
 }
 
@@ -141,34 +142,59 @@ def fetch_video_meta(bvid: str) -> Dict[str, str]:
     return rows_to_dict(run_opencli(["bilibili", "video", bvid]))
 
 
-def fetch_subtitles(bvid: str) -> List[Dict[str, Any]]:
-    payload = run_opencli(["bilibili", "subtitle", bvid])
-    if not isinstance(payload, list):
-        raise RuntimeError(f"unexpected subtitle payload for {bvid}")
-    cues: List[Dict[str, Any]] = []
-    for row in payload:
-        if not isinstance(row, dict):
+def fetch_subtitles(bvid: str, lang: Optional[str] = None) -> List[Dict[str, Any]]:
+    """优先中文 AI 字幕（ai-zh），避免默认落到英文轨。"""
+    langs = [lang] if lang else ["ai-zh", "zh-CN", "zh-Hans", "zh", None]
+    last_err: Optional[Exception] = None
+    for lg in langs:
+        try:
+            args = ["bilibili", "subtitle", bvid]
+            if lg:
+                args.extend(["--lang", lg])
+            payload = run_opencli(args)
+        except Exception as exc:  # noqa: BLE001
+            last_err = exc
             continue
-        cues.append(
-            {
-                "from": parse_time_field(row.get("from", "0s")),
-                "to": parse_time_field(row.get("to", "0s")),
-                "content": str(row.get("content") or "").strip(),
-            }
-        )
-    return [c for c in cues if c["content"]]
+        if not isinstance(payload, list) or not payload:
+            continue
+        cues: List[Dict[str, Any]] = []
+        for row in payload:
+            if not isinstance(row, dict):
+                continue
+            cues.append(
+                {
+                    "from": parse_time_field(row.get("from", "0s")),
+                    "to": parse_time_field(row.get("to", "0s")),
+                    "content": str(row.get("content") or "").strip(),
+                }
+            )
+        cues = [c for c in cues if c["content"]]
+        if not cues:
+            continue
+        # 若默认轨几乎全是英文而中文轨可用，跳过英文
+        sample = "".join(c["content"] for c in cues[:12])
+        has_cjk = bool(re.search(r"[\u4e00-\u9fff]", sample))
+        if lg is None and not has_cjk and langs != [None]:
+            continue
+        return cues
+    if last_err:
+        raise RuntimeError(f"subtitle fetch failed for {bvid}: {last_err}")
+    raise RuntimeError(f"no usable subtitles for {bvid}")
 
 
 def merge_cues_to_chunks(cues: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     if not cues:
         return []
     chunks: List[Dict[str, Any]] = []
-    cur = {
+    cur: Optional[Dict[str, Any]] = {
         "from": cues[0]["from"],
         "to": cues[0]["to"],
         "parts": [cues[0]["content"]],
     }
     for cue in cues[1:]:
+        if cur is None:
+            cur = {"from": cue["from"], "to": cue["to"], "parts": [cue["content"]]}
+            continue
         gap = cue["from"] - cur["to"]
         dur = cue["to"] - cur["from"]
         split_long = (cur["to"] - cur["from"]) >= MAX_CHUNK_SEC
@@ -178,7 +204,7 @@ def merge_cues_to_chunks(cues: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             continue
         cur["to"] = cue["to"]
         cur["parts"].append(cue["content"])
-        if dur >= MIN_CHUNK_SEC and cue["content"].rstrip().endswith(("。", "！", "？", ".", "!", "?")):
+        if dur >= MIN_CHUNK_SEC and cue["content"].rstrip().endswith(("。", "！", "？", ".", "!", "?", "嗯")):
             if (cur["to"] - cur["from"]) >= MIN_CHUNK_SEC:
                 chunks.append(cur)
                 cur = None

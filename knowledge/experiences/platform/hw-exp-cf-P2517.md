@@ -6,19 +6,19 @@ stage: interview
 role: software-development
 sources:
   - platform: codefun2000
-    title: "226秋招-10月底-软件开发-一二三面"
+    title: "26秋招-10月底-软件开发-一二三面"
     url: "https://codefun2000.com/ide/P2517"
 catalog_pid: "P2517"
 category: "通用软件开发"
 tags: ["手撕", "八股", "校招"]
-published_at: 2026-10-25
+published_at: 2025-10-25
 ---
 
-# 226秋招-10月底-软件开发-一二三面
+# 26秋招-10月底-软件开发-一二三面
 
 - 分类：通用软件开发
 
-- 来源：[226秋招-10月底-软件开发-一二三面](https://codefun2000.com/ide/P2517)
+- 来源：[26秋招-10月底-软件开发-一二三面](https://codefun2000.com/ide/P2517)
 
 10.24面经
 

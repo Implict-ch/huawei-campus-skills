@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav.jsx";
 import Footer from "./components/Footer.jsx";
+import DocumentTitle from "./components/DocumentTitle.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import ExperiencesPage from "./pages/ExperiencesPage.jsx";
 import ExperienceListPage from "./pages/ExperienceListPage.jsx";
@@ -13,6 +14,7 @@ import { HW_APP_NAV } from "./data/hw-app.js";
 export default function App() {
   return (
     <div className="cf-landing">
+      <DocumentTitle />
       <Nav
         homeHref="/"
         links={HW_APP_NAV}

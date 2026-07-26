@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2461"
 category: "嵌入式"
 tags: ["FPGA", "芯片", "手撕", "校招"]
-published_at: 2025-09-15
+published_at: 2024-09-15
 ---
 
 # 25秋招-9月中-无线-硬件逻辑岗(FPGA)-一面面经

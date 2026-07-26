@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2503"
 category: "通用软件开发"
 tags: ["Python", "后端", "八股", "手撕", "校招"]
-published_at: 2026-09-25
+published_at: 2025-09-25
 ---
 
 # 26秋招-9月底-AI软件开发-一二三面

@@ -11,7 +11,7 @@ sources:
 catalog_pid: "P2470"
 category: "算法"
 tags: ["深度学习", "计算机视觉", "手撕", "校招"]
-published_at: 2025-09-25
+published_at: 2024-09-25
 ---
 
 # 25秋招-9月底--算法工程师一二三面面经
