@@ -4,7 +4,7 @@ kind: card
 stage: assessment
 question_type: process
 source_grade: A
-keywords: [性格测评, 测评, 综合测评, 攻略]
+keywords: [性格测评, 性格测试, 测评, 综合测评, 攻略, 单机位, 机位]
 sources:
   - platform: codefun2000
     title: 性格测评攻略
@@ -21,11 +21,15 @@ title: 性格测评总览
 详细回答导向、要点与经验帖见完整笔记卡片 `hw-codenote-p4511`：  
 [性格测评攻略](https://codefun2000.com/codenote/hw_note/P4511)
 
+正式测评前可先用站内模拟系统练习：  
+[华为性格测评模拟系统](https://codefun2000.com/p-test/intro)（题库 1:1 还原风格；做完对标标准性格打分并给改进建议）
+
 ## 建议（摘录）
 
 1. 乐观稳定 → 艰苦奋斗 → 乐于合作不依赖 → 擅长数据且接受枯燥（优先级递减）
 2. 尽量 20–30 分钟完成；前后一致；避开「全部/一定」等极端措辞
 3. 强制选择题优中选优；重复题保持一致
+4. 需要练手时优先走 [性格测评模拟](https://codefun2000.com/p-test/intro)，再对照攻略调整
 
 ## 证据边界
 

@@ -1,6 +1,6 @@
 # 通用 / 综合
 
-共 52 篇。
+共 50 篇。
 
 - [中国通信/中兴南京/华为上海/中国铁通校招通信协议工程师面经](../knowledge/experiences/hw-exp-20200729-nc-12942336.md) — 2020-07-29
 - [中兴通讯/天绘科技/华为 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20200808-nc-92113408.md) — 2020-08-08
@@ -25,8 +25,6 @@
 - [中电11所vs华为 GTS 13级](../knowledge/experiences/hw-exp-20250324-nc-2564105.md) — 2025-03-24
 - [华为暑期实习AI工程师面经](../knowledge/experiences/hw-exp-20250606-xhs-0f03106d.md) — 2025-06-06
 - [华为‖终面真题拆解分析](../knowledge/experiences/hw-exp-20250625-xhs-2203c6fb.md) — 2025-06-25
-- [【华为数据存储】2026校招火热开启！](../knowledge/experiences/hw-exp-20250708-nc-2629075.md) — 2025-07-08
-- [【华为数据存储】2026校招火热开启！](../knowledge/experiences/hw-exp-20250708-nc-2629457.md) — 2025-07-08
 - [华为无线26届校招](../knowledge/experiences/hw-exp-20250806-nc-2650355.md) — 2025-08-06
 - [华为ai软件开发工程师面经（过了+保温）](../knowledge/experiences/hw-exp-20251104-xhs-03023bf7.md) — 2025-11-04
 - [华为通软校招面经](../knowledge/experiences/hw-exp-20260209-xhs-0e03e6e0.md) — 2026-02-09

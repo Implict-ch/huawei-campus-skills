@@ -1,6 +1,6 @@
 # 嵌入式 / 硬件
 
-共 51 篇。
+共 46 篇。
 
 - [华为校招硬件工程师 逻辑岗位（FPGA）超详细面经！！！](../knowledge/experiences/hw-exp-20201118-nc-45184768.md) — 2020-11-18
 - [面经：华为海思暑期实习 数字IC设计岗](../knowledge/experiences/hw-exp-20210120-nc-67634688.md) — 2021-01-20
@@ -23,16 +23,11 @@
 - [华为海思硬件技术工程师暑期实习生](../knowledge/experiences/hw-exp-20230605-nc-1768188.md) — 2023-06-05
 - [华为嵌入式秋招-泡池子泡死](../knowledge/experiences/hw-exp-20230608-nc-02658048.md) — 2023-06-08
 - [【24届】华为海思2024届应届生招聘启动！](../knowledge/experiences/hw-exp-20230803-nc-88045056.md) — 2023-08-03
-- [华子校招部门太多傻傻分不清？一图看懂华为业务架构，建议收藏](../knowledge/experiences/hw-exp-20230809-nc-36516608.md) — 2023-08-09
 - [华为车bu 转部门开奖时间线](../knowledge/experiences/hw-exp-20240228-nc-2132152.md) — 2024-02-28
 - [25届华为实习 海思 逻辑岗](../knowledge/experiences/hw-exp-20240330-nc-60555008.md) — 2024-03-30
 - [【找暑期实习ing】华为硬件机考范围很广](../knowledge/experiences/hw-exp-20240522-nc-2237905.md) — 2024-05-22
 - [华为海思秋招，欢迎来聊](../knowledge/experiences/hw-exp-20240816-nc-2322718.md) — 2024-08-16
 - [华为海思数字IC设计校招面经](../knowledge/experiences/hw-exp-20240829-nc-85415168.md) — 2024-08-29
-- [25届华为车bu](../knowledge/experiences/hw-exp-20240918-nc-2379678.md) — 2024-09-18
-- [25届华为车bu](../knowledge/experiences/hw-exp-20240929-nc-2402019.md) — 2024-09-29
-- [25届华为车bu](../knowledge/experiences/hw-exp-20241008-nc-2410069.md) — 2024-10-08
-- [25届华为车bu](../knowledge/experiences/hw-exp-20241008-nc-2410070.md) — 2024-10-08
 - [华为海思半导体](../knowledge/experiences/hw-exp-20241024-nc-2436980.md) — 2024-10-24
 - [华为 16](../knowledge/experiences/hw-exp-20241031-nc-46438400.md) — 2024-10-31
 - [挑战华为25届最晚入池](../knowledge/experiences/hw-exp-20241130-nc-2488375.md) — 2024-11-30

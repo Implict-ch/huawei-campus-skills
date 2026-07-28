@@ -1,6 +1,6 @@
 # AI / 算法
 
-共 91 篇。
+共 86 篇。
 
 - [华为公开ICTAI&联想DIBG机器学习面经](../knowledge/experiences/hw-exp-20210914-nc-15305472.md) — 2021-09-14
 - [华为 本科应届 秋招](../knowledge/experiences/hw-exp-20211117-nc-88020736.md) — 2021-11-17
@@ -13,14 +13,11 @@
 - [华为留学生暑期实习机试](../knowledge/experiences/hw-exp-20230420-nc-1671789.md) — 2023-04-20
 - [暑期实习 oppo or 华为](../knowledge/experiences/hw-exp-20230602-nc-1766125.md) — 2023-06-02
 - [华为校招流程，已offer](../knowledge/experiences/hw-exp-20230609-nc-15431680.md) — 2023-06-09
-- [华为2024届校招](../knowledge/experiences/hw-exp-20230811-nc-1829093.md) — 2023-08-11
 - [华为24届【留学生】校招【本硕博】开始啦！](../knowledge/experiences/hw-exp-20230909-nc-91964416.md) — 2023-09-09
 - [华为实习机试分享](../knowledge/experiences/hw-exp-20240411-nc-40271104.md) — 2024-04-11
 - [暑期实习记录 去向西安华为无线 通信算法](../knowledge/experiences/hw-exp-20240703-nc-2270678.md) — 2024-07-03
-- [#校招#华为智能驾驶产品部](../knowledge/experiences/hw-exp-20240802-nc-2304209.md) — 2024-08-02
 - [华为-乾崑智能驾驶2025届校招](../knowledge/experiences/hw-exp-20240824-nc-2335437.md) — 2024-08-24
 - [华为-乾崑智能驾驶2025届校招](../knowledge/experiences/hw-exp-20240824-nc-99759360.md) — 2024-08-24
-- [华为2025届校招](../knowledge/experiences/hw-exp-20240908-nc-2363665.md) — 2024-09-08
 - [华为校招投递](../knowledge/experiences/hw-exp-20240909-nc-2364685.md) — 2024-09-09
 - [2025最全华为校招上岸总结-part1](../knowledge/experiences/hw-exp-20240910-nc-57639424.md) — 2024-09-10
 - [华为车bu校招算法工程师](../knowledge/experiences/hw-exp-20240912-nc-2372014.md) — 2024-09-12
@@ -36,8 +33,6 @@
 - [华为暑期实习AI工程师面经](../knowledge/experiences/hw-exp-20250606-xhs-0f03106d.md) — 2025-06-06
 - [华为暑期实习开奖](../knowledge/experiences/hw-exp-20250613-nc-2618413.md) — 2025-06-13
 - [华为‖终面真题拆解分析](../knowledge/experiences/hw-exp-20250625-xhs-2203c6fb.md) — 2025-06-25
-- [华为校招正编-AI、算法、软开](../knowledge/experiences/hw-exp-20250903-nc-2679378.md) — 2025-09-03
-- [华为校招正编-AI、算法、软开](../knowledge/experiences/hw-exp-20250903-nc-85810688.md) — 2025-09-03
 - [华为秋招笔试冲刺！9.3免费模拟机试开启](../knowledge/experiences/hw-exp-20250904-nc-88930560.md) — 2025-09-04
 - [华为Ai岗机考20250903完整真题](../knowledge/experiences/hw-exp-20250909-nc-93117440.md) — 2025-09-09
 - [华为留学生笔试 华为笔试 0828](../knowledge/experiences/hw-exp-20250910-nc-75345152.md) — 2025-09-10

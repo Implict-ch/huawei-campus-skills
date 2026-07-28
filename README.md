@@ -1,51 +1,44 @@
 # 华为校招 Agent Skills
 
-面向 Cursor / Claude Code / Codex 的 **`/hw-*` 技能包** + 本地知识库（模式 A：Git 分发知识包）。
+面向 Cursor / Claude Code / Codex 的 **`/hw-ask` · `/hw-interview` 技能包** + 本地知识库（Git 分发）。
+
+本仓库**不提供**可视化 Web 助手；线上产品见 Hydro 插件 `codefun2000.addons` → `hw-skills-page`。
 
 ```bash
-npx skills add ./hw-campus-skills --all -y
+npx skills add ./hw-skills --all -y
+# 或：npx skills add git@github.com:codefun2000/hw-skills.git --all -y
 ```
 
 ## 客户日常
 
 | 命令 | 作用 |
 |------|------|
-| `/hw` | 菜单与路由 |
-| `/hw-ask <问题>` | 投递/机考/测评/面试 — **先结论，再标 A/B/C/D 证据** |
-| `/hw-match` | JD + 简历 → 高频追问 + 手撕题 + 备考顺序 |
-| `/hw-update` | （可选）`git pull` 拉取维护者已编译的知识包 |
+| `/hw-ask` | 答疑助手：投递、机考、测评、面试、offer 等——先结论，再标 A/B/C/D 证据 |
+| `/hw-interview` | 模拟面试助手：根据简历生成项目追问、八股、手撕题与参考面经 |
 
-**不需要**本地跑爬虫或 compile；问答只走 `/hw-ask` / `/hw-match`。
+知识更新：维护者将插件知识库 sync 并 `git push` 后，客户在本仓执行 `git pull`（或重新 `npx skills add`）。**无需**本地跑爬虫或 compile。
 
 ## 目录
 
 ```text
-hw-campus-skills/
+hw-skills/
 ├── README.md
-├── schema/              # LAYERS.md / COMPILE.md（分层与编译规则）
-├── knowledge/
-│   ├── taxonomy.yaml
-│   ├── .manifest.json       # 包版本与条数（compile 后生成）
-│   ├── process/               # CodeFun2000 流程说明
-│   ├── exam/                  # 精编政策卡片（人工维护）
-│   ├── wiki/compiled/         # 面经聚合 Wiki（compile_wiki.py）
-│   ├── experiences/           # 原始面经（牛客/小红书）
-│   │   └── platform/          # CodeFun2000 站内面经
-│   ├── videos/                # B 站公开课切片
-│   └── coding-problems/       # 面经手撕索引 + hot100/ 练习题库
-├── scripts/
-│   ├── hw_update.py           # 客户 pull / 维护者流水线入口
-│   └── compile_wiki.py        # 原始面经 → wiki/compiled
-└── skills/
-    ├── hw/  hw-ask/  hw-match/  hw-update/
+├── SYNC.md              # 维护者：插件 knowledge → 本仓 一键同步说明书
+├── schema/              # LAYERS.md / COMPILE.md
+├── knowledge/           # 知识库（由插件 sync，勿在客户侧手改后指望被保留）
+├── scripts/             # 维护者采集/编译脚本（可选）
+├── skills/
+│   ├── hw-ask/
+│   └── hw-interview/
+└── 华为算法岗手撕题/      # 手撕数据维护用（非客户产品）
 ```
 
 ## 知识库检索顺序
 
-见 `knowledge/taxonomy.yaml` 的 `retrieval_priority`：
+见 `knowledge/taxonomy.yaml` 的 `retrieval_priority`（若存在），以及各 `SKILL.md`：
 
-1. 站内流程说明 + B 站视频 + `hot100/` 手撕题索引  
-2. `exam/` 精编卡片 + `wiki/compiled/` 聚合摘要  
+1. 站内流程说明 + B 站公开课 + `hot100/` 手撕索引  
+2. `exam/` 精编卡片 + `wiki/compiled/` 聚合摘要 + `assessment/` 等  
 3. 牛客/小红书面经全文（补充）
 
 面向客户的引用规则：B 站固定 `[A]`；CodeFun2000 带链接；牛客/小红书**不带外链**。详见 `skills/hw-ask/SKILL.md`。
@@ -53,54 +46,18 @@ hw-campus-skills/
 ## 安装
 
 ```bash
-npx skills add <repo-path> --all -y
+npx skills add <repo-path-or-url> --all -y
 ```
 
 遵循 [Agent Skills 开放标准](https://agentskills.io/specification)。
 
----
+安装后 IDE 中应仅出现 **`hw-ask`** 与 **`hw-interview`** 两个 skill。
 
 ## 维护者
 
-### 一键更新（推荐）
-
-```powershell
-cd hw-campus-skills
-python scripts/hw_update.py --mode maintainer
-```
-
-等价于：牛客 ingest → 质量/校招/死链过滤 → 优化去重 → **compile_wiki** → 写 manifest。
-
-仅重编 Wiki（不爬牛客）：
-
-```powershell
-python scripts/hw_update.py --mode maintainer --skip-ingest
-```
-
-### CI（模式 B）
-
-仓库 `.github/workflows/hw-campus-knowledge.yml` 每周自动跑 maintainer 链（牛客公开 API，无需 OpenCLI）。
-
-### 分步脚本（与一键链相同）
-
-```powershell
-python scripts/ingest_nowcoder.py
-python scripts/filter_quality.py
-python scripts/filter_campus_only.py
-python scripts/filter_dead_links.py
-python scripts/clean_experience_blanks.py
-python scripts/optimize_experiences.py --apply
-python scripts/compile_wiki.py
-```
-
-**小红书**（需 Chrome + OpenCLI + 登录）：`ingest_xiaohongshu.py`  
-**B 站字幕**（需 OpenCLI）：`ingest_bilibili_video.py`  
-**CodeFun2000 正文**（需 Cookie）：`sync_codefun2000.py`
+- **日常改知识库**：先改插件 `codefun2000.addons/react-page/hw-skills-page/knowledge/`，验证线上 RAG 后按 **[SYNC.md](./SYNC.md)** 一键同步到本仓并推送。
+- **采集流水线**（可选）：`python scripts/hw_update.py --mode maintainer` 等；产出若写在本仓 `knowledge/`，仍须以插件为 Source of Truth——建议将结果并入插件后再走 SYNC。
 
 ### 机考政策（2026）
 
-开发岗 **150+150+300**，常见通过线 **200 分** — 以 `knowledge/exam/exam-format.md`（`policy_effective: 2026`）为准；compile Wiki 不覆盖政策卡片。
-
-### 当前规模
-
-运行后查看 `knowledge/.manifest.json` 的 `counts` 字段（牛客 ~1000+、编译主题 10 篇、CodeFun2000 平台 ~97 等，以本地为准）。
+以 `knowledge/exam/` 带 `policy_effective: 2026` 的卡片为准；面经中历史分值表述不可当作现行政策。

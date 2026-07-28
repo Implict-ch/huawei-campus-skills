@@ -1,6 +1,6 @@
 # 面试
 
-共 121 篇。
+共 120 篇。
 
 - [华为5G（上海）c++开发校招面经](../knowledge/experiences/hw-exp-20200306-nc-61907200.md) — 2020-03-06
 - [华为杭州网络工程师校招面经](../knowledge/experiences/hw-exp-20200307-nc-41658112.md) — 2020-03-07
@@ -18,7 +18,6 @@
 - [2023.5.15 华为软件开发工程师实习 面经](../knowledge/experiences/hw-exp-20230515-nc-58601984.md) — 2023-05-15
 - [2023.5.16 华为软件开发工程师实习 主管面 面经](../knowledge/experiences/hw-exp-20230516-nc-73066496.md) — 2023-05-16
 - [华为研发类秋招Q&A——校招武器库003](../knowledge/experiences/hw-exp-20240708-nc-12550400.md) — 2024-07-08
-- [【华为2025届校招】简历投递开始了！！！](../knowledge/experiences/hw-exp-20240722-nc-89659136.md) — 2024-07-22
 - [华为 通用软件开发工程师 24校招 三轮面试](../knowledge/experiences/hw-exp-20240901-nc-01193472.md) — 2024-09-01
 - [华为25届校招收简历](../knowledge/experiences/hw-exp-20240904-nc-2356031.md) — 2024-09-04
 - [华为校招毛遂自荐](../knowledge/experiences/hw-exp-20250108-nc-2515232.md) — 2025-01-08
