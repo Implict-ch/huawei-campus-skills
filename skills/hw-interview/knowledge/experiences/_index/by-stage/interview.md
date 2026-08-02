@@ -1,0 +1,124 @@
+# 面试
+
+共 120 篇。
+
+- [华为5G（上海）c++开发校招面经](../knowledge/experiences/hw-exp-20200306-nc-61907200.md) — 2020-03-06
+- [华为杭州网络工程师校招面经](../knowledge/experiences/hw-exp-20200307-nc-41658112.md) — 2020-03-07
+- [小马过河、华为通信教师岗校招面经](../knowledge/experiences/hw-exp-20200807-nc-53427712.md) — 2020-08-07
+- [华为/中国移动/北京移动 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20200818-nc-65842432.md) — 2020-08-18
+- [华为软件开发二面面经](../knowledge/experiences/hw-exp-20200904-nc-14683904.md) — 2020-09-04
+- [华为软件开发岗一面面经](../knowledge/experiences/hw-exp-20200904-nc-74711040.md) — 2020-09-04
+- [华为前端校招面经](../knowledge/experiences/hw-exp-20200917-nc-06657024.md) — 2020-09-17
+- [华为消费者BG通用软件开发三面面经](../knowledge/experiences/hw-exp-20200918-nc-23572224.md) — 2020-09-18
+- [华为 硬件技术工程师 校招面经](../knowledge/experiences/hw-exp-20210909-nc-03615488.md) — 2021-09-09
+- [龙旗科技、信威通信、华为校招基带工程师面经](../knowledge/experiences/hw-exp-20220218-nc-99341824.md) — 2022-02-18
+- [华为通信研发工程师面经](../knowledge/experiences/hw-exp-20220717-nc-55367936.md) — 2022-07-17
+- [如何进华为？老学长来分享一下最全华为面经](../knowledge/experiences/hw-exp-20220719-nc-47936000.md) — 2022-07-19
+- [华为战略投资岗实习面经｜已offer](../knowledge/experiences/hw-exp-20221021-nc-65284096.md) — 2022-10-21
+- [2023.5.15 华为软件开发工程师实习 面经](../knowledge/experiences/hw-exp-20230515-nc-58601984.md) — 2023-05-15
+- [2023.5.16 华为软件开发工程师实习 主管面 面经](../knowledge/experiences/hw-exp-20230516-nc-73066496.md) — 2023-05-16
+- [华为研发类秋招Q&A——校招武器库003](../knowledge/experiences/hw-exp-20240708-nc-12550400.md) — 2024-07-08
+- [华为 通用软件开发工程师 24校招 三轮面试](../knowledge/experiences/hw-exp-20240901-nc-01193472.md) — 2024-09-01
+- [华为25届校招收简历](../knowledge/experiences/hw-exp-20240904-nc-2356031.md) — 2024-09-04
+- [华为校招毛遂自荐](../knowledge/experiences/hw-exp-20250108-nc-2515232.md) — 2025-01-08
+- [华为-硬件工程师-校招面试题目解析](../knowledge/experiences/hw-exp-20250729-nc-34395392.md) — 2025-07-29
+- [华为AI应用开发校招一面](../knowledge/experiences/hw-exp-20260303-nc-2798758.md) — 2026-03-03
+- [华为ai应用暑期实习一面面经](../knowledge/experiences/hw-exp-20260422-xhs-2103960d.md) — 2026-04-22
+- [华为AI软件开发一面＆二面面经](../knowledge/experiences/hw-exp-20260516-xhs-060359cc.md) — 2026-05-16
+- [华为面试 技术面60min](../knowledge/experiences/hw-exp-20260714-xhs-2200ae9b.md) — 2026-07-14
+- [25秋招-10月中-AI算法工程师-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2418.md) — 2025-10-15
+- [25秋招-11月初-无线部门-通信算法工程师-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2419.md) — 2025-11-05
+- [25秋招-11月初-ICT产品与解决方案-光产品线-通信算法工程师-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2420.md) — 2025-11-05
+- [25-秋招-10月中-终端-一二面经](../knowledge/experiences/platform/hw-exp-cf-P2421.md) — 2025-10-15
+- [25秋招-华为手撕真题两道](../knowledge/experiences/platform/hw-exp-cf-P2422.md) — 2025-09-15
+- [25秋招-10月中--硬件开发一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2423.md) — 2025-10-15
+- [25秋招-10月下--硬件开发一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2424.md) — 2025-10-20
+- [25秋招-10月中-海思-通用软件开发一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2425.md) — 2025-10-15
+- [25秋招-10月中--一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2426.md) — 2025-10-15
+- [25秋招-10月下-微服务相关-一二面面经](../knowledge/experiences/platform/hw-exp-cf-P2427.md) — 2025-10-20
+- [25秋招-10月中-华为GTS-服务与软件研发管理部-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2428.md) — 2025-10-15
+- [25秋招-10月中-通用软开-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2429.md) — 2025-10-15
+- [25秋招-10月中-通用软开-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2430.md) — 2025-10-15
+- [25秋招-10月中-通用软开-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2431.md) — 2025-10-15
+- [25秋招-10月中-终端-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2432.md) — 2025-10-15
+- [25秋招-9月下-通用软件开发-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2433.md) — 2025-09-20
+- [25秋招-9月下-终端-通用软件开发-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2434.md) — 2025-09-20
+- [25秋招-9月下-嵌入式-通用软件开发-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2435.md) — 2025-09-20
+- [25秋招-9月-计算产品线-通用软件开发-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2436.md) — 2025-09-15
+- [25秋招-9月下-终端bg-结构与材料工程师-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2437.md) — 2025-09-20
+- [25秋招-9月下-通用软开-一二面面经](../knowledge/experiences/platform/hw-exp-cf-P2438.md) — 2025-09-20
+- [25秋招-9月下--通用软开-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2439.md) — 2025-09-20
+- [25秋招-9月下-终端bg--二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2440.md) — 2025-09-20
+- [25秋招-9月下-智能驾驶--一面面经](../knowledge/experiences/platform/hw-exp-cf-P2441.md) — 2025-09-20
+- [25秋招-9月下-短距离通信--主管面面经](../knowledge/experiences/platform/hw-exp-cf-P2442.md) — 2025-09-20
+- [25秋招-9月下-光产品线-通用软件开发-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2443.md) — 2025-09-20
+- [25秋招-9月中-终端-二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2444.md) — 2025-09-15
+- [25秋招-9月中-终端bg-通用软开-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2445.md) — 2025-09-15
+- [25秋招-9月下-终端-二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2446.md) — 2025-09-20
+- [25秋招-9月下-终端-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2447.md) — 2025-09-20
+- [25秋招-9月中-华为云-通关面经](../knowledge/experiences/platform/hw-exp-cf-P2448.md) — 2025-09-15
+- [25秋招-9月中-通用软件开发-通关面经](../knowledge/experiences/platform/hw-exp-cf-P2449.md) — 2025-09-15
+- [25秋招-9月底-通用软件开发-二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2450.md) — 2025-09-25
+- [25秋招-9月-车BU座舱-通用软件开发-一二面面经](../knowledge/experiences/platform/hw-exp-cf-P2451.md) — 2025-09-15
+- [25秋招-9月初-后端-通用软件开发师-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2452.md) — 2025-09-05
+- [25秋招-9月初-后端-流程it-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2453.md) — 2025-09-05
+- [25秋招-9月-ICT-通用软件开发-一二&主管面（通关）](../knowledge/experiences/platform/hw-exp-cf-P2454.md) — 2025-09-15
+- [25秋招-9月初-ICT光产品线-通用软件开发-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2455.md) — 2025-09-05
+- [25秋招-9月初-ICT-光产品线-手撕两道](../knowledge/experiences/platform/hw-exp-cf-P2456.md) — 2025-09-05
+- [25秋招-9月初-ICT-计算产品线-通用软件开发-手撕5道](../knowledge/experiences/platform/hw-exp-cf-P2457.md) — 2025-09-05
+- [25秋招-9月初-终端-手撕2道](../knowledge/experiences/platform/hw-exp-cf-P2458.md) — 2025-09-05
+- [25秋招-9月初-终端-通用软件开发-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2459.md) — 2025-09-05
+- [25秋招-9月-终端BG-一二面&主管面（通关）](../knowledge/experiences/platform/hw-exp-cf-P2460.md) — 2025-09-15
+- [25秋招-9月中-无线-硬件逻辑岗(FPGA)-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2461.md) — 2025-09-15
+- [25秋招-9月中-ict光产品线-通用软件开发-二面&主管面（通关）](../knowledge/experiences/platform/hw-exp-cf-P2462.md) — 2025-09-15
+- [25秋招-9月-通用软件开发-一面&多道手撕](../knowledge/experiences/platform/hw-exp-cf-P2463.md) — 2025-09-15
+- [25秋招-9月-通用软件开发-主管面](../knowledge/experiences/platform/hw-exp-cf-P2465.md) — 2025-09-15
+- [25秋招-9月-华为AI工程师（大模型方向）- 专业面&主管面](../knowledge/experiences/platform/hw-exp-cf-P2466.md) — 2025-09-15
+- [25秋招-9月-通用软件开发-一面&二面](../knowledge/experiences/platform/hw-exp-cf-P2467.md) — 2025-09-15
+- [25秋招-9月底-通用软件开发-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2468.md) — 2025-09-25
+- [25秋招-9月底-终端软件部-通用软件开发-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2469.md) — 2025-09-25
+- [25秋招-9月底--算法工程师一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2470.md) — 2025-09-25
+- [25秋招-9月底-服务与软件研发管理-通用软件开发一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2471.md) — 2025-09-25
+- [26秋招-9月底-云计算-一面](../knowledge/experiences/platform/hw-exp-cf-P2476.md) — 2026-09-25
+- [26秋招-9月底-终端BG-三面](../knowledge/experiences/platform/hw-exp-cf-P2477.md) — 2026-09-25
+- [26秋招-9月底-AI应用开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2478.md) — 2026-09-25
+- [26秋招-9月底-云计算-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2479.md) — 2026-09-25
+- [26秋招-9月底-终端BG天线工程师-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2480.md) — 2026-09-25
+- [26秋招-9月底-AI软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2481.md) — 2026-09-25
+- [26秋招-9月底-AI应用方向-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2482.md) — 2026-09-25
+- [26秋招-9月底-AI软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2483.md) — 2026-09-25
+- [26秋招-9月底-AI应用方向-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2484.md) — 2026-09-25
+- [26秋招-9月底-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2485.md) — 2026-09-25
+- [26秋招-9月底-云计算AI软开-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2486.md) — 2026-09-25
+- [26秋招-9月底-终端软件研发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2488.md) — 2026-09-25
+- [26秋招-9月底-AI应用方向-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2489.md) — 2026-09-25
+- [26秋招-10月初-计算机视觉-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2500.md) — 2026-10-05
+- [26秋招-10月中-AI软开-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2501.md) — 2026-10-15
+- [26秋招-10月中-终端天线-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2502.md) — 2026-10-15
+- [26秋招-9月底-AI软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2503.md) — 2026-09-25
+- [26秋招-10月中-AI软件开发-二三面](../knowledge/experiences/platform/hw-exp-cf-P2504.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2505.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2506.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2507.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2508.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2509.md) — 2026-10-15
+- [26秋招-10月中-通用软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2510.md) — 2026-10-15
+- [26秋招-10月中-终端云-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2511.md) — 2026-10-15
+- [26秋招-10月中-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2512.md) — 2026-10-15
+- [26秋招-10月底-AI岗-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2513.md) — 2026-10-25
+- [26秋招-10月底-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2514.md) — 2026-10-25
+- [26秋招-10月底-通用软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2515.md) — 2026-10-25
+- [26秋招-10月底-数据库开发-一二面](../knowledge/experiences/platform/hw-exp-cf-P2516.md) — 2026-10-25
+- [26秋招-10月底-软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2517.md) — 2025-10-25
+- [26秋招-10月底-通用软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2518.md) — 2026-10-25
+- [26秋招-10月底-车控-通用软件开发-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2519.md) — 2026-10-25
+- [26秋招-10月底-AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2520.md) — 2026-10-25
+- [26秋招-11月中-华为云自驾-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2521.md) — 2026-11-15
+- [26秋招-11月底- AI方向-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2522.md) — 2026-11-25
+- [26秋招-11月中-云的自驾-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2523.md) — 2026-11-15
+- [26秋招-11月底- AI算法-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2524.md) — 2026-11-25
+- [26秋招-11月底-车bu座舱AI软开-一二三面](../knowledge/experiences/platform/hw-exp-cf-P2526.md) — 2026-11-25
+- [27暑期实习-3月底-AI工程师-二三面](../knowledge/experiences/platform/hw-exp-cf-P2527.md) — 2027-03-25
+- [27暑期实习-4月底-AI大模型工程师-二三面](../knowledge/experiences/platform/hw-exp-cf-P2528.md) — 2027-04-25
+- [26-秋招-9.23-终端云-面经](../knowledge/experiences/platform/hw-exp-cf-P3796.md) — 2026-09-23
+- [26-秋招-9.24-计算产品线-通用软件开发工程师-面经](../knowledge/experiences/platform/hw-exp-cf-P3797.md) — 2026-09-24

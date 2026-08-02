@@ -1,0 +1,50 @@
+# 嵌入式 / 硬件
+
+共 46 篇。
+
+- [华为校招硬件工程师 逻辑岗位（FPGA）超详细面经！！！](../knowledge/experiences/hw-exp-20201118-nc-45184768.md) — 2020-11-18
+- [面经：华为海思暑期实习 数字IC设计岗](../knowledge/experiences/hw-exp-20210120-nc-67634688.md) — 2021-01-20
+- [华为校招面经](../knowledge/experiences/hw-exp-20210301-nc-19926016.md) — 2021-03-01
+- [华为 硬件技术工程师 校招面经](../knowledge/experiences/hw-exp-20210909-nc-03615488.md) — 2021-09-09
+- [华为无线硬件面经](../knowledge/experiences/hw-exp-20210923-nc-97639936.md) — 2021-09-23
+- [龙旗科技、信威通信、华为校招基带工程师面经](../knowledge/experiences/hw-exp-20220218-nc-99341824.md) — 2022-02-18
+- [2022华为单板硬件开发暑期实习面经](../knowledge/experiences/hw-exp-20220412-nc-91673088.md) — 2022-04-12
+- [华为南研所暑期实习面经](../knowledge/experiences/hw-exp-20220501-nc-47226368.md) — 2022-05-01
+- [华为数通FPGA逻辑暑期实习分享](../knowledge/experiences/hw-exp-20220513-nc-47034368.md) — 2022-05-13
+- [华为秋招投和实习不同的岗位](../knowledge/experiences/hw-exp-20220706-nc-55502080.md) — 2022-07-06
+- [2023届华为提前批面经fx计划](../knowledge/experiences/hw-exp-20220818-nc-10861312.md) — 2022-08-18
+- [23届秋招-华为面经-单板硬件（已offer）](../knowledge/experiences/hw-exp-20221003-nc-15087104.md) — 2022-10-03
+- [华为上海研究所-芯片开发工程师-面经](../knowledge/experiences/hw-exp-20221115-nc-46985984.md) — 2022-11-15
+- [华为-硬件工程师-面经](../knowledge/experiences/hw-exp-20221118-nc-20432896.md) — 2022-11-18
+- [华为硬件工程师面经](../knowledge/experiences/hw-exp-20221121-nc-12520192.md) — 2022-11-21
+- [华为-硬件工程师-面经](../knowledge/experiences/hw-exp-20221202-nc-54985472.md) — 2022-12-02
+- [兄弟来跟华子？不了不了！——我为什么拒掉华为车BU？](../knowledge/experiences/hw-exp-20221205-nc-90985472.md) — 2022-12-05
+- [华为暑期实习硬件逻辑岗一面](../knowledge/experiences/hw-exp-20230516-nc-1750613.md) — 2023-05-16
+- [华为海思硬件技术工程师暑期实习生](../knowledge/experiences/hw-exp-20230605-nc-1768188.md) — 2023-06-05
+- [华为嵌入式秋招-泡池子泡死](../knowledge/experiences/hw-exp-20230608-nc-02658048.md) — 2023-06-08
+- [【24届】华为海思2024届应届生招聘启动！](../knowledge/experiences/hw-exp-20230803-nc-88045056.md) — 2023-08-03
+- [华为车bu 转部门开奖时间线](../knowledge/experiences/hw-exp-20240228-nc-2132152.md) — 2024-02-28
+- [25届华为实习 海思 逻辑岗](../knowledge/experiences/hw-exp-20240330-nc-60555008.md) — 2024-03-30
+- [【找暑期实习ing】华为硬件机考范围很广](../knowledge/experiences/hw-exp-20240522-nc-2237905.md) — 2024-05-22
+- [华为海思秋招，欢迎来聊](../knowledge/experiences/hw-exp-20240816-nc-2322718.md) — 2024-08-16
+- [华为海思数字IC设计校招面经](../knowledge/experiences/hw-exp-20240829-nc-85415168.md) — 2024-08-29
+- [华为海思半导体](../knowledge/experiences/hw-exp-20241024-nc-2436980.md) — 2024-10-24
+- [华为 16](../knowledge/experiences/hw-exp-20241031-nc-46438400.md) — 2024-10-31
+- [挑战华为25届最晚入池](../knowledge/experiences/hw-exp-20241130-nc-2488375.md) — 2024-11-30
+- [华为车bu暑期实习开奖](../knowledge/experiences/hw-exp-20250618-nc-23684096.md) — 2025-06-18
+- [华为-硬件工程师-校招面试题目解析](../knowledge/experiences/hw-exp-20250729-nc-34395392.md) — 2025-07-29
+- [2025华为暑期实习嵌软技术面+主管面面经](../knowledge/experiences/hw-exp-20250801-nc-2645964.md) — 2025-08-01
+- [华为秋招嵌入式面经](../knowledge/experiences/hw-exp-20251027-nc-2727495.md) — 2025-10-27
+- [华为暑期实习硬件面经（攒人品）](../knowledge/experiences/hw-exp-20260519-xhs-3701e319.md) — 2026-05-19
+- [27暑期实习记录| 华为泡池子中(已offer)](../knowledge/experiences/hw-exp-20260529-xhs-0702c300.md) — 2026-05-29
+- [26届硕士秋招-华为经验贴](../knowledge/experiences/hw-exp-20260630-xhs-11011a85.md) — 2026-06-30
+- [华为笔试总结-笔试已过](../knowledge/experiences/hw-exp-20260715-xhs-1003e08b.md) — 2026-07-15
+- [上海华为单板硬件秋招！！！](../knowledge/experiences/hw-exp-20260718-xhs-0301ca65.md) — 2026-07-18
+- [华为27届秋招开始啦](../knowledge/experiences/hw-exp-20260720-xhs-0f016520.md) — 2026-07-20
+- [25秋招-11月初-无线部门-通信算法工程师-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2419.md) — 2025-11-05
+- [25秋招-11月初-ICT产品与解决方案-光产品线-通信算法工程师-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2420.md) — 2025-11-05
+- [25秋招-10月中--硬件开发一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2423.md) — 2025-10-15
+- [25秋招-10月下--硬件开发一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2424.md) — 2025-10-20
+- [25秋招-9月下-嵌入式-通用软件开发-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2435.md) — 2025-09-20
+- [25秋招-9月下-终端-一二三面面经](../knowledge/experiences/platform/hw-exp-cf-P2447.md) — 2025-09-20
+- [25秋招-9月中-无线-硬件逻辑岗(FPGA)-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2461.md) — 2025-09-15

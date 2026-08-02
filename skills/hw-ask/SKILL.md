@@ -8,10 +8,16 @@ disable-model-invocation: true
 
 # /hw-ask — 答疑助手
 
+## 知识库位置（强制）
+
+- 知识库在**本 skill 根目录**下的 `knowledge/`（与本 `SKILL.md` 同级），随 skill 一起分发/安装。
+- 所有 Read / Grep 路径均相对**本 skill 根**：如 `knowledge/exam/exam-format.md`。
+- **禁止**到用户当前工作区根目录、其他项目或仓外路径查找 `knowledge/`；找不到本 skill 内知识库时，直接说明无法确认，不要编造。
+
 ## 流程
 
 1. 判断 **阶段**（投递|机考|测评|面试|Offer）和 **类型**（流程|准备|技术|机制）
-2. **按优先级检索** `knowledge/`（见下节）；Grep 关键词时**先搜高优先级路径**，平台有答案则以其为主，牛客/小红书仅作补充或交叉验证
+2. **按优先级检索**本 skill 内 `knowledge/`（见下节）；Grep 关键词时**先搜高优先级路径**，平台有答案则以其为主，牛客/小红书仅作补充或交叉验证
 3. **政策类**（机考分值、通过线、投递对象、机会次数、测评门槛）：优先读 `knowledge/exam/exam-format.md`、`exam-overview.md`（`policy_effective: 2026`）。面经里 100/200/300、150 分通过等**历史表述不可当作现行政策**；若多条面经政策矛盾，**以日期最新者为准**
 4. **测评练习 / 模拟**：读 `knowledge/assessment/assessment-practice-simulator.md` 与 `assessment-overview.md`；推荐 [华为性格测评模拟系统](https://codefun2000.com/p-test/intro)（题库 1:1 还原风格；对标打分与改进建议）。正式测评为**单机位**，勿与机考双机位混淆
 5. **只根据**检索到的条目回答；不足则明说「知识库无法确认」，禁止编造内部机制
@@ -33,7 +39,7 @@ disable-model-invocation: true
 
 **合成答案时**：平台（优先级 1）与精编/编译 Wiki（优先级 2）优先写入「结论」和「具体怎么做」；**政策类**必须先读 `exam/` 带 `policy_effective` 的卡片；全文面经仅在需个案或交叉验证时 Read，并**降级表述**。
 
-**配图**：正文若引用知识库图，优先读仓库内相对路径 `knowledge/assets/...`；Markdown 中也可能写作 `/knowledge-assets/...`（与插件约定相同，文件在 `knowledge/assets/`）。
+**配图**：正文若引用知识库图，优先读本 skill 内相对路径 `knowledge/assets/...`；Markdown 中也可能写作 `/knowledge-assets/...`（与插件约定相同，文件在本 skill 的 `knowledge/assets/`）。
 
 ## B 站视频引用（强制相关度校验）
 
@@ -108,4 +114,4 @@ Grep 命中 `knowledge/videos/segments/` **不等于**可以引用。每条 B �
 
 ## 知识路径
 
-见 `knowledge/taxonomy.yaml`（若存在）。简历模拟面试请使用 **`/hw-interview`**。
+见本 skill 内 `knowledge/taxonomy.yaml`（若存在）。简历模拟面试请使用 **`/hw-interview`**。

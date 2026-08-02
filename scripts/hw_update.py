@@ -31,6 +31,8 @@ MAINTAINER_STEPS: list[list[str]] = [
     [sys.executable, "scripts/clean_experience_blanks.py"],
     [sys.executable, "scripts/optimize_experiences.py", "--apply"],
     [sys.executable, "scripts/compile_wiki.py"],
+    [sys.executable, "scripts/sync_skill_knowledge.py"],
+    [sys.executable, "scripts/verify_skill_pack.py"],
 ]
 
 

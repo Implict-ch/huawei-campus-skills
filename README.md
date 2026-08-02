@@ -31,17 +31,18 @@
 
 ## 安装
 
-任选一种方式：
+任选一种方式（**请用 `--all`**，两个 skill 都需要，且会一并带上各自目录内的知识库）：
 
 ```bash
 # 从 GitHub 安装
 npx skills add git@github.com:codefun2000/hw-skills.git --all -y
 
 # 或从本地克隆目录安装
-npx skills add ./hw-skills --all -y
+npx skills add ./huawei-campus-skills --all -y
 ```
 
-安装成功后，技能列表中应出现 **`hw-ask`** 与 **`hw-interview`**。
+安装成功后，技能列表中应出现 **`hw-ask`** 与 **`hw-interview`**。  
+每个 skill 目录内都带有完整的 `knowledge/`，因此即使用 `npx skills add`（symlink 或 `--copy`）安装，答疑/模拟面试依赖的本地资料也不会丢失。
 
 ## 使用
 
@@ -81,13 +82,24 @@ git pull --ff-only
 ## 仓库结构（了解即可）
 
 ```text
-hw-skills/
+huawei-campus-skills/
 ├── README.md
-├── knowledge/     # 本地知识库（答疑与模拟面试会检索这里）
+├── knowledge -> skills/hw-ask/knowledge   # 兼容维护脚本的根符号链接
 ├── skills/
 │   ├── hw-ask/
+│   │   ├── SKILL.md
+│   │   └── knowledge/                    # 权威知识库（随 npx 安装）
 │   └── hw-interview/
-└── schema/        # 知识库分层说明（可选阅读）
+│       ├── SKILL.md
+│       └── knowledge/                    # 同步镜像（保证单独安装也完整）
+└── schema/                               # 知识库分层说明（可选阅读）
+```
+
+维护者改知识库时只改 `skills/hw-ask/knowledge/`，然后执行：
+
+```bash
+python scripts/sync_skill_knowledge.py
+python scripts/verify_skill_pack.py
 ```
 
 ## 可视化产品

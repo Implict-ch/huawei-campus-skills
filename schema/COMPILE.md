@@ -2,6 +2,8 @@
 
 `scripts/compile_wiki.py` 从 **原始面经** 生成 **编译 Wiki 卡片**，供 Agent 优先于全文面经检索。
 
+路径说明：维护脚本仍写 `knowledge/...`；仓库根 `knowledge` 为指向 `skills/hw-ask/knowledge/` 的符号链接。编译完成后请运行 `scripts/sync_skill_knowledge.py`，把变更镜像到 `skills/hw-interview/knowledge/`。
+
 ## 输入
 
 - `knowledge/experiences/hw-exp-*-nc-*.md`

@@ -1,0 +1,42 @@
+# network-communication
+
+共 38 篇。
+
+- [华为杭州网络工程师校招面经](../knowledge/experiences/hw-exp-20200307-nc-41658112.md) — 2020-03-07
+- [华为数通（校招），软开面经](../knowledge/experiences/hw-exp-20200312-nc-28004864.md) — 2020-03-12
+- [华为校招-通信开发面经](../knowledge/experiences/hw-exp-20200317-nc-28221696.md) — 2020-03-17
+- [中国通信/中兴南京/华为上海/中国铁通校招通信协议工程师面经](../knowledge/experiences/hw-exp-20200729-nc-12942336.md) — 2020-07-29
+- [小马过河、华为通信教师岗校招面经](../knowledge/experiences/hw-exp-20200807-nc-53427712.md) — 2020-08-07
+- [中兴通讯/天绘科技/华为 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20200808-nc-92113408.md) — 2020-08-08
+- [华为/中国移动/北京移动 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20200818-nc-65842432.md) — 2020-08-18
+- [华为无线软开实习专业面试面经(已OFFER)](../knowledge/experiences/hw-exp-20210423-nc-45883648.md) — 2021-04-23
+- [21年上海华为无线暑期实习笔经+面经](../knowledge/experiences/hw-exp-20210524-nc-66827264.md) — 2021-05-24
+- [爱立信/华为/中国移动 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20220218-nc-26263296.md) — 2022-02-18
+- [展讯通信、华为、北京福星校招DSP工程师面经分享~~](../knowledge/experiences/hw-exp-20220219-nc-49029888.md) — 2022-02-19
+- [爱立信/佛山移动/华为/长讯通信 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20220223-nc-03363328.md) — 2022-02-23
+- [华三通信/华为上海研究所 校招通信协议工程师面经](../knowledge/experiences/hw-exp-20220223-nc-38907648.md) — 2022-02-23
+- [四川移动/华为/中兴/许继集团 校招 通信协议工程师面经](../knowledge/experiences/hw-exp-20220223-nc-72910848.md) — 2022-02-23
+- [华为行销经理面经](../knowledge/experiences/hw-exp-20220318-nc-94406400.md) — 2022-03-18
+- [华为暑期](../knowledge/experiences/hw-exp-20220512-nc-91369216.md) — 2022-05-12
+- [华为通信研发工程师面经](../knowledge/experiences/hw-exp-20220717-nc-55367936.md) — 2022-07-17
+- [华为留学生无线部门面经](../knowledge/experiences/hw-exp-20221020-nc-58520064.md) — 2022-10-20
+- [华为2023通信笔试面试一](../knowledge/experiences/hw-exp-20230302-nc-70213376.md) — 2023-03-02
+- [华为无线网络研究部 2023年暑期实习一面面经](../knowledge/experiences/hw-exp-20230510-nc-27648256.md) — 2023-05-10
+- [华为24暑期实习面试](../knowledge/experiences/hw-exp-20230525-nc-58764544.md) — 2023-05-25
+- [华为光产品二面挂](../knowledge/experiences/hw-exp-20231027-nc-2014547.md) — 2023-10-27
+- [秋招第二枪:华为(无线)](../knowledge/experiences/hw-exp-20231031-nc-2024607.md) — 2023-10-31
+- [华为（东莞GTS校招版时间线梳理）](../knowledge/experiences/hw-exp-20240110-nc-2107853.md) — 2024-01-10
+- [华为ICT开奖](../knowledge/experiences/hw-exp-20240607-nc-2250990.md) — 2024-06-07
+- [华为校招ICT与2012投递](../knowledge/experiences/hw-exp-20240830-nc-2346870.md) — 2024-08-30
+- [华为光产品 线下面试](../knowledge/experiences/hw-exp-20241101-nc-2451125.md) — 2024-11-01
+- [华为校招毛遂自荐](../knowledge/experiences/hw-exp-20250108-nc-2515232.md) — 2025-01-08
+- [华为秋招炮灰有感](../knowledge/experiences/hw-exp-20250313-nc-37937152.md) — 2025-03-13
+- [中电11所vs华为 GTS 13级](../knowledge/experiences/hw-exp-20250324-nc-2564105.md) — 2025-03-24
+- [华为ICT  BG 26届校招即将开始啦~](../knowledge/experiences/hw-exp-20250728-nc-2642074.md) — 2025-07-28
+- [华为无线26届校招](../knowledge/experiences/hw-exp-20250806-nc-2650355.md) — 2025-08-06
+- [【华为26届校招】坐标ICT云核心网，hc两位数](../knowledge/experiences/hw-exp-20250901-nc-2677191.md) — 2025-09-01
+- [25秋招-9月下-短距离通信--主管面面经](../knowledge/experiences/platform/hw-exp-cf-P2442.md) — 2025-09-20
+- [25秋招-9月下-光产品线-通用软件开发-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2443.md) — 2025-09-20
+- [25秋招-9月初-ICT光产品线-通用软件开发-一面面经](../knowledge/experiences/platform/hw-exp-cf-P2455.md) — 2025-09-05
+- [25秋招-9月初-ICT-光产品线-手撕两道](../knowledge/experiences/platform/hw-exp-cf-P2456.md) — 2025-09-05
+- [25秋招-9月中-ict光产品线-通用软件开发-二面&主管面（通关）](../knowledge/experiences/platform/hw-exp-cf-P2462.md) — 2025-09-15

@@ -10,6 +10,12 @@ disable-model-invocation: true
 
 根据用户简历，结合本包 `knowledge/` 生成一套可演练的华为校招技术面题（**不依赖**任何线上 API）。
 
+## 知识库位置（强制）
+
+- 知识库在**本 skill 根目录**下的 `knowledge/`（与本 `SKILL.md` 同级），随 skill 一起分发/安装。
+- 所有 Read / Grep 路径均相对**本 skill 根**：如 `knowledge/experiences/platform/`、`knowledge/coding-problems/hot100/index.json`。
+- **禁止**到用户当前工作区根目录、其他项目或仓外路径查找 `knowledge/`；找不到本 skill 内知识库时，说明无法出题依据，不要编造面经或题链。
+
 ## 输入
 
 必需：**简历**（粘贴正文，或用户附带的简历文件文本）。缺简历时只追问一次。

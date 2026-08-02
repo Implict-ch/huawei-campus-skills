@@ -1,0 +1,63 @@
+version: 1
+stages: [application, exam, assessment, interview, offer]
+roles: [software-development, ai, embedded, general]
+source_grades:
+  A: 官方公开信息；塔子哥 B 站公开课（knowledge/videos/segments/）
+  B: 多份候选人经验（多份面经一致，或 CodeFun2000 与多条面经交叉印证）
+  C: 单一候选人经验（单份牛客/小红书面经，或单条站内面经个案）
+  D: 无法验证的推测
+platforms:
+  nowcoder: https://www.nowcoder.com
+  xiaohongshu: https://www.xiaohongshu.com
+  codefun2000: https://codefun2000.com
+  bilibili: https://www.bilibili.com
+# 面向客户回答时的检索顺序（高 → 低）
+retrieval_priority:
+  - knowledge/process/platform-*.md
+  - knowledge/experiences/platform/
+  - knowledge/coding-problems/hot100/
+  - knowledge/coding-problems/
+  - knowledge/videos/segments/
+  - knowledge/exam/
+  - knowledge/wiki/compiled/
+  - knowledge/application/
+  - knowledge/assessment/
+  - knowledge/interview/
+  - knowledge/roles/
+  - knowledge/experiences/hw-exp-*-nc-*.md
+  - knowledge/experiences/hw-exp-*-xhs-*.md
+# 面向客户回答时的链接策略（不改知识库文件 frontmatter）
+answer_citation:
+  link_in_response:
+    - codefun2000
+    - bilibili
+  no_link_in_response:
+    - nowcoder
+    - xiaohongshu
+  bilibili_format: "[A] 塔子哥公开课 [标题](url?t=秒) — B站 **MM:SS–MM:SS**"
+  bilibili_grade: A
+  bilibili_relevance: Agent must Read segment body; cite only if same specific topic as answer; time_range from frontmatter only; omit if no matching segment; never use 字幕 in customer-facing text
+  grade_definitions: Agent-only; do not paste ABCD legend in customer-facing answers
+  evidence_section_order:
+    slots_1_2: 自有来源（codefun2000 / bilibili），必须带链接，最多 2 条
+    slots_3_4: 牛客 / 小红书，不带链接，有则写、无则不凑
+  evidence_section_forbidden:
+    - 知识库文件名与路径（如 exam-after-passing.md）
+    - 卡片 id（如 hw-exam-format）
+    - 内部用语（政策卡片、结构化卡片、库内）
+  note: 牛客/小红书面经文件内 sources.url 仍必填，仅回答时不输出外链
+paths:
+  wiki_compiled: knowledge/wiki/compiled/
+  compile_manifest: knowledge/.compile-manifest.json
+  package_manifest: knowledge/.manifest.json
+  video_segments: knowledge/videos/segments/
+  video_episodes: knowledge/videos/episodes/
+  video_series: knowledge/videos/series/
+  platform_process: knowledge/process/platform-*.md
+  platform_experiences: knowledge/experiences/platform/
+  platform_coding_index: knowledge/coding-problems/index.json
+  interview_hot100_index: knowledge/coding-problems/hot100/index.json
+  interview_hot100_root: knowledge/coding-problems/hot100/
+  platform_problemset_url: https://codefun2000.com/problemset/hw
+  nowcoder_experiences: knowledge/experiences/hw-exp-*-nc-*.md
+  xiaohongshu_experiences: knowledge/experiences/hw-exp-*-xhs-*.md

@@ -1,0 +1,59 @@
+{
+  "id": "hw-video-series-campus-202607",
+  "title": "华为校招技术岗求职公开课",
+  "seed_url": "https://www.bilibili.com/video/BV1aHTX6WEZs",
+  "up_mid": "1167140350",
+  "updated_at": "2026-07-26",
+  "episodes": [
+    {
+      "order": 1,
+      "bvid": "BV1aHTX6WEZs",
+      "title": "华为校招技术岗求职公开课：从投递到入职全流程解析",
+      "segments": 4,
+      "url": "https://www.bilibili.com/video/BV1aHTX6WEZs"
+    },
+    {
+      "order": 2,
+      "bvid": "BV1KAMJ6HEzz",
+      "title": "华为校招投递指南：薪资、部门选择、机考时间线一次讲清",
+      "segments": 7,
+      "url": "https://www.bilibili.com/video/BV1KAMJ6HEzz"
+    },
+    {
+      "order": 3,
+      "bvid": "BV1zJNG61EW8",
+      "title": "华为校招机考备考指南|一个视频讲清楚",
+      "segments": 9,
+      "url": "https://www.bilibili.com/video/BV1zJNG61EW8"
+    },
+    {
+      "order": 4,
+      "bvid": "BV19JNb6SELo",
+      "title": "华为校招AI机考备考指南|高效上岸版",
+      "segments": 9,
+      "url": "https://www.bilibili.com/video/BV19JNb6SELo"
+    },
+    {
+      "order": 5,
+      "bvid": "BV1iMNi63ExP",
+      "title": "华为校招非AI（开发）机考备考指南|高效上岸版",
+      "segments": 4,
+      "url": "https://www.bilibili.com/video/BV1iMNi63ExP"
+    },
+    {
+      "order": 6,
+      "bvid": "BV1RDKJ6aEEF",
+      "title": "华为校招机考|提分技巧|样例输出法|暴力拿分法",
+      "segments": 6,
+      "url": "https://www.bilibili.com/video/BV1RDKJ6aEEF"
+    },
+    {
+      "order": 7,
+      "bvid": "BV1CsK46aE3r",
+      "title": "华为校招机考答疑：要不要考、几次机会、能推迟吗",
+      "segments": 8,
+      "url": "https://www.bilibili.com/video/BV1CsK46aE3r",
+      "note": "机考第五节"
+    }
+  ]
+}
