@@ -18,6 +18,9 @@ REQUIRED_REL_PATHS = (
     "knowledge/experiences/index.json",
     "knowledge/experiences/platform/README.md",
     "knowledge/coding-problems/hot100/index.json",
+    "knowledge/coding-problems/hw-exam/index.json",
+    "knowledge/coding-problems/hw-exam/stats.json",
+    "knowledge/coding-problems/hw-exam/exam-problem-stats.md",
     "knowledge/wiki/compiled/wiki-application.md",
 )
 
@@ -53,6 +56,15 @@ def check_skill(name: str) -> list[str]:
                         )
         except json.JSONDecodeError as exc:
             errors.append(f"{name}: hot100 index invalid JSON: {exc}")
+
+    hw_exam = skill_dir / "knowledge/coding-problems/hw-exam"
+    if hw_exam.is_dir():
+        leaked = list(hw_exam.rglob("题面.md"))
+        if leaked:
+            errors.append(
+                f"{name}: hw-exam must not contain 题面.md "
+                f"({len(leaked)} file(s); metadata-only pack)"
+            )
 
     exp_index = skill_dir / "knowledge/experiences/index.json"
     if exp_index.is_file():
