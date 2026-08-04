@@ -27,7 +27,7 @@
 
 ## 关于作者
 
-我是塔子哥。做华为校招求职相关内容已有 5 年，身边经校招进入华为的同学朋友不下百位；每年跟进校招流程，沉淀了大量一手经验，并做成求职指南与公开课，累计学习超过 50 万人次。现在将多年经验，结合市面上的400篇求职/面试帖，整理成「知识库 + Skills」开源出来，辅助各位备战华为校招求职。
+我是塔子哥。做华为校招求职相关内容已有 5 年，身边经校招进入华为的同学朋友不下百位；每年跟进校招流程，沉淀了大量一手经验，并做成校招求职指南与公开课，累计学习超过 50 万人次。现在将多年经验，结合网络上的400篇求职/面试帖，整理成「知识库 + Skills」开源出来，辅助各位备战华为校招求职。
 
 ## 安装
 
@@ -79,7 +79,7 @@ git pull --ff-only
 
 或重新执行一次 `npx skills add … --all -y`。
 
-## 仓库结构（了解即可）
+## 仓库结构
 
 ```text
 huawei-campus-skills/
@@ -95,31 +95,34 @@ huawei-campus-skills/
 └── schema/                               # 知识库分层说明（可选阅读）
 ```
 
-维护者改知识库时只改 `skills/hw-ask/knowledge/`，然后执行：
+## 可视化网页
 
-```bash
-python scripts/sync_skill_knowledge.py
-python scripts/verify_skill_pack.py
-```
-
-## 可视化产品
-
-同时我也将本Skills做成了网页版「华为校招求职助手」，适合不想折腾 IDE Skills、想直接阅读面经/手撕真题的同学：
+同时我也将本Skills做成了网页版「华为校招求职助手」，适合不想折腾 IDE Skills、**想直接阅读面经/手撕真题**的同学：
 
 - AI 问答 + 简历模拟面试  
 - 机考真题题库、面经库、手撕题库可在站内浏览刷题  
 
-体验地址：[codefun2000.com/hw](https://codefun2000.com/hw)
+网页地址：[codefun2000.com/hw](https://codefun2000.com/hw)
 
 <table>
   <tr>
     <td align="center" width="50%">
       <img src="./docs/hw-assistant-product.jpg" alt="求职助手 AI 问答" width="100%" /><br/>
-      <sub>求职助手 · AI 问答与模拟面试</sub>
+      <sub>求职助手</sub>
     </td>
     <td align="center" width="50%">
+      <img src="./docs/hw-interview-product.jpg" alt="简历模拟面试" width="100%" /><br/>
+      <sub>简历模拟面试</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
       <img src="./docs/hw-experiences-product.jpg" alt="面经知识库" width="100%" /><br/>
-      <sub>面经知识库 · 检索与筛选</sub>
+      <sub>面经知识库</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./docs/hw-handtear-product.jpg" alt="手撕题库" width="100%" /><br/>
+      <sub>手撕真题知识库</sub>
     </td>
   </tr>
 </table>
