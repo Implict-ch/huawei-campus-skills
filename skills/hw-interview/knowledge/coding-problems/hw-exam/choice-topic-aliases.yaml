@@ -1,0 +1,63 @@
+# AI 机考考点口语别名 + 选择题大类 + 编程题检索标签
+# Agent：「会考 XX 吗」类 → 先读本文件，再 Read stats.json（choice_bank_* + ai_ml_subtag_counts + ai_alg_tag_counts）
+
+aliases:
+  线代: 线性代数
+  线性代数: 线性代数
+  概率: 概率论与数理统计
+  概率论: 概率论与数理统计
+  数理统计: 概率论与数理统计
+  机器学习: 机器学习基础
+  ML: 机器学习基础
+  深度学习: 深度学习与神经网络
+  DL: 深度学习与神经网络
+  神经网络: 深度学习与神经网络
+  强化学习: 强化学习
+  RL: 强化学习
+  NLP: 自然语言处理
+  自然语言处理: 自然语言处理
+  大模型: 大模型
+  LLM: 大模型
+  Transformer: 大模型
+  attention: 大模型
+
+# 各大类（= choice_tag1）对应的编程题标签；频次见 stats.json ai_ml_subtag_counts / ai_alg_tag_counts
+topics:
+  线性代数:
+    programming_ml_subtags: [矩阵运算]
+    programming_alg_tags: [线性代数, 矩阵运算, 矩阵乘法]
+  概率论与数理统计:
+    programming_ml_subtags: [逻辑回归, softmax, 线性回归, softmax回归]
+    programming_alg_tags: [逻辑回归]
+  机器学习基础:
+    programming_ml_subtags:
+      - 未细分机器学习
+      - 决策树
+      - 逻辑回归
+      - 线性回归
+      - k-means
+      - knn
+      - 随机森林
+    programming_alg_tags: [机器学习算法, 决策树]
+  深度学习与神经网络:
+    programming_ml_subtags: [attention, transformer, softmax, 卷积]
+    programming_alg_tags: [LSTM]
+  强化学习:
+    programming_ml_subtags: []
+    programming_alg_tags: []
+  自然语言处理:
+    programming_ml_subtags: [tf-idf]
+    programming_alg_tags: []
+  大模型:
+    programming_ml_subtags: [attention, transformer, lora, softmax]
+    programming_alg_tags: []
+
+bank_url: https://codefun2000.com/choice/hw
+programming_bank_url: https://codefun2000.com/problemset/hw
+stats_fields:
+  choice_tag1_counts: choice_bank_tag1_counts
+  tag2_stats: choice_bank_tag2_stats
+  choice_representatives: choice_bank_representatives
+  programming_ml_subtags: ai_ml_subtag_counts
+  programming_alg_tags: ai_alg_tag_counts
+no_leak_card: choice-no-leak.md

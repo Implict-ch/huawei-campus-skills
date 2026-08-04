@@ -1,0 +1,1403 @@
+{
+  "version": 2,
+  "generated_at": "2026-08-04T06:37:45.778530+00:00",
+  "source_url": "https://codefun2000.com/choice/hw",
+  "api_endpoint": "https://codefun2000.com/api/choice/list",
+  "psid": "673c82a4d67fed3f6531c8e1",
+  "total_questions": 740,
+  "categories": [
+    {
+      "tag1": "线性代数",
+      "description": "矩阵运算、向量空间、特征值与特征向量、线性变换等",
+      "count": 131,
+      "share_pct": 17.7,
+      "practice_url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0",
+      "subcategories": [
+        {
+          "tag2": "向量空间",
+          "count": 21,
+          "share_pct_within_tag1": 16.0,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0",
+          "representatives": [
+            {
+              "qid": 86,
+              "tag2": "向量空间",
+              "n": 1,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=86&n=1"
+            },
+            {
+              "qid": 332,
+              "tag2": "向量空间",
+              "n": 8,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=332&n=8"
+            },
+            {
+              "qid": 501,
+              "tag2": "向量空间",
+              "n": 15,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=501&n=15"
+            }
+          ]
+        },
+        {
+          "tag2": "矩阵基本运算",
+          "count": 31,
+          "share_pct_within_tag1": 23.7,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0",
+          "representatives": [
+            {
+              "qid": 9,
+              "tag2": "矩阵基本运算",
+              "n": 22,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=9&n=22"
+            },
+            {
+              "qid": 175,
+              "tag2": "矩阵基本运算",
+              "n": 32,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=175&n=32"
+            },
+            {
+              "qid": 385,
+              "tag2": "矩阵基本运算",
+              "n": 42,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=385&n=42"
+            }
+          ]
+        },
+        {
+          "tag2": "特征值分解",
+          "count": 29,
+          "share_pct_within_tag1": 22.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0",
+          "representatives": [
+            {
+              "qid": 8,
+              "tag2": "特征值分解",
+              "n": 53,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=8&n=53"
+            },
+            {
+              "qid": 186,
+              "tag2": "特征值分解",
+              "n": 62,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=186&n=62"
+            },
+            {
+              "qid": 438,
+              "tag2": "特征值分解",
+              "n": 71,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=438&n=71"
+            }
+          ]
+        },
+        {
+          "tag2": "线性方程组",
+          "count": 11,
+          "share_pct_within_tag1": 8.4,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0",
+          "representatives": [
+            {
+              "qid": 11,
+              "tag2": "线性方程组",
+              "n": 82,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=11&n=82"
+            },
+            {
+              "qid": 247,
+              "tag2": "线性方程组",
+              "n": 85,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=247&n=85"
+            },
+            {
+              "qid": 354,
+              "tag2": "线性方程组",
+              "n": 88,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=354&n=88"
+            }
+          ]
+        },
+        {
+          "tag2": "数值方法",
+          "count": 30,
+          "share_pct_within_tag1": 22.9,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0",
+          "representatives": [
+            {
+              "qid": 22,
+              "tag2": "数值方法",
+              "n": 93,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=22&n=93"
+            },
+            {
+              "qid": 293,
+              "tag2": "数值方法",
+              "n": 103,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=293&n=103"
+            },
+            {
+              "qid": 439,
+              "tag2": "数值方法",
+              "n": 113,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=439&n=113"
+            }
+          ]
+        },
+        {
+          "tag2": "其他",
+          "count": 9,
+          "share_pct_within_tag1": 6.9,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0",
+          "representatives": [
+            {
+              "qid": 28,
+              "tag2": "其他",
+              "n": 123,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=28&n=123"
+            },
+            {
+              "qid": 214,
+              "tag2": "其他",
+              "n": 126,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=214&n=126"
+            },
+            {
+              "qid": 486,
+              "tag2": "其他",
+              "n": 129,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=486&n=129"
+            }
+          ]
+        }
+      ],
+      "representatives": [
+        {
+          "qid": 8,
+          "tag2": "特征值分解",
+          "n": 53,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=8&n=53"
+        },
+        {
+          "qid": 174,
+          "tag2": "线性方程组",
+          "n": 83,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=174&n=83"
+        },
+        {
+          "qid": 338,
+          "tag2": "向量空间",
+          "n": 9,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=338&n=9"
+        },
+        {
+          "qid": 492,
+          "tag2": "其他",
+          "n": 130,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&qid=492&n=130"
+        }
+      ]
+    },
+    {
+      "tag1": "概率论与数理统计",
+      "description": "随机变量、概率分布、假设检验、贝叶斯定理等",
+      "count": 138,
+      "share_pct": 18.6,
+      "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1",
+      "subcategories": [
+        {
+          "tag2": "概率基础",
+          "count": 54,
+          "share_pct_within_tag1": 39.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1",
+          "representatives": [
+            {
+              "qid": 4,
+              "tag2": "概率基础",
+              "n": 1,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=4&n=1"
+            },
+            {
+              "qid": 251,
+              "tag2": "概率基础",
+              "n": 19,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=251&n=19"
+            },
+            {
+              "qid": 498,
+              "tag2": "概率基础",
+              "n": 37,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=498&n=37"
+            }
+          ]
+        },
+        {
+          "tag2": "概率分布",
+          "count": 27,
+          "share_pct_within_tag1": 19.6,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1",
+          "representatives": [
+            {
+              "qid": 17,
+              "tag2": "概率分布",
+              "n": 55,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=17&n=55"
+            },
+            {
+              "qid": 305,
+              "tag2": "概率分布",
+              "n": 64,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=305&n=64"
+            },
+            {
+              "qid": 413,
+              "tag2": "概率分布",
+              "n": 73,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=413&n=73"
+            }
+          ]
+        },
+        {
+          "tag2": "统计检验",
+          "count": 3,
+          "share_pct_within_tag1": 2.2,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1",
+          "representatives": [
+            {
+              "qid": 181,
+              "tag2": "统计检验",
+              "n": 82,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=181&n=82"
+            },
+            {
+              "qid": 344,
+              "tag2": "统计检验",
+              "n": 83,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=344&n=83"
+            },
+            {
+              "qid": 500,
+              "tag2": "统计检验",
+              "n": 84,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=500&n=84"
+            }
+          ]
+        },
+        {
+          "tag2": "统计推断",
+          "count": 27,
+          "share_pct_within_tag1": 19.6,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1",
+          "representatives": [
+            {
+              "qid": 73,
+              "tag2": "统计推断",
+              "n": 85,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=73&n=85"
+            },
+            {
+              "qid": 290,
+              "tag2": "统计推断",
+              "n": 94,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=290&n=94"
+            },
+            {
+              "qid": 464,
+              "tag2": "统计推断",
+              "n": 103,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=464&n=103"
+            }
+          ]
+        },
+        {
+          "tag2": "随机过程",
+          "count": 14,
+          "share_pct_within_tag1": 10.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1",
+          "representatives": [
+            {
+              "qid": 56,
+              "tag2": "随机过程",
+              "n": 112,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=56&n=112"
+            },
+            {
+              "qid": 210,
+              "tag2": "随机过程",
+              "n": 116,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=210&n=116"
+            },
+            {
+              "qid": 324,
+              "tag2": "随机过程",
+              "n": 120,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=324&n=120"
+            }
+          ]
+        },
+        {
+          "tag2": "数值与计算",
+          "count": 8,
+          "share_pct_within_tag1": 5.8,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1",
+          "representatives": [
+            {
+              "qid": 93,
+              "tag2": "数值与计算",
+              "n": 126,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=93&n=126"
+            },
+            {
+              "qid": 533,
+              "tag2": "数值与计算",
+              "n": 128,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=533&n=128"
+            },
+            {
+              "qid": 597,
+              "tag2": "数值与计算",
+              "n": 130,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=597&n=130"
+            }
+          ]
+        },
+        {
+          "tag2": "其他",
+          "count": 5,
+          "share_pct_within_tag1": 3.6,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1",
+          "representatives": [
+            {
+              "qid": 128,
+              "tag2": "其他",
+              "n": 134,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=128&n=134"
+            },
+            {
+              "qid": 158,
+              "tag2": "其他",
+              "n": 135,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=158&n=135"
+            },
+            {
+              "qid": 194,
+              "tag2": "其他",
+              "n": 136,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=194&n=136"
+            }
+          ]
+        }
+      ],
+      "representatives": [
+        {
+          "qid": 4,
+          "tag2": "概率基础",
+          "n": 1,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=4&n=1"
+        },
+        {
+          "qid": 181,
+          "tag2": "统计检验",
+          "n": 82,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=181&n=82"
+        },
+        {
+          "qid": 334,
+          "tag2": "概率基础",
+          "n": 28,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=334&n=28"
+        },
+        {
+          "qid": 509,
+          "tag2": "概率分布",
+          "n": 78,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1&qid=509&n=78"
+        }
+      ]
+    },
+    {
+      "tag1": "机器学习基础",
+      "description": "监督/无监督学习、回归、分类、聚类、模型评估等",
+      "count": 181,
+      "share_pct": 24.5,
+      "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+      "subcategories": [
+        {
+          "tag2": "学习范式",
+          "count": 6,
+          "share_pct_within_tag1": 3.3,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+          "representatives": [
+            {
+              "qid": 2,
+              "tag2": "学习范式",
+              "n": 1,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=2&n=1"
+            },
+            {
+              "qid": 131,
+              "tag2": "学习范式",
+              "n": 3,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=131&n=3"
+            },
+            {
+              "qid": 539,
+              "tag2": "学习范式",
+              "n": 5,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=539&n=5"
+            }
+          ]
+        },
+        {
+          "tag2": "常见模型",
+          "count": 49,
+          "share_pct_within_tag1": 27.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+          "representatives": [
+            {
+              "qid": 7,
+              "tag2": "常见模型",
+              "n": 7,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=7&n=7"
+            },
+            {
+              "qid": 259,
+              "tag2": "常见模型",
+              "n": 23,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=259&n=23"
+            },
+            {
+              "qid": 445,
+              "tag2": "常见模型",
+              "n": 39,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=445&n=39"
+            }
+          ]
+        },
+        {
+          "tag2": "模型评估",
+          "count": 32,
+          "share_pct_within_tag1": 17.7,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+          "representatives": [
+            {
+              "qid": 24,
+              "tag2": "模型评估",
+              "n": 56,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=24&n=56"
+            },
+            {
+              "qid": 229,
+              "tag2": "模型评估",
+              "n": 66,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=229&n=66"
+            },
+            {
+              "qid": 507,
+              "tag2": "模型评估",
+              "n": 76,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=507&n=76"
+            }
+          ]
+        },
+        {
+          "tag2": "损失函数",
+          "count": 11,
+          "share_pct_within_tag1": 6.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+          "representatives": [
+            {
+              "qid": 72,
+              "tag2": "损失函数",
+              "n": 88,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=72&n=88"
+            },
+            {
+              "qid": 187,
+              "tag2": "损失函数",
+              "n": 91,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=187&n=91"
+            },
+            {
+              "qid": 396,
+              "tag2": "损失函数",
+              "n": 94,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=396&n=94"
+            }
+          ]
+        },
+        {
+          "tag2": "特征工程",
+          "count": 27,
+          "share_pct_within_tag1": 14.9,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+          "representatives": [
+            {
+              "qid": 31,
+              "tag2": "特征工程",
+              "n": 99,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=31&n=99"
+            },
+            {
+              "qid": 318,
+              "tag2": "特征工程",
+              "n": 108,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=318&n=108"
+            },
+            {
+              "qid": 606,
+              "tag2": "特征工程",
+              "n": 117,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=606&n=117"
+            }
+          ]
+        },
+        {
+          "tag2": "优化与正则",
+          "count": 21,
+          "share_pct_within_tag1": 11.6,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+          "representatives": [
+            {
+              "qid": 87,
+              "tag2": "优化与正则",
+              "n": 126,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=87&n=126"
+            },
+            {
+              "qid": 282,
+              "tag2": "优化与正则",
+              "n": 133,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=282&n=133"
+            },
+            {
+              "qid": 404,
+              "tag2": "优化与正则",
+              "n": 140,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=404&n=140"
+            }
+          ]
+        },
+        {
+          "tag2": "数值计算",
+          "count": 25,
+          "share_pct_within_tag1": 13.8,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+          "representatives": [
+            {
+              "qid": 18,
+              "tag2": "数值计算",
+              "n": 147,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=18&n=147"
+            },
+            {
+              "qid": 345,
+              "tag2": "数值计算",
+              "n": 155,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=345&n=155"
+            },
+            {
+              "qid": 513,
+              "tag2": "数值计算",
+              "n": 163,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=513&n=163"
+            }
+          ]
+        },
+        {
+          "tag2": "其他",
+          "count": 10,
+          "share_pct_within_tag1": 5.5,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80",
+          "representatives": [
+            {
+              "qid": 64,
+              "tag2": "其他",
+              "n": 172,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=64&n=172"
+            },
+            {
+              "qid": 190,
+              "tag2": "其他",
+              "n": 175,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=190&n=175"
+            },
+            {
+              "qid": 460,
+              "tag2": "其他",
+              "n": 178,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=460&n=178"
+            }
+          ]
+        }
+      ],
+      "representatives": [
+        {
+          "qid": 2,
+          "tag2": "学习范式",
+          "n": 1,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=2&n=1"
+        },
+        {
+          "qid": 190,
+          "tag2": "其他",
+          "n": 175,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=190&n=175"
+        },
+        {
+          "qid": 383,
+          "tag2": "优化与正则",
+          "n": 138,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=383&n=138"
+        },
+        {
+          "qid": 557,
+          "tag2": "模型评估",
+          "n": 77,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80&qid=557&n=77"
+        }
+      ]
+    },
+    {
+      "tag1": "深度学习与神经网络",
+      "description": "CNN、RNN、Transformer、反向传播、优化器等",
+      "count": 164,
+      "share_pct": 22.2,
+      "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+      "subcategories": [
+        {
+          "tag2": "神经网络基础",
+          "count": 13,
+          "share_pct_within_tag1": 7.9,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 38,
+              "tag2": "神经网络基础",
+              "n": 1,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=38&n=1"
+            },
+            {
+              "qid": 211,
+              "tag2": "神经网络基础",
+              "n": 5,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=211&n=5"
+            },
+            {
+              "qid": 389,
+              "tag2": "神经网络基础",
+              "n": 9,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=389&n=9"
+            }
+          ]
+        },
+        {
+          "tag2": "前向&反向传播",
+          "count": 10,
+          "share_pct_within_tag1": 6.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 106,
+              "tag2": "前向&反向传播",
+              "n": 14,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=106&n=14"
+            },
+            {
+              "qid": 201,
+              "tag2": "前向&反向传播",
+              "n": 17,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=201&n=17"
+            },
+            {
+              "qid": 339,
+              "tag2": "前向&反向传播",
+              "n": 20,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=339&n=20"
+            }
+          ]
+        },
+        {
+          "tag2": "激活函数",
+          "count": 21,
+          "share_pct_within_tag1": 12.8,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 33,
+              "tag2": "激活函数",
+              "n": 24,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=33&n=24"
+            },
+            {
+              "qid": 331,
+              "tag2": "激活函数",
+              "n": 31,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=331&n=31"
+            },
+            {
+              "qid": 520,
+              "tag2": "激活函数",
+              "n": 38,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=520&n=38"
+            }
+          ]
+        },
+        {
+          "tag2": "卷积网络",
+          "count": 15,
+          "share_pct_within_tag1": 9.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 143,
+              "tag2": "卷积网络",
+              "n": 45,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=143&n=45"
+            },
+            {
+              "qid": 420,
+              "tag2": "卷积网络",
+              "n": 50,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=420&n=50"
+            },
+            {
+              "qid": 556,
+              "tag2": "卷积网络",
+              "n": 55,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=556&n=55"
+            }
+          ]
+        },
+        {
+          "tag2": "序列模型",
+          "count": 8,
+          "share_pct_within_tag1": 4.9,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 23,
+              "tag2": "序列模型",
+              "n": 60,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=23&n=60"
+            },
+            {
+              "qid": 342,
+              "tag2": "序列模型",
+              "n": 62,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=342&n=62"
+            },
+            {
+              "qid": 511,
+              "tag2": "序列模型",
+              "n": 64,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=511&n=64"
+            }
+          ]
+        },
+        {
+          "tag2": "注意力机制",
+          "count": 32,
+          "share_pct_within_tag1": 19.5,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 16,
+              "tag2": "注意力机制",
+              "n": 68,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=16&n=68"
+            },
+            {
+              "qid": 268,
+              "tag2": "注意力机制",
+              "n": 78,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=268&n=78"
+            },
+            {
+              "qid": 565,
+              "tag2": "注意力机制",
+              "n": 88,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=565&n=88"
+            }
+          ]
+        },
+        {
+          "tag2": "Transformer",
+          "count": 21,
+          "share_pct_within_tag1": 12.8,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 37,
+              "tag2": "Transformer",
+              "n": 100,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=37&n=100"
+            },
+            {
+              "qid": 156,
+              "tag2": "Transformer",
+              "n": 107,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=156&n=107"
+            },
+            {
+              "qid": 376,
+              "tag2": "Transformer",
+              "n": 114,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=376&n=114"
+            }
+          ]
+        },
+        {
+          "tag2": "训练优化",
+          "count": 40,
+          "share_pct_within_tag1": 24.4,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 76,
+              "tag2": "训练优化",
+              "n": 121,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=76&n=121"
+            },
+            {
+              "qid": 431,
+              "tag2": "训练优化",
+              "n": 134,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=431&n=134"
+            },
+            {
+              "qid": 627,
+              "tag2": "训练优化",
+              "n": 147,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=627&n=147"
+            }
+          ]
+        },
+        {
+          "tag2": "其他",
+          "count": 4,
+          "share_pct_within_tag1": 2.4,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+          "representatives": [
+            {
+              "qid": 36,
+              "tag2": "其他",
+              "n": 161,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=36&n=161"
+            },
+            {
+              "qid": 55,
+              "tag2": "其他",
+              "n": 162,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=55&n=162"
+            },
+            {
+              "qid": 124,
+              "tag2": "其他",
+              "n": 163,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=124&n=163"
+            }
+          ]
+        }
+      ],
+      "representatives": [
+        {
+          "qid": 16,
+          "tag2": "注意力机制",
+          "n": 68,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=16&n=68"
+        },
+        {
+          "qid": 195,
+          "tag2": "卷积网络",
+          "n": 47,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=195&n=47"
+        },
+        {
+          "qid": 418,
+          "tag2": "训练优化",
+          "n": 133,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=418&n=133"
+        },
+        {
+          "qid": 601,
+          "tag2": "训练优化",
+          "n": 143,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C&qid=601&n=143"
+        }
+      ]
+    },
+    {
+      "tag1": "强化学习",
+      "description": "MDP、Q-Learning、策略梯度、Actor-Critic等",
+      "count": 13,
+      "share_pct": 1.8,
+      "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0",
+      "subcategories": [
+        {
+          "tag2": "基础知识",
+          "count": 1,
+          "share_pct_within_tag1": 7.7,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0",
+          "representatives": [
+            {
+              "qid": 686,
+              "tag2": "基础知识",
+              "n": 1,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=686&n=1"
+            }
+          ]
+        },
+        {
+          "tag2": "Q学习",
+          "count": 2,
+          "share_pct_within_tag1": 15.4,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0",
+          "representatives": [
+            {
+              "qid": 6,
+              "tag2": "Q学习",
+              "n": 2,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=6&n=2"
+            },
+            {
+              "qid": 573,
+              "tag2": "Q学习",
+              "n": 3,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=573&n=3"
+            }
+          ]
+        },
+        {
+          "tag2": "RLHF",
+          "count": 3,
+          "share_pct_within_tag1": 23.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0",
+          "representatives": [
+            {
+              "qid": 35,
+              "tag2": "RLHF",
+              "n": 4,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=35&n=4"
+            },
+            {
+              "qid": 178,
+              "tag2": "RLHF",
+              "n": 5,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=178&n=5"
+            },
+            {
+              "qid": 596,
+              "tag2": "RLHF",
+              "n": 6,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=596&n=6"
+            }
+          ]
+        },
+        {
+          "tag2": "奖励模型",
+          "count": 5,
+          "share_pct_within_tag1": 38.5,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0",
+          "representatives": [
+            {
+              "qid": 3,
+              "tag2": "奖励模型",
+              "n": 7,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=3&n=7"
+            },
+            {
+              "qid": 14,
+              "tag2": "奖励模型",
+              "n": 8,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=14&n=8"
+            },
+            {
+              "qid": 61,
+              "tag2": "奖励模型",
+              "n": 9,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=61&n=9"
+            }
+          ]
+        },
+        {
+          "tag2": "Agent",
+          "count": 2,
+          "share_pct_within_tag1": 15.4,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0",
+          "representatives": [
+            {
+              "qid": 45,
+              "tag2": "Agent",
+              "n": 12,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=45&n=12"
+            },
+            {
+              "qid": 657,
+              "tag2": "Agent",
+              "n": 13,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=657&n=13"
+            }
+          ]
+        }
+      ],
+      "representatives": [
+        {
+          "qid": 3,
+          "tag2": "奖励模型",
+          "n": 7,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=3&n=7"
+        },
+        {
+          "qid": 35,
+          "tag2": "RLHF",
+          "n": 4,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=35&n=4"
+        },
+        {
+          "qid": 178,
+          "tag2": "RLHF",
+          "n": 5,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=178&n=5"
+        },
+        {
+          "qid": 573,
+          "tag2": "Q学习",
+          "n": 3,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&qid=573&n=3"
+        }
+      ]
+    },
+    {
+      "tag1": "自然语言处理",
+      "description": "分词、词向量、序列标注、文本分类、机器翻译等",
+      "count": 22,
+      "share_pct": 3.0,
+      "practice_url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86",
+      "subcategories": [
+        {
+          "tag2": "分词机制",
+          "count": 7,
+          "share_pct_within_tag1": 31.8,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86",
+          "representatives": [
+            {
+              "qid": 19,
+              "tag2": "分词机制",
+              "n": 1,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=19&n=1"
+            },
+            {
+              "qid": 253,
+              "tag2": "分词机制",
+              "n": 3,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=253&n=3"
+            },
+            {
+              "qid": 401,
+              "tag2": "分词机制",
+              "n": 5,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=401&n=5"
+            }
+          ]
+        },
+        {
+          "tag2": "语言模型",
+          "count": 3,
+          "share_pct_within_tag1": 13.6,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86",
+          "representatives": [
+            {
+              "qid": 177,
+              "tag2": "语言模型",
+              "n": 8,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=177&n=8"
+            },
+            {
+              "qid": 546,
+              "tag2": "语言模型",
+              "n": 9,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=546&n=9"
+            },
+            {
+              "qid": 560,
+              "tag2": "语言模型",
+              "n": 10,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=560&n=10"
+            }
+          ]
+        },
+        {
+          "tag2": "文本表示",
+          "count": 3,
+          "share_pct_within_tag1": 13.6,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86",
+          "representatives": [
+            {
+              "qid": 303,
+              "tag2": "文本表示",
+              "n": 11,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=303&n=11"
+            },
+            {
+              "qid": 558,
+              "tag2": "文本表示",
+              "n": 12,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=558&n=12"
+            },
+            {
+              "qid": 707,
+              "tag2": "文本表示",
+              "n": 13,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=707&n=13"
+            }
+          ]
+        },
+        {
+          "tag2": "检索增强",
+          "count": 4,
+          "share_pct_within_tag1": 18.2,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86",
+          "representatives": [
+            {
+              "qid": 198,
+              "tag2": "检索增强",
+              "n": 14,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=198&n=14"
+            },
+            {
+              "qid": 491,
+              "tag2": "检索增强",
+              "n": 15,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=491&n=15"
+            },
+            {
+              "qid": 607,
+              "tag2": "检索增强",
+              "n": 16,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=607&n=16"
+            }
+          ]
+        },
+        {
+          "tag2": "解码生成",
+          "count": 3,
+          "share_pct_within_tag1": 13.6,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86",
+          "representatives": [
+            {
+              "qid": 202,
+              "tag2": "解码生成",
+              "n": 18,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=202&n=18"
+            },
+            {
+              "qid": 684,
+              "tag2": "解码生成",
+              "n": 19,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=684&n=19"
+            },
+            {
+              "qid": 724,
+              "tag2": "解码生成",
+              "n": 20,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=724&n=20"
+            }
+          ]
+        },
+        {
+          "tag2": "其他",
+          "count": 2,
+          "share_pct_within_tag1": 9.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86",
+          "representatives": [
+            {
+              "qid": 497,
+              "tag2": "其他",
+              "n": 21,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=497&n=21"
+            },
+            {
+              "qid": 516,
+              "tag2": "其他",
+              "n": 22,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=516&n=22"
+            }
+          ]
+        }
+      ],
+      "representatives": [
+        {
+          "qid": 19,
+          "tag2": "分词机制",
+          "n": 1,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=19&n=1"
+        },
+        {
+          "qid": 253,
+          "tag2": "分词机制",
+          "n": 3,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=253&n=3"
+        },
+        {
+          "qid": 497,
+          "tag2": "其他",
+          "n": 21,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=497&n=21"
+        },
+        {
+          "qid": 560,
+          "tag2": "语言模型",
+          "n": 10,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86&qid=560&n=10"
+        }
+      ]
+    },
+    {
+      "tag1": "大模型",
+      "description": "LLM原理、预训练、微调、RLHF、提示工程、RAG等",
+      "count": 91,
+      "share_pct": 12.3,
+      "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+      "subcategories": [
+        {
+          "tag2": "强化学习",
+          "count": 2,
+          "share_pct_within_tag1": 2.2,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+          "representatives": [
+            {
+              "qid": 205,
+              "tag2": "强化学习",
+              "n": 1,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=205&n=1"
+            },
+            {
+              "qid": 234,
+              "tag2": "强化学习",
+              "n": 2,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=234&n=2"
+            }
+          ]
+        },
+        {
+          "tag2": "策略优化",
+          "count": 1,
+          "share_pct_within_tag1": 1.1,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+          "representatives": [
+            {
+              "qid": 291,
+              "tag2": "策略优化",
+              "n": 3,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=291&n=3"
+            }
+          ]
+        },
+        {
+          "tag2": "人类对齐",
+          "count": 7,
+          "share_pct_within_tag1": 7.7,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+          "representatives": [
+            {
+              "qid": 219,
+              "tag2": "人类对齐",
+              "n": 4,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=219&n=4"
+            },
+            {
+              "qid": 306,
+              "tag2": "人类对齐",
+              "n": 6,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=306&n=6"
+            },
+            {
+              "qid": 579,
+              "tag2": "人类对齐",
+              "n": 8,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=579&n=8"
+            }
+          ]
+        },
+        {
+          "tag2": "Agent",
+          "count": 6,
+          "share_pct_within_tag1": 6.6,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+          "representatives": [
+            {
+              "qid": 260,
+              "tag2": "Agent",
+              "n": 11,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=260&n=11"
+            },
+            {
+              "qid": 320,
+              "tag2": "Agent",
+              "n": 13,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=320&n=13"
+            },
+            {
+              "qid": 335,
+              "tag2": "Agent",
+              "n": 15,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=335&n=15"
+            }
+          ]
+        },
+        {
+          "tag2": "其他",
+          "count": 75,
+          "share_pct_within_tag1": 82.4,
+          "practice_url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+          "representatives": [
+            {
+              "qid": 1,
+              "tag2": "其他",
+              "n": 17,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=1&n=17"
+            },
+            {
+              "qid": 232,
+              "tag2": "其他",
+              "n": 42,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=232&n=42"
+            },
+            {
+              "qid": 517,
+              "tag2": "其他",
+              "n": 67,
+              "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=517&n=67"
+            }
+          ]
+        }
+      ],
+      "representatives": [
+        {
+          "qid": 1,
+          "tag2": "其他",
+          "n": 17,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=1&n=17"
+        },
+        {
+          "qid": 199,
+          "tag2": "其他",
+          "n": 39,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=199&n=39"
+        },
+        {
+          "qid": 355,
+          "tag2": "其他",
+          "n": 50,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=355&n=50"
+        },
+        {
+          "qid": 580,
+          "tag2": "其他",
+          "n": 70,
+          "url": "https://codefun2000.com/choice/hw#tag1=%E5%A4%A7%E6%A8%A1%E5%9E%8B&qid=580&n=70"
+        }
+      ]
+    }
+  ]
+}

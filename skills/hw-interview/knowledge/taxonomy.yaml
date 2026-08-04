@@ -62,6 +62,7 @@ paths:
   exam_problem_bank_index: knowledge/coding-problems/hw-exam/index.json
   exam_problem_bank_stats: knowledge/coding-problems/hw-exam/stats.json
   exam_problem_bank_stats_md: knowledge/coding-problems/hw-exam/exam-problem-stats.md
+  exam_problem_bank_choice_index: knowledge/coding-problems/hw-exam/choice-question-index.json
   exam_problem_bank_tag_index: knowledge/coding-problems/hw-exam/tag-index.json
   platform_problemset_url: https://codefun2000.com/problemset/hw
   nowcoder_experiences: knowledge/experiences/hw-exp-*-nc-*.md

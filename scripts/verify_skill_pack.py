@@ -21,6 +21,8 @@ REQUIRED_REL_PATHS = (
     "knowledge/coding-problems/hw-exam/index.json",
     "knowledge/coding-problems/hw-exam/stats.json",
     "knowledge/coding-problems/hw-exam/exam-problem-stats.md",
+    "knowledge/coding-problems/hw-exam/choice-question-index.json",
+    "knowledge/coding-problems/hw-exam/choice-no-leak.md",
     "knowledge/wiki/compiled/wiki-application.md",
 )
 
@@ -65,6 +67,63 @@ def check_skill(name: str) -> list[str]:
                 f"{name}: hw-exam must not contain 题面.md "
                 f"({len(leaked)} file(s); metadata-only pack)"
             )
+        choice_idx = hw_exam / "choice-question-index.json"
+        choice_no_leak = hw_exam / "choice-no-leak.md"
+        if not choice_idx.is_file():
+            errors.append(f"{name}: missing choice-question-index.json in hw-exam")
+        if not choice_no_leak.is_file():
+            errors.append(f"{name}: missing choice-no-leak.md in hw-exam")
+        stats_path = hw_exam / "stats.json"
+        if stats_path.is_file():
+            try:
+                stats_data = json.loads(stats_path.read_text(encoding="utf-8"))
+                for key in (
+                    "choice_bank_tag1_counts",
+                    "choice_bank_tag2_stats",
+                    "choice_bank_representatives",
+                ):
+                    if key not in stats_data:
+                        errors.append(f"{name}: stats.json missing {key}")
+            except json.JSONDecodeError as exc:
+                errors.append(f"{name}: stats.json invalid JSON: {exc}")
+        if choice_idx.is_file():
+            forbidden_keys = frozenset(
+                {
+                    "content",
+                    "stem",
+                    "title",
+                    "question",
+                    "options",
+                    "option",
+                    "choices",
+                    "answer",
+                    "analysis",
+                    "choiceText",
+                    "questionText",
+                }
+            )
+            try:
+                data = json.loads(choice_idx.read_text(encoding="utf-8"))
+                found: list[str] = []
+                stack: list[tuple[str, object]] = [("", data)]
+                while stack:
+                    path, node = stack.pop()
+                    if isinstance(node, dict):
+                        for k, v in node.items():
+                            p = f"{path}.{k}" if path else k
+                            if k in forbidden_keys and v not in (None, "", []):
+                                found.append(p)
+                            stack.append((p, v))
+                    elif isinstance(node, list):
+                        for i, item in enumerate(node):
+                            stack.append((f"{path}[{i}]", item))
+                if found:
+                    errors.append(
+                        f"{name}: choice-question-index.json contains forbidden "
+                        f"stem fields: {', '.join(found[:5])}"
+                    )
+            except json.JSONDecodeError as exc:
+                errors.append(f"{name}: choice-question-index invalid JSON: {exc}")
 
     exp_index = skill_dir / "knowledge/experiences/index.json"
     if exp_index.is_file():

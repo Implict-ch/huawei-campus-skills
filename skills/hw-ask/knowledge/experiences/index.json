@@ -8725,7 +8725,9 @@
       "url": "https://www.nowcoder.com/discuss/794930989293117440",
       "summary": "作者：Cheneye",
       "path": "knowledge/experiences/hw-exp-20250909-nc-93117440.md",
-      "source_grade": "C"
+      "source_grade": "C",
+      "contains_choice_stems": true,
+      "agent_read_policy": "metadata_only"
     },
     {
       "id": "hw-exp-20250910-nc-75345152",
