@@ -134,9 +134,7 @@ huawei-campus-skills/
 
 有更具体的问题想直接问我，或想和同学一起交流校招进度、面经与备考经验，可以加微信进群（备注「华为校招」）：
 
-<p align="center">
-  <img src="./docs/wechat-qrcode.jpg" alt="塔子哥微信二维码" width="280" />
-</p>
+<img src="./docs/wechat-qrcode.png" alt="塔子哥微信二维码" width="264" />
 
 ## 许可证
 
